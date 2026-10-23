@@ -3064,6 +3064,23 @@
  ],
  "01_pms-lnb": [
   {
+   "set": "medical-alert",
+   "variants": [
+    {
+     "variant": "varient=red",
+     "file": "medical-alert-varient-red"
+    },
+    {
+     "variant": "varient=gray",
+     "file": "medical-alert-varient-gray"
+    },
+    {
+     "variant": "varient=blue",
+     "file": "medical-alert-varient-blue"
+    }
+   ]
+  },
+  {
    "set": "memo",
    "variants": [
     {
@@ -3073,6 +3090,81 @@
     {
      "variant": "data=false",
      "file": "memo-data-false"
+    }
+   ]
+  },
+  {
+   "set": "identification",
+   "variants": [
+    {
+     "variant": "varient=after-six-month, data=true",
+     "file": "identification-varient-after-six-month_data-true"
+    },
+    {
+     "variant": "varient=default, data=true",
+     "file": "identification-varient-default_data-true"
+    },
+    {
+     "variant": "varient=gray, data=false",
+     "file": "identification-varient-gray_data-false"
+    }
+   ]
+  },
+  {
+   "set": "denture",
+   "variants": [
+    {
+     "variant": "varient=all, other=false, data=true",
+     "file": "denture-varient-all_other-false_data-true"
+    },
+    {
+     "variant": "varient=all, other=true, data=true",
+     "file": "denture-varient-all_other-true_data-true"
+    },
+    {
+     "variant": "varient=maxilla, other=false, data=true",
+     "file": "denture-varient-maxilla_other-false_data-true"
+    },
+    {
+     "variant": "varient=varient5, other=true, data=true",
+     "file": "denture-varient-varient5_other-true_data-true"
+    },
+    {
+     "variant": "varient=mandible, other=false, data=true",
+     "file": "denture-varient-mandible_other-false_data-true"
+    },
+    {
+     "variant": "varient=mandible, other=true, data=true",
+     "file": "denture-varient-mandible_other-true_data-true"
+    },
+    {
+     "variant": "varient=varient7, other=false, data=false",
+     "file": "denture-varient-varient7_other-false_data-false"
+    }
+   ]
+  },
+  {
+   "set": "implant",
+   "variants": [
+    {
+     "variant": "varient=one, other=false, data=true",
+     "file": "implant-varient-one_other-false_data-true"
+    },
+    {
+     "variant": "varient=one, other=true, data=true",
+     "file": "implant-varient-one_other-true_data-true"
+    },
+    {
+     "variant": "varient=two, other=false, data=true",
+     "file": "implant-varient-two_other-false_data-true"
+    },
+    {
+     "variant": "varient=two, other=true, data=true",
+     "file": "implant-varient-two_other-true_data-true"
+    },
+    {
+     "variant": "varient=one, other=false, data=false",
+     "file": "implant-varient-one_other-false_data-false"
     }
    ]
   },

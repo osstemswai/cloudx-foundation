@@ -1,7 +1,7 @@
 {
  "source": {
   "repo": "https://github.com/h1osstem/cloudXDS.git",
-  "commit": "169137c",
+  "commit": "5348d34",
   "commit_date": "2026-10-23",
   "dirty": false,
   "synced": "2026-10-23",
@@ -11,7 +11,7 @@
    "page": "icon",
    "node": "2806:36607"
   },
-  "count": 469,
+  "count": 487,
   "categories": {
    "00_arrow": 66,
    "00_edit": 62,
@@ -19,11 +19,11 @@
    "00_modal": 10,
    "00_window": 4,
    "01_pms": 8,
-   "01_pms-lnb": 5
+   "01_pms-lnb": 23
   }
  },
- "count": 469,
- "sets": 242,
+ "count": 487,
+ "sets": 246,
  "categories": {
   "00_arrow": 66,
   "00_edit": 62,
@@ -31,7 +31,7 @@
   "00_modal": 10,
   "00_window": 4,
   "01_pms": 8,
-  "01_pms-lnb": 5
+  "01_pms-lnb": 23
  },
  "icons": [
   {
@@ -10934,6 +10934,101 @@
    ]
   },
   {
+   "id": "i-01_pms-lnb-medical-alert-varient-blue",
+   "category": "01_pms-lnb",
+   "set": "medical-alert",
+   "name": "medical-alert-varient-blue",
+   "variant": "varient=blue",
+   "fill": "",
+   "file": "svg/01_pms-lnb/medical-alert-varient-blue.svg",
+   "ink": [
+    18.5,
+    17
+   ],
+   "size": 18,
+   "keywords": [
+    "pms",
+    "lnb",
+    "medical",
+    "alert",
+    "varient",
+    "blue",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "의료",
+    "메디컬",
+    "경고",
+    "알림",
+    "파랑",
+    "파란색"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-medical-alert-varient-gray",
+   "category": "01_pms-lnb",
+   "set": "medical-alert",
+   "name": "medical-alert-varient-gray",
+   "variant": "varient=gray",
+   "fill": "",
+   "file": "svg/01_pms-lnb/medical-alert-varient-gray.svg",
+   "ink": [
+    18.5,
+    17
+   ],
+   "size": 18,
+   "keywords": [
+    "pms",
+    "lnb",
+    "medical",
+    "alert",
+    "varient",
+    "gray",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "의료",
+    "메디컬",
+    "경고",
+    "알림",
+    "회색"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-medical-alert-varient-red",
+   "category": "01_pms-lnb",
+   "set": "medical-alert",
+   "name": "medical-alert-varient-red",
+   "variant": "varient=red",
+   "fill": "",
+   "file": "svg/01_pms-lnb/medical-alert-varient-red.svg",
+   "ink": [
+    18.5,
+    17
+   ],
+   "size": 18,
+   "keywords": [
+    "pms",
+    "lnb",
+    "medical",
+    "alert",
+    "varient",
+    "red",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "의료",
+    "메디컬",
+    "경고",
+    "알림",
+    "빨강",
+    "빨간색"
+   ]
+  },
+  {
    "id": "i-01_pms-lnb-memo-data-false",
    "category": "01_pms-lnb",
    "set": "memo",
@@ -10988,6 +11083,487 @@
    ]
   },
   {
+   "id": "i-01_pms-lnb-identification-varient-after-six-month_data-true",
+   "category": "01_pms-lnb",
+   "set": "identification",
+   "name": "identification-varient-after-six-month_data-true",
+   "variant": "varient=after-six-month, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/identification-varient-after-six-month_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "identification",
+    "varient",
+    "after",
+    "six",
+    "month",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "본인확인",
+    "신원",
+    "확인",
+    "개월",
+    "월",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-identification-varient-default_data-true",
+   "category": "01_pms-lnb",
+   "set": "identification",
+   "name": "identification-varient-default_data-true",
+   "variant": "varient=default, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/identification-varient-default_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "identification",
+    "varient",
+    "default",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "본인확인",
+    "신원",
+    "확인",
+    "기본",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-identification-varient-gray_data-false",
+   "category": "01_pms-lnb",
+   "set": "identification",
+   "name": "identification-varient-gray_data-false",
+   "variant": "varient=gray, data=false",
+   "fill": "",
+   "file": "svg/01_pms-lnb/identification-varient-gray_data-false.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "identification",
+    "varient",
+    "gray",
+    "data",
+    "false",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "본인확인",
+    "신원",
+    "확인",
+    "회색",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-all_other-false_data-true",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-all_other-false_data-true",
+   "variant": "varient=all, other=false, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-all_other-false_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "all",
+    "other",
+    "false",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "전체",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-all_other-true_data-true",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-all_other-true_data-true",
+   "variant": "varient=all, other=true, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-all_other-true_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "all",
+    "other",
+    "true",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "전체",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-mandible_other-false_data-true",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-mandible_other-false_data-true",
+   "variant": "varient=mandible, other=false, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-mandible_other-false_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "mandible",
+    "other",
+    "false",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "하악",
+    "아래턱",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-mandible_other-true_data-true",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-mandible_other-true_data-true",
+   "variant": "varient=mandible, other=true, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-mandible_other-true_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "mandible",
+    "other",
+    "true",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "하악",
+    "아래턱",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-maxilla_other-false_data-true",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-maxilla_other-false_data-true",
+   "variant": "varient=maxilla, other=false, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-maxilla_other-false_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "maxilla",
+    "other",
+    "false",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "상악",
+    "위턱",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-varient5_other-true_data-true",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-varient5_other-true_data-true",
+   "variant": "varient=varient5, other=true, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-varient5_other-true_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "varient5",
+    "other",
+    "true",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-denture-varient-varient7_other-false_data-false",
+   "category": "01_pms-lnb",
+   "set": "denture",
+   "name": "denture-varient-varient7_other-false_data-false",
+   "variant": "varient=varient7, other=false, data=false",
+   "fill": "",
+   "file": "svg/01_pms-lnb/denture-varient-varient7_other-false_data-false.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "denture",
+    "varient",
+    "varient7",
+    "other",
+    "false",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "틀니",
+    "의치",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-implant-varient-one_other-false_data-false",
+   "category": "01_pms-lnb",
+   "set": "implant",
+   "name": "implant-varient-one_other-false_data-false",
+   "variant": "varient=one, other=false, data=false",
+   "fill": "",
+   "file": "svg/01_pms-lnb/implant-varient-one_other-false_data-false.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "implant",
+    "varient",
+    "one",
+    "other",
+    "false",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "임플란트",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-implant-varient-one_other-false_data-true",
+   "category": "01_pms-lnb",
+   "set": "implant",
+   "name": "implant-varient-one_other-false_data-true",
+   "variant": "varient=one, other=false, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/implant-varient-one_other-false_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "implant",
+    "varient",
+    "one",
+    "other",
+    "false",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "임플란트",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-implant-varient-one_other-true_data-true",
+   "category": "01_pms-lnb",
+   "set": "implant",
+   "name": "implant-varient-one_other-true_data-true",
+   "variant": "varient=one, other=true, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/implant-varient-one_other-true_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "implant",
+    "varient",
+    "one",
+    "other",
+    "true",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "임플란트",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-implant-varient-two_other-false_data-true",
+   "category": "01_pms-lnb",
+   "set": "implant",
+   "name": "implant-varient-two_other-false_data-true",
+   "variant": "varient=two, other=false, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/implant-varient-two_other-false_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "implant",
+    "varient",
+    "two",
+    "other",
+    "false",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "임플란트",
+    "둘",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-implant-varient-two_other-true_data-true",
+   "category": "01_pms-lnb",
+   "set": "implant",
+   "name": "implant-varient-two_other-true_data-true",
+   "variant": "varient=two, other=true, data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/implant-varient-two_other-true_data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "implant",
+    "varient",
+    "two",
+    "other",
+    "true",
+    "data",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "임플란트",
+    "둘",
+    "데이터"
+   ]
+  },
+  {
    "id": "i-01_pms-lnb-scaler-data-false",
    "category": "01_pms-lnb",
    "set": "scaler",
@@ -10996,10 +11572,10 @@
    "fill": "",
    "file": "svg/01_pms-lnb/scaler-data-false.svg",
    "ink": [
-    20,
-    20
+    17,
+    17
    ],
-   "size": 20,
+   "size": 17,
    "keywords": [
     "pms",
     "lnb",
@@ -11023,10 +11599,10 @@
    "fill": "",
    "file": "svg/01_pms-lnb/scaler-data-true.svg",
    "ink": [
-    20,
-    20
+    17,
+    17
    ],
-   "size": 20,
+   "size": 17,
    "keywords": [
     "pms",
     "lnb",

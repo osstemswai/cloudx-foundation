@@ -1855,6 +1855,78 @@
 15.8,
 14.8
 ],
+"01_pms-lnb/denture-varient-all_other-false_data-true": [
+17,
+17
+],
+"01_pms-lnb/denture-varient-all_other-true_data-true": [
+17,
+17
+],
+"01_pms-lnb/denture-varient-mandible_other-false_data-true": [
+17,
+17
+],
+"01_pms-lnb/denture-varient-mandible_other-true_data-true": [
+17,
+17
+],
+"01_pms-lnb/denture-varient-maxilla_other-false_data-true": [
+17,
+17
+],
+"01_pms-lnb/denture-varient-varient5_other-true_data-true": [
+17,
+17
+],
+"01_pms-lnb/denture-varient-varient7_other-false_data-false": [
+17,
+17
+],
+"01_pms-lnb/identification-varient-after-six-month_data-true": [
+17,
+17
+],
+"01_pms-lnb/identification-varient-default_data-true": [
+17,
+17
+],
+"01_pms-lnb/identification-varient-gray_data-false": [
+17,
+17
+],
+"01_pms-lnb/implant-varient-one_other-false_data-false": [
+17,
+17
+],
+"01_pms-lnb/implant-varient-one_other-false_data-true": [
+17,
+17
+],
+"01_pms-lnb/implant-varient-one_other-true_data-true": [
+17,
+17
+],
+"01_pms-lnb/implant-varient-two_other-false_data-true": [
+17,
+17
+],
+"01_pms-lnb/implant-varient-two_other-true_data-true": [
+17,
+17
+],
+"01_pms-lnb/medical-alert-varient-blue": [
+18.5,
+17
+],
+"01_pms-lnb/medical-alert-varient-gray": [
+18.5,
+17
+],
+"01_pms-lnb/medical-alert-varient-red": [
+18.5,
+17
+],
 "01_pms-lnb/memo-data-false": [
 17,
 17
@@ -1868,11 +1940,11 @@
 17
 ],
 "01_pms-lnb/scaler-data-false": [
-20,
-20
+17,
+17
 ],
 "01_pms-lnb/scaler-data-true": [
-20,
-20
+17,
+17
 ]
 }
