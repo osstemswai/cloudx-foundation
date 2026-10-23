@@ -35,6 +35,7 @@ def main():
     html = page.render_app(order, stamp=stamp, counts="아이콘 %d · 토큰 %d · 텍스트 스타일 %d" % (nicons, ntok, len(d["textStyles"])))
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fp:
         fp.write(html)
+    gallery.build_zip(cats)   # ZIP 에 README 가 들어가므로 사이트를 다시 만들 때 함께 갱신한다 (CI 비교 대상)
     print("index.html — 절 %d개 (%s) · %.0fKB" % (len(order), " · ".join(s["id"] for s in order), len(html) / 1024), file=sys.stderr)
 
 
