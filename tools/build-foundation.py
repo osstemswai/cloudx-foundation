@@ -95,26 +95,31 @@ def num_preview(group, v):
 
 def number_page(d, stamp):
     prim = [r for r in d["layers"]["primitive"] if r["name"].startswith("number/")]
-    bars = []
-    for r in sorted(prim, key=lambda x: float(num(x["value"]) if isinstance(num(x["value"]), (int, float)) else 0)):
-        f = num(r["value"]); full = isinstance(f, (int, float)) and f >= 999
-        cls = "ns__bar--full" if full else ("ns__bar--base" if isinstance(f, (int, float)) and f and f % 4 == 0 else "")
-        bars.append('<button type="button" class="ns__col" data-cp="var(%s)" title="%s · %spx"><i class="%s" style="height:%dpx"></i><span>%s</span></button>'
-                    % (esc(r["cssVar"]), esc(r["name"]), esc(f), cls, 96 if full else max(1, round(float(f) * 0.5)) if isinstance(f, (int, float)) else 1, "full" if full else esc(f)))
+    rows = []
+    vals = [r for r in prim if isinstance(num(r["value"]), (int, float))]
+    top = max((float(num(r["value"])) for r in vals if float(num(r["value"])) < 999), default=1)
+    for r in sorted(vals, key=lambda x: float(num(x["value"]))):
+        f = num(r["value"]); full = f >= 999
+        cls = "nsv__bar--full" if full else ("nsv__bar--base" if f and f % 4 == 0 else "")
+        w = 100 if full else max(0.6, f / top * 100)
+        rows.append('<button type="button" class="nsv__r" data-cp="var(%s)" title="%s"><code class="nsv__n">%s</code><i class="nsv__bar %s" style="width:%.1f%%"></i><span class="nsv__v">%s</span></button>'
+                    % (esc(r["cssVar"]), esc(r["name"]), "full" if full else esc(f), cls, w, "full" if full else "%spx" % esc(f)))
+    bars = rows
     body = """
 <h2>Number</h2>
 <p class="sb-sub">primitive 수치 스케일 %d단계입니다. 막대를 누르면 <code>var(--…)</code>가 복사됩니다. 역할(semantic) 토큰(높이·간격·모서리·선)은 이후에 공유합니다.</p>
-<div class="sec"><h3 class="sb-h3">Primitive — 스케일<small>%d</small></h3><p class="lead">막대 높이가 값입니다. 4의 배수가 스케일의 근간이고(진한 막대), 그 사이 값은 타이포·대형 레이아웃용입니다. full(999)은 원형에 씁니다.</p>
-<div class="ns">%s</div></div>
+<div class="sec"><h3 class="sb-h3">Primitive — 스케일<small>%d</small></h3><p class="lead">막대 길이가 값입니다. 4의 배수가 스케일의 근간이고(주황 막대), 그 사이 값은 타이포·대형 레이아웃용입니다(회색). full(999)은 원형에 씁니다(점선). 줄을 누르면 변수 이름이 복사됩니다.</p>
+<div class="nsv">%s</div></div>
 """ % (len(prim), len(prim), "".join(bars))
     css = r"""
-.ns{display:flex;align-items:flex-end;gap:6px;flex-wrap:wrap;padding:12px 0 4px}
-.ns__col{display:flex;flex-direction:column;align-items:center;gap:4px;width:34px;border:0;background:none;padding:0;cursor:pointer}
-.ns__col i{display:block;width:22px;border-radius:3px 3px 0 0;background:var(--ink3);opacity:.55}
-.ns__col i.ns__bar--base{background:var(--accent);opacity:1}
-.ns__col i.ns__bar--full{background:repeating-linear-gradient(180deg,var(--ink3) 0 4px,transparent 4px 8px);opacity:.7}
-.ns__col span{font-size:10px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
-.ns__col:hover i{outline:2px solid var(--accent);outline-offset:1px}
+.nsv{display:flex;flex-direction:column;gap:2px;max-width:760px}
+.nsv__r{display:grid;grid-template-columns:56px minmax(0,1fr) 64px;align-items:center;gap:14px;border:0;background:none;padding:4px 6px;margin:0 -6px;border-radius:6px;cursor:pointer;text-align:left}
+.nsv__r:hover{background:var(--chip)}
+.nsv__n{font-size:12px;color:var(--ink2);text-align:right}
+.nsv__bar{display:block;height:12px;border-radius:3px;background:var(--ink3);opacity:.5;min-width:2px}
+.nsv__bar--base{background:var(--accent);opacity:1}
+.nsv__bar--full{background:repeating-linear-gradient(90deg,var(--ink3) 0 6px,transparent 6px 10px);opacity:.7}
+.nsv__v{font-size:12px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
 .nm{display:inline-block;vertical-align:middle}
 .nm--size{width:24px;background:var(--accent);border-radius:3px}
 .nm--gap{display:inline-flex;align-items:center}.nm--gap b{width:14px;height:14px;background:var(--ink3);border-radius:2px}.nm--gap u{display:inline-block;height:14px;background:var(--accent-soft);border-left:1px solid var(--accent);border-right:1px solid var(--accent)}
@@ -154,7 +159,7 @@ def typography_page(d, stamp):
             k = " ".join([s["name"], str(s["size"]), str(s["weight"]), s.get("description") or ""]).lower()
             trs.append('<tr data-k="%s"><td>%s</td><td><span class="smp" style="%s">환자 등록 · Patient 01</span></td><td><code>%s / %s</code></td><td><code>%s</code></td><td>%s</td></tr>'
                        % (esc(k), cp(s["name"]), style, esc(s["size"]), esc(s["lineHeight"]), esc(s["weight"]), cp(s["css"], "CSS 복사")))
-        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t"><thead><tr><th>스타일 (클릭 = 이름 복사)</th><th>표본</th><th>크기 / 행간</th><th>웨이트</th><th></th></tr></thead><tbody>%s</tbody></table></div></div>'
+        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t ts"><colgroup><col style="width:220px"><col><col style="width:110px"><col style="width:80px"><col style="width:96px"></colgroup><thead><tr><th>스타일 (클릭 = 이름 복사)</th><th>표본</th><th>크기 / 행간</th><th>웨이트</th><th></th></tr></thead><tbody>%s</tbody></table></div></div>'
                       % (esc({"title": "title — 제목", "body": "body — 본문"}.get(role, role)), len(trs), "".join(trs)))
     body = """
 <h2>Typography</h2>
@@ -170,7 +175,9 @@ def typography_page(d, stamp):
 .w{border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--card)}.w span{display:block;font-size:22px;margin:0 0 6px}
 .srow{display:flex;flex-direction:column;gap:6px}
 .sz{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--line);padding:6px 0}.sz span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.smp{display:inline-block;white-space:nowrap}
+.smp{display:inline-block;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis;vertical-align:middle}
+table.ts{table-layout:fixed;min-width:640px}
+table.ts td:nth-child(2){overflow:hidden}
 """
     return {"id": "c-Typography", "group": "파운데이션", "nav": "Typography <small>%d</small>" % len(styles), "body": body, "css": css}
 
@@ -187,7 +194,7 @@ def index_page(d, stamp, nicons):
 <h2>시작하기</h2>
 <p class="sb-sub">Cloud X 디자인시스템의 기초 자산 — 아이콘 · 컬러 · 넘버 · 타이포그래피. 다른 부서가 그대로 가져다 쓰는 공유본입니다. 기준: Figma %s.</p>
 <div class="cards">%s</div>
-<div class="sec"><h3 class="sb-h3">시작하기</h3><p class="lead">tokens.css 한 장을 넣고 변수로 씁니다. 아이콘은 sprite.svg를 두고 <code>&lt;use&gt;</code>로 참조합니다.</p>
+<div class="sec"><h3 class="sb-h3">쓰는 법</h3><p class="lead">tokens.css 한 장을 넣고 변수로 씁니다. 아이콘은 sprite.svg를 두고 <code>&lt;use&gt;</code>로 참조합니다.</p>
 <pre class="code"><code>&lt;link rel="stylesheet" href="tokens.css"&gt;
 
 .card {

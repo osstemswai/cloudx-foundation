@@ -137,12 +137,18 @@ def build():
         for s in st.get("textStyles", []):
             lh = s.get("lineHeight") or {}
             ls = s.get("letterSpacing") or {}
+            # 웨이트 — fontStyle 이 변수(font-weight/<w>)에 바인딩돼 있으면 그 변수가 기준이다. fontName.style 에는
+            # 바인딩 전 값이 남아 있을 수 있다(2026-10-23: title/sm/semibold 가 Medium, body/sm/regular 가 Thin 으로 남아 있었다).
+            bv = s.get("boundVariables") or {}
+            bound = bv.get("fontStyle") if isinstance(bv.get("fontStyle"), dict) else None
+            wname = (bound.get("name") or "").split("/")[-1] if bound else s["fontName"]["style"].replace(" ", "")
+            weight = FONT_WEIGHT.get(wname.lower(), s["fontName"]["style"])
             data["textStyles"].append({
-                "name": s["name"], "family": s["fontName"]["family"], "style": s["fontName"]["style"],
-                "weight": FONT_WEIGHT.get(s["fontName"]["style"].replace(" ", "").lower(), s["fontName"]["style"]),
+                "name": s["name"], "family": s["fontName"]["family"], "style": wname if bound else s["fontName"]["style"],
+                "weight": weight, "figmaFontStyle": s["fontName"]["style"],
                 "size": s["fontSize"], "lineHeight": lh.get("value") if lh.get("unit") == "PIXELS" else lh.get("unit"),
                 "letterSpacing": ls.get("value", 0) if ls.get("unit") == "PIXELS" else 0,
-                "css": "font: %s %spx/%spx \"%s\", sans-serif;" % (FONT_WEIGHT.get(s["fontName"]["style"].replace(" ", "").lower(), 400), s["fontSize"],
+                "css": "font: %s %spx/%spx \"%s\", sans-serif;" % (weight if isinstance(weight, int) else 400, s["fontSize"],
                                                                 lh.get("value", s["fontSize"]), s["fontName"]["family"]),
                 "boundVariables": {k: (b.get("name") if isinstance(b, dict) else b) for k, b in (s.get("boundVariables") or {}).items()},
                 "description": s.get("description", ""), "key": s.get("key")})
