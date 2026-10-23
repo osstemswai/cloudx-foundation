@@ -165,8 +165,6 @@ PAGE = """<!doctype html>
   <a class="dl" href="tokens.json" download>tokens.json</a>
   <a class="dl" href="cloudx-icons.zip" download>아이콘 ZIP</a>
   <a class="dl" href="sprite.svg" download>sprite.svg</a>
-  <div class="sb-group">링크</div>
-  <a href="{{REPO}}" target="_blank" rel="noopener">GitHub ↗</a>
 </nav>
 <main class="sb-main">
 <div class="sb-pages">
