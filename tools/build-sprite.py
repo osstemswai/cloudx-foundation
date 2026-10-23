@@ -30,7 +30,9 @@ def symbols():
 
 
 def build():
-    parts = ['<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">']
+    # 루트를 display:none 으로 숨기면 Chrome이 그 안의 <mask>·<clipPath> 참조를 버린다(excel·pin 등이 덩어리로 나옴).
+    # 크기 0 + absolute 로 숨긴다. 인라인할 때도 이 루트를 그대로 둔다 (2026-10-23).
+    parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true" focusable="false">']
     n = 0
     for cat, name, body in symbols():
         parts.append('<symbol id="i-%s-%s" viewBox="0 0 20 20" fill="none">%s</symbol>' % (cat, name, body))

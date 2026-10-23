@@ -24,6 +24,7 @@ Cloud X 디자인시스템 아이콘 **487개**(세트 246 · 카테고리 7)를
 - **크기는 박스로만** 정합니다. 16 · 20 · 24 중 하나를 씁니다.
 - **색은 `color`로** 줍니다. `fill`은 주지 않습니다. 경로에 박힌 `fill="currentColor"`가 우선이라 `fill`은 먹지 않습니다.
 - `sprite.svg`는 페이지와 **같은 출처(도메인)** 에 둡니다. 다른 도메인의 파일은 `<use>`가 읽지 못합니다.
+- 스프라이트를 HTML에 **인라인**할 때는 루트를 `display:none`으로 숨기지 마세요. Chrome이 그 안의 `<mask>`를 버려 excel·pin 같은 아이콘이 덩어리로 나옵니다. `sprite.svg` 루트는 이미 `width="0" height="0" style="position:absolute;overflow:hidden"`이라 그대로 넣으면 됩니다.
 
 ### 2. 인라인 SVG
 
