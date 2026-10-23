@@ -6,7 +6,6 @@
 """
 import html
 
-REPO_URL = "https://github.com/osstemswai/cloudx-foundation"
 FIGMA = "dJwm3aKPCcDIGcIwZBhZPS"
 
 BASE_CSS = r"""
@@ -191,5 +190,5 @@ def render_app(sections, stamp="", counts=""):
     js = "".join(s.get("js", "") for s in sections)
     tail = "".join(s.get("tail", "") for s in sections)
     return (PAGE.replace("{{BASE_CSS}}", BASE_CSS).replace("{{CSS}}", css).replace("{{NAV}}", nav).replace("{{SECTIONS}}", secs)
-            .replace("{{STAMP}}", html.escape(stamp)).replace("{{COUNTS}}", html.escape(counts)).replace("{{FIGMA}}", FIGMA).replace("{{REPO}}", REPO_URL)
+            .replace("{{STAMP}}", html.escape(stamp)).replace("{{COUNTS}}", html.escape(counts)).replace("{{FIGMA}}", FIGMA)
             .replace("{{TAIL}}", tail).replace("{{BASE_JS}}", BASE_JS.strip()).replace("{{JS}}", js))

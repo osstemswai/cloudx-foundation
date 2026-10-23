@@ -63,7 +63,7 @@ def main():
     # 3. 출처 스탬프
     dirty = bool(git(src, "status", "--porcelain", "--", "Icon"))
     stamp = {
-        "repo": git(src, "remote", "get-url", "origin") or src,
+        "source": "cloudXDS Icon/",   # 레포 URL 은 적지 않는다 — 공유본에서 GitHub 로 이어지는 흔적을 남기지 않는다 (2026-10-23)
         "commit": git(src, "rev-parse", "--short", "HEAD"),
         "commit_date": git(src, "log", "-1", "--format=%cs", "--", "Icon"),
         "dirty": dirty,

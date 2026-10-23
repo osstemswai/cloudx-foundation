@@ -3,7 +3,7 @@
 Cloud X 디자인시스템의 기초 자산 — **아이콘 · 컬러 · 넘버 · 타이포그래피** — 를 다른 부서와 공유하는 저장소입니다.
 
 - **보기 · 검색 · 복사**: https://osstemswai.github.io/cloudx-foundation/ — 왼쪽 메뉴의 파운데이션 아래 [Icon](https://osstemswai.github.io/cloudx-foundation/#c-Icon) · [Color](https://osstemswai.github.io/cloudx-foundation/#c-Color) · [Number](https://osstemswai.github.io/cloudx-foundation/#c-Number) · [Typography](https://osstemswai.github.io/cloudx-foundation/#c-Typography). 아이콘 딥링크는 `#c-Icon?icon=<카테고리>/<이름>`
-- **내려받기**: [`tokens.css`](tokens.css)(컬러·넘버 팔레트와 역할 토큰, 타이포 변수) · [`cloudx-icons.zip`](cloudx-icons.zip)(낱개 SVG + sprite.svg + icons.json). 기계용 목록은 [`tokens.json`](tokens.json)
+- **내려받기**: [`tokens.css`](tokens.css)(컬러·넘버 팔레트와 역할 토큰, 타이포 변수) · [`cloudx-icons.zip`](cloudx-icons.zip)(낱개 SVG + sprite.svg + icons.json, README 제외). 기계용 목록은 [`tokens.json`](tokens.json)
 
 원본은 Figma입니다. 토큰·텍스트 스타일은 Cloud-X DS 파일(`dJwm3aKPCcDIGcIwZBhZPS`), 아이콘은 OnePlatform-Icon(구 poc-Icon)에서 읽어 왔고, 기준 날짜는 각 페이지 아래와 [`tokens/`](tokens/) · [`meta/source.json`](meta/source.json)에 있습니다. **이 저장소에서 값이나 아이콘을 직접 고치지 않습니다.** 수정 요청은 SW디자인팀으로 보내 주세요.
 

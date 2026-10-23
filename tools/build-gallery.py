@@ -14,7 +14,6 @@ import page
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 META = os.path.join(ROOT, "meta")
-REPO_URL = "https://github.com/osstemswai/cloudx-foundation"
 
 
 def read(p):
@@ -334,11 +333,11 @@ def section(cats, source, sprite):
 
 
 def build_zip(cats):
-    """svg/ 낱개 + sprite.svg + icons.json 을 cloudx-icons.zip 으로 묶는다.
+    """svg/ 낱개 + sprite.svg + icons.json 을 cloudx-icons.zip 으로 묶는다(README 제외).
     타임스탬프를 고정하고 이름순으로 넣어 내용이 같으면 바이트도 같다(CI 재빌드 비교용)."""
     import zipfile
     out = os.path.join(ROOT, "cloudx-icons.zip")
-    names = ["sprite.svg", "icons.json", "README.md"] + sorted(ic["file"] for c in cats for ic in c["icons"])
+    names = ["sprite.svg", "icons.json"] + sorted(ic["file"] for c in cats for ic in c["icons"])   # README 는 넣지 않는다(GitHub 링크 포함)
     with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for n in names:
             p = os.path.join(ROOT, n)
