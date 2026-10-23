@@ -1,7 +1,7 @@
 {
  "source": {
   "repo": "https://github.com/h1osstem/cloudXDS.git",
-  "commit": "081ceed",
+  "commit": "169137c",
   "commit_date": "2026-10-23",
   "dirty": false,
   "synced": "2026-10-23",
@@ -11,10 +11,10 @@
    "page": "icon",
    "node": "2806:36607"
   },
-  "count": 467,
+  "count": 469,
   "categories": {
    "00_arrow": 66,
-   "00_edit": 60,
+   "00_edit": 62,
    "00_general": 314,
    "00_modal": 10,
    "00_window": 4,
@@ -22,11 +22,11 @@
    "01_pms-lnb": 5
   }
  },
- "count": 467,
- "sets": 241,
+ "count": 469,
+ "sets": 242,
  "categories": {
   "00_arrow": 66,
-  "00_edit": 60,
+  "00_edit": 62,
   "00_general": 314,
   "00_modal": 10,
   "00_window": 4,
@@ -276,13 +276,13 @@
    ]
   },
   {
-   "id": "i-00_arrow-double-up-2",
+   "id": "i-00_arrow-double-up-off",
    "category": "00_arrow",
-   "set": "double-up",
-   "name": "double-up-2",
+   "set": "double-up-off",
+   "name": "double-up-off",
    "variant": "Fill=off",
    "fill": "off",
-   "file": "svg/00_arrow/double-up-2.svg",
+   "file": "svg/00_arrow/double-up-off.svg",
    "ink": [
     15,
     15
@@ -292,22 +292,24 @@
     "arrow",
     "double",
     "up",
+    "off",
     "화살표",
     "애로우",
     "더블",
     "이중",
     "위",
-    "상"
+    "상",
+    "끔"
    ]
   },
   {
-   "id": "i-00_arrow-double-up-fill-2",
+   "id": "i-00_arrow-double-up-off-fill",
    "category": "00_arrow",
-   "set": "double-up",
-   "name": "double-up-fill-2",
+   "set": "double-up-off",
+   "name": "double-up-off-fill",
    "variant": "Fill=on",
    "fill": "on",
-   "file": "svg/00_arrow/double-up-fill-2.svg",
+   "file": "svg/00_arrow/double-up-off-fill.svg",
    "ink": [
     15,
     15
@@ -317,6 +319,7 @@
     "arrow",
     "double",
     "up",
+    "off",
     "fill",
     "화살표",
     "애로우",
@@ -324,6 +327,7 @@
     "이중",
     "위",
     "상",
+    "끔",
     "채움",
     "면"
    ]
@@ -1917,6 +1921,51 @@
     "문단",
     "정렬",
     "양쪽정렬",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-select",
+   "category": "00_edit",
+   "set": "select",
+   "name": "select",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/select.svg",
+   "ink": [
+    13.5,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "select",
+    "편집",
+    "수정",
+    "선택"
+   ]
+  },
+  {
+   "id": "i-00_edit-select-fill",
+   "category": "00_edit",
+   "set": "select",
+   "name": "select-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/select-fill.svg",
+   "ink": [
+    13.5,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "select",
+    "fill",
+    "편집",
+    "수정",
+    "선택",
     "채움",
     "면"
    ]

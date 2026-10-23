@@ -71,6 +71,19 @@
    ]
   },
   {
+   "set": "select",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "select-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "select"
+    }
+   ]
+  },
+  {
    "set": "bold",
    "variants": [
     {
@@ -2685,15 +2698,15 @@
    ]
   },
   {
-   "set": "double-up",
+   "set": "double-up-off",
    "variants": [
     {
      "variant": "Fill=on",
-     "file": "double-up-fill-2"
+     "file": "double-up-off-fill"
     },
     {
      "variant": "Fill=off",
-     "file": "double-up-2"
+     "file": "double-up-off"
     }
    ]
   },

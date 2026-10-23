@@ -87,17 +87,17 @@
 12,
 11
 ],
-"00_arrow/double-up-2": [
-15,
-15
-],
-"00_arrow/double-up-fill-2": [
-15,
-15
-],
 "00_arrow/double-up-fill": [
 11.5,
 12.5
+],
+"00_arrow/double-up-off-fill": [
+15,
+15
+],
+"00_arrow/double-up-off": [
+15,
+15
 ],
 "00_arrow/double-up": [
 11,
@@ -478,6 +478,14 @@
 "00_edit/select-all": [
 14,
 14
+],
+"00_edit/select-fill": [
+13.5,
+14.3
+],
+"00_edit/select": [
+13.5,
+14.3
 ],
 "00_edit/strikethrough-fill": [
 14,
