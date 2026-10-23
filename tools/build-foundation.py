@@ -52,6 +52,7 @@ def cp(text, label=None):
 # ── 컬러 ──────────────────────────────────────────────────────────────
 def color_page(d, stamp):
     prim = [r for r in d["layers"]["primitive"] if r["name"].startswith("color/")]
+    sem = [r for r in d["layers"].get("semantic", []) if r["name"].startswith("color/")]
     hues = {}
     for r in prim:
         hues.setdefault(r["name"].split("/")[1], []).append(r)
@@ -64,11 +65,29 @@ def color_page(d, stamp):
             cells.append('<button type="button" class="pal__c" data-cp="var(%s)" title="%s · %s"><span class="pal__sw" style="background:%s"></span><span class="pal__s">%s</span><span class="pal__v">%s</span></button>'
                          % (esc(r["cssVar"]), esc(r["name"]), esc(r["value"]), esc(r["value"]), esc(step), esc(r["value"] if str(r["value"]).startswith("#") else alpha_label(r["value"]))))
         rows.append('<div class="pal"><div class="pal__h">%s<small>%d</small></div><div class="pal__r">%s</div></div>' % (esc(h), len(cells), "".join(cells)))
+    groups = {}
+    for r in sem:
+        groups.setdefault(r["name"].split("/")[1], []).append(r)
+    labels = dict(SEM_COLOR_GROUPS)
+    gorder = [g for g, _ in SEM_COLOR_GROUPS if g in groups] + sorted(g for g in groups if g not in labels)
+    tables = []
+    for g in gorder:
+        trs = []
+        for r in sorted(groups[g], key=lambda x: x["name"]):
+            short = r["name"][len("color/"):]
+            k = " ".join([r["name"], str(r["value"]), r.get("alias") or "", r.get("description") or ""]).lower()
+            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code class="cp" data-cp="%s">%s</code></td><td class="mut">%s</td><td class="mut">%s</td></tr>'
+                       % (esc(k), cp("var(%s)" % r["cssVar"], short), swatch(r["value"]), esc(r["value"]), esc(r["value"]),
+                          esc((r.get("alias") or "").replace("color/", "")), esc(r.get("description") or "")))
+        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t tc"><colgroup><col style="width:300px"><col style="width:60px"><col style="width:180px"><col style="width:170px"><col></colgroup><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th></th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody>%s</tbody></table></div></div>'
+                      % (esc(labels.get(g, g)), len(trs), "".join(trs)))
     body = """
 <h2>Color</h2>
-<p class="sb-sub">primitive 팔레트 %d색입니다. 색상 계열별 단계이고 숫자가 클수록 진합니다. 칸을 누르면 <code>var(--…)</code>가 복사됩니다. 역할(semantic) 토큰은 이후에 공유합니다.</p>
-<div class="sec"><h3 class="sb-h3">Primitive — 팔레트<small>%d</small></h3><p class="lead">black·white는 투명도 단계(α)입니다.</p>%s</div>
-""" % (len(prim), len(prim), "".join(rows))
+<p class="sb-sub">primitive 팔레트 %d색 → semantic 역할 토큰 %d개. 화면에는 <b>역할 토큰</b>을 씁니다. 팔레트 값을 직접 쓰지 않습니다. 이름을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
+<div class="sec"><h3 class="sb-h3">Primitive — 팔레트<small>%d</small></h3><p class="lead">색상 계열별 단계입니다. 숫자가 클수록 진합니다. black·white는 투명도 단계(α)입니다.</p>%s</div>
+<div class="sec"><h3 class="sb-h3">Semantic — 역할 토큰<small>%d</small></h3><p class="lead">바탕(bg) · 글자(fg) · 선(border) · 아이콘(icon) 등 역할로 고릅니다. 값이 바뀌어도 이름은 그대로라 화면이 따라옵니다.</p>
+<label class="search"><input placeholder="brand, neutral, hover, #EB6100…" data-filter="table.t tr[data-k]" data-count=".count" autocomplete="off" aria-label="토큰 검색"><span class="count"></span><kbd>/</kbd></label>%s</div>
+""" % (len(prim), len(sem), len(prim), "".join(rows), len(sem), "".join(tables))
     css = r"""
 .pal{margin:0 0 10px}.pal__h{font-size:12px;font-weight:700;color:var(--ink2);margin:0 0 4px;text-transform:uppercase;letter-spacing:.04em}.pal__h small{margin-left:6px;color:var(--ink3);font-weight:400;text-transform:none}
 .pal__r{display:flex;flex-wrap:wrap;gap:4px}
@@ -76,9 +95,12 @@ def color_page(d, stamp):
 .pal__sw{display:block;width:64px;height:40px;border-radius:7px;border:1px solid var(--pv-line);background-image:linear-gradient(45deg,#ddd 25%,transparent 25%),linear-gradient(-45deg,#ddd 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ddd 75%),linear-gradient(-45deg,transparent 75%,#ddd 75%);background-size:8px 8px;background-position:0 0,0 4px,4px -4px,-4px 0}
 .pal__c:hover .pal__sw{outline:2px solid var(--accent);outline-offset:1px}
 .pal__s{font-size:11px;font-weight:600;color:var(--ink2)}.pal__v{font-size:10px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
-.mut{color:var(--ink3);font-size:12px}
+table.tc{table-layout:fixed;min-width:760px}
+table.tc td{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+table.tc td:last-child{white-space:normal}
+table.tc td:nth-child(2){overflow:visible}
 """
-    return {"id": "c-Color", "group": "파운데이션", "nav": "Color <small>%d</small>" % len(prim), "body": body, "css": css}
+    return {"id": "c-Color", "group": "파운데이션", "nav": "Color <small>%d</small>" % (len(prim) + len(sem)), "body": body, "css": css}
 
 
 # ── 넘버 ──────────────────────────────────────────────────────────────
@@ -101,6 +123,7 @@ def num_preview(group, v):
 
 def number_page(d, stamp):
     prim = [r for r in d["layers"]["primitive"] if r["name"].startswith("number/")]
+    sem = [r for r in d["layers"].get("semantic", []) if r["name"].startswith("number/")]
     rows = []
     vals = [r for r in prim if isinstance(num(r["value"]), (int, float))]
     top = max((float(num(r["value"])) for r in vals if float(num(r["value"])) < 999), default=1)
@@ -110,13 +133,30 @@ def number_page(d, stamp):
         w = 100 if full else max(0.6, f / top * 100)
         rows.append('<button type="button" class="nsv__r" data-cp="var(%s)" title="%s"><code class="nsv__n">%s</code><i class="nsv__bar %s" style="width:%.1f%%"></i><span class="nsv__v">%s</span></button>'
                     % (esc(r["cssVar"]), esc(r["name"]), "full" if full else esc(f), cls, w, "full" if full else "%spx" % esc(f)))
-    bars = rows
+    groups = {}
+    for r in sem:
+        groups.setdefault(r["name"].split("/")[1], []).append(r)
+    labels = dict(SEM_NUMBER_GROUPS)
+    gorder = [g for g, _ in SEM_NUMBER_GROUPS if g in groups] + sorted(g for g in groups if g not in labels)
+    tables = []
+    for g in gorder:
+        trs = []
+        for r in sorted(groups[g], key=lambda x: (float(num(x["value"])) if isinstance(num(x["value"]), (int, float)) else 0, x["name"])):
+            short = r["name"][len("number/"):]
+            k = " ".join([r["name"], str(r["value"]), r.get("alias") or "", r.get("description") or ""]).lower()
+            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code>%spx</code></td><td class="mut">%s</td><td class="mut">%s</td></tr>'
+                       % (esc(k), cp("var(%s)" % r["cssVar"], short), num_preview(g, num(r["value"])), esc(num(r["value"])),
+                          esc((r.get("alias") or "").replace("number/", "")), esc(r.get("description") or "")))
+        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t tn"><colgroup><col style="width:240px"><col style="width:120px"><col style="width:80px"><col style="width:110px"><col></colgroup><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody>%s</tbody></table></div></div>'
+                      % (esc(labels.get(g, g)), len(trs), "".join(trs)))
     body = """
 <h2>Number</h2>
-<p class="sb-sub">primitive 수치 스케일 %d단계입니다. 막대를 누르면 <code>var(--…)</code>가 복사됩니다. 역할(semantic) 토큰(높이·간격·모서리·선)은 이후에 공유합니다.</p>
-<div class="sec"><h3 class="sb-h3">Primitive — 스케일<small>%d</small></h3><p class="lead">막대 길이가 값입니다. 4의 배수가 스케일의 근간이고(주황 막대), 그 사이 값은 타이포·대형 레이아웃용입니다(회색). full(999)은 원형에 씁니다(점선). 줄을 누르면 변수 이름이 복사됩니다.</p>
+<p class="sb-sub">primitive 스케일 %d단계 → semantic 역할 토큰 %d개. 높이·간격·모서리·선 두께는 <b>역할 토큰</b>으로 씁니다. 이름을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
+<div class="sec"><h3 class="sb-h3">Primitive — 스케일<small>%d</small></h3><p class="lead">막대 길이가 값입니다. 4의 배수가 스케일의 근간이고(주황 막대), 그 사이 값은 타이포·대형 레이아웃용입니다(회색). full(999)은 원형에 씁니다(점선).</p>
 <div class="nsv">%s</div></div>
-""" % (len(prim), len(prim), "".join(bars))
+<div class="sec"><h3 class="sb-h3">Semantic — 역할 토큰<small>%d</small></h3><p class="lead">컨트롤 높이(size) · 여백(spacing, 2px 배수) · 모서리(radius) · 선 두께(border) 등 역할로 고릅니다.</p>
+<label class="search"><input placeholder="spacing, radius, 12, md…" data-filter="table.t tr[data-k]" data-count=".count" autocomplete="off" aria-label="토큰 검색"><span class="count"></span><kbd>/</kbd></label>%s</div>
+""" % (len(prim), len(sem), len(prim), "".join(rows), len(sem), "".join(tables))
     css = r"""
 .nsv{display:flex;flex-direction:column;gap:2px;max-width:760px}
 .nsv__r{display:grid;grid-template-columns:56px minmax(0,1fr) 64px;align-items:center;gap:14px;border:0;background:none;padding:4px 6px;margin:0 -6px;border-radius:6px;cursor:pointer;text-align:left}
@@ -133,9 +173,11 @@ def number_page(d, stamp):
 .nm--border{width:48px;border-top:0 solid var(--ink)}
 .nm--icon{background:var(--ink3);border-radius:3px;opacity:.6}
 .nm--focus{width:24px;height:24px;border-radius:6px;background:var(--card);border:1px solid var(--line)}
-.mut{color:var(--ink3);font-size:12px}
+table.tn{table-layout:fixed;min-width:720px}
+table.tn td{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+table.tn td:last-child{white-space:normal}
 """
-    return {"id": "c-Number", "group": "파운데이션", "nav": "Number <small>%d</small>" % len(prim), "body": body, "css": css}
+    return {"id": "c-Number", "group": "파운데이션", "nav": "Number <small>%d</small>" % (len(prim) + len(sem)), "body": body, "css": css}
 
 
 # ── 타이포그래피 ────────────────────────────────────────────────────────
@@ -190,11 +232,11 @@ table.ts td:nth-child(2){overflow:hidden}
 
 # ── 홈 ────────────────────────────────────────────────────────────────
 def index_page(d, stamp, nicons):
-    pc = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("color/"))
-    pn = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("number/"))
+    pc = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("color/")); sc = sum(1 for r in d["layers"].get("semantic", []) if r["name"].startswith("color/"))
+    pn = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("number/")); sn = sum(1 for r in d["layers"].get("semantic", []) if r["name"].startswith("number/"))
     cards = [("#c-Icon", "아이콘", "%d개 · 세트별 선/면 · 검색 · SVG 내려받기" % nicons),
-             ("#c-Color", "컬러", "팔레트 %d색 (역할 토큰은 이후 공유)" % pc),
-             ("#c-Number", "넘버", "스케일 %d단계 (역할 토큰은 이후 공유)" % pn),
+             ("#c-Color", "컬러", "팔레트 %d · 역할 토큰 %d" % (pc, sc)),
+             ("#c-Number", "넘버", "스케일 %d · 역할 토큰 %d (높이·간격·모서리·선)" % (pn, sn)),
              ("#c-Typography", "타이포그래피", "텍스트 스타일 %d · 크기 %d단계" % (len(d["textStyles"]), sum(1 for r in d["layers"]["typography"] if r["name"].startswith("font-size/"))))]
     body = """
 <h2>시작하기</h2>
@@ -204,18 +246,18 @@ def index_page(d, stamp, nicons):
 <pre class="code"><code>&lt;link rel="stylesheet" href="tokens.css"&gt;
 
 .card {
-  background: var(--color-neutralgray-0);
-  color: var(--color-neutralgray-900);
-  padding: var(--number-12);
-  border-radius: var(--number-8);
+  background: var(--color-bg-surface-surface01);
+  color: var(--color-fg-neutral-strong);
+  padding: var(--number-spacing-x6);
+  border-radius: var(--number-radius-lg);
   font: var(--font-weight-regular) var(--font-size-14) / var(--line-height-20) var(--font-family-base);
 }
 
 &lt;svg class="icon"&gt;&lt;use href="sprite.svg#i-00_general-search"/&gt;&lt;/svg&gt;
-.icon { width: 20px; height: 20px; color: var(--color-neutralgray-900); }</code></pre></div>
+.icon { width: 20px; height: 20px; color: var(--color-fg-neutral-strong); }</code></pre></div>
 <div class="sec"><h3 class="sb-h3">내려받기</h3><div class="dl">
 <a class="btn btn--dark" href="tokens.css" download>tokens.css</a><a class="btn" href="cloudx-icons.zip" download>아이콘 ZIP</a></div>
-<p class="lead" style="margin-top:10px">tokens.css는 primitive(팔레트·스케일) · typography 변수입니다. 아이콘 ZIP에는 낱개 SVG · sprite.svg · icons.json이 들어 있습니다. 기계용 토큰 목록이 필요하면 <a href="tokens.json" download>tokens.json</a>을 받습니다. 역할(semantic) 토큰은 이후에 공유합니다.</p></div>
+<p class="lead" style="margin-top:10px">tokens.css는 primitive(팔레트·스케일) · semantic(역할) · typography 변수입니다. 아이콘 ZIP에는 낱개 SVG · sprite.svg · icons.json이 들어 있습니다. 기계용 토큰 목록(참조 체인·설명·텍스트 스타일 포함)이 필요하면 <a href="tokens.json" download>tokens.json</a>을 받습니다.</p></div>
 """ % (esc(stamp), "".join('<a class="card" href="%s"><b>%s</b><span>%s</span></a>' % (h, t, s) for h, t, s in cards))
     css = r"""
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 32px}
