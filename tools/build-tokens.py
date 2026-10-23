@@ -3,11 +3,12 @@
 
     python3 tools/build-tokens.py
 
-공유 대상은 primitive(컬러 팔레트 · 수치 스케일) · semantic(역할 토큰) · typography(글자 원자) 세 층입니다. component 는
-상위 저장소(cloudXDS) 재익스포트용으로 `tokens/component.json`에만 두고 CSS·다운로드에는 넣지 않습니다.
+공유 대상은 primitive(컬러 팔레트 · 수치 스케일) · typography(글자 원자) 두 층입니다. semantic(역할 토큰)과 component 는
+Cloud-X 내부용이라 `tokens/semantic.json` · `component.json` 덤프로만 두고(상위 저장소 재익스포트용) CSS·다운로드·페이지에는
+넣지 않습니다(2026-10-23 결정).
 
 이름 규칙 — Figma의 `/`를 `-`로 바꿉니다(cloudXDS tokens.css와 같은 규칙).
-  color/bg/brand/strong/default  →  --color-bg-brand-strong-default
+  color/orange/600  →  --color-orange-600 · number/12  →  --number-12
 별칭은 primitive까지 풀어 실제 값(hex · px)으로 냅니다. `{"color": <별칭>, "opacity": 30}` 형태는 알파를 곱합니다(퍼센트).
 """
 import json, os, sys, datetime
@@ -15,7 +16,7 @@ import json, os, sys, datetime
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 TOK = os.path.join(ROOT, "tokens")
 FILES = ["primitive", "semantic", "component", "typography"]
-LAYERS = [("primitive", "primitive — 팔레트·스케일"), ("semantic", "semantic — 역할"), ("typography", "typography — 글자 원자")]   # component 는 상위 저장소용
+LAYERS = [("primitive", "primitive — 팔레트·스케일"), ("typography", "typography — 글자 원자")]   # semantic · component 는 덤프만(상위 저장소용)
 FONT_WEIGHT = {"regular": 400, "medium": 500, "semibold": 600, "bold": 700}
 
 
