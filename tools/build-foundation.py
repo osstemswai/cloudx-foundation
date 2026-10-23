@@ -76,10 +76,10 @@ def color_page(d, stamp):
         for r in sorted(groups[g], key=lambda x: x["name"]):
             short = r["name"][len("color/"):]
             k = " ".join([r["name"], str(r["value"]), r.get("alias") or "", r.get("description") or ""]).lower()
-            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code class="cp" data-cp="%s">%s</code></td><td class="mut">%s</td><td class="mut">%s</td></tr>'
+            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code class="cp" data-cp="%s">%s</code></td><td class="mut">%s</td></tr>'
                        % (esc(k), cp("var(%s)" % r["cssVar"], short), swatch(r["value"]), esc(r["value"]), esc(r["value"]),
-                          esc((r.get("alias") or "").replace("color/", "")), esc(r.get("description") or "")))
-        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t tc"><colgroup><col style="width:300px"><col style="width:60px"><col style="width:180px"><col style="width:170px"><col></colgroup><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th></th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody>%s</tbody></table></div></div>'
+                          esc((r.get("alias") or "").replace("color/", ""))))
+        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t tc"><colgroup><col style="width:320px"><col style="width:60px"><col style="width:200px"><col></colgroup><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th></th><th>값</th><th>참조(primitive)</th></tr></thead><tbody>%s</tbody></table></div></div>'
                       % (esc(labels.get(g, g)), len(trs), "".join(trs)))
     body = """
 <h2>Color</h2>
@@ -95,7 +95,7 @@ def color_page(d, stamp):
 .pal__sw{display:block;width:64px;height:40px;border-radius:7px;border:1px solid var(--pv-line);background-image:linear-gradient(45deg,#ddd 25%,transparent 25%),linear-gradient(-45deg,#ddd 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ddd 75%),linear-gradient(-45deg,transparent 75%,#ddd 75%);background-size:8px 8px;background-position:0 0,0 4px,4px -4px,-4px 0}
 .pal__c:hover .pal__sw{outline:2px solid var(--accent);outline-offset:1px}
 .pal__s{font-size:11px;font-weight:600;color:var(--ink2)}.pal__v{font-size:10px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
-table.tc{table-layout:fixed;min-width:760px}
+table.tc{table-layout:fixed;min-width:640px}
 table.tc td{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 table.tc td:last-child{white-space:normal}
 table.tc td:nth-child(2){overflow:visible}
