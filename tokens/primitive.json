@@ -1,0 +1,3614 @@
+{
+ "schemaVersion": 1,
+ "source": {
+  "fileKey": "dJwm3aKPCcDIGcIwZBhZPS",
+  "exportedAt": "2026-10-23",
+  "exportedBy": "Figma Plugin API (use_figma) 2026-10-23",
+  "collection": {
+   "id": "VariableCollectionId:14152:3419",
+   "key": "ff82cf8b96ea03b6d6365e55dee81797c7f41146",
+   "name": "primitive",
+   "defaultMode": "light",
+   "modes": [
+    {
+     "name": "light",
+     "modeId": "14152:0"
+    }
+   ]
+  }
+ },
+ "count": 172,
+ "variables": [
+  {
+   "id": "VariableID:14152:3423",
+   "key": "254f671b8d94e084012374f0ce8b2fa969b43e48",
+   "name": "color/black/0",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     },
+     "hex": "#00000000"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3425",
+   "key": "04fce04c229d5b49a4f64404241857063a11de21",
+   "name": "color/black/10",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.10000000149011612
+     },
+     "hex": "#0000001A"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3426",
+   "key": "4ab3c353e4d49d1b596b09e5293224108939971b",
+   "name": "color/black/20",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.20000000298023224
+     },
+     "hex": "#00000033"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3427",
+   "key": "9d90c26ed1daab551201c60ace1765fdae857832",
+   "name": "color/black/30",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.30000001192092896
+     },
+     "hex": "#0000004D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3428",
+   "key": "737ff2bff1c9a55da34bbee4e1f3e533bfeb2618",
+   "name": "color/black/40",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.4000000059604645
+     },
+     "hex": "#00000066"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3424",
+   "key": "2d58ed5c1fd5c2ce555a7d06a13d1c3567df9400",
+   "name": "color/black/5",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.05000000074505806
+     },
+     "hex": "#0000000D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3429",
+   "key": "25f78670ebf2133c99eda2cec693b12570baa79b",
+   "name": "color/black/60",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6000000238418579
+     },
+     "hex": "#00000099"
+    }
+   }
+  },
+  {
+   "id": "VariableID:18466:5502",
+   "key": "7251f5eabb666fd7c70a7cf172d99a4ef1034a65",
+   "name": "color/black/80",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.800000011920929
+     },
+     "hex": "#000000CC"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3430",
+   "key": "b9e3acb071997acb2ee1ff4e190f5bca077a88dc",
+   "name": "color/blue/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9281278848648071,
+      "g": 0.9580026268959045,
+      "b": 0.9979844689369202,
+      "a": 1
+     },
+     "hex": "#EDF4FE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3443",
+   "key": "01fbb26da2e7bfcddf3f2368fba48f0fed0092e9",
+   "name": "color/blue/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.20937395095825195,
+      "b": 0.6325387358665466,
+      "a": 1
+     },
+     "hex": "#0035A1"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3431",
+   "key": "33ca426b0afda6f1557d6f9fdbefd35e8b7f5a06",
+   "name": "color/blue/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.853320300579071,
+      "g": 0.9166930913925171,
+      "b": 0.9961687326431274,
+      "a": 1
+     },
+     "hex": "#DAEAFE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3432",
+   "key": "b7c891d22a16266a65e0281417429742aa48a499",
+   "name": "color/blue/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7784448266029358,
+      "g": 0.8750320076942444,
+      "b": 0.995564877986908,
+      "a": 1
+     },
+     "hex": "#C7DFFE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3434",
+   "key": "08117fc9712a415d86f587ef2e966b7b0ab4ecfa",
+   "name": "color/blue/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.5972138047218323,
+      "g": 0.7536506056785583,
+      "b": 0.9896742701530457,
+      "a": 1
+     },
+     "hex": "#98C0FC"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3436",
+   "key": "dc21bf69934c58dfb509044dad488813c9ff5158",
+   "name": "color/blue/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.4374939501285553,
+      "g": 0.6087853312492371,
+      "b": 0.9932460784912109,
+      "a": 1
+     },
+     "hex": "#709BFD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3437",
+   "key": "e31206e10919255457b18943c3204ccb2fc382d9",
+   "name": "color/blue/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.3608597218990326,
+      "g": 0.5322673320770264,
+      "b": 1,
+      "a": 1
+     },
+     "hex": "#5C88FF"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3438",
+   "key": "3f2b3b09a2ff544dadf0f7b7dcab0dc86b086004",
+   "name": "color/blue/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.2898484766483307,
+      "g": 0.45325997471809387,
+      "b": 0.9987779259681702,
+      "a": 1
+     },
+     "hex": "#4A74FF"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3439",
+   "key": "7c25993e9d642469fcfe1570ef0b914a3b7a3452",
+   "name": "color/blue/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.22121745347976685,
+      "g": 0.3790503442287445,
+      "b": 0.9664326906204224,
+      "a": 1
+     },
+     "hex": "#3861F6"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3441",
+   "key": "532ebe27fcffde602f5841d9dbd4bf9fd68a200b",
+   "name": "color/blue/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.11416171491146088,
+      "g": 0.2920725345611572,
+      "b": 0.7962251901626587,
+      "a": 1
+     },
+     "hex": "#1D4ACB"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3446",
+   "key": "c60b4e621c0bc44c58f1d72d2c34e780dadc149d",
+   "name": "color/chartreuse/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9421312808990479,
+      "g": 0.9743093848228455,
+      "b": 0.7726750373840332,
+      "a": 1
+     },
+     "hex": "#F0F8C5"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3459",
+   "key": "70db19f472f26e66c7f1de1dfd807ffcd1cdd2f0",
+   "name": "color/chartreuse/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.21345917880535126,
+      "g": 0.2729257643222809,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#364600"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3447",
+   "key": "159a9ac4c465221f62f5154ddb24f1149d1e1b9d",
+   "name": "color/chartreuse/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8778163194656372,
+      "g": 0.9473350644111633,
+      "b": 0.5134746432304382,
+      "a": 1
+     },
+     "hex": "#E0F283"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3448",
+   "key": "31482d2a38a0cb055219be02de2e9999e7a3c14e",
+   "name": "color/chartreuse/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8028669953346252,
+      "g": 0.9170141816139221,
+      "b": 0.25224289298057556,
+      "a": 1
+     },
+     "hex": "#CDEA40"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3450",
+   "key": "58b94f35335a1c21daac9a2c8dc114a852427b3d",
+   "name": "color/chartreuse/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6642380356788635,
+      "g": 0.7989358901977539,
+      "b": 9.462625166634098e-05,
+      "a": 1
+     },
+     "hex": "#A9CC00"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3452",
+   "key": "1688dbfec553eded9053347a346c8087d2064b30",
+   "name": "color/chartreuse/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.5517860651016235,
+      "g": 0.6631224751472473,
+      "b": 6.227105768630281e-05,
+      "a": 1
+     },
+     "hex": "#8DA900"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3453",
+   "key": "8f77e4a4a67b537f629c7f42a5d878d0b9068784",
+   "name": "color/chartreuse/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.49896129965782166,
+      "g": 0.596589982509613,
+      "b": 4.9479538574814796e-05,
+      "a": 1
+     },
+     "hex": "#7F9800"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3454",
+   "key": "0bfc4ed5187f8c87e1441b9730fec59461607e3c",
+   "name": "color/chartreuse/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.44311416149139404,
+      "g": 0.532336413860321,
+      "b": 3.851715155178681e-05,
+      "a": 1
+     },
+     "hex": "#718800"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3455",
+   "key": "454f5131d4139cf02dc575f23149e59f418722b5",
+   "name": "color/chartreuse/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.3912176787853241,
+      "g": 0.46885862946510315,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#647800"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3457",
+   "key": "3085db08cfb48e4f0d76a2acfb74c24e56cc0324",
+   "name": "color/chartreuse/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.29943421483039856,
+      "g": 0.3686771094799042,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#4C5E00"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3462",
+   "key": "a66b77527675aa69dfc8b014474c095dfe5405bf",
+   "name": "color/cyan/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8917574882507324,
+      "g": 0.9684402942657471,
+      "b": 0.9941017627716064,
+      "a": 1
+     },
+     "hex": "#E3F7FD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3475",
+   "key": "c256b341eaf971c25a281fc52222eacb281274ac",
+   "name": "color/cyan/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.26775893568992615,
+      "b": 0.43165773153305054,
+      "a": 1
+     },
+     "hex": "#00446E"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3463",
+   "key": "4a500b0d2984d7ed22906022018209b0c2b8a7cf",
+   "name": "color/cyan/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7906754612922668,
+      "g": 0.9332728981971741,
+      "b": 0.9904226660728455,
+      "a": 1
+     },
+     "hex": "#CAEEFD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3464",
+   "key": "0fdbcc938a7ef48ed6bfc1b7246692bd73ec31b4",
+   "name": "color/cyan/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.693752110004425,
+      "g": 0.8954518437385559,
+      "b": 0.9900583028793335,
+      "a": 1
+     },
+     "hex": "#B1E4FC"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3466",
+   "key": "081eebeca730bf0737fe62e6b184035049c4e7e6",
+   "name": "color/cyan/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.43159589171409607,
+      "g": 0.7816308736801147,
+      "b": 1,
+      "a": 1
+     },
+     "hex": "#6EC7FF"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3468",
+   "key": "2b46fae24d1a759eb9dfda01e98d24f33b5b023d",
+   "name": "color/cyan/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.1772586554288864,
+      "g": 0.6433343887329102,
+      "b": 0.9813146591186523,
+      "a": 1
+     },
+     "hex": "#2DA4FA"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3469",
+   "key": "89e7248d5fbe284433e633b397ba9aa7bada2923",
+   "name": "color/cyan/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.11065883189439774,
+      "g": 0.5796951651573181,
+      "b": 0.8978567719459534,
+      "a": 1
+     },
+     "hex": "#1C94E5"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3470",
+   "key": "d784dd42d90899211e2d2afd4575df5af78d3fc2",
+   "name": "color/cyan/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.06801234185695648,
+      "g": 0.5197386741638184,
+      "b": 0.7932041883468628,
+      "a": 1
+     },
+     "hex": "#1185CA"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3471",
+   "key": "919accbee6eaa9e092664a27c9dab30a40bd0d58",
+   "name": "color/cyan/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.02863967791199684,
+      "g": 0.4609405994415283,
+      "b": 0.689155101776123,
+      "a": 1
+     },
+     "hex": "#0776B0"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3473",
+   "key": "8262e66ad066a0e87c36359ad5e34acd6ea1a80c",
+   "name": "color/cyan/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.36208489537239075,
+      "b": 0.5577036142349243,
+      "a": 1
+     },
+     "hex": "#005C8E"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3478",
+   "key": "42c9f124f5f1597098bd60201ade1ba5b7b09abd",
+   "name": "color/green/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8849965929985046,
+      "g": 0.9782289862632751,
+      "b": 0.9125868678092957,
+      "a": 1
+     },
+     "hex": "#E2F9E9"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3491",
+   "key": "e83cf4e402dfdff71f0182fe4a752221d3191554",
+   "name": "color/green/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.295667439699173,
+      "b": 0.14975960552692413,
+      "a": 1
+     },
+     "hex": "#004B26"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3479",
+   "key": "15bde22d67731fadc60eda8ec7b77f1c5a21f1f0",
+   "name": "color/green/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7704506516456604,
+      "g": 0.9531787037849426,
+      "b": 0.8328230977058411,
+      "a": 1
+     },
+     "hex": "#C4F3D4"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3480",
+   "key": "d35c6494732b9b66ad9d5e5fc5e500c7170e5afb",
+   "name": "color/green/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6454530954360962,
+      "g": 0.9276319742202759,
+      "b": 0.7530396580696106,
+      "a": 1
+     },
+     "hex": "#A5EDC0"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3482",
+   "key": "1f1424744666983aa39c9ac616f92eb23414e0a5",
+   "name": "color/green/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.26867759227752686,
+      "g": 0.8422654867172241,
+      "b": 0.5362271070480347,
+      "a": 1
+     },
+     "hex": "#45D789"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3484",
+   "key": "97f0a8073e60cbb3d60c0156d18aa378f9ab19ab",
+   "name": "color/green/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.06646224856376648,
+      "g": 0.7091691493988037,
+      "b": 0.3977372944355011,
+      "a": 1
+     },
+     "hex": "#11B565"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3485",
+   "key": "8238344a924dd5dbd4c0de8f9849cbdea70d0676",
+   "name": "color/green/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.042165789753198624,
+      "g": 0.6390315294265747,
+      "b": 0.3627830147743225,
+      "a": 1
+     },
+     "hex": "#0BA35D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3486",
+   "key": "6d438ea59e233622daf217367d395186ec1918c6",
+   "name": "color/green/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.02665168046951294,
+      "g": 0.5700088143348694,
+      "b": 0.33052387833595276,
+      "a": 1
+     },
+     "hex": "#079154"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3487",
+   "key": "98c3efe956d6e6ee050955da483ea8f998e73e61",
+   "name": "color/green/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.00933885294944048,
+      "g": 0.5026379823684692,
+      "b": 0.2978953719139099,
+      "a": 1
+     },
+     "hex": "#02804C"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3489",
+   "key": "26fabe26881c0e30fe342fcc672eccd0be45edf8",
+   "name": "color/green/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.39682820439338684,
+      "b": 0.22190725803375244,
+      "a": 1
+     },
+     "hex": "#006539"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3494",
+   "key": "8c8b411f7ecd945afeaa73650b82a16a9e15cd5f",
+   "name": "color/neutralgray/0",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     },
+     "hex": "#FFFFFF"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3495",
+   "key": "1ae318e100dbb332730c8edcd3e4cf0a366b42fd",
+   "name": "color/neutralgray/1",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9921568632125854,
+      "g": 0.9921568632125854,
+      "b": 0.9921568632125854,
+      "a": 1
+     },
+     "hex": "#FDFDFD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3499",
+   "key": "bf88f86547998cedb74d7fed1802e297891ab599",
+   "name": "color/neutralgray/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9137254953384399,
+      "g": 0.9137254953384399,
+      "b": 0.9137254953384399,
+      "a": 1
+     },
+     "hex": "#E9E9E9"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3512",
+   "key": "6c8d7dbd4f60d510d549f84948c0d91e4baf0528",
+   "name": "color/neutralgray/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#000000"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3500",
+   "key": "de8fae4fa80611213398486710f881d735df22d6",
+   "name": "color/neutralgray/150",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8666666746139526,
+      "g": 0.8666666746139526,
+      "b": 0.8666666746139526,
+      "a": 1
+     },
+     "hex": "#DDDDDD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3501",
+   "key": "819d48544cf1785fd46ffb280bb679e47d060b9f",
+   "name": "color/neutralgray/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8235294222831726,
+      "g": 0.8235294222831726,
+      "b": 0.8235294222831726,
+      "a": 1
+     },
+     "hex": "#D2D2D2"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3496",
+   "key": "8e74abd6ee65cb035d65ff87e2370b4d39c00076",
+   "name": "color/neutralgray/25",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9764705896377563,
+      "g": 0.9764705896377563,
+      "b": 0.9764705896377563,
+      "a": 1
+     },
+     "hex": "#F9F9F9"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3502",
+   "key": "7dfaaab0d1546654feb06859cf50fffe639cbc3a",
+   "name": "color/neutralgray/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7372549176216125,
+      "g": 0.7372549176216125,
+      "b": 0.7372549176216125,
+      "a": 1
+     },
+     "hex": "#BCBCBC"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14239:2",
+   "key": "d9ecce74df98aa86aeca3b5d9dba394661f73b32",
+   "name": "color/neutralgray/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6470588445663452,
+      "g": 0.6470588445663452,
+      "b": 0.6470588445663452,
+      "a": 1
+     },
+     "hex": "#A5A5A5"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3497",
+   "key": "5fd4b6a38fcdd9af7daf1c3bd54e3ca95f15ad58",
+   "name": "color/neutralgray/50",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.95686274766922,
+      "g": 0.95686274766922,
+      "b": 0.95686274766922,
+      "a": 1
+     },
+     "hex": "#F4F4F4"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3504",
+   "key": "442c0f67473699d72793bd3921b8094b67042f2c",
+   "name": "color/neutralgray/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.5607843399047852,
+      "g": 0.5607843399047852,
+      "b": 0.5607843399047852,
+      "a": 1
+     },
+     "hex": "#8F8F8F"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14239:3",
+   "key": "ddd8372730db0387a5563914ac23b6281071ebac",
+   "name": "color/neutralgray/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.4470588266849518,
+      "g": 0.4470588266849518,
+      "b": 0.4470588266849518,
+      "a": 1
+     },
+     "hex": "#727272"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3506",
+   "key": "a8c36830d95d283195fc89442e22f4790a99ad5a",
+   "name": "color/neutralgray/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.33725491166114807,
+      "g": 0.33725491166114807,
+      "b": 0.33725491166114807,
+      "a": 1
+     },
+     "hex": "#565656"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3498",
+   "key": "0d5b0c8229da2b5b39eb900c06e0af074b98ca0e",
+   "name": "color/neutralgray/75",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9333333373069763,
+      "g": 0.9333333373069763,
+      "b": 0.9333333373069763,
+      "a": 1
+     },
+     "hex": "#EEEEEE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3507",
+   "key": "debdf2819835eb449ec6414bc21cff4a8217d191",
+   "name": "color/neutralgray/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.2235294133424759,
+      "g": 0.2235294133424759,
+      "b": 0.2235294133424759,
+      "a": 1
+     },
+     "hex": "#393939"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3508",
+   "key": "fc380e41de7db9e504b7ac888915b4b41bed38c0",
+   "name": "color/neutralgray/850",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.16862745583057404,
+      "g": 0.16862745583057404,
+      "b": 0.16862745583057404,
+      "a": 1
+     },
+     "hex": "#2B2B2B"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3509",
+   "key": "6357f6c1d7fb83302b1e9c1ca4ef63f057b4ebbc",
+   "name": "color/neutralgray/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.11372549086809158,
+      "g": 0.11372549086809158,
+      "b": 0.11372549086809158,
+      "a": 1
+     },
+     "hex": "#1D1D1D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3510",
+   "key": "d3583769ca7062da335f17d036bd5267d1b97d51",
+   "name": "color/neutralgray/950",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.054901961237192154,
+      "g": 0.054901961237192154,
+      "b": 0.054901961237192154,
+      "a": 1
+     },
+     "hex": "#0E0E0E"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3511",
+   "key": "494f7fa2b35f150f1202edbe4c10fb198737f3b4",
+   "name": "color/neutralgray/999",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.007843137718737125,
+      "g": 0.007843137718737125,
+      "b": 0.007843137718737125,
+      "a": 1
+     },
+     "hex": "#020202"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3513",
+   "key": "abac96dc2e18d46c0cc7bb622c06d4e7e304e7b3",
+   "name": "color/orange/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9955371022224426,
+      "g": 0.9462246894836426,
+      "b": 0.913926362991333,
+      "a": 1
+     },
+     "hex": "#FEF1E9"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3526",
+   "key": "9b99cd80b35b03650e1f8fbbfb9cc4dd88c21591",
+   "name": "color/orange/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.42548421025276184,
+      "g": 0.1762300282716751,
+      "b": 0.004253898281604052,
+      "a": 1
+     },
+     "hex": "#6C2D01"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3514",
+   "key": "9522b391e8864557c37aa57ddcb260fa800413ca",
+   "name": "color/orange/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9877443909645081,
+      "g": 0.8928709030151367,
+      "b": 0.8290714025497437,
+      "a": 1
+     },
+     "hex": "#FCE4D3"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3515",
+   "key": "b8b4be5f09dfed557f2c90dce14b84ec6f1bbd46",
+   "name": "color/orange/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.98176109790802,
+      "g": 0.8385899066925049,
+      "b": 0.7405888438224792,
+      "a": 1
+     },
+     "hex": "#FAD6BD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3517",
+   "key": "792a32603e3ce89a6588144e6c19c531e9575e41",
+   "name": "color/orange/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9626787900924683,
+      "g": 0.6851162314414978,
+      "b": 0.49157851934432983,
+      "a": 1
+     },
+     "hex": "#F5AF7D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3519",
+   "key": "a717cafd4e6f9aa2744626ef344229068aa56343",
+   "name": "color/orange/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9369519948959351,
+      "g": 0.5026137232780457,
+      "b": 0.19590447843074799,
+      "a": 1
+     },
+     "hex": "#EF8032"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3520",
+   "key": "1c7af23e4b51ee7a62a501de1306e7589ef5535e",
+   "name": "color/orange/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9215686321258545,
+      "g": 0.3803921639919281,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#EB6100"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3521",
+   "key": "ea1c7318c5c4f9a0d97f327d15c51e2c8d8606f0",
+   "name": "color/orange/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.833484411239624,
+      "g": 0.3448759615421295,
+      "b": 1.4439823644352145e-05,
+      "a": 1
+     },
+     "hex": "#D55800"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3522",
+   "key": "485315e07b0731bed8dc92ed496db8fbbaf60d7d",
+   "name": "color/orange/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7347201108932495,
+      "g": 0.3048349618911743,
+      "b": 1.3987068086862564e-05,
+      "a": 1
+     },
+     "hex": "#BB4E00"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3524",
+   "key": "a61209005dd94220687192fb09721353e984bfc2",
+   "name": "color/orange/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.577727198600769,
+      "g": 0.2380465418100357,
+      "b": 7.707797522016335e-06,
+      "a": 1
+     },
+     "hex": "#933D00"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3529",
+   "key": "045ee52d34d4a036f4d01361eab6cf21739b1c81",
+   "name": "color/pink/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.9381477236747742,
+      "b": 0.9787434935569763,
+      "a": 1
+     },
+     "hex": "#FFEFFA"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3542",
+   "key": "854b4c6697837e35233c7cb890c385ddc29bf3d5",
+   "name": "color/pink/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.5010331273078918,
+      "g": 0,
+      "b": 0.33864089846611023,
+      "a": 1
+     },
+     "hex": "#800056"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3530",
+   "key": "d9591977b614e44432941d5f1c2e01805f1cf152",
+   "name": "color/pink/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.8753653764724731,
+      "b": 0.9571238160133362,
+      "a": 1
+     },
+     "hex": "#FFDFF4"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3531",
+   "key": "d9e3cbea7c766fb8dd5a014f63c9397c77354433",
+   "name": "color/pink/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.811389684677124,
+      "b": 0.9357627630233765,
+      "a": 1
+     },
+     "hex": "#FFCFEF"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3533",
+   "key": "70ceb136782b6f540a1711e2d413af461afc88b1",
+   "name": "color/pink/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.6249786019325256,
+      "b": 0.8733435869216919,
+      "a": 1
+     },
+     "hex": "#FF9FDF"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3535",
+   "key": "559b51b4f888599ef61ae87a7947c5a777a6b28b",
+   "name": "color/pink/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9923467040061951,
+      "g": 0.3886391818523407,
+      "b": 0.7879754900932312,
+      "a": 1
+     },
+     "hex": "#FD63C9"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3536",
+   "key": "0ab2701e227d1a04e36a7668235fa546ed0e8ed1",
+   "name": "color/pink/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9449177384376526,
+      "g": 0.29151058197021484,
+      "b": 0.7152993083000183,
+      "a": 1
+     },
+     "hex": "#F14AB6"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3537",
+   "key": "36b9ec039ea34cae0ce91dba59bb67c1f1351a28",
+   "name": "color/pink/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8847589492797852,
+      "g": 0.19975899159908295,
+      "b": 0.6319800019264221,
+      "a": 1
+     },
+     "hex": "#E233A1"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3538",
+   "key": "482a777e9a2d17fc6cc03010c5cb7158766b0445",
+   "name": "color/pink/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7916029691696167,
+      "g": 0.15615145862102509,
+      "b": 0.5601235628128052,
+      "a": 1
+     },
+     "hex": "#CA288F"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3540",
+   "key": "a3e6b5957e3592a31bdcfcc7e4cc665f6cf4c47d",
+   "name": "color/pink/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6434097290039062,
+      "g": 0.06958304345607758,
+      "b": 0.4469345211982727,
+      "a": 1
+     },
+     "hex": "#A41272"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3545",
+   "key": "a506c0453ebee1f7793a2d1902db17d44c5f9d73",
+   "name": "color/purple/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9711043834686279,
+      "g": 0.9458746314048767,
+      "b": 0.9923233985900879,
+      "a": 1
+     },
+     "hex": "#F8F1FD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3558",
+   "key": "bd71af8090f5f1d517034e66d49a7521969c5f91",
+   "name": "color/purple/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.35350194573402405,
+      "g": 0.11725633591413498,
+      "b": 0.5616017580032349,
+      "a": 1
+     },
+     "hex": "#5A1E8F"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3546",
+   "key": "bcff269c5190ad01a79dc2ee65f5c061a525791b",
+   "name": "color/purple/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9414751529693604,
+      "g": 0.8922371864318848,
+      "b": 0.9831251502037048,
+      "a": 1
+     },
+     "hex": "#F0E4FB"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3547",
+   "key": "9ec00ef7da347c3a77e213843c10b2269c79a214",
+   "name": "color/purple/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.91253262758255,
+      "g": 0.8383880257606506,
+      "b": 0.9745785593986511,
+      "a": 1
+     },
+     "hex": "#E9D6F9"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3549",
+   "key": "3dbb3695adc9fb79f197d17a638e021812a384e4",
+   "name": "color/purple/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8331524729728699,
+      "g": 0.6890414953231812,
+      "b": 0.957011878490448,
+      "a": 1
+     },
+     "hex": "#D4B0F4"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3551",
+   "key": "172d39937f3d7501bef1e6e8daa7aa49c20c2ae5",
+   "name": "color/purple/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7410078048706055,
+      "g": 0.5260526537895203,
+      "b": 0.9314837455749512,
+      "a": 1
+     },
+     "hex": "#BD86EE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3552",
+   "key": "e0e2da67f162691e0566146f85c14b771f3f3c1d",
+   "name": "color/purple/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6947081685066223,
+      "g": 0.44088372588157654,
+      "b": 0.9204415678977966,
+      "a": 1
+     },
+     "hex": "#B170EB"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3553",
+   "key": "a2504c4b3bee0af37cd8592daaa8005eb6c1a7d0",
+   "name": "color/purple/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6465493440628052,
+      "g": 0.3530981242656708,
+      "b": 0.9040027856826782,
+      "a": 1
+     },
+     "hex": "#A55AE7"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3554",
+   "key": "b96a4fb13ca58baf0647979df3f2204741fd4401",
+   "name": "color/purple/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.5904530882835388,
+      "g": 0.26982951164245605,
+      "b": 0.8688158988952637,
+      "a": 1
+     },
+     "hex": "#9745DE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3556",
+   "key": "2e4af91573abe3f9a7494243aa2d0cf2a2cd6c4f",
+   "name": "color/purple/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.4695635437965393,
+      "g": 0.192457914352417,
+      "b": 0.7121472358703613,
+      "a": 1
+     },
+     "hex": "#7831B6"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3561",
+   "key": "9a6d56897d488ac9df954ce5f3d6c57f167ff33a",
+   "name": "color/red/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.9426899552345276,
+      "b": 0.9346993565559387,
+      "a": 1
+     },
+     "hex": "#FFF0EE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3574",
+   "key": "0e4143ab42514c4bcaad8f4435bfdcc1e0e99b58",
+   "name": "color/red/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.5213066935539246,
+      "g": 0.019338233396410942,
+      "b": 0.010459083132445812,
+      "a": 1
+     },
+     "hex": "#850503"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3562",
+   "key": "817c5d19923f797e121d414ad8479b7b74e193d6",
+   "name": "color/red/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.8845875263214111,
+      "b": 0.8690816760063171,
+      "a": 1
+     },
+     "hex": "#FFE2DE"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3563",
+   "key": "509e69642b7a0e2280140494d792c3837b9ea07e",
+   "name": "color/red/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.8257127404212952,
+      "b": 0.8043203949928284,
+      "a": 1
+     },
+     "hex": "#FFD3CD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3565",
+   "key": "2081fc1cb376d0f65b737ac5e1bc9fc248be9847",
+   "name": "color/red/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.6564608812332153,
+      "b": 0.6136701703071594,
+      "a": 1
+     },
+     "hex": "#FFA79C"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3567",
+   "key": "924ede3ce488d606cca4cffde12f119193180a58",
+   "name": "color/red/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.4449092745780945,
+      "b": 0.3748786151409149,
+      "a": 1
+     },
+     "hex": "#FF7160"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3568",
+   "key": "bb4636bf28011c90c791ed7c24511224c98a5b97",
+   "name": "color/red/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9959447383880615,
+      "g": 0.3112923204898834,
+      "b": 0.23223885893821716,
+      "a": 1
+     },
+     "hex": "#FE4F3B"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3569",
+   "key": "dcb198245e73760540bff4d40036e01dc8987a03",
+   "name": "color/red/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.932671070098877,
+      "g": 0.21763034164905548,
+      "b": 0.13625137507915497,
+      "a": 1
+     },
+     "hex": "#EE3723"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3570",
+   "key": "4ece5ecef1f4c1de1f754ef162fbb8e13065c9d1",
+   "name": "color/red/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8264808654785156,
+      "g": 0.1881186068058014,
+      "b": 0.11981678009033203,
+      "a": 1
+     },
+     "hex": "#D3301F"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3572",
+   "key": "68fe20e1d62484b10f26c3eb4284e4d9397de7f6",
+   "name": "color/red/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6707220077514648,
+      "g": 0.11028487980365753,
+      "b": 0.06660304218530655,
+      "a": 1
+     },
+     "hex": "#AB1C11"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3578",
+   "key": "ea5603effe799705d5450f9e82865cf3dd9d6c07",
+   "name": "color/turquoise/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8808459639549255,
+      "g": 0.9734514951705933,
+      "b": 0.9733068943023682,
+      "a": 1
+     },
+     "hex": "#E1F8F8"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3591",
+   "key": "93310ff0dbcca9f69fb00d8c31c90d9f5a45caa6",
+   "name": "color/turquoise/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.28317126631736755,
+      "b": 0.31449198722839355,
+      "a": 1
+     },
+     "hex": "#004850"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3579",
+   "key": "0fbf1c58dfcdfbe10b21f724b1eb299ee51f223c",
+   "name": "color/turquoise/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.7549510598182678,
+      "g": 0.9460025429725647,
+      "b": 0.9474640488624573,
+      "a": 1
+     },
+     "hex": "#C1F1F2"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3580",
+   "key": "8c0a94893d713cc547b27b677efee1b74b22b1a6",
+   "name": "color/turquoise/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6280030012130737,
+      "g": 0.9156366586685181,
+      "b": 0.9234479665756226,
+      "a": 1
+     },
+     "hex": "#A0E9EB"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3582",
+   "key": "9f59637103ef2dcaa3d4bbaa1208dbf6a83bde54",
+   "name": "color/turquoise/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.27100351452827454,
+      "g": 0.8156602382659912,
+      "b": 0.8619130253791809,
+      "a": 1
+     },
+     "hex": "#45D0DC"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3584",
+   "key": "db3fbb218c404db954f643bf05ff8d3d87b55c55",
+   "name": "color/turquoise/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.05711047723889351,
+      "g": 0.6825159788131714,
+      "b": 0.7401093244552612,
+      "a": 1
+     },
+     "hex": "#0FAEBD"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3585",
+   "key": "1714309807b9c491b3e7e668ae5b79a058331143",
+   "name": "color/turquoise/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.04663262888789177,
+      "g": 0.6150370836257935,
+      "b": 0.6657442450523376,
+      "a": 1
+     },
+     "hex": "#0C9DAA"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3586",
+   "key": "d9cec55529a1e28d8a8f73009a026d1c5ae1911c",
+   "name": "color/turquoise/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.03869051858782768,
+      "g": 0.5485679507255554,
+      "b": 0.5953310132026672,
+      "a": 1
+     },
+     "hex": "#0A8C98"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3587",
+   "key": "003f8a240ee6c6b9239c6589f6b74aa98f36b559",
+   "name": "color/turquoise/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.019857753068208694,
+      "g": 0.48383191227912903,
+      "b": 0.5263963937759399,
+      "a": 1
+     },
+     "hex": "#057B86"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3589",
+   "key": "6e0b58d18855912caedba2c5aedc10a71dc539a0",
+   "name": "color/turquoise/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0,
+      "g": 0.3812061548233032,
+      "b": 0.41806018352508545,
+      "a": 1
+     },
+     "hex": "#00616B"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3594",
+   "key": "e7051932b6f766d209f6b046f3155c33428ea3fb",
+   "name": "color/white/0",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0
+     },
+     "hex": "#FFFFFF00"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3596",
+   "key": "11e0299115b061fd57e89f1294c5cad5e02d2a97",
+   "name": "color/white/10",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.10000000149011612
+     },
+     "hex": "#FFFFFF1A"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3597",
+   "key": "3771b1edf7a4af6a4c5dfcd1f9dcc1369dce20b3",
+   "name": "color/white/20",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.20000000298023224
+     },
+     "hex": "#FFFFFF33"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3598",
+   "key": "354ff208fdc3af8f666df0a93c3f31f0c420d2a4",
+   "name": "color/white/30",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.30000001192092896
+     },
+     "hex": "#FFFFFF4D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3599",
+   "key": "359ed52dc517508c11cc1d1540721b4d246d18f6",
+   "name": "color/white/40",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.4000000059604645
+     },
+     "hex": "#FFFFFF66"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3595",
+   "key": "6628c405ad3f13e89c406bb41863cdfd207a7f7d",
+   "name": "color/white/5",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.05000000074505806
+     },
+     "hex": "#FFFFFF0D"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3600",
+   "key": "17dc2f5f74e67f25c1e087d987fa3586796410d5",
+   "name": "color/white/60",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.6000000238418579
+     },
+     "hex": "#FFFFFF99"
+    }
+   }
+  },
+  {
+   "id": "VariableID:18466:5503",
+   "key": "f546c23393df2c1302b30549280d957e1a328f8d",
+   "name": "color/white/80",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.800000011920929
+     },
+     "hex": "#FFFFFFCC"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3601",
+   "key": "85c156f86bf35e35bd99830e4ba0eb704a41d058",
+   "name": "color/yellow/100",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.9606778621673584,
+      "b": 0.7120599150657654,
+      "a": 1
+     },
+     "hex": "#FFF5B6"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3614",
+   "key": "93d42e06e36b6946986e460ddab74498a9284d6e",
+   "name": "color/yellow/1000",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.36728018522262573,
+      "g": 0.21709519624710083,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#5E3700"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3602",
+   "key": "936ba82a9f0bc6f0631a923e9764319ab4542219",
+   "name": "color/yellow/200",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 1,
+      "g": 0.9121811389923096,
+      "b": 0.4333493709564209,
+      "a": 1
+     },
+     "hex": "#FFE96F"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3603",
+   "key": "0303d421e4519a83cbcc6a0a10e4a23b2cac419c",
+   "name": "color/yellow/300",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9956682324409485,
+      "g": 0.8603032827377319,
+      "b": 0.15931819379329681,
+      "a": 1
+     },
+     "hex": "#FEDB29"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3605",
+   "key": "88d01b9e8984f65fc4fdb10913fd71aee034dda9",
+   "name": "color/yellow/400",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.9216963648796082,
+      "g": 0.7176434397697449,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#EBB700"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3607",
+   "key": "239a5d09f19d491ab6b7351aa5c3d48c24b9ff1c",
+   "name": "color/yellow/500",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.8140980005264282,
+      "g": 0.5743242502212524,
+      "b": 3.543580533005297e-05,
+      "a": 1
+     },
+     "hex": "#D09200"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3608",
+   "key": "37d89458582e45d389cf0d880058282ec545e2f0",
+   "name": "color/yellow/600",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.750844419002533,
+      "g": 0.5087271332740784,
+      "b": 3.536411531968042e-05,
+      "a": 1
+     },
+     "hex": "#BF8200"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3609",
+   "key": "5956d0da1b12de7dca91dcc389cca4bc15dc7504",
+   "name": "color/yellow/700",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6790550351142883,
+      "g": 0.4489699900150299,
+      "b": 2.65889975707978e-05,
+      "a": 1
+     },
+     "hex": "#AD7200"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3610",
+   "key": "a16b895788576813f8281f8fc0406ecfe2baab1d",
+   "name": "color/yellow/800",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.6073795557022095,
+      "g": 0.39116451144218445,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#9B6400"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3612",
+   "key": "677c1eba1631e07f2c9ebc02d0da188cbb6b7cc8",
+   "name": "color/yellow/900",
+   "resolvedType": "COLOR",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": {
+     "color": {
+      "r": 0.4840851128101349,
+      "g": 0.30211642384529114,
+      "b": 0,
+      "a": 1
+     },
+     "hex": "#7B4D00"
+    }
+   }
+  },
+  {
+   "id": "VariableID:14152:3617",
+   "key": "75fb52dd2b1934fe2f50107116528dc3a70cc14f",
+   "name": "number/0",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 0
+   }
+  },
+  {
+   "id": "VariableID:14152:3618",
+   "key": "b2b43000f7e6f4b35b9076fe91b39dec38231610",
+   "name": "number/1",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 1
+   }
+  },
+  {
+   "id": "VariableID:14152:3619",
+   "key": "a8e9922b2745fd781a5156e2693b24b42c60de0e",
+   "name": "number/1-5",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 1.5
+   }
+  },
+  {
+   "id": "VariableID:14152:3625",
+   "key": "f23314aee711dc6a108e3cd06705687f421f4425",
+   "name": "number/10",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 10
+   }
+  },
+  {
+   "id": "VariableID:14152:3647",
+   "key": "e51ade5271071c151344716b473a7fd6820d7f5a",
+   "name": "number/104",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 104
+   }
+  },
+  {
+   "id": "VariableID:14152:3648",
+   "key": "0521ddf31510dcf741e0bc33027cb0e8ef10854f",
+   "name": "number/112",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 112
+   }
+  },
+  {
+   "id": "VariableID:14152:3649",
+   "key": "9289380d1554bc145d26023f6b23c93ccc28d5a0",
+   "name": "number/116",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 116
+   }
+  },
+  {
+   "id": "VariableID:14152:3626",
+   "key": "0e0b766e4d02af85a3010a7b1b912a3c5f1b18c1",
+   "name": "number/12",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 12
+   }
+  },
+  {
+   "id": "VariableID:14152:3627",
+   "key": "ec9ad1800af098a9d72d14334fc54645d54d1606",
+   "name": "number/14",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 14
+   }
+  },
+  {
+   "id": "VariableID:14152:3628",
+   "key": "8ab07aae2ef66b6d599b6c924436217f2832177d",
+   "name": "number/16",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 16
+   }
+  },
+  {
+   "id": "VariableID:14152:3629",
+   "key": "7dec0956a2d2e3cc440d67cd3bbc535d9f0c0714",
+   "name": "number/18",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 18
+   }
+  },
+  {
+   "id": "VariableID:14152:3650",
+   "key": "abc7cf44910d83afd22db5bf8606f01fea046e0f",
+   "name": "number/180",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 180
+   }
+  },
+  {
+   "id": "VariableID:14152:3620",
+   "key": "b4574e90452a2a76807742eb02178bff920dcdfa",
+   "name": "number/2",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 2
+   }
+  },
+  {
+   "id": "VariableID:14152:3630",
+   "key": "2769fbccd937baf5e9e2f3acdd4508e72693475a",
+   "name": "number/20",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 20
+   }
+  },
+  {
+   "id": "VariableID:14152:3631",
+   "key": "3e9bb03afd3a7265122f7a2d0a50e909a234cc7e",
+   "name": "number/24",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 24
+   }
+  },
+  {
+   "id": "VariableID:14152:3632",
+   "key": "3d6fddfc4a84ea81fc6e780e9295a1d7a76fc495",
+   "name": "number/26",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 26
+   }
+  },
+  {
+   "id": "VariableID:14152:3633",
+   "key": "e28914ccb83678982cbcbb5aef77371f1072a30b",
+   "name": "number/28",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 28
+   }
+  },
+  {
+   "id": "VariableID:14152:3621",
+   "key": "29811f20f330d3c8710daaeaa1f4abbe246f6ce0",
+   "name": "number/3",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 3
+   }
+  },
+  {
+   "id": "VariableID:14152:3634",
+   "key": "02d2f22936ed436c4136827e8d76bb9a1c93a6c6",
+   "name": "number/30",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 30
+   }
+  },
+  {
+   "id": "VariableID:14152:3635",
+   "key": "bf5e9e575ae086ae41ad9e427995f82bc7834f7f",
+   "name": "number/32",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 32
+   }
+  },
+  {
+   "id": "VariableID:14152:3636",
+   "key": "1be8d42701a2e826eb72f7e3b8574857c8e3d786",
+   "name": "number/36",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 36
+   }
+  },
+  {
+   "id": "VariableID:14152:3622",
+   "key": "e418981f64f462c4b31b2234d9de017c3446d7ed",
+   "name": "number/4",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 4
+   }
+  },
+  {
+   "id": "VariableID:14152:3637",
+   "key": "169d72bb12cea28e7946c58195fba975b593653b",
+   "name": "number/40",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 40
+   }
+  },
+  {
+   "id": "VariableID:14152:3638",
+   "key": "120871988a1e55537850882b2d6643958bb1f8fc",
+   "name": "number/44",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 44
+   }
+  },
+  {
+   "id": "VariableID:14152:3639",
+   "key": "9f098b271406848e168d10805d812bbebac39ed3",
+   "name": "number/48",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 48
+   }
+  },
+  {
+   "id": "VariableID:14152:3640",
+   "key": "84dffd3be375afc570646386733338d39a7949f0",
+   "name": "number/52",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 52
+   }
+  },
+  {
+   "id": "VariableID:14152:3641",
+   "key": "638fffde10ab5adb142808025a24694bb478c847",
+   "name": "number/56",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 56
+   }
+  },
+  {
+   "id": "VariableID:14152:3623",
+   "key": "0109ad70b83a701b695a6f55d2c47bdafb4cf6bb",
+   "name": "number/6",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 6
+   }
+  },
+  {
+   "id": "VariableID:14152:3642",
+   "key": "f1a98bdaf0b5cab352c44e8251a164ab46607b17",
+   "name": "number/64",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 64
+   }
+  },
+  {
+   "id": "VariableID:19348:2",
+   "key": "07a6a0f8347bdf2cbbc2d4a895c0a987c9e3b9b4",
+   "name": "number/7",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [
+    "WIDTH_HEIGHT",
+    "GAP"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 7
+   }
+  },
+  {
+   "id": "VariableID:14152:3643",
+   "key": "8a3160f263bee98add1b6ca94ba412ccb5fe9d5f",
+   "name": "number/72",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 72
+   }
+  },
+  {
+   "id": "VariableID:14152:3624",
+   "key": "eadb9ac734b58af35dbdcfe37c76aa6a494d22d7",
+   "name": "number/8",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 8
+   }
+  },
+  {
+   "id": "VariableID:14152:3644",
+   "key": "1981e45b0f0f2f76947f496cc24b710d8cc64b6d",
+   "name": "number/80",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 80
+   }
+  },
+  {
+   "id": "VariableID:14152:3645",
+   "key": "720389628688e18ae5406bb9e395890f3ea8c716",
+   "name": "number/90",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 90
+   }
+  },
+  {
+   "id": "VariableID:14152:3646",
+   "key": "1a60677c58e9472bf2a8e2c20ed8fbcf3aee5bbf",
+   "name": "number/96",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 96
+   }
+  },
+  {
+   "id": "VariableID:14152:3651",
+   "key": "797a9568b35e5a27069bf25638ae876f8bdb587e",
+   "name": "number/full",
+   "resolvedType": "FLOAT",
+   "description": "",
+   "scopes": [],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": 999
+   }
+  },
+  {
+   "id": "VariableID:18913:2956",
+   "key": "ea440b8335ef348f80e4f46e7e93d6baf97bc082",
+   "name": "text",
+   "resolvedType": "STRING",
+   "description": "",
+   "scopes": [
+    "ALL_SCOPES"
+   ],
+   "hiddenFromPublishing": false,
+   "codeSyntax": {},
+   "valuesByMode": {
+    "light": "테이블"
+   }
+  }
+ ]
+}

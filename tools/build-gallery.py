@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""meta/ + sprite.svg → index.html (검색 갤러리) · icons.json (기계용 목록).
+"""meta/ + sprite.svg → icons.html (검색 갤러리) · icons.json (기계용 목록) · cloudx-icons.zip
 
     python3 tools/build-gallery.py
 
-index.html은 스프라이트를 인라인으로 품고 있어 파일 하나로 동작합니다(GitHub Pages).
+icons.html은 스프라이트를 인라인으로 품고 있어 파일 하나로 동작합니다(GitHub Pages). 헤더·기본 CSS는 tools/page.py 공통 셸입니다.
 세트 순서는 Figma 캔버스 배치 순서(`meta/_sets.json`), 그림 크기는 `meta/_ink.json`,
 한국어 검색어는 `meta/_keywords.json`에서 옵니다. 셋 다 cloudXDS에서 복사해 온 것이고
 `tools/sync.py`가 갱신합니다.
 """
 import os, re, json, html, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import page
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 META = os.path.join(ROOT, "meta")
-REPO_URL = "https://github.com/osstemswai/cloudx-icons"
+REPO_URL = "https://github.com/osstemswai/cloudx-foundation"
 
 
 def read(p):
@@ -78,51 +80,16 @@ def collect():
 # ── 페이지 ──────────────────────────────────────────────────────────────
 
 CSS = r"""
-:root{--bg:#f5f5f5;--card:#fff;--chip:#e9e9e9;--line:rgba(0,0,0,.1);--ink:#1d1d1d;--ink2:#565656;--ink3:#8a8a8a;
-      --accent:#eb6100;--accent-soft:#fef1e9;--accent-line:#f5af7d;--pv:#fff;--pv-line:rgba(0,0,0,.08);--pv-dark:#1d1d1d;
-      --code-bg:#fafafa;color-scheme:light}
-:root[data-theme="dark"]{--bg:#121212;--card:#191919;--chip:#262626;--line:rgba(102,102,102,.28);--ink:#ebebeb;--ink2:#c4c4c4;--ink3:#8f8f8f;
-      --accent:#f08a3e;--accent-soft:rgba(235,97,0,.18);--accent-line:#b85a16;--pv:#f3f4f5;--pv-line:transparent;--code-bg:#0d0d0d;color-scheme:dark}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121212;--card:#191919;--chip:#262626;--line:rgba(102,102,102,.28);
-      --ink:#ebebeb;--ink2:#c4c4c4;--ink3:#8f8f8f;--accent:#f08a3e;--accent-soft:rgba(235,97,0,.18);--accent-line:#b85a16;--pv:#f3f4f5;--pv-line:transparent;--code-bg:#0d0d0d;color-scheme:dark}}
-*{box-sizing:border-box}
-html,body{margin:0;background:var(--bg);color:var(--ink)}
-body{font:14px/1.5 Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-button{font:inherit;color:inherit}
-code,pre,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-*{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
-::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
-
-.hd{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:12px 24px;background:var(--bg);border-bottom:1px solid var(--line)}
-.hd h1{margin:0;font-size:17px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
-.hd h1 svg{width:22px;height:22px;color:var(--accent)}
-.hd__n{font-size:12.5px;color:var(--ink3)}
-.hd__acts{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:12.5px;font-weight:600;text-decoration:none;cursor:pointer}
-.btn:hover{border-color:var(--accent);color:var(--accent)}
-.btn--dark{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-.btn--dark:hover{opacity:.85;color:var(--bg)}
-.btn svg{width:14px;height:14px}
-
-.wrap{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:28px;align-items:start;padding:20px 24px 60px;max-width:1600px;margin:0 auto}
-.search{display:flex;align-items:center;gap:10px;height:48px;padding:0 16px;border:1px solid var(--line);border-radius:12px;background:var(--card);cursor:text}
-.search:focus-within{border-color:var(--ink2)}
-.search svg{width:18px;height:18px;color:var(--ink3);flex:none}
-.search input{flex:1;min-width:0;border:0;outline:0;background:none;font:inherit;font-size:15px;color:var(--ink)}
-.search input::placeholder{color:var(--ink3)}
-.search kbd{font:11px ui-monospace,Menlo,monospace;color:var(--ink3);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+.icl-wrap{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:28px;align-items:start}
 .tools{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:12px 0 4px}
 .seg{display:inline-flex;background:var(--chip);border-radius:999px;padding:3px}
 .seg button{border:0;background:none;font-size:12.5px;font-weight:600;color:var(--ink3);padding:6px 14px;border-radius:999px;cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--card);color:var(--ink);box-shadow:0 1px 2px rgba(0,0,0,.08)}
-.count{font-size:12px;color:var(--ink3);white-space:nowrap}
 .cats{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 22px}
 .cats button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 11px;font-size:12px;color:var(--ink2);cursor:pointer}
 .cats button small{color:var(--ink3);margin-left:4px}
 .cats button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .cats button[aria-pressed="true"] small{color:inherit;opacity:.7}
-
 .cat{margin:0 0 26px}
 .cat[hidden]{display:none}
 .cat h2{font-size:12px;margin:0 0 10px;color:var(--ink3);font-weight:700;letter-spacing:.05em;text-transform:uppercase}
@@ -138,8 +105,7 @@ code,pre,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 .c[hidden]{display:none}
 .empty{display:none;padding:48px 0;text-align:center;color:var(--ink3)}
 .empty.show{display:block}
-
-.d{position:sticky;top:76px;border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px;max-height:calc(100vh - 96px);overflow:auto}
+.d{position:sticky;top:72px;border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px;max-height:calc(100vh - 92px);overflow:auto}
 .d__empty{font-size:13px;color:var(--ink3);line-height:1.7}
 .d__empty b{color:var(--ink2)}
 .d__body[hidden]{display:none}
@@ -167,18 +133,12 @@ pre.code--svg{max-height:240px}
 .hint code{font-size:11px;background:var(--chip);padding:1px 5px;border-radius:4px}
 .fig{margin:0 0 6px;font-size:12.5px}
 .fig b{font-weight:600}
-
-.ft{padding:28px 24px 48px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);line-height:1.8;max-width:1600px;margin:0 auto}
-.ft a{color:var(--ink2)}
-.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:200;background:#1f1f1f;color:#fff;font-size:13px;padding:10px 16px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .15s}
-.toast.show{opacity:1}
 .d__head{display:flex;align-items:flex-start;gap:10px}
 .d__head .d__name{flex:1;min-width:0}
 .d__close{display:none;flex:none;width:30px;height:30px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:999px;background:var(--card);cursor:pointer;padding:0}
 .d__close svg{width:14px;height:14px}
 @media (max-width:980px){
-  .wrap{grid-template-columns:1fr;padding:16px 16px 48px}
-  .hd{padding:10px 16px}.ft{padding:24px 16px 40px}
+  .icl-wrap{grid-template-columns:1fr}
   .d{position:fixed;left:0;right:0;bottom:0;z-index:40;max-height:72vh;border-radius:16px 16px 0 0;box-shadow:0 -8px 30px rgba(0,0,0,.18);
      transform:translateY(105%);transition:transform .22s ease}
   .d.open{transform:none}
@@ -192,16 +152,6 @@ JS = r"""
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
-
-  /* 테마 — 시스템 설정을 따르고, 버튼으로 바꾸면 이 브라우저에만 기억한다 */
-  var root = document.documentElement;
-  try { var t = localStorage.getItem('cxi-theme'); if (t) root.setAttribute('data-theme', t); } catch (e) {}
-  $('#theme').addEventListener('click', function () {
-    var dark = root.getAttribute('data-theme') === 'dark' || (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
-    var next = dark ? 'light' : 'dark';
-    root.setAttribute('data-theme', next);
-    try { localStorage.setItem('cxi-theme', next); } catch (e) {}
-  });
 
   var d = $('#d'), body = $('.d__body', d), empty = $('.d__empty', d);
   var q = $('#q'), cells = $$('.c'), seg = $$('.seg button'), catBtns = $$('.cats button'), countEl = $('.count'), emptyMsg = $('.empty');
@@ -237,10 +187,7 @@ JS = r"""
     if (cur) { cur.classList.remove('on'); cur = null; }
     history.replaceState(null, '', location.pathname + location.search);
   }
-  function toast(msg) {
-    var t = $('#toast'); t.textContent = msg; t.classList.add('show');
-    clearTimeout(t._h); t._h = setTimeout(function () { t.classList.remove('show'); }, 1300);
-  }
+  function toast(msg) { if (window.cxToast) cxToast(msg); }
   document.addEventListener('click', function (e) {
     var c = e.target.closest('.c'); if (c) { select(c, true); return; }
     if (e.target.closest('.d__close')) { close(); return; }
@@ -284,31 +231,12 @@ JS = r"""
 })();
 """
 
-PAGE = r"""<!doctype html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cloud X Icons</title>
-<meta name="description" content="Cloud X 디자인시스템 아이콘 {{N}}개 — 검색하고 코드를 복사하거나 SVG를 내려받습니다.">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
-<style>{{CSS}}</style>
-</head>
-<body>
-<header class="hd">
-  <h1><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#i-00_general-shapes-fill"/></svg>Cloud X Icons</h1>
-  <span class="hd__n">아이콘 {{N}} · 세트 {{NSET}} · 카테고리 {{NCAT}}</span>
-  <div class="hd__acts">
-    <a class="btn btn--dark" href="cloudx-icons.zip" download>전체 다운로드 (ZIP)</a>
-    <a class="btn" href="sprite.svg" download>sprite.svg</a>
-    <a class="btn" href="{{REPO}}" target="_blank" rel="noopener">GitHub</a>
-    <button type="button" class="btn" id="theme" aria-label="테마 전환">테마</button>
-  </div>
-</header>
-
-<main class="wrap">
+BODY = r"""
+<h1 class="pg-h">아이콘</h1>
+<p class="pg-sub">아이콘 {{N}} · 세트 {{NSET}} · 카테고리 {{NCAT}} — viewBox 0 0 20 20, 선(Fill=off)이 기본이고 면은 <code>-fill</code>. 색은 <code>color</code>로 줍니다.</p>
+<div class="icl-wrap">
   <section>
-    <label class="search"><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#i-00_general-search"/></svg>
+    <label class="search"><svg viewBox="0 0 20 20" aria-hidden="true" style="width:18px;height:18px;color:var(--ink3);flex:none"><use href="#i-00_general-search"/></svg>
       <input id="q" placeholder="화살표, calendar, 검색, 환자…" autocomplete="off" aria-label="아이콘 검색"><kbd>/</kbd></label>
     <div class="tools">
       <div class="seg" role="group" aria-label="변형">
@@ -328,7 +256,7 @@ PAGE = r"""<!doctype html>
 
   <aside class="d" id="d" aria-live="polite">
     <div class="d__empty">아이콘을 누르면 여기에 이름 · 검색어 · 미리보기 · 코드가 나옵니다.<br><br>
-      전부 필요하면 위의 <b>전체 다운로드 (ZIP)</b>으로 낱개 SVG · sprite.svg · icons.json을 한 번에 받습니다.<br><br>
+      전부 필요하면 위의 <b>아이콘 ZIP</b>으로 낱개 SVG · sprite.svg · icons.json을 한 번에 받습니다.<br><br>
       <b>크기</b>는 16 · 20 · 24 중 하나로 주고, <b>색</b>은 <code>color</code>로 줍니다.<br>
       선(<code>Fill=off</code>)이 기본이고 면은 이름 뒤에 <code>-fill</code>이 붙습니다.</div>
     <div class="d__body" hidden>
@@ -370,18 +298,7 @@ PAGE = r"""<!doctype html>
       <p class="hint">Figma 에셋 패널에서 위 세트 이름으로 검색하고 변형(Fill)을 고릅니다. 라이브러리는 <code>OnePlatform-Icon</code>(구 poc-Icon)입니다.</p>
     </div>
   </aside>
-</main>
-
-<footer class="ft">
-  원본은 Figma 라이브러리 <b>OnePlatform-Icon</b>(구 poc-Icon)이고, <a href="https://github.com/h1osstem/cloudXDS" target="_blank" rel="noopener">h1osstem/cloudXDS</a>의 <code>Icon/</code>에서 정규화한 것을 이 저장소가 그대로 가져옵니다
-  ({{SOURCE}}). 아이콘을 고칠 일이 있으면 디자인시스템 담당자에게 요청해 주세요. 이 저장소에서 직접 고치지 않습니다.<br>
-  오스템임플란트 SW디자인 · 사내 공유용
-</footer>
-<div class="toast" id="toast" role="status"></div>
-{{SPRITE}}
-<script>{{JS}}</script>
-</body>
-</html>
+</div>
 """
 
 
@@ -410,11 +327,15 @@ def render(cats, source, sprite):
             src += " · %s 동기화" % html.escape(source["synced"])
     else:
         src = "출처 스탬프 없음"
-    page = (PAGE.replace("{{CSS}}", CSS.strip()).replace("{{JS}}", JS.strip())
-            .replace("{{N}}", str(n)).replace("{{NSET}}", str(nset)).replace("{{NCAT}}", str(len(cats)))
-            .replace("{{REPO}}", REPO_URL).replace("{{CATBTNS}}", "\n      ".join(catbtns))
-            .replace("{{CATS}}", "\n    ".join(blocks)).replace("{{SOURCE}}", src).replace("{{SPRITE}}", sprite))
-    return page, n, nset
+    body = (BODY.replace("{{N}}", str(n)).replace("{{NSET}}", str(nset)).replace("{{NCAT}}", str(len(cats)))
+            .replace("{{CATBTNS}}", "\n      ".join(catbtns)).replace("{{CATS}}", "\n    ".join(blocks)))
+    stamp = ""
+    tp = os.path.join(ROOT, "tokens.json")
+    if os.path.exists(tp):
+        stamp = json.loads(read(tp))["source"].get("exportedAt") or ""
+    out = page.render("Cloud X Foundation · 아이콘", "icons.html", body, css=CSS.strip(), js=JS.strip(), tail=sprite,
+                      desc="Cloud X 아이콘 %d개 — 검색하고 코드를 복사하거나 SVG를 내려받습니다." % n, stamp=stamp)
+    return out, n, nset
 
 
 def build_zip(cats):
@@ -451,9 +372,9 @@ def main():
         sys.exit("스프라이트와 _sets.json이 어긋납니다 — 메타에만 %d · 스프라이트에만 %d\n%s" % (
             len(missing), len(extra), "\n".join(["  - " + m for m in missing[:10]] + ["  + " + e for e in extra[:10]])))
 
-    page, n, nset = render(cats, source, sprite)
-    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fp:
-        fp.write(page)
+    page_html, n, nset = render(cats, source, sprite)
+    with open(os.path.join(ROOT, "icons.html"), "w", encoding="utf-8") as fp:
+        fp.write(page_html)
     data = {
         "source": source,
         "count": n,
@@ -465,7 +386,7 @@ def main():
         json.dump(data, fp, ensure_ascii=False, indent=1)
         fp.write("\n")
     zkb = build_zip(cats) / 1024
-    print("index.html — 아이콘 %d개 · 세트 %d · %.0fKB / icons.json / cloudx-icons.zip %.0fKB" % (n, nset, len(page) / 1024, zkb), file=sys.stderr)
+    print("icons.html — 아이콘 %d개 · 세트 %d · %.0fKB / icons.json / cloudx-icons.zip %.0fKB" % (n, nset, len(page_html) / 1024, zkb), file=sys.stderr)
 
 
 if __name__ == "__main__":

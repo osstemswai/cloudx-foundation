@@ -1,0 +1,1466 @@
+{
+ "schemaVersion": 1,
+ "source": {
+  "fileKey": "dJwm3aKPCcDIGcIwZBhZPS",
+  "exportedAt": "2026-10-23",
+  "exportedBy": "Figma Plugin API (use_figma) 2026-10-23"
+ },
+ "textStyles": [
+  {
+   "id": "S:fde642742b210a91e5867b0301a88a1287ddcef9,",
+   "key": "fde642742b210a91e5867b0301a88a1287ddcef9",
+   "name": "title/lg/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 24,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 30
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3998",
+     "name": "font-size/24",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4013",
+     "name": "line-height/30",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:0e2a2d272bd3b30721571a825608cae28fb831d4,",
+   "key": "0e2a2d272bd3b30721571a825608cae28fb831d4",
+   "name": "title/lg/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 24,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 30
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3998",
+     "name": "font-size/24",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4013",
+     "name": "line-height/30",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:ea85591c30af069baaa43cbd2fd609db88597773,",
+   "key": "ea85591c30af069baaa43cbd2fd609db88597773",
+   "name": "title/md/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 20,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3997",
+     "name": "font-size/20",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4010",
+     "name": "line-height/24",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:e750351a3c5d074dbe3a13ae5b83a59dce1db0b5,",
+   "key": "e750351a3c5d074dbe3a13ae5b83a59dce1db0b5",
+   "name": "title/md/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 20,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3997",
+     "name": "font-size/20",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4010",
+     "name": "line-height/24",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:17c999a472dc0018e4bda59d43421eef06b00d81,",
+   "key": "17c999a472dc0018e4bda59d43421eef06b00d81",
+   "name": "title/sm/bold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Bold"
+   },
+   "fontSize": 18,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 26
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3996",
+     "name": "font-size/18",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3420",
+     "name": "font-weight/bold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4011",
+     "name": "line-height/26",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:782a3a8ecb0658a9e3ec1a4b6b63824d5186d654,",
+   "key": "782a3a8ecb0658a9e3ec1a4b6b63824d5186d654",
+   "name": "title/sm/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 18,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 26
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3996",
+     "name": "font-size/18",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4011",
+     "name": "line-height/26",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:68167637fed70147a1d32912fdca23403f8ebe36,",
+   "key": "68167637fed70147a1d32912fdca23403f8ebe36",
+   "name": "title/sm/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 18,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 26
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3996",
+     "name": "font-size/18",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4011",
+     "name": "line-height/26",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:8d8dc063c67438bba6e688e7d2b1dfa87f35677c,",
+   "key": "8d8dc063c67438bba6e688e7d2b1dfa87f35677c",
+   "name": "title/xs/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 20
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3995",
+     "name": "font-size/16",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4009",
+     "name": "line-height/20",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:92672aadca92d150395157f4ef8827fa3e10fca5,",
+   "key": "92672aadca92d150395157f4ef8827fa3e10fca5",
+   "name": "title/xs/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Regular"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 20
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3995",
+     "name": "font-size/16",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4009",
+     "name": "line-height/20",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:3ac73242494f277b40caf74e2b22d28e639dab4a,",
+   "key": "3ac73242494f277b40caf74e2b22d28e639dab4a",
+   "name": "title/xl/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 32,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 52
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:4000",
+     "name": "font-size/32",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4016",
+     "name": "line-height/52",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:84104d1e64e24b512f5b5562af86873641dd4702,",
+   "key": "84104d1e64e24b512f5b5562af86873641dd4702",
+   "name": "title/xl/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Regular"
+   },
+   "fontSize": 32,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 52
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:4000",
+     "name": "font-size/32",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4016",
+     "name": "line-height/52",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:053d16bb03f18c3bb16f98d9bb364ea16b941eb4,",
+   "key": "053d16bb03f18c3bb16f98d9bb364ea16b941eb4",
+   "name": "body/lg/bold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Bold"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3995",
+     "name": "font-size/16",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3420",
+     "name": "font-weight/bold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4010",
+     "name": "line-height/24",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:8bdad4472b26b29a85043356d3546bc683728015,",
+   "key": "8bdad4472b26b29a85043356d3546bc683728015",
+   "name": "body/lg/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3995",
+     "name": "font-size/16",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4010",
+     "name": "line-height/24",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:2687c91f233e9b7e8ad762e9aafedeef15782213,",
+   "key": "2687c91f233e9b7e8ad762e9aafedeef15782213",
+   "name": "body/lg/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3995",
+     "name": "font-size/16",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4010",
+     "name": "line-height/24",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:18c7b5af3c6d7506fc82ced2965e6ea02f7f6437,",
+   "key": "18c7b5af3c6d7506fc82ced2965e6ea02f7f6437",
+   "name": "body/lg/regular",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Regular"
+   },
+   "fontSize": 16,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 24
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3995",
+     "name": "font-size/16",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3422",
+     "name": "font-weight/regular",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4010",
+     "name": "line-height/24",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:93a2114465a11211361b0cbc6893855c9607a485,",
+   "key": "93a2114465a11211361b0cbc6893855c9607a485",
+   "name": "body/md/bold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Bold"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 20
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3994",
+     "name": "font-size/14",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3420",
+     "name": "font-weight/bold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4009",
+     "name": "line-height/20",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:94d9c1f762a5a85ba8c136b6489c582d1b3a0aa6,",
+   "key": "94d9c1f762a5a85ba8c136b6489c582d1b3a0aa6",
+   "name": "body/md/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 20
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3994",
+     "name": "font-size/14",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4009",
+     "name": "line-height/20",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:3559d840b080d3569514518e9d903b569a6b52d4,",
+   "key": "3559d840b080d3569514518e9d903b569a6b52d4",
+   "name": "body/md/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 20
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3994",
+     "name": "font-size/14",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4009",
+     "name": "line-height/20",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:56005437e82389dba26ecb266e6fd1fdb165f9d1,",
+   "key": "56005437e82389dba26ecb266e6fd1fdb165f9d1",
+   "name": "body/md/regular",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Regular"
+   },
+   "fontSize": 14,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 20
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3994",
+     "name": "font-size/14",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3422",
+     "name": "font-weight/regular",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4009",
+     "name": "line-height/20",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:672ee06eb740f29a6650827188fc0e214bd1443e,",
+   "key": "672ee06eb740f29a6650827188fc0e214bd1443e",
+   "name": "body/sm/bold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Bold"
+   },
+   "fontSize": 12,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3993",
+     "name": "font-size/12",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3420",
+     "name": "font-weight/bold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4007",
+     "name": "line-height/16",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:8216435ce01bf3351f7d4d70b94983dc42415e8d,",
+   "key": "8216435ce01bf3351f7d4d70b94983dc42415e8d",
+   "name": "body/sm/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 12,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3993",
+     "name": "font-size/12",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4007",
+     "name": "line-height/16",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:bbade815b0acf3393b120824695c0bb2ed12bc02,",
+   "key": "bbade815b0acf3393b120824695c0bb2ed12bc02",
+   "name": "body/sm/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 12,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3993",
+     "name": "font-size/12",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4007",
+     "name": "line-height/16",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:5fba70814257ee79bdbe6072906107f49d00bf4e,",
+   "key": "5fba70814257ee79bdbe6072906107f49d00bf4e",
+   "name": "body/sm/regular",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Thin"
+   },
+   "fontSize": 12,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 16
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14152:3993",
+     "name": "font-size/12",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3422",
+     "name": "font-weight/regular",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4007",
+     "name": "line-height/16",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:f526c2b622d59e086308ffe2b9339a232ca1b3e8,",
+   "key": "f526c2b622d59e086308ffe2b9339a232ca1b3e8",
+   "name": "body/xs/bold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Bold"
+   },
+   "fontSize": 10,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 14
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14290:37038",
+     "name": "font-size/10",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3420",
+     "name": "font-weight/bold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4006",
+     "name": "line-height/14",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:650e9a6d7a151c40155d3df76f117c865ff03776,",
+   "key": "650e9a6d7a151c40155d3df76f117c865ff03776",
+   "name": "body/xs/semibold",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "SemiBold"
+   },
+   "fontSize": 10,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 14
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14290:37038",
+     "name": "font-size/10",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3423",
+     "name": "font-weight/semibold",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4006",
+     "name": "line-height/14",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:5a0652d79e5b6e1ac6c888ff44730349d1d12d41,",
+   "key": "5a0652d79e5b6e1ac6c888ff44730349d1d12d41",
+   "name": "body/xs/medium",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Medium"
+   },
+   "fontSize": 10,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 14
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14290:37038",
+     "name": "font-size/10",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3421",
+     "name": "font-weight/medium",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4006",
+     "name": "line-height/14",
+     "collection": "typography"
+    }
+   }
+  },
+  {
+   "id": "S:c585284593a5bda964d1f3b47fafb3b0499014c4,",
+   "key": "c585284593a5bda964d1f3b47fafb3b0499014c4",
+   "name": "body/xs/regular",
+   "description": "",
+   "fontName": {
+    "family": "Pretendard",
+    "style": "Regular"
+   },
+   "fontSize": 10,
+   "lineHeight": {
+    "unit": "PIXELS",
+    "value": 14
+   },
+   "letterSpacing": {
+    "unit": "PIXELS",
+    "value": 0
+   },
+   "paragraphSpacing": 0,
+   "textCase": "ORIGINAL",
+   "textDecoration": "NONE",
+   "boundVariables": {
+    "fontSize": {
+     "id": "VariableID:14290:37038",
+     "name": "font-size/10",
+     "collection": "typography"
+    },
+    "fontStyle": {
+     "id": "VariableID:14153:3422",
+     "name": "font-weight/regular",
+     "collection": "typography"
+    },
+    "fontFamily": {
+     "id": "VariableID:14153:3419",
+     "name": "font-family/base",
+     "collection": "typography"
+    },
+    "lineHeight": {
+     "id": "VariableID:14152:4006",
+     "name": "line-height/14",
+     "collection": "typography"
+    }
+   }
+  }
+ ],
+ "effectStyles": [
+  {
+   "id": "S:f6f3b48ebe57e69666ad1964c0a2214228914dbe,",
+   "key": "f6f3b48ebe57e69666ad1964c0a2214228914dbe",
+   "name": "elevation/raised",
+   "description": "화면에 놓인 면 — Module·FloatingActions·키패드·컬러피커 패널·GNB·GNB 선택 항목·Modal",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 4,
+     "boundVariables": {
+      "color": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:19973:2"
+      },
+      "radius": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:19973:3"
+      }
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.25
+     },
+     "offset": {
+      "x": 0,
+      "y": 0
+     },
+     "spread": 0,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": false
+    }
+   ],
+   "boundVariables": {
+    "effects": [
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:19973:2"
+     },
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:19973:3"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S:39282f5b346fab90c1cfad1ae0ccd4813ab86504,",
+   "key": "39282f5b346fab90c1cfad1ae0ccd4813ab86504",
+   "name": "elevation/overlay",
+   "description": "눌렀을 때 위로 뜨는 층 — Menu·SelectMenu·Tooltip·Calendar 등 드롭다운·팝오버",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 12,
+     "boundVariables": {
+      "color": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:19977:2"
+      },
+      "radius": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:19977:3"
+      },
+      "offsetY": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:19977:4"
+      }
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.11999999731779099
+     },
+     "offset": {
+      "x": 0,
+      "y": 4
+     },
+     "spread": 0,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": true
+    }
+   ],
+   "boundVariables": {
+    "effects": [
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:19977:2"
+     },
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:19977:3"
+     },
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:19977:4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S:2662bf3f11cb427c73cd32ae55981f9fdf030816,",
+   "key": "2662bf3f11cb427c73cd32ae55981f9fdf030816",
+   "name": "glow/focus",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 0,
+     "boundVariables": {
+      "color": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:18284:4765"
+      },
+      "spread": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:18284:16405"
+      }
+     },
+     "color": {
+      "r": 0.9215686321258545,
+      "g": 0.3803921639919281,
+      "b": 0,
+      "a": 0.18000000715255737
+     },
+     "offset": {
+      "x": 0,
+      "y": 0
+     },
+     "spread": 3,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": false
+    }
+   ],
+   "boundVariables": {
+    "effects": [
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:18284:4765"
+     },
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:18284:16405"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S:60b7de04b938ec4bb4f340dfb4f7676dbc983ab9,",
+   "key": "60b7de04b938ec4bb4f340dfb4f7676dbc983ab9",
+   "name": "glow/focus-error",
+   "description": "",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 0,
+     "boundVariables": {
+      "color": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:18340:275568"
+      },
+      "spread": {
+       "type": "VARIABLE_ALIAS",
+       "id": "VariableID:18284:16405"
+      }
+     },
+     "color": {
+      "r": 0.9959447383880615,
+      "g": 0.3112923204898834,
+      "b": 0.23223885893821716,
+      "a": 0.30000001192092896
+     },
+     "offset": {
+      "x": 0,
+      "y": 0
+     },
+     "spread": 3,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": false
+    }
+   ],
+   "boundVariables": {
+    "effects": [
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:18284:16405"
+     },
+     {
+      "type": "VARIABLE_ALIAS",
+      "id": "VariableID:18340:275568"
+     }
+    ]
+   }
+  },
+  {
+   "id": "S:b8df8bd67b07fceaf78234e0f0869c0155e76ebe,",
+   "key": "b8df8bd67b07fceaf78234e0f0869c0155e76ebe",
+   "name": "elevation/control",
+   "description": "작은 컨트롤 손잡이 — Switch thumb (외부 라이브러리 ❤️0.14/elevation-30 값 그대로 옮김)",
+   "effects": [
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 4,
+     "boundVariables": {},
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.23999999463558197
+     },
+     "offset": {
+      "x": 0,
+      "y": 3.200000047683716
+     },
+     "spread": 0,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 4,
+     "boundVariables": {},
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.05999999865889549
+     },
+     "offset": {
+      "x": 0,
+      "y": 0
+     },
+     "spread": 0,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": true
+    },
+    {
+     "type": "DROP_SHADOW",
+     "visible": true,
+     "radius": 1.399999976158142,
+     "boundVariables": {},
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.11999999731779099
+     },
+     "offset": {
+      "x": 0,
+      "y": -1
+     },
+     "spread": 0,
+     "blendMode": "NORMAL",
+     "showShadowBehindNode": false
+    }
+   ],
+   "boundVariables": {}
+  }
+ ]
+}

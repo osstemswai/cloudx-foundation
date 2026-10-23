@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cloud X Foundation · 넘버</title>
+<meta name="description" content="Cloud X 수치 토큰 — 스케일과 역할 토큰">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
+<style>
+:root{--bg:#f5f5f5;--card:#fff;--chip:#e9e9e9;--line:rgba(0,0,0,.1);--ink:#1d1d1d;--ink2:#565656;--ink3:#8a8a8a;
+      --accent:#eb6100;--accent-soft:#fef1e9;--accent-line:#f5af7d;--pv:#fff;--pv-line:rgba(0,0,0,.08);--code-bg:#fafafa;color-scheme:light}
+:root[data-theme="dark"]{--bg:#121212;--card:#191919;--chip:#262626;--line:rgba(102,102,102,.28);--ink:#ebebeb;--ink2:#c4c4c4;--ink3:#8f8f8f;
+      --accent:#f08a3e;--accent-soft:rgba(235,97,0,.18);--accent-line:#b85a16;--pv:#f3f4f5;--pv-line:transparent;--code-bg:#0d0d0d;color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121212;--card:#191919;--chip:#262626;--line:rgba(102,102,102,.28);
+      --ink:#ebebeb;--ink2:#c4c4c4;--ink3:#8f8f8f;--accent:#f08a3e;--accent-soft:rgba(235,97,0,.18);--accent-line:#b85a16;--pv:#f3f4f5;--pv-line:transparent;--code-bg:#0d0d0d;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+body{font:14px/1.5 Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit}
+code,pre,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+*{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-thumb{background:var(--line);border-radius:8px}
+.hd{position:sticky;top:0;z-index:30;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:10px 24px;background:var(--bg);border-bottom:1px solid var(--line)}
+.hd h1{margin:0;font-size:17px;letter-spacing:-.01em;display:flex;align-items:center;gap:10px}
+.hd h1 a{text-decoration:none}
+.hd h1 i{width:22px;height:22px;border-radius:6px;background:var(--accent);display:inline-block}
+.nav{display:flex;gap:2px;flex-wrap:wrap}
+.nav a{text-decoration:none;font-size:13px;font-weight:600;color:var(--ink3);padding:6px 10px;border-radius:8px}
+.nav a:hover{color:var(--ink);background:var(--chip)}
+.nav a.on{color:var(--ink);background:var(--chip)}
+.hd__acts{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font-size:12.5px;font-weight:600;text-decoration:none;cursor:pointer}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn--dark{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn--dark:hover{opacity:.85;color:var(--bg)}
+.wrap{padding:24px 24px 60px;max-width:1600px;margin:0 auto}
+.pg-h{margin:0 0 6px;font-size:26px;letter-spacing:-.02em}
+.pg-sub{margin:0 0 20px;color:var(--ink3);font-size:13px}
+.sec{margin:0 0 36px}
+.sec h2{font-size:16px;margin:0 0 4px}
+.sec .lead{margin:0 0 12px;color:var(--ink3);font-size:13px}
+.search{display:flex;align-items:center;gap:10px;height:44px;padding:0 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);cursor:text;max-width:560px;margin:0 0 18px}
+.search:focus-within{border-color:var(--ink2)}
+.search input{flex:1;min-width:0;border:0;outline:0;background:none;font:inherit;font-size:14px;color:var(--ink)}
+.search input::placeholder{color:var(--ink3)}
+.search kbd{font:11px ui-monospace,Menlo,monospace;color:var(--ink3);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+.count{font-size:12px;color:var(--ink3);white-space:nowrap}
+table.t{width:100%;border-collapse:collapse;font-size:13px}
+table.t th{text-align:left;font-size:11.5px;color:var(--ink3);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+table.t td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+table.t tr[hidden]{display:none}
+table.t code{font-size:12px}
+.cp{cursor:pointer;border:1px solid transparent;border-radius:6px;padding:2px 6px;margin:-2px -6px}
+.cp:hover{border-color:var(--line);background:var(--chip)}
+.sw{display:inline-block;width:28px;height:28px;border-radius:7px;border:1px solid var(--pv-line);vertical-align:middle;
+    background-image:linear-gradient(45deg,#ccc 25%,transparent 25%),linear-gradient(-45deg,#ccc 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#ccc 75%),linear-gradient(-45deg,transparent 75%,#ccc 75%);background-size:8px 8px;background-position:0 0,0 4px,4px -4px,-4px 0}
+.sw i{display:block;width:100%;height:100%;border-radius:6px}
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:200;background:#1f1f1f;color:#fff;font-size:13px;padding:10px 16px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .15s}
+.toast.show{opacity:1}
+.ft{padding:28px 24px 48px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);line-height:1.8;max-width:1600px;margin:0 auto}
+.ft a{color:var(--ink2)}
+@media (max-width:980px){.wrap{padding:16px 16px 48px}.hd{padding:10px 16px}.ft{padding:24px 16px 40px}}
+
+.n{margin-left:8px;color:var(--ink3);font-weight:400;font-size:12px}
+.tw{overflow-x:auto}
+.ns{display:flex;align-items:flex-end;gap:6px;flex-wrap:wrap;padding:12px 0 4px}
+.ns__col{display:flex;flex-direction:column;align-items:center;gap:4px;width:34px;border:0;background:none;padding:0;cursor:pointer}
+.ns__col i{display:block;width:22px;border-radius:3px 3px 0 0;background:var(--ink3);opacity:.55}
+.ns__col i.ns__bar--base{background:var(--accent);opacity:1}
+.ns__col i.ns__bar--full{background:repeating-linear-gradient(180deg,var(--ink3) 0 4px,transparent 4px 8px);opacity:.7}
+.ns__col span{font-size:10px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
+.ns__col:hover i{outline:2px solid var(--accent);outline-offset:1px}
+.nm{display:inline-block;vertical-align:middle}
+.nm--size{width:24px;background:var(--accent);border-radius:3px}
+.nm--gap{display:inline-flex;align-items:center}.nm--gap b{width:14px;height:14px;background:var(--ink3);border-radius:2px}.nm--gap u{display:inline-block;height:14px;background:var(--accent-soft);border-left:1px solid var(--accent);border-right:1px solid var(--accent)}
+.nm--radius{width:32px;height:32px;border:2px solid var(--ink2)}
+.nm--border{width:48px;border-top:0 solid var(--ink)}
+.nm--icon{background:var(--ink3);border-radius:3px;opacity:.6}
+.nm--focus{width:24px;height:24px;border-radius:6px;background:var(--card);border:1px solid var(--line)}
+.mut{color:var(--ink3);font-size:12px}
+</style>
+</head>
+<body>
+<header class="hd">
+  <h1><a href="index.html"><i></i></a><a href="index.html">Cloud X Foundation</a></h1>
+  <nav class="nav"><a href="index.html">홈</a><a href="icons.html">아이콘</a><a href="color.html">컬러</a><a href="number.html" class="on">넘버</a><a href="typography.html">타이포그래피</a></nav>
+  <div class="hd__acts">
+    <a class="btn btn--dark" href="tokens.css" download>tokens.css</a><a class="btn" href="tokens.json" download>tokens.json</a><a class="btn" href="cloudx-icons.zip" download>아이콘 ZIP</a>
+    <button type="button" class="btn" id="theme" aria-label="테마 전환">테마</button>
+  </div>
+</header>
+<main class="wrap">
+
+<h1 class="pg-h">넘버</h1>
+<p class="pg-sub">primitive 스케일 36단계 → semantic 역할 토큰 30개. 높이·간격·모서리·선 두께는 <b>semantic 토큰</b>으로 씁니다. 이름을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
+<div class="sec"><h2>Primitive — 스케일<small class="n">36</small></h2><p class="lead">막대 높이가 값입니다. 4의 배수가 스케일의 근간이고(진한 막대), 그 사이 값은 타이포·대형 레이아웃용입니다. full(999)은 원형에 씁니다.</p>
+<div class="ns"><button type="button" class="ns__col" data-cp="var(--number-0)" title="number/0 · 0px"><i class="" style="height:1px"></i><span>0</span></button><button type="button" class="ns__col" data-cp="var(--number-1)" title="number/1 · 1px"><i class="" style="height:1px"></i><span>1</span></button><button type="button" class="ns__col" data-cp="var(--number-1-5)" title="number/1-5 · 1.5px"><i class="" style="height:1px"></i><span>1.5</span></button><button type="button" class="ns__col" data-cp="var(--number-2)" title="number/2 · 2px"><i class="" style="height:1px"></i><span>2</span></button><button type="button" class="ns__col" data-cp="var(--number-3)" title="number/3 · 3px"><i class="" style="height:2px"></i><span>3</span></button><button type="button" class="ns__col" data-cp="var(--number-4)" title="number/4 · 4px"><i class="ns__bar--base" style="height:2px"></i><span>4</span></button><button type="button" class="ns__col" data-cp="var(--number-6)" title="number/6 · 6px"><i class="" style="height:3px"></i><span>6</span></button><button type="button" class="ns__col" data-cp="var(--number-7)" title="number/7 · 7px"><i class="" style="height:4px"></i><span>7</span></button><button type="button" class="ns__col" data-cp="var(--number-8)" title="number/8 · 8px"><i class="ns__bar--base" style="height:4px"></i><span>8</span></button><button type="button" class="ns__col" data-cp="var(--number-10)" title="number/10 · 10px"><i class="" style="height:5px"></i><span>10</span></button><button type="button" class="ns__col" data-cp="var(--number-12)" title="number/12 · 12px"><i class="ns__bar--base" style="height:6px"></i><span>12</span></button><button type="button" class="ns__col" data-cp="var(--number-14)" title="number/14 · 14px"><i class="" style="height:7px"></i><span>14</span></button><button type="button" class="ns__col" data-cp="var(--number-16)" title="number/16 · 16px"><i class="ns__bar--base" style="height:8px"></i><span>16</span></button><button type="button" class="ns__col" data-cp="var(--number-18)" title="number/18 · 18px"><i class="" style="height:9px"></i><span>18</span></button><button type="button" class="ns__col" data-cp="var(--number-20)" title="number/20 · 20px"><i class="ns__bar--base" style="height:10px"></i><span>20</span></button><button type="button" class="ns__col" data-cp="var(--number-24)" title="number/24 · 24px"><i class="ns__bar--base" style="height:12px"></i><span>24</span></button><button type="button" class="ns__col" data-cp="var(--number-26)" title="number/26 · 26px"><i class="" style="height:13px"></i><span>26</span></button><button type="button" class="ns__col" data-cp="var(--number-28)" title="number/28 · 28px"><i class="ns__bar--base" style="height:14px"></i><span>28</span></button><button type="button" class="ns__col" data-cp="var(--number-30)" title="number/30 · 30px"><i class="" style="height:15px"></i><span>30</span></button><button type="button" class="ns__col" data-cp="var(--number-32)" title="number/32 · 32px"><i class="ns__bar--base" style="height:16px"></i><span>32</span></button><button type="button" class="ns__col" data-cp="var(--number-36)" title="number/36 · 36px"><i class="ns__bar--base" style="height:18px"></i><span>36</span></button><button type="button" class="ns__col" data-cp="var(--number-40)" title="number/40 · 40px"><i class="ns__bar--base" style="height:20px"></i><span>40</span></button><button type="button" class="ns__col" data-cp="var(--number-44)" title="number/44 · 44px"><i class="ns__bar--base" style="height:22px"></i><span>44</span></button><button type="button" class="ns__col" data-cp="var(--number-48)" title="number/48 · 48px"><i class="ns__bar--base" style="height:24px"></i><span>48</span></button><button type="button" class="ns__col" data-cp="var(--number-52)" title="number/52 · 52px"><i class="ns__bar--base" style="height:26px"></i><span>52</span></button><button type="button" class="ns__col" data-cp="var(--number-56)" title="number/56 · 56px"><i class="ns__bar--base" style="height:28px"></i><span>56</span></button><button type="button" class="ns__col" data-cp="var(--number-64)" title="number/64 · 64px"><i class="ns__bar--base" style="height:32px"></i><span>64</span></button><button type="button" class="ns__col" data-cp="var(--number-72)" title="number/72 · 72px"><i class="ns__bar--base" style="height:36px"></i><span>72</span></button><button type="button" class="ns__col" data-cp="var(--number-80)" title="number/80 · 80px"><i class="ns__bar--base" style="height:40px"></i><span>80</span></button><button type="button" class="ns__col" data-cp="var(--number-90)" title="number/90 · 90px"><i class="" style="height:45px"></i><span>90</span></button><button type="button" class="ns__col" data-cp="var(--number-96)" title="number/96 · 96px"><i class="ns__bar--base" style="height:48px"></i><span>96</span></button><button type="button" class="ns__col" data-cp="var(--number-104)" title="number/104 · 104px"><i class="ns__bar--base" style="height:52px"></i><span>104</span></button><button type="button" class="ns__col" data-cp="var(--number-112)" title="number/112 · 112px"><i class="ns__bar--base" style="height:56px"></i><span>112</span></button><button type="button" class="ns__col" data-cp="var(--number-116)" title="number/116 · 116px"><i class="ns__bar--base" style="height:58px"></i><span>116</span></button><button type="button" class="ns__col" data-cp="var(--number-180)" title="number/180 · 180px"><i class="ns__bar--base" style="height:90px"></i><span>180</span></button><button type="button" class="ns__col" data-cp="var(--number-full)" title="number/full · 999px"><i class="ns__bar--full" style="height:96px"></i><span>full</span></button></div></div>
+<div class="sec"><h2>Semantic — 역할 토큰<small class="n">30</small></h2><p class="lead">컨트롤 높이(size) · 여백(spacing, 2px 배수) · 모서리(radius) · 선 두께(border) 등 역할로 고릅니다.</p>
+<label class="search"><input placeholder="spacing, radius, 12, md…" data-filter="table.t tr[data-k]" data-count="#cnt" autocomplete="off" aria-label="토큰 검색"><span class="count" id="cnt"></span><kbd>/</kbd></label><div class="sec" data-group><h2>size — 컨트롤 높이<small class="n">10</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody><tr data-k="number/size/4xs 8 number/8 8 — 점·마커 크기. 2026-10-20 reservationcell confirm 점 때문에 신설"><td><code class="cp" data-cp="var(--number-size-4xs)" title="클릭하면 복사">size/4xs</code></td><td><i class="nm nm--size" style="height:8px"></i></td><td><code>8px</code></td><td class="mut">8</td><td class="mut">8 — 점·마커 크기. 2026-10-20 ReservationCell confirm 점 때문에 신설</td></tr><tr data-k="number/size/3xs 16 number/16 "><td><code class="cp" data-cp="var(--number-size-3xs)" title="클릭하면 복사">size/3xs</code></td><td><i class="nm nm--size" style="height:16px"></i></td><td><code>16px</code></td><td class="mut">16</td><td class="mut"></td></tr><tr data-k="number/size/2xs 20 number/20 sm = 24 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-2xs)" title="클릭하면 복사">size/2xs</code></td><td><i class="nm nm--size" style="height:20px"></i></td><td><code>20px</code></td><td class="mut">20</td><td class="mut">sm = 24 · 2026-07-13 재편</td></tr><tr data-k="number/size/xs 24 number/24 sm = 24 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-xs)" title="클릭하면 복사">size/xs</code></td><td><i class="nm nm--size" style="height:24px"></i></td><td><code>24px</code></td><td class="mut">24</td><td class="mut">sm = 24 · 2026-07-13 재편</td></tr><tr data-k="number/size/sm 28 number/28 md = 28 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-sm)" title="클릭하면 복사">size/sm</code></td><td><i class="nm nm--size" style="height:28px"></i></td><td><code>28px</code></td><td class="mut">28</td><td class="mut">md = 28 · 2026-07-13 재편</td></tr><tr data-k="number/size/md 32 number/32 lg = 32 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-md)" title="클릭하면 복사">size/md</code></td><td><i class="nm nm--size" style="height:32px"></i></td><td><code>32px</code></td><td class="mut">32</td><td class="mut">lg = 32 · 2026-07-13 재편</td></tr><tr data-k="number/size/lg 36 number/36 "><td><code class="cp" data-cp="var(--number-size-lg)" title="클릭하면 복사">size/lg</code></td><td><i class="nm nm--size" style="height:36px"></i></td><td><code>36px</code></td><td class="mut">36</td><td class="mut"></td></tr><tr data-k="number/size/xl 40 number/40 xl = 40 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-xl)" title="클릭하면 복사">size/xl</code></td><td><i class="nm nm--size" style="height:40px"></i></td><td><code>40px</code></td><td class="mut">40</td><td class="mut">xl = 40 · 2026-07-13 재편</td></tr><tr data-k="number/size/2xl 48 number/48 xl = 40 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-2xl)" title="클릭하면 복사">size/2xl</code></td><td><i class="nm nm--size" style="height:48px"></i></td><td><code>48px</code></td><td class="mut">48</td><td class="mut">xl = 40 · 2026-07-13 재편</td></tr><tr data-k="number/size/3xl 52 number/52 xl = 40 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-size-3xl)" title="클릭하면 복사">size/3xl</code></td><td><i class="nm nm--size" style="height:52px"></i></td><td><code>52px</code></td><td class="mut">52</td><td class="mut">xl = 40 · 2026-07-13 재편</td></tr></tbody></table></div></div><div class="sec" data-group><h2>spacing — 여백·간격<small class="n">6</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody><tr data-k="number/spacing/x1 2 number/2 x1 = 2 (base 2) · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-spacing-x1)" title="클릭하면 복사">spacing/x1</code></td><td><i class="nm nm--gap"><b></b><u style="width:2px"></u><b></b></i></td><td><code>2px</code></td><td class="mut">2</td><td class="mut">x1 = 2 (base 2) · 2026-07-13 재편</td></tr><tr data-k="number/spacing/x2 4 number/4 x2 = 4 (base 2 × 2) · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-spacing-x2)" title="클릭하면 복사">spacing/x2</code></td><td><i class="nm nm--gap"><b></b><u style="width:4px"></u><b></b></i></td><td><code>4px</code></td><td class="mut">4</td><td class="mut">x2 = 4 (base 2 × 2) · 2026-07-13 재편</td></tr><tr data-k="number/spacing/x4 8 number/8 x4 = 8 (base 2 × 4) · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-spacing-x4)" title="클릭하면 복사">spacing/x4</code></td><td><i class="nm nm--gap"><b></b><u style="width:8px"></u><b></b></i></td><td><code>8px</code></td><td class="mut">8</td><td class="mut">x4 = 8 (base 2 × 4) · 2026-07-13 재편</td></tr><tr data-k="number/spacing/x6 12 number/12 x6 = 12 (base 2 × 6) · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-spacing-x6)" title="클릭하면 복사">spacing/x6</code></td><td><i class="nm nm--gap"><b></b><u style="width:12px"></u><b></b></i></td><td><code>12px</code></td><td class="mut">12</td><td class="mut">x6 = 12 (base 2 × 6) · 2026-07-13 재편</td></tr><tr data-k="number/spacing/x8 16 number/16 x6 = 12 (base 2 × 6) · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-spacing-x8)" title="클릭하면 복사">spacing/x8</code></td><td><i class="nm nm--gap"><b></b><u style="width:16px"></u><b></b></i></td><td><code>16px</code></td><td class="mut">16</td><td class="mut">x6 = 12 (base 2 × 6) · 2026-07-13 재편</td></tr><tr data-k="number/spacing/x10 20 number/20 "><td><code class="cp" data-cp="var(--number-spacing-x10)" title="클릭하면 복사">spacing/x10</code></td><td><i class="nm nm--gap"><b></b><u style="width:20px"></u><b></b></i></td><td><code>20px</code></td><td class="mut">20</td><td class="mut"></td></tr></tbody></table></div></div><div class="sec" data-group><h2>radius — 모서리<small class="n">6</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody><tr data-k="number/radius/none 0 number/0 "><td><code class="cp" data-cp="var(--number-radius-none)" title="클릭하면 복사">radius/none</code></td><td><i class="nm nm--radius" style="border-radius:0px"></i></td><td><code>0px</code></td><td class="mut">0</td><td class="mut"></td></tr><tr data-k="number/radius/xs 2 number/2 "><td><code class="cp" data-cp="var(--number-radius-xs)" title="클릭하면 복사">radius/xs</code></td><td><i class="nm nm--radius" style="border-radius:2px"></i></td><td><code>2px</code></td><td class="mut">2</td><td class="mut"></td></tr><tr data-k="number/radius/sm 4 number/4 sm = 4 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-radius-sm)" title="클릭하면 복사">radius/sm</code></td><td><i class="nm nm--radius" style="border-radius:4px"></i></td><td><code>4px</code></td><td class="mut">4</td><td class="mut">sm = 4 · 2026-07-13 재편</td></tr><tr data-k="number/radius/md 6 number/6 md = 6 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-radius-md)" title="클릭하면 복사">radius/md</code></td><td><i class="nm nm--radius" style="border-radius:6px"></i></td><td><code>6px</code></td><td class="mut">6</td><td class="mut">md = 6 · 2026-07-13 재편</td></tr><tr data-k="number/radius/lg 8 number/8 md = 6 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-radius-lg)" title="클릭하면 복사">radius/lg</code></td><td><i class="nm nm--radius" style="border-radius:8px"></i></td><td><code>8px</code></td><td class="mut">8</td><td class="mut">md = 6 · 2026-07-13 재편</td></tr><tr data-k="number/radius/full 999 number/full full = 999 (pill) · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-radius-full)" title="클릭하면 복사">radius/full</code></td><td><i class="nm nm--radius" style="border-radius:999px"></i></td><td><code>999px</code></td><td class="mut">full</td><td class="mut">full = 999 (pill) · 2026-07-13 재편</td></tr></tbody></table></div></div><div class="sec" data-group><h2>border — 선 두께<small class="n">3</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody><tr data-k="number/border/default 1 number/1 default = 1 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-border-default)" title="클릭하면 복사">border/default</code></td><td><i class="nm nm--border" style="border-top-width:1px"></i></td><td><code>1px</code></td><td class="mut">1</td><td class="mut">default = 1 · 2026-07-13 재편</td></tr><tr data-k="number/border/medium 1.5 number/1-5 default = 1 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-border-medium)" title="클릭하면 복사">border/medium</code></td><td><i class="nm nm--border" style="border-top-width:1.5px"></i></td><td><code>1.5px</code></td><td class="mut">1-5</td><td class="mut">default = 1 · 2026-07-13 재편</td></tr><tr data-k="number/border/strong 2 number/2 strong = 2 · 2026-07-13 재편"><td><code class="cp" data-cp="var(--number-border-strong)" title="클릭하면 복사">border/strong</code></td><td><i class="nm nm--border" style="border-top-width:2px"></i></td><td><code>2px</code></td><td class="mut">2</td><td class="mut">strong = 2 · 2026-07-13 재편</td></tr></tbody></table></div></div><div class="sec" data-group><h2>focus — 포커스 링<small class="n">2</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody><tr data-k="number/focus/outline 2 number/2 "><td><code class="cp" data-cp="var(--number-focus-outline)" title="클릭하면 복사">focus/outline</code></td><td><i class="nm nm--focus" style="box-shadow:0 0 0 2px var(--accent)"></i></td><td><code>2px</code></td><td class="mut">2</td><td class="mut"></td></tr><tr data-k="number/focus/glow 3 number/3 "><td><code class="cp" data-cp="var(--number-focus-glow)" title="클릭하면 복사">focus/glow</code></td><td><i class="nm nm--focus" style="box-shadow:0 0 0 3px var(--accent)"></i></td><td><code>3px</code></td><td class="mut">3</td><td class="mut"></td></tr></tbody></table></div></div><div class="sec" data-group><h2>shadow — 그림자 수치<small class="n">3</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody><tr data-k="number/shadow/blur/raised 4 number/4 "><td><code class="cp" data-cp="var(--number-shadow-blur-raised)" title="클릭하면 복사">shadow/blur/raised</code></td><td></td><td><code>4px</code></td><td class="mut">4</td><td class="mut"></td></tr><tr data-k="number/shadow/offset-y/overlay 4 number/4 "><td><code class="cp" data-cp="var(--number-shadow-offset-y-overlay)" title="클릭하면 복사">shadow/offset-y/overlay</code></td><td></td><td><code>4px</code></td><td class="mut">4</td><td class="mut"></td></tr><tr data-k="number/shadow/blur/overlay 12 number/12 "><td><code class="cp" data-cp="var(--number-shadow-blur-overlay)" title="클릭하면 복사">shadow/blur/overlay</code></td><td></td><td><code>12px</code></td><td class="mut">12</td><td class="mut"></td></tr></tbody></table></div></div></div>
+
+</main>
+<footer class="ft">
+  원본은 Figma 라이브러리입니다 — 토큰·텍스트 스타일은 Cloud-X DS 파일(<code>dJwm3aKPCcDIGcIwZBhZPS</code>, 2026-10-23 기준), 아이콘은 OnePlatform-Icon(구 poc-Icon). 이 사이트는 거기서 읽어 만든 생성물이고 여기서 직접 고치지 않습니다. 수정 요청은 SW디자인팀으로.<br>
+  오스템임플란트 SW디자인 · 사내 공유용 · <a href="https://github.com/osstemswai/cloudx-foundation" target="_blank" rel="noopener">GitHub</a>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>(function () {
+  var root = document.documentElement;
+  try { var t = localStorage.getItem('cxi-theme'); if (t) root.setAttribute('data-theme', t); } catch (e) {}
+  var tb = document.getElementById('theme');
+  if (tb) tb.addEventListener('click', function () {
+    var dark = root.getAttribute('data-theme') === 'dark' || (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    var next = dark ? 'light' : 'dark'; root.setAttribute('data-theme', next);
+    try { localStorage.setItem('cxi-theme', next); } catch (e) {}
+  });
+  window.cxToast = function (msg) {
+    var t = document.getElementById('toast'); if (!t) return; t.textContent = msg; t.classList.add('show');
+    clearTimeout(t._h); t._h = setTimeout(function () { t.classList.remove('show'); }, 1300);
+  };
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-cp]'); if (!el) return;
+    var txt = el.getAttribute('data-cp');
+    navigator.clipboard.writeText(txt).then(function () { cxToast('복사했습니다 — ' + txt); }, function () { cxToast('복사에 실패했습니다'); });
+  });
+  /* 검색 — input[data-filter="<행 선택자>"] : 행의 data-k(소문자) 에 포함되면 보인다. 비는 그룹은 숨긴다 */
+  document.querySelectorAll('input[data-filter]').forEach(function (inp) {
+    var rows = Array.prototype.slice.call(document.querySelectorAll(inp.getAttribute('data-filter')));
+    var cnt = document.querySelector(inp.getAttribute('data-count') || 'x');
+    function run() {
+      var v = (inp.value || '').trim().toLowerCase(), n = 0;
+      rows.forEach(function (r) { var ok = !v || (r.getAttribute('data-k') || '').indexOf(v) >= 0; r.hidden = !ok; if (ok) n++; });
+      document.querySelectorAll('[data-group]').forEach(function (g) { g.hidden = !g.querySelector('[data-k]:not([hidden])'); });
+      if (cnt) cnt.textContent = n + ' / ' + rows.length;
+    }
+    inp.addEventListener('input', run); run();
+    document.addEventListener('keydown', function (e) { if (e.key === '/' && document.activeElement !== inp) { e.preventDefault(); inp.focus(); } if (e.key === 'Escape' && document.activeElement === inp) { inp.value = ''; run(); inp.blur(); } });
+  });
+})();</script>
+</body>
+</html>

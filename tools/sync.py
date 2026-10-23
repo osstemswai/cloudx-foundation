@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""cloudXDS 저장소의 `Icon/`을 이 저장소로 복사하고 생성물을 다시 만듭니다.
+"""cloudXDS 저장소의 `Icon/`을 이 저장소로 복사하고 생성물(아이콘 · 토큰 · 페이지)을 다시 만듭니다.
 
     python3 tools/sync.py <cloudXDS 경로>
 
 복사  Icon/svg/<카테고리>/*.svg            → svg/<카테고리>/
       Icon/_sets.json · _ink.json · _keywords.json → meta/
 기록  meta/source.json (원본 저장소 · 커밋 · 날짜 · 개수)
-빌드  tools/build-sprite.py → tools/build-gallery.py
+빌드  tools/build-tokens.py → tools/build-sprite.py → tools/build-gallery.py → tools/build-foundation.py
+
+토큰(tokens/*.json)은 여기서 복사하지 않습니다 — Figma에서 Plugin API로 읽어 넣는 별도 절차입니다(README 「갱신」).
 
 이 저장소는 복제본입니다. 아이콘을 고칠 일이 있으면 Figma(poc-Icon) → cloudXDS 순서로 고치고
 여기서는 이 스크립트만 다시 돌립니다.
@@ -77,8 +79,10 @@ def main():
 
     # 4. 빌드
     here = os.path.dirname(os.path.abspath(__file__))
+    subprocess.check_call([sys.executable, os.path.join(here, "build-tokens.py")])
     subprocess.check_call([sys.executable, os.path.join(here, "build-sprite.py")])
     subprocess.check_call([sys.executable, os.path.join(here, "build-gallery.py")])
+    subprocess.check_call([sys.executable, os.path.join(here, "build-foundation.py")])
 
 
 if __name__ == "__main__":
