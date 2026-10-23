@@ -116,7 +116,7 @@ CSS = r"""
 .pv{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 16px}
 .pv div{height:84px;border-radius:10px;display:flex;align-items:center;justify-content:center;gap:16px;position:relative}
 .pv .l{background:#f4f4f4;color:#1d1d1d;border:1px solid var(--pv-line)}
-.pv .k{background:#1d1d1d;color:#ebebeb}
+.pv .k{background:#1d1d1d;color:#ebebeb;border:1px solid var(--line)}
 .pv div::after{content:attr(data-l);position:absolute;left:8px;bottom:5px;font-size:10px;opacity:.55}
 .pv svg{display:block}
 .tabs{display:flex;border-bottom:1px solid var(--line);margin:0 0 12px}

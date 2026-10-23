@@ -35,6 +35,12 @@ def step_key(name):
         return (1, s)
 
 
+def alpha_label(v):
+    """rgba(0, 0, 0, 0.1) → 'α 0.1'"""
+    m = re.search(r"([\d.]+)\)$", str(v))
+    return "α " + m.group(1) if m else "α"
+
+
 def swatch(value):
     return '<span class="sw"><i style="background:%s"></i></span>' % esc(value)
 
@@ -56,7 +62,7 @@ def color_page(d, stamp):
         for r in sorted(hues[h], key=lambda x: step_key(x["name"])):
             step = r["name"].split("/")[-1]
             cells.append('<button type="button" class="pal__c" data-cp="var(%s)" title="%s · %s"><span class="pal__sw" style="background:%s"></span><span class="pal__s">%s</span><span class="pal__v">%s</span></button>'
-                         % (esc(r["cssVar"]), esc(r["name"]), esc(r["value"]), esc(r["value"]), esc(step), esc(r["value"] if str(r["value"]).startswith("#") else "α")))
+                         % (esc(r["cssVar"]), esc(r["name"]), esc(r["value"]), esc(r["value"]), esc(step), esc(r["value"] if str(r["value"]).startswith("#") else alpha_label(r["value"]))))
         rows.append('<div class="pal"><div class="pal__h">%s<small>%d</small></div><div class="pal__r">%s</div></div>' % (esc(h), len(cells), "".join(cells)))
     body = """
 <h2>Color</h2>
