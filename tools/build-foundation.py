@@ -69,12 +69,12 @@ def color_page(d, stamp):
         cells = []
         for r in sorted(hues[h], key=lambda x: step_key(x["name"])):
             step = r["name"].split("/")[-1]
-            cells.append('<button type="button" class="pal__c" data-cp="var(%s)" title="%s · %s"><span class="pal__sw" style="background:%s"></span><span class="pal__s">%s</span><span class="pal__v">%s</span></button>'
-                         % (esc(r["cssVar"]), esc(r["name"]), esc(r["value"]), esc(r["value"]), esc(step), esc(r["value"] if str(r["value"]).startswith("#") else alpha_label(r["value"]))))
+            cells.append('<button type="button" class="pal__c" data-cp="%s" title="%s · %s"><span class="pal__sw" style="background:%s"></span><span class="pal__s">%s</span><span class="pal__v">%s</span></button>'
+                         % (esc(r["value"]), esc(r["name"]), esc(r["value"]), esc(r["value"]), esc(step), esc(r["value"] if str(r["value"]).startswith("#") else alpha_label(r["value"]))))
         rows.append('<div class="pal"><div class="pal__h">%s<small>%d</small></div><div class="pal__r">%s</div></div>' % (esc(h), len(cells), "".join(cells)))
     body = """
 <h2>Color</h2>
-<p class="sb-sub">팔레트 %d색. 색상 계열별 단계이고 숫자가 클수록 진합니다. black·white는 투명도 단계(α)입니다. 칸을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
+<p class="sb-sub">팔레트 %d색. 색상 계열별 단계이고 숫자가 클수록 진합니다. black·white는 투명도 단계(α)입니다. 칸을 누르면 값(hex · rgba)이 복사됩니다.</p>
 <div class="sec"><h3 class="sb-h3">팔레트<small>%d</small></h3>%s</div>
 """ % (len(prim), len(prim), "".join(rows))
     css = r"""
@@ -98,11 +98,11 @@ def number_page(d, stamp):
         f = num(r["value"]); full = f >= 999
         cls = "nsv__bar--full" if full else ("nsv__bar--base" if f and f % 4 == 0 else "")
         w = 100 if full else max(0.6, f / top * 100)
-        rows.append('<button type="button" class="nsv__r" data-cp="var(%s)" title="%s"><code class="nsv__n">%s</code><i class="nsv__bar %s" style="width:%.1f%%"></i><span class="nsv__v">%s</span></button>'
-                    % (esc(r["cssVar"]), esc(r["name"]), "full" if full else esc(f), cls, w, "full" if full else "%spx" % esc(f)))
+        rows.append('<button type="button" class="nsv__r" data-cp="%s" title="%s"><code class="nsv__n">%s</code><i class="nsv__bar %s" style="width:%.1f%%"></i><span class="nsv__v">%s</span></button>'
+                    % ("full" if full else "%spx" % esc(f), esc(r["name"]), "full" if full else esc(f), cls, w, "full" if full else "%spx" % esc(f)))
     body = """
 <h2>Number</h2>
-<p class="sb-sub">스케일 %d단계. 높이·간격·모서리·선 두께에 이 값을 씁니다. 줄을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
+<p class="sb-sub">스케일 %d단계. 높이·간격·모서리·선 두께에 이 값을 씁니다. 줄을 누르면 px 값이 복사됩니다.</p>
 <div class="sec"><h3 class="sb-h3">스케일<small>%d</small></h3><p class="lead">막대 길이가 값입니다. 4의 배수가 스케일의 근간이고(주황 막대), 그 사이 값은 타이포·대형 레이아웃용입니다(회색). full(999)은 원형에 씁니다(점선).</p>
 <div class="nsv">%s</div></div>
 """ % (len(prim), len(prim), "".join(rows))
@@ -126,11 +126,11 @@ def typography_page(d, stamp):
     sizes = sorted([r for r in ty if r["name"].startswith("font-size/")], key=lambda r: float(num(r["value"])))
     lhs = sorted([r for r in ty if r["name"].startswith("line-height/")], key=lambda r: float(num(r["value"])))
     weights = sorted([r for r in ty if r["name"].startswith("font-weight/")], key=lambda r: int(num(r["css"])))
-    wrow = "".join('<div class="w"><span style="font-weight:%s">가나다 ABC 123</span><code class="cp" data-cp="var(%s)">%s · %s</code></div>'
-                   % (esc(r["css"]), esc(r["cssVar"]), esc(r["name"].split("/")[-1]), esc(r["css"])) for r in weights)
-    srow = "".join('<div class="sz"><span style="font-size:%spx;line-height:1.3">가나다라 Aa 123</span><code class="cp" data-cp="var(%s)">%s</code></div>'
-                   % (esc(num(r["value"])), esc(r["cssVar"]), esc(num(r["value"]))) for r in sizes)
-    lrow = ", ".join('<code class="cp" data-cp="var(%s)">%s</code>' % (esc(r["cssVar"]), esc(num(r["value"]))) for r in lhs)
+    wrow = "".join('<div class="w"><span style="font-weight:%s">가나다 ABC 123</span><code class="cp" data-cp="%s">%s · %s</code></div>'
+                   % (esc(r["css"]), esc(r["css"]), esc(r["name"].split("/")[-1]), esc(r["css"])) for r in weights)
+    srow = "".join('<div class="sz"><span style="font-size:%spx;line-height:1.3">가나다라 Aa 123</span><code class="cp" data-cp="%spx">%s</code></div>'
+                   % (esc(num(r["value"])), esc(num(r["value"])), esc(num(r["value"]))) for r in sizes)
+    lrow = ", ".join('<code class="cp" data-cp="%spx">%s</code>' % (esc(num(r["value"])), esc(num(r["value"]))) for r in lhs)
     styles = d["textStyles"]
     def skey(s):
         role, size, w = (s["name"].split("/") + ["", ""])[:3]
@@ -151,11 +151,11 @@ def typography_page(d, stamp):
     body = """
 <h2>Typography</h2>
 <p class="sb-sub">글꼴 1종 · 웨이트 %d · 크기 %d단계 · 행간 %d단계 · 텍스트 스타일 %d개. 글은 <b>텍스트 스타일</b>로 고릅니다(<code>역할/크기/웨이트</code>). 같은 16px이라도 title/xs와 body/lg는 행간이 다릅니다.</p>
-<div class="sec"><h3 class="sb-h3">글꼴<small>%s</small></h3><p class="lead">기본 글꼴은 <code class="cp" data-cp="var(--font-family-base)">%s</code>입니다. 설치돼 있지 않으면 시스템 산세리프로 대체됩니다.</p><div class="wrow">%s</div></div>
-<div class="sec"><h3 class="sb-h3">크기 스케일<small>%d</small></h3><p class="lead">font-size 토큰입니다. 행간 토큰: %s</p><div class="srow">%s</div></div>
+<div class="sec"><h3 class="sb-h3">글꼴<small>%s</small></h3><p class="lead">기본 글꼴은 <code class="cp" data-cp="%s">%s</code>입니다. 설치돼 있지 않으면 시스템 산세리프로 대체됩니다.</p><div class="wrow">%s</div></div>
+<div class="sec"><h3 class="sb-h3">크기 스케일<small>%d</small></h3><p class="lead">글자 크기 단계입니다(누르면 px 복사). 행간 단계: %s</p><div class="srow">%s</div></div>
 <div class="sec"><h3 class="sb-h3">텍스트 스타일<small>%d</small></h3><p class="lead">title은 제목 자리, body는 그 밖의 모든 글입니다. CSS 복사를 누르면 <code>font:</code> 한 줄이 복사됩니다.</p>
 <label class="search"><input placeholder="title, body/md, 14, semibold…" data-filter="table.t tr[data-k]" data-count="#cnt" autocomplete="off" aria-label="스타일 검색"><span class="count" id="cnt"></span><kbd>/</kbd></label>%s</div>
-""" % (len(weights), len(sizes), len(lhs), len(styles), esc(fam), esc(fam), wrow, len(sizes), lrow, srow, len(styles), "".join(tables))
+""" % (len(weights), len(sizes), len(lhs), len(styles), esc(fam), esc(fam), esc(fam), wrow, len(sizes), lrow, srow, len(styles), "".join(tables))
     css = CARD_CSS + r"""
 .tw{overflow-x:auto}
 .wrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
@@ -181,22 +181,12 @@ def index_page(d, stamp, nicons):
 <h2>시작하기</h2>
 <p class="sb-sub">Cloud X 디자인시스템의 기초 자산 — 아이콘 · 컬러 · 넘버 · 타이포그래피. 다른 부서가 그대로 가져다 쓰는 공유본입니다. 기준: Figma %s.</p>
 <div class="cards">%s</div>
-<div class="sec"><h3 class="sb-h3">쓰는 법</h3><p class="lead">tokens.css 한 장을 넣고 변수로 씁니다. 아이콘은 sprite.svg를 두고 <code>&lt;use&gt;</code>로 참조합니다.</p>
-<pre class="code"><code>&lt;link rel="stylesheet" href="tokens.css"&gt;
-
-.card {
-  background: var(--color-neutralgray-50);
-  color: var(--color-neutralgray-900);
-  padding: var(--number-12);
-  border-radius: var(--number-8);
-  font: var(--font-weight-regular) var(--font-size-14) / var(--line-height-20) var(--font-family-base);
-}
-
-&lt;svg class="icon"&gt;&lt;use href="sprite.svg#i-00_general-search"/&gt;&lt;/svg&gt;
-.icon { width: 20px; height: 20px; color: var(--color-neutralgray-900); }</code></pre></div>
+<div class="sec"><h3 class="sb-h3">쓰는 법</h3><p class="lead">컬러 · 넘버 · 타이포그래피는 각 페이지에서 값을 눌러 복사합니다(hex · px · <code>font:</code> 한 줄). 아이콘은 sprite.svg를 두고 <code>&lt;use&gt;</code>로 참조합니다.</p>
+<pre class="code"><code>&lt;svg class="icon"&gt;&lt;use href="sprite.svg#i-00_general-search"/&gt;&lt;/svg&gt;
+.icon { width: 20px; height: 20px; color: #1D1D1D; }</code></pre></div>
 <div class="sec"><h3 class="sb-h3">내려받기</h3><div class="dl">
-<a class="btn btn--dark" href="tokens.css" download>tokens.css</a><a class="btn" href="cloudx-icons.zip" download>아이콘 ZIP</a></div>
-<p class="lead" style="margin-top:10px">tokens.css는 팔레트·스케일·타이포 변수입니다. 아이콘 ZIP에는 낱개 SVG · sprite.svg · icons.json이 들어 있습니다. 기계용 토큰 목록(설명·scopes·텍스트 스타일 포함)이 필요하면 <a href="tokens.json" download>tokens.json</a>을 받습니다.</p></div>
+<a class="btn btn--dark" href="cloudx-icons.zip" download>아이콘 ZIP</a></div>
+<p class="lead" style="margin-top:10px">낱개 SVG · sprite.svg · icons.json이 들어 있습니다.</p></div>
 """ % (esc(stamp), "".join('<a class="card" href="%s"><b>%s</b><span>%s</span></a>' % (h, t, s) for h, t, s in cards))
     css = r"""
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 32px}

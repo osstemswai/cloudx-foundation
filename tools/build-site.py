@@ -31,8 +31,9 @@ def main():
     icon_sec, nicons, nsets = gallery.section(cats, source, sprite)
     secs = foundation.sections(d, stamp, nicons)
     order = [secs[0], icon_sec] + secs[1:]
-    ntok = sum(len(v) for v in d["layers"].values())
-    html = page.render_app(order, stamp=stamp, counts="아이콘 %d · 토큰 %d · 텍스트 스타일 %d" % (nicons, ntok, len(d["textStyles"])))
+    ncol = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("color/"))
+    nnum = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("number/"))
+    html = page.render_app(order, stamp=stamp, counts="아이콘 %d · 컬러 %d · 넘버 %d · 텍스트 스타일 %d" % (nicons, ncol, nnum, len(d["textStyles"])))
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as fp:
         fp.write(html)
     gallery.build_zip(cats)   # ZIP 에 README 가 들어가므로 사이트를 다시 만들 때 함께 갱신한다 (CI 비교 대상)

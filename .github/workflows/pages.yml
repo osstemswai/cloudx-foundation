@@ -28,7 +28,7 @@ jobs:
       - name: 올릴 것만 모은다 (tools · tokens 원본 · meta · .github 제외)
         run: |
           mkdir -p _site
-          cp index.html tokens.css tokens.json icons.json sprite.svg cloudx-icons.zip .nojekyll _site/
+          cp index.html icons.json sprite.svg cloudx-icons.zip .nojekyll _site/
           cp -R svg _site/svg
       - uses: actions/upload-pages-artifact@v3
         with:

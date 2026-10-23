@@ -158,7 +158,6 @@ PAGE = """<!doctype html>
   <div class="sb-brand"><h1><i></i>Cloud X Foundation</h1><p>Figma {{STAMP}} 기준 · {{COUNTS}}</p></div>
   {{NAV}}
   <div class="sb-group">내려받기</div>
-  <a class="dl" href="tokens.css" download>tokens.css</a>
   <a class="dl" href="cloudx-icons.zip" download>아이콘 ZIP</a>
 </nav>
 <main class="sb-main">

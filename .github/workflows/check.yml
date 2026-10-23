@@ -1,5 +1,5 @@
 # 생성물이 원본과 맞는지만 봅니다. 사람이 빌드를 빼먹고 올리면 여기서 막힙니다.
-#   sprite.svg · icons.json · cloudx-icons.zip 은 svg/ 와 meta/ 에서, tokens.css · tokens.json 은 tokens/ 에서, index.html 은 그 전부에서 다시 만들어집니다.
+#   sprite.svg · icons.json · cloudx-icons.zip 은 svg/ 와 meta/ 에서, tokens.json 은 tokens/ 에서, index.html 은 그 전부에서 다시 만들어집니다.
 name: check
 on:
   pull_request:
@@ -20,8 +20,8 @@ jobs:
           python3 tools/build-site.py
       - name: 생성물이 커밋과 같은지
         run: |
-          if ! git diff --quiet -- sprite.svg index.html icons.json tokens.css tokens.json cloudx-icons.zip; then
+          if ! git diff --quiet -- sprite.svg index.html icons.json tokens.json cloudx-icons.zip; then
             echo "::error::생성물이 원본과 다릅니다. 로컬에서 python3 tools/sync.py ../cloudXDS (또는 build-tokens → build-sprite → build-gallery → build-site) 를 돌리고 다시 커밋해 주세요."
-            git --no-pager diff --stat -- sprite.svg index.html icons.json tokens.css tokens.json cloudx-icons.zip
+            git --no-pager diff --stat -- sprite.svg index.html icons.json tokens.json cloudx-icons.zip
             exit 1
           fi

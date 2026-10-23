@@ -3,31 +3,18 @@
 Cloud X 디자인시스템의 기초 자산 — **아이콘 · 컬러 · 넘버 · 타이포그래피** — 를 다른 부서와 공유하는 저장소입니다.
 
 - **보기 · 검색 · 복사**: https://osstemswai.github.io/cloudx-foundation/ — 왼쪽 메뉴의 파운데이션 아래 [Icon](https://osstemswai.github.io/cloudx-foundation/#c-Icon) · [Color](https://osstemswai.github.io/cloudx-foundation/#c-Color) · [Number](https://osstemswai.github.io/cloudx-foundation/#c-Number) · [Typography](https://osstemswai.github.io/cloudx-foundation/#c-Typography). 아이콘 딥링크는 `#c-Icon?icon=<카테고리>/<이름>`
-- **내려받기**: [`tokens.css`](tokens.css)(컬러 팔레트 · 넘버 스케일 · 타이포 변수) · [`cloudx-icons.zip`](cloudx-icons.zip)(낱개 SVG + sprite.svg + icons.json, README 제외). 기계용 목록은 [`tokens.json`](tokens.json)
+- **내려받기**: [`cloudx-icons.zip`](cloudx-icons.zip)(낱개 SVG + sprite.svg + icons.json). 컬러 · 넘버 · 타이포그래피 값은 페이지에서 눌러 복사합니다 — 따로 내려받는 파일은 없습니다
 
 원본은 Figma입니다. 토큰·텍스트 스타일은 Cloud-X DS 파일(`dJwm3aKPCcDIGcIwZBhZPS`), 아이콘은 OnePlatform-Icon(구 poc-Icon)에서 읽어 왔고, 기준 날짜는 각 페이지 아래와 [`tokens/`](tokens/) · [`meta/source.json`](meta/source.json)에 있습니다. **이 저장소에서 값이나 아이콘을 직접 고치지 않습니다.** 수정 요청은 SW디자인팀으로 보내 주세요.
 
-## 토큰 쓰는 법 — 컬러 · 넘버 · 타이포그래피
+## 컬러 · 넘버 · 타이포그래피 값 쓰는 법
 
-```html
-<link rel="stylesheet" href="tokens.css">
-```
+값은 페이지에서 읽습니다. 따로 내려받는 CSS 파일은 없습니다(2026-10-23 결정).
 
-```css
-.card {
-  background: var(--color-neutralgray-50);
-  color: var(--color-neutralgray-900);
-  padding: var(--number-12);
-  border-radius: var(--number-8);
-  font: var(--font-weight-regular) var(--font-size-14) / var(--line-height-20) var(--font-family-base);
-}
-```
-
-- **공유 범위는 팔레트 · 스케일 · 타이포 원자입니다.** 역할(semantic) 토큰과 컴포넌트 토큰은 Cloud-X 내부용이라 이 저장소의 CSS·페이지에는 없습니다. hex·px를 직접 적지 말고 변수 이름으로 씁니다. 값이 바뀌어도 이름은 그대로라 화면이 따라옵니다.
-- **이름 규칙**: Figma 변수 이름의 `/`를 `-`로 바꾼 것이 CSS 변수입니다. `color/orange/600` → `--color-orange-600`, `number/12` → `--number-12`. 페이지에서 이름을 누르면 `var(--…)`가 복사됩니다.
-- **글은 텍스트 스타일로** 고릅니다(`역할/크기/웨이트`, 예: `body/md/regular`). 타이포그래피 페이지의 「CSS 복사」가 `font:` 한 줄을 줍니다. 기본 글꼴은 Pretendard이고 없으면 시스템 산세리프로 대체됩니다.
-- `tokens.json`은 같은 토큰에 설명·scopes·텍스트 스타일·이펙트를 더한 목록입니다. 테마 도구나 린트에 쓸 수 있습니다.
-- `tokens/semantic.json`(역할 토큰 178) · `component.json`(컴포넌트 내부 토큰 1,363)은 상위 저장소 재익스포트용 덤프로만 두고 CSS·다운로드·페이지에는 넣지 않습니다(2026-10-23 결정).
+- **컬러**: 팔레트 칸을 누르면 hex(알파가 있으면 rgba)가 복사됩니다. 공유 범위는 팔레트(계열 × 단계)입니다.
+- **넘버**: 스케일 줄을 누르면 px 값이 복사됩니다. 높이·간격·모서리·선 두께에 이 단계만 씁니다.
+- **타이포그래피**: 글은 텍스트 스타일(`역할/크기/웨이트`, 예: `body/md/regular`)로 고릅니다. 「CSS 복사」가 `font:` 한 줄을 줍니다. 기본 글꼴은 Pretendard이고 없으면 시스템 산세리프로 대체됩니다.
+- 역할(semantic) 토큰과 컴포넌트 토큰은 Cloud-X 내부용이라 이 저장소에서 공유하지 않습니다. `tokens/semantic.json` · `component.json`은 상위 저장소 재익스포트용 덤프로만 둡니다.
 
 ## 아이콘 쓰는 법
 
@@ -94,7 +81,7 @@ Icon 절에서 아이콘을 고르고 「인라인 SVG」 탭을 복사하거나
 | | |
 |---|---|
 | `index.html` | 생성물. 한 페이지 앱 — 왼쪽 LNB, `#c-Icon` 식 해시로 절 전환(스토리북과 같은 구조). 스프라이트를 인라인으로 품고 있습니다 |
-| `tokens.css` · `tokens.json` | 생성물. primitive · typography 층의 CSS 변수와 기계용 목록 |
+| `tokens.json` | 생성물. 페이지 빌드 데이터(primitive · typography 층 + 텍스트 스타일). 사이트에 올리지 않습니다 |
 | `tokens/primitive.json` · `semantic.json` · `typography.json` · `component.json` · `styles.json` | Figma 변수·텍스트 스타일·이펙트 덤프(cloudXDS `FigmaVariables/`와 같은 스키마, `styles.json`만 추가). 원본은 Figma |
 | `svg/<카테고리>/<이름>.svg` · `sprite.svg` · `icons.json` · `cloudx-icons.zip` | 아이콘 낱개 · 스프라이트(생성물) · 목록(생성물) · 전체 묶음(생성물) |
 | `meta/` | 아이콘 세트 순서(`_sets.json`) · 그림 크기(`_ink.json`) · 한국어 검색어(`_keywords.json`) · 출처(`source.json`) |

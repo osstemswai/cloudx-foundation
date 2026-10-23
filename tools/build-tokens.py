@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""tokens/*.json (Figma 변수 덤프) → tokens.css · tokens.json
+"""tokens/*.json (Figma 변수 덤프) → tokens.json (페이지 빌드 데이터. 사이트에 올리지 않는다)
 
     python3 tools/build-tokens.py
 
@@ -7,8 +7,7 @@
 Cloud-X 내부용이라 `tokens/semantic.json` · `component.json` 덤프로만 두고(상위 저장소 재익스포트용) CSS·다운로드·페이지에는
 넣지 않습니다(2026-10-23 결정).
 
-이름 규칙 — Figma의 `/`를 `-`로 바꿉니다(cloudXDS tokens.css와 같은 규칙).
-  color/orange/600  →  --color-orange-600 · number/12  →  --number-12
+tokens.css 는 2026-10-23 결정으로 더 내지 않습니다(배포물은 페이지와 아이콘 ZIP 뿐). tokens.json 의 cssVar 는 cloudXDS 와 같은 규칙(`/`→`-`)으로 남겨 둡니다.
 별칭은 primitive까지 풀어 실제 값(hex · px)으로 냅니다. `{"color": <별칭>, "opacity": 30}` 형태는 알파를 곱합니다(퍼센트).
 """
 import json, os, sys, datetime
@@ -108,30 +107,23 @@ def css_value(name, val):
 def build():
     byname, sources = load()
     stamp = sources.get("primitive", {})
-    css = ["/* Cloud X Foundation 토큰 — tools/build-tokens.py 생성물. 직접 고치지 않습니다.",
-           "   원본: Figma %s · %s 기준 · 이름의 `/`는 `-`로 바꿨습니다. */" % (stamp.get("fileKey", "?"), stamp.get("exportedAt", "?")),
-           ":root {"]
     data = {"source": {"figmaFile": stamp.get("fileKey"), "exportedAt": stamp.get("exportedAt"), "generatedBy": "tools/build-tokens.py"},
             "layers": {}, "textStyles": [], "effectStyles": []}
     missing = []
     for layer, label in LAYERS:
         names = sorted(n for (c, n) in byname if c == layer)
-        css.append("\n  /* ── %s (%d) ── */" % (label, len(names)))
         rows = []
         for n in names:
             v = byname[(layer, n)]
             val, chain = resolve(byname, layer, n)
             if isinstance(val, str) and val.startswith("<"):
                 missing.append("%s/%s → %s" % (layer, n, val))
-                css.append("  /* %s: 미해결 %s */" % (css_name(n), val))
                 continue
             cv = css_value(n, val)
-            css.append("  %s: %s;" % (css_name(n), cv))
             rows.append({"name": n, "type": v["resolvedType"], "value": val, "css": cv, "cssVar": css_name(n),
                          "alias": chain[0].split(":", 1)[1] if chain else None, "chain": chain,
                          "scopes": v.get("scopes", []), "description": v.get("description", ""), "key": v.get("key")})
         data["layers"][layer] = rows
-    css.append("}")
     sp = os.path.join(TOK, "styles.json")
     if os.path.exists(sp):
         st = json.load(open(sp, encoding="utf-8"))
@@ -155,13 +147,11 @@ def build():
                 "description": s.get("description", ""), "key": s.get("key")})
         for e in st.get("effectStyles", []):
             data["effectStyles"].append({"name": e["name"], "description": e.get("description", ""), "effects": e.get("effects", []), "key": e.get("key")})
-    with open(os.path.join(ROOT, "tokens.css"), "w", encoding="utf-8") as fp:
-        fp.write("\n".join(css) + "\n")
     with open(os.path.join(ROOT, "tokens.json"), "w", encoding="utf-8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=1)
         fp.write("\n")
     counts = {k: len(v) for k, v in data["layers"].items()}
-    print("tokens.css · tokens.json — %s · 텍스트 스타일 %d · 이펙트 %d%s" % (
+    print("tokens.json — %s · 텍스트 스타일 %d · 이펙트 %d%s" % (
         " · ".join("%s %d" % kv for kv in counts.items()), len(data["textStyles"]), len(data["effectStyles"]),
         (" · 미해결 %d" % len(missing)) if missing else ""), file=sys.stderr)
     for m in missing:
