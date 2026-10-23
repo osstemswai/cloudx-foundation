@@ -214,8 +214,8 @@ def index_page(d, stamp, nicons):
 &lt;svg class="icon"&gt;&lt;use href="sprite.svg#i-00_general-search"/&gt;&lt;/svg&gt;
 .icon { width: 20px; height: 20px; color: var(--color-neutralgray-900); }</code></pre></div>
 <div class="sec"><h3 class="sb-h3">내려받기</h3><div class="dl">
-<a class="btn btn--dark" href="tokens.css" download>tokens.css</a><a class="btn" href="tokens.json" download>tokens.json</a><a class="btn" href="cloudx-icons.zip" download>아이콘 ZIP</a><a class="btn" href="sprite.svg" download>sprite.svg</a></div>
-<p class="lead" style="margin-top:10px">tokens.css는 primitive(팔레트·스케일) · typography 변수, tokens.json은 같은 토큰에 설명·scopes·텍스트 스타일을 더한 기계용 목록입니다. 역할(semantic) 토큰은 이후에 공유합니다.</p></div>
+<a class="btn btn--dark" href="tokens.css" download>tokens.css</a><a class="btn" href="cloudx-icons.zip" download>아이콘 ZIP</a></div>
+<p class="lead" style="margin-top:10px">tokens.css는 primitive(팔레트·스케일) · typography 변수입니다. 아이콘 ZIP에는 낱개 SVG · sprite.svg · icons.json이 들어 있습니다. 기계용 토큰 목록이 필요하면 <a href="tokens.json" download>tokens.json</a>을 받습니다. 역할(semantic) 토큰은 이후에 공유합니다.</p></div>
 """ % (esc(stamp), "".join('<a class="card" href="%s"><b>%s</b><span>%s</span></a>' % (h, t, s) for h, t, s in cards))
     css = r"""
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 32px}

@@ -162,9 +162,7 @@ PAGE = """<!doctype html>
   {{NAV}}
   <div class="sb-group">내려받기</div>
   <a class="dl" href="tokens.css" download>tokens.css</a>
-  <a class="dl" href="tokens.json" download>tokens.json</a>
   <a class="dl" href="cloudx-icons.zip" download>아이콘 ZIP</a>
-  <a class="dl" href="sprite.svg" download>sprite.svg</a>
 </nav>
 <main class="sb-main">
 <div class="sb-pages">
