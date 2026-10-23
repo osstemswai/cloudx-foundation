@@ -1,0 +1,10555 @@
+{
+ "source": {
+  "repo": "https://github.com/h1osstem/cloudXDS.git",
+  "commit": "f862889",
+  "commit_date": "2026-10-02",
+  "dirty": false,
+  "synced": "2026-10-23",
+  "figma": {
+   "library": "poc-Icon",
+   "file": "iQOmpWb3Ze2M1pzfa8bvkG",
+   "page": "icon",
+   "node": "2806:36607"
+  },
+  "count": 449,
+  "categories": {
+   "00_arrow": 62,
+   "00_edit": 54,
+   "00_general": 308,
+   "00_modal": 10,
+   "00_window": 4,
+   "01_pms": 6,
+   "01_pms-lnb": 5
+  }
+ },
+ "count": 449,
+ "sets": 231,
+ "categories": {
+  "00_arrow": 62,
+  "00_edit": 54,
+  "00_general": 308,
+  "00_modal": 10,
+  "00_window": 4,
+  "01_pms": 6,
+  "01_pms-lnb": 5
+ },
+ "icons": [
+  {
+   "id": "i-00_arrow-up",
+   "category": "00_arrow",
+   "set": "up",
+   "name": "up",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/up.svg",
+   "ink": [
+    11,
+    6
+   ],
+   "size": 11,
+   "keywords": [
+    "arrow",
+    "up",
+    "화살표",
+    "애로우",
+    "위",
+    "상"
+   ]
+  },
+  {
+   "id": "i-00_arrow-up-fill",
+   "category": "00_arrow",
+   "set": "up",
+   "name": "up-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/up-fill.svg",
+   "ink": [
+    11.5,
+    6.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "up",
+    "fill",
+    "화살표",
+    "애로우",
+    "위",
+    "상",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-down",
+   "category": "00_arrow",
+   "set": "down",
+   "name": "down",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/down.svg",
+   "ink": [
+    11,
+    6
+   ],
+   "size": 11,
+   "keywords": [
+    "arrow",
+    "down",
+    "화살표",
+    "애로우",
+    "아래",
+    "하"
+   ]
+  },
+  {
+   "id": "i-00_arrow-down-fill",
+   "category": "00_arrow",
+   "set": "down",
+   "name": "down-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/down-fill.svg",
+   "ink": [
+    11.5,
+    6.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "down",
+    "fill",
+    "화살표",
+    "애로우",
+    "아래",
+    "하",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-right",
+   "category": "00_arrow",
+   "set": "right",
+   "name": "right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/right.svg",
+   "ink": [
+    6,
+    11
+   ],
+   "size": 11,
+   "keywords": [
+    "arrow",
+    "right",
+    "화살표",
+    "애로우",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_arrow-right-fill",
+   "category": "00_arrow",
+   "set": "right",
+   "name": "right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/right-fill.svg",
+   "ink": [
+    6.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "right",
+    "fill",
+    "화살표",
+    "애로우",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-left",
+   "category": "00_arrow",
+   "set": "left",
+   "name": "left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/left.svg",
+   "ink": [
+    6,
+    11
+   ],
+   "size": 11,
+   "keywords": [
+    "arrow",
+    "left",
+    "화살표",
+    "애로우",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_arrow-left-fill",
+   "category": "00_arrow",
+   "set": "left",
+   "name": "left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/left-fill.svg",
+   "ink": [
+    6.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "left",
+    "fill",
+    "화살표",
+    "애로우",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-up",
+   "category": "00_arrow",
+   "set": "double-up",
+   "name": "double-up",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/double-up.svg",
+   "ink": [
+    11,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "up",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "위",
+    "상"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-up-fill",
+   "category": "00_arrow",
+   "set": "double-up",
+   "name": "double-up-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/double-up-fill.svg",
+   "ink": [
+    11.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "up",
+    "fill",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "위",
+    "상",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-down",
+   "category": "00_arrow",
+   "set": "double-down",
+   "name": "double-down",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/double-down.svg",
+   "ink": [
+    11,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "down",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "아래",
+    "하"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-down-fill",
+   "category": "00_arrow",
+   "set": "double-down",
+   "name": "double-down-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/double-down-fill.svg",
+   "ink": [
+    11.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "down",
+    "fill",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "아래",
+    "하",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-right",
+   "category": "00_arrow",
+   "set": "double-right",
+   "name": "double-right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/double-right.svg",
+   "ink": [
+    12,
+    11
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "right",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-right-fill",
+   "category": "00_arrow",
+   "set": "double-right",
+   "name": "double-right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/double-right-fill.svg",
+   "ink": [
+    12.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "right",
+    "fill",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-left",
+   "category": "00_arrow",
+   "set": "double-left",
+   "name": "double-left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/double-left.svg",
+   "ink": [
+    12,
+    11
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "left",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-left-fill",
+   "category": "00_arrow",
+   "set": "double-left",
+   "name": "double-left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/double-left-fill.svg",
+   "ink": [
+    12.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "double",
+    "left",
+    "fill",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-up-2",
+   "category": "00_arrow",
+   "set": "up",
+   "name": "up-2",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/up-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "up",
+    "화살표",
+    "애로우",
+    "위",
+    "상"
+   ]
+  },
+  {
+   "id": "i-00_arrow-up-fill-2",
+   "category": "00_arrow",
+   "set": "up",
+   "name": "up-fill-2",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/up-fill-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "up",
+    "fill",
+    "화살표",
+    "애로우",
+    "위",
+    "상",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-down-2",
+   "category": "00_arrow",
+   "set": "down",
+   "name": "down-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/down-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "down",
+    "화살표",
+    "애로우",
+    "아래",
+    "하"
+   ]
+  },
+  {
+   "id": "i-00_arrow-down-fill-2",
+   "category": "00_arrow",
+   "set": "down",
+   "name": "down-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/down-fill-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "down",
+    "fill",
+    "화살표",
+    "애로우",
+    "아래",
+    "하",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-right-2",
+   "category": "00_arrow",
+   "set": "right",
+   "name": "right-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/right-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "right",
+    "화살표",
+    "애로우",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_arrow-right-fill-2",
+   "category": "00_arrow",
+   "set": "right",
+   "name": "right-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/right-fill-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "right",
+    "fill",
+    "화살표",
+    "애로우",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-left-2",
+   "category": "00_arrow",
+   "set": "left",
+   "name": "left-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/left-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "left",
+    "화살표",
+    "애로우",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_arrow-left-fill-2",
+   "category": "00_arrow",
+   "set": "left",
+   "name": "left-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/left-fill-2.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "left",
+    "fill",
+    "화살표",
+    "애로우",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-up",
+   "category": "00_arrow",
+   "set": "caret-up",
+   "name": "caret-up",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/caret-up.svg",
+   "ink": [
+    7,
+    4
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "up",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "위",
+    "상"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-up-fill",
+   "category": "00_arrow",
+   "set": "caret-up",
+   "name": "caret-up-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/caret-up-fill.svg",
+   "ink": [
+    7,
+    4
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "up",
+    "fill",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "위",
+    "상",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-down",
+   "category": "00_arrow",
+   "set": "caret-down",
+   "name": "caret-down",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/caret-down.svg",
+   "ink": [
+    6.8,
+    4
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "down",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "아래",
+    "하"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-down-fill",
+   "category": "00_arrow",
+   "set": "caret-down",
+   "name": "caret-down-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/caret-down-fill.svg",
+   "ink": [
+    6.8,
+    4
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "down",
+    "fill",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "아래",
+    "하",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-right",
+   "category": "00_arrow",
+   "set": "caret-right",
+   "name": "caret-right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/caret-right.svg",
+   "ink": [
+    3.8,
+    7
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "right",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-right-fill",
+   "category": "00_arrow",
+   "set": "caret-right",
+   "name": "caret-right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/caret-right-fill.svg",
+   "ink": [
+    3.8,
+    7
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "right",
+    "fill",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-left",
+   "category": "00_arrow",
+   "set": "caret-left",
+   "name": "caret-left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/caret-left.svg",
+   "ink": [
+    4,
+    7
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "left",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_arrow-caret-left-fill",
+   "category": "00_arrow",
+   "set": "caret-left",
+   "name": "caret-left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/caret-left-fill.svg",
+   "ink": [
+    4,
+    7
+   ],
+   "size": 7,
+   "keywords": [
+    "arrow",
+    "caret",
+    "left",
+    "fill",
+    "화살표",
+    "애로우",
+    "캐럿",
+    "삼각",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-overflow_indicator",
+   "category": "00_arrow",
+   "set": "overflow_indicator",
+   "name": "overflow_indicator",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/overflow_indicator.svg",
+   "ink": [
+    5.5,
+    5.5
+   ],
+   "size": 6,
+   "keywords": [
+    "arrow",
+    "overflow",
+    "indicator",
+    "화살표",
+    "애로우",
+    "넘침",
+    "더보기",
+    "표시"
+   ]
+  },
+  {
+   "id": "i-00_arrow-overflow_indicator-fill",
+   "category": "00_arrow",
+   "set": "overflow_indicator",
+   "name": "overflow_indicator-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/overflow_indicator-fill.svg",
+   "ink": [
+    5.5,
+    5.5
+   ],
+   "size": 6,
+   "keywords": [
+    "arrow",
+    "overflow",
+    "indicator",
+    "fill",
+    "화살표",
+    "애로우",
+    "넘침",
+    "더보기",
+    "표시",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-swap-vert",
+   "category": "00_arrow",
+   "set": "swap-vert",
+   "name": "swap-vert",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/swap-vert.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "arrow",
+    "swap",
+    "vert",
+    "화살표",
+    "애로우",
+    "교체",
+    "바꾸기",
+    "세로"
+   ]
+  },
+  {
+   "id": "i-00_arrow-swap-vert-fill",
+   "category": "00_arrow",
+   "set": "swap-vert",
+   "name": "swap-vert-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/swap-vert-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "swap",
+    "vert",
+    "fill",
+    "화살표",
+    "애로우",
+    "교체",
+    "바꾸기",
+    "세로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-swap-horiz",
+   "category": "00_arrow",
+   "set": "swap-horiz",
+   "name": "swap-horiz",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/swap-horiz.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "arrow",
+    "swap",
+    "horiz",
+    "화살표",
+    "애로우",
+    "교체",
+    "바꾸기",
+    "가로"
+   ]
+  },
+  {
+   "id": "i-00_arrow-swap-horiz-fill",
+   "category": "00_arrow",
+   "set": "swap-horiz",
+   "name": "swap-horiz-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/swap-horiz-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "swap",
+    "horiz",
+    "fill",
+    "화살표",
+    "애로우",
+    "교체",
+    "바꾸기",
+    "가로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-expand",
+   "category": "00_arrow",
+   "set": "expand",
+   "name": "expand",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/expand.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "expand",
+    "화살표",
+    "애로우",
+    "확장",
+    "펼치기"
+   ]
+  },
+  {
+   "id": "i-00_arrow-expand-fill",
+   "category": "00_arrow",
+   "set": "expand",
+   "name": "expand-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/expand-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "expand",
+    "fill",
+    "화살표",
+    "애로우",
+    "확장",
+    "펼치기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-collapse",
+   "category": "00_arrow",
+   "set": "collapse",
+   "name": "collapse",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/collapse.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "collapse",
+    "화살표",
+    "애로우",
+    "접기",
+    "축소"
+   ]
+  },
+  {
+   "id": "i-00_arrow-collapse-fill",
+   "category": "00_arrow",
+   "set": "collapse",
+   "name": "collapse-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/collapse-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "collapse",
+    "fill",
+    "화살표",
+    "애로우",
+    "접기",
+    "축소",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-upward",
+   "category": "00_arrow",
+   "set": "upward",
+   "name": "upward",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/upward.svg",
+   "ink": [
+    11.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "upward",
+    "화살표",
+    "애로우",
+    "위로"
+   ]
+  },
+  {
+   "id": "i-00_arrow-upward-fill",
+   "category": "00_arrow",
+   "set": "upward",
+   "name": "upward-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/upward-fill.svg",
+   "ink": [
+    11.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "upward",
+    "fill",
+    "화살표",
+    "애로우",
+    "위로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-downward",
+   "category": "00_arrow",
+   "set": "downward",
+   "name": "downward",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/downward.svg",
+   "ink": [
+    11,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "arrow",
+    "downward",
+    "화살표",
+    "애로우",
+    "아래로"
+   ]
+  },
+  {
+   "id": "i-00_arrow-downward-fill",
+   "category": "00_arrow",
+   "set": "downward",
+   "name": "downward-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/downward-fill.svg",
+   "ink": [
+    11.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "downward",
+    "fill",
+    "화살표",
+    "애로우",
+    "아래로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-south-west",
+   "category": "00_arrow",
+   "set": "south-west",
+   "name": "south-west",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/south-west.svg",
+   "ink": [
+    11.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "south",
+    "west",
+    "화살표",
+    "애로우",
+    "남쪽",
+    "대각선"
+   ]
+  },
+  {
+   "id": "i-00_arrow-south-west-fill",
+   "category": "00_arrow",
+   "set": "south-west",
+   "name": "south-west-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/south-west-fill.svg",
+   "ink": [
+    11.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "south",
+    "west",
+    "fill",
+    "화살표",
+    "애로우",
+    "남쪽",
+    "대각선",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-south-east",
+   "category": "00_arrow",
+   "set": "south-east",
+   "name": "south-east",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/south-east.svg",
+   "ink": [
+    11.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "south",
+    "east",
+    "화살표",
+    "애로우",
+    "남쪽",
+    "대각선"
+   ]
+  },
+  {
+   "id": "i-00_arrow-south-east-fill",
+   "category": "00_arrow",
+   "set": "south-east",
+   "name": "south-east-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/south-east-fill.svg",
+   "ink": [
+    11.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "arrow",
+    "south",
+    "east",
+    "fill",
+    "화살표",
+    "애로우",
+    "남쪽",
+    "대각선",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-arrow-left",
+   "category": "00_arrow",
+   "set": "arrow-left",
+   "name": "arrow-left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/arrow-left.svg",
+   "ink": [
+    13,
+    11
+   ],
+   "size": 13,
+   "keywords": [
+    "arrow",
+    "left",
+    "화살표",
+    "애로우",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_arrow-arrow-left-fill",
+   "category": "00_arrow",
+   "set": "arrow-left",
+   "name": "arrow-left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/arrow-left-fill.svg",
+   "ink": [
+    13.5,
+    11.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "left",
+    "fill",
+    "화살표",
+    "애로우",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-arrow-right",
+   "category": "00_arrow",
+   "set": "arrow-right",
+   "name": "arrow-right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/arrow-right.svg",
+   "ink": [
+    13,
+    11
+   ],
+   "size": 13,
+   "keywords": [
+    "arrow",
+    "right",
+    "화살표",
+    "애로우",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_arrow-arrow-right-fill",
+   "category": "00_arrow",
+   "set": "arrow-right",
+   "name": "arrow-right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/arrow-right-fill.svg",
+   "ink": [
+    13.5,
+    11.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "right",
+    "fill",
+    "화살표",
+    "애로우",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-undo",
+   "category": "00_arrow",
+   "set": "undo",
+   "name": "undo",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/undo.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "undo",
+    "화살표",
+    "애로우",
+    "실행취소",
+    "되돌리기"
+   ]
+  },
+  {
+   "id": "i-00_arrow-undo-fill",
+   "category": "00_arrow",
+   "set": "undo",
+   "name": "undo-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/undo-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "undo",
+    "fill",
+    "화살표",
+    "애로우",
+    "실행취소",
+    "되돌리기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-redo",
+   "category": "00_arrow",
+   "set": "redo",
+   "name": "redo",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/redo.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "redo",
+    "화살표",
+    "애로우",
+    "다시실행"
+   ]
+  },
+  {
+   "id": "i-00_arrow-redo-fill",
+   "category": "00_arrow",
+   "set": "redo",
+   "name": "redo-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/redo-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "arrow",
+    "redo",
+    "fill",
+    "화살표",
+    "애로우",
+    "다시실행",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-rotate_right_90",
+   "category": "00_arrow",
+   "set": "rotate_right_90",
+   "name": "rotate_right_90",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/rotate_right_90.svg",
+   "ink": [
+    15,
+    12
+   ],
+   "size": 15,
+   "keywords": [
+    "arrow",
+    "rotate",
+    "right",
+    "화살표",
+    "애로우",
+    "회전",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_arrow-rotate_right_90-fill",
+   "category": "00_arrow",
+   "set": "rotate_right_90",
+   "name": "rotate_right_90-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/rotate_right_90-fill.svg",
+   "ink": [
+    15.5,
+    12.5
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "rotate",
+    "right",
+    "fill",
+    "화살표",
+    "애로우",
+    "회전",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-rotate_left_90",
+   "category": "00_arrow",
+   "set": "rotate_left_90",
+   "name": "rotate_left_90",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/rotate_left_90.svg",
+   "ink": [
+    15,
+    12
+   ],
+   "size": 15,
+   "keywords": [
+    "arrow",
+    "rotate",
+    "left",
+    "화살표",
+    "애로우",
+    "회전",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_arrow-rotate_left_90-fill",
+   "category": "00_arrow",
+   "set": "rotate_left_90",
+   "name": "rotate_left_90-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/rotate_left_90-fill.svg",
+   "ink": [
+    15.5,
+    12.5
+   ],
+   "size": 16,
+   "keywords": [
+    "arrow",
+    "rotate",
+    "left",
+    "fill",
+    "화살표",
+    "애로우",
+    "회전",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-Edit-colorpalette",
+   "category": "00_edit",
+   "set": "Edit/colorpalette",
+   "name": "Edit-colorpalette",
+   "variant": "",
+   "fill": "",
+   "file": "svg/00_edit/Edit-colorpalette.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "edit",
+    "colorpalette",
+    "편집",
+    "수정",
+    "색상표",
+    "팔레트"
+   ]
+  },
+  {
+   "id": "i-00_edit-Edit-color-black",
+   "category": "00_edit",
+   "set": "Edit/color-black",
+   "name": "Edit-color-black",
+   "variant": "",
+   "fill": "",
+   "file": "svg/00_edit/Edit-color-black.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "edit",
+    "color",
+    "black",
+    "편집",
+    "수정",
+    "색",
+    "컬러",
+    "검정"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-right",
+   "category": "00_edit",
+   "set": "paragraph-right",
+   "name": "paragraph-right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/paragraph-right.svg",
+   "ink": [
+    12.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "right",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-right-fill",
+   "category": "00_edit",
+   "set": "paragraph-right",
+   "name": "paragraph-right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/paragraph-right-fill.svg",
+   "ink": [
+    12.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "right",
+    "fill",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-center",
+   "category": "00_edit",
+   "set": "paragraph-center",
+   "name": "paragraph-center",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/paragraph-center.svg",
+   "ink": [
+    12.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "center",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "가운데"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-center-fill",
+   "category": "00_edit",
+   "set": "paragraph-center",
+   "name": "paragraph-center-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/paragraph-center-fill.svg",
+   "ink": [
+    12.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "center",
+    "fill",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "가운데",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-left",
+   "category": "00_edit",
+   "set": "paragraph-left",
+   "name": "paragraph-left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/paragraph-left.svg",
+   "ink": [
+    12.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "left",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-left-fill",
+   "category": "00_edit",
+   "set": "paragraph-left",
+   "name": "paragraph-left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/paragraph-left-fill.svg",
+   "ink": [
+    12.5,
+    12.5
+   ],
+   "size": 12,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "left",
+    "fill",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-justify",
+   "category": "00_edit",
+   "set": "paragraph-justify",
+   "name": "paragraph-justify",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/paragraph-justify.svg",
+   "ink": [
+    14,
+    12.5
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "justify",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "양쪽정렬"
+   ]
+  },
+  {
+   "id": "i-00_edit-paragraph-justify-fill",
+   "category": "00_edit",
+   "set": "paragraph-justify",
+   "name": "paragraph-justify-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/paragraph-justify-fill.svg",
+   "ink": [
+    14,
+    12.5
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "paragraph",
+    "justify",
+    "fill",
+    "편집",
+    "수정",
+    "문단",
+    "정렬",
+    "양쪽정렬",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-bold",
+   "category": "00_edit",
+   "set": "bold",
+   "name": "bold",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/bold.svg",
+   "ink": [
+    10.3,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "bold",
+    "편집",
+    "수정",
+    "굵게",
+    "볼드"
+   ]
+  },
+  {
+   "id": "i-00_edit-bold-fill",
+   "category": "00_edit",
+   "set": "bold",
+   "name": "bold-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/bold-fill.svg",
+   "ink": [
+    10.3,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "bold",
+    "fill",
+    "편집",
+    "수정",
+    "굵게",
+    "볼드",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-italic",
+   "category": "00_edit",
+   "set": "italic",
+   "name": "italic",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/italic.svg",
+   "ink": [
+    7.3,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "italic",
+    "편집",
+    "수정",
+    "기울임",
+    "이탤릭"
+   ]
+  },
+  {
+   "id": "i-00_edit-italic-fill",
+   "category": "00_edit",
+   "set": "italic",
+   "name": "italic-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/italic-fill.svg",
+   "ink": [
+    7.3,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "italic",
+    "fill",
+    "편집",
+    "수정",
+    "기울임",
+    "이탤릭",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-lasso",
+   "category": "00_edit",
+   "set": "lasso",
+   "name": "lasso",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/lasso.svg",
+   "ink": [
+    14.8,
+    13.8
+   ],
+   "size": 15,
+   "keywords": [
+    "edit",
+    "lasso",
+    "편집",
+    "수정",
+    "올가미",
+    "선택"
+   ]
+  },
+  {
+   "id": "i-00_edit-lasso-fill",
+   "category": "00_edit",
+   "set": "lasso",
+   "name": "lasso-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/lasso-fill.svg",
+   "ink": [
+    15,
+    14
+   ],
+   "size": 15,
+   "keywords": [
+    "edit",
+    "lasso",
+    "fill",
+    "편집",
+    "수정",
+    "올가미",
+    "선택",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-underline",
+   "category": "00_edit",
+   "set": "underline",
+   "name": "underline",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/underline.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "underline",
+    "편집",
+    "수정",
+    "밑줄"
+   ]
+  },
+  {
+   "id": "i-00_edit-underline-fill",
+   "category": "00_edit",
+   "set": "underline",
+   "name": "underline-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/underline-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "underline",
+    "fill",
+    "편집",
+    "수정",
+    "밑줄",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontsize-up",
+   "category": "00_edit",
+   "set": "fontsize-up",
+   "name": "fontsize-up",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/fontsize-up.svg",
+   "ink": [
+    14.3,
+    12.8
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontsize",
+    "up",
+    "편집",
+    "수정",
+    "글자크기",
+    "위",
+    "상"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontsize-up-fill",
+   "category": "00_edit",
+   "set": "fontsize-up",
+   "name": "fontsize-up-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/fontsize-up-fill.svg",
+   "ink": [
+    14.3,
+    12.8
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontsize",
+    "up",
+    "fill",
+    "편집",
+    "수정",
+    "글자크기",
+    "위",
+    "상",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontsize-down",
+   "category": "00_edit",
+   "set": "fontsize-down",
+   "name": "fontsize-down",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/fontsize-down.svg",
+   "ink": [
+    14.3,
+    12
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontsize",
+    "down",
+    "편집",
+    "수정",
+    "글자크기",
+    "아래",
+    "하"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontsize-down-fill",
+   "category": "00_edit",
+   "set": "fontsize-down",
+   "name": "fontsize-down-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/fontsize-down-fill.svg",
+   "ink": [
+    14.3,
+    12
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontsize",
+    "down",
+    "fill",
+    "편집",
+    "수정",
+    "글자크기",
+    "아래",
+    "하",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontfamily",
+   "category": "00_edit",
+   "set": "fontfamily",
+   "name": "fontfamily",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/fontfamily.svg",
+   "ink": [
+    14,
+    8.8
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontfamily",
+    "편집",
+    "수정",
+    "글꼴",
+    "폰트"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontfamily-fill",
+   "category": "00_edit",
+   "set": "fontfamily",
+   "name": "fontfamily-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/fontfamily-fill.svg",
+   "ink": [
+    14,
+    8.8
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontfamily",
+    "fill",
+    "편집",
+    "수정",
+    "글꼴",
+    "폰트",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-strikethrough",
+   "category": "00_edit",
+   "set": "strikethrough",
+   "name": "strikethrough",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/strikethrough.svg",
+   "ink": [
+    14,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "strikethrough",
+    "편집",
+    "수정",
+    "취소선"
+   ]
+  },
+  {
+   "id": "i-00_edit-strikethrough-fill",
+   "category": "00_edit",
+   "set": "strikethrough",
+   "name": "strikethrough-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/strikethrough-fill.svg",
+   "ink": [
+    14,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "strikethrough",
+    "fill",
+    "편집",
+    "수정",
+    "취소선",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontcolor",
+   "category": "00_edit",
+   "set": "fontcolor",
+   "name": "fontcolor",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/fontcolor.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontcolor",
+    "편집",
+    "수정",
+    "글자색"
+   ]
+  },
+  {
+   "id": "i-00_edit-fontcolor-fill",
+   "category": "00_edit",
+   "set": "fontcolor",
+   "name": "fontcolor-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/fontcolor-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "fontcolor",
+    "fill",
+    "편집",
+    "수정",
+    "글자색",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-color-fill",
+   "category": "00_edit",
+   "set": "color-fill",
+   "name": "color-fill",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/color-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "color",
+    "fill",
+    "편집",
+    "수정",
+    "색",
+    "컬러",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-color-fill-fill",
+   "category": "00_edit",
+   "set": "color-fill",
+   "name": "color-fill-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/color-fill-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "color",
+    "fill",
+    "편집",
+    "수정",
+    "색",
+    "컬러",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-hand-draw",
+   "category": "00_edit",
+   "set": "hand-draw",
+   "name": "hand-draw",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/hand-draw.svg",
+   "ink": [
+    10.3,
+    15.5
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "hand",
+    "draw",
+    "편집",
+    "수정",
+    "손",
+    "이동",
+    "그리기"
+   ]
+  },
+  {
+   "id": "i-00_edit-hand-draw-fill",
+   "category": "00_edit",
+   "set": "hand-draw",
+   "name": "hand-draw-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/hand-draw-fill.svg",
+   "ink": [
+    10.3,
+    15.5
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "hand",
+    "draw",
+    "fill",
+    "편집",
+    "수정",
+    "손",
+    "이동",
+    "그리기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-hand",
+   "category": "00_edit",
+   "set": "hand",
+   "name": "hand",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/hand.svg",
+   "ink": [
+    15,
+    17.5
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "hand",
+    "편집",
+    "수정",
+    "손",
+    "이동"
+   ]
+  },
+  {
+   "id": "i-00_edit-hand-fill",
+   "category": "00_edit",
+   "set": "hand",
+   "name": "hand-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/hand-fill.svg",
+   "ink": [
+    14.3,
+    17.5
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "hand",
+    "fill",
+    "편집",
+    "수정",
+    "손",
+    "이동",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-highlighter",
+   "category": "00_edit",
+   "set": "highlighter",
+   "name": "highlighter",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/highlighter.svg",
+   "ink": [
+    10,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "highlighter",
+    "편집",
+    "수정",
+    "형광펜"
+   ]
+  },
+  {
+   "id": "i-00_edit-highlighter-fill",
+   "category": "00_edit",
+   "set": "highlighter",
+   "name": "highlighter-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/highlighter-fill.svg",
+   "ink": [
+    10,
+    16.3
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "highlighter",
+    "fill",
+    "편집",
+    "수정",
+    "형광펜",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil",
+   "category": "00_edit",
+   "set": "pencil",
+   "name": "pencil",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/pencil.svg",
+   "ink": [
+    14,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "pencil",
+    "편집",
+    "수정",
+    "연필"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-fill",
+   "category": "00_edit",
+   "set": "pencil",
+   "name": "pencil-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/pencil-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "pencil",
+    "fill",
+    "편집",
+    "수정",
+    "연필",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-thin",
+   "category": "00_edit",
+   "set": "pencil-thin",
+   "name": "pencil-thin",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/pencil-thin.svg",
+   "ink": [
+    14,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "pencil",
+    "thin",
+    "편집",
+    "수정",
+    "연필",
+    "얇게"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-thin-fill",
+   "category": "00_edit",
+   "set": "pencil-thin",
+   "name": "pencil-thin-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/pencil-thin-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "pencil",
+    "thin",
+    "fill",
+    "편집",
+    "수정",
+    "연필",
+    "얇게",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-pen",
+   "category": "00_edit",
+   "set": "pen",
+   "name": "pen",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/pen.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "pen",
+    "편집",
+    "수정",
+    "펜"
+   ]
+  },
+  {
+   "id": "i-00_edit-pen-fill",
+   "category": "00_edit",
+   "set": "pen",
+   "name": "pen-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/pen-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "pen",
+    "fill",
+    "편집",
+    "수정",
+    "펜",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-eraser",
+   "category": "00_edit",
+   "set": "eraser",
+   "name": "eraser",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/eraser.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "eraser",
+    "편집",
+    "수정",
+    "지우개"
+   ]
+  },
+  {
+   "id": "i-00_edit-eraser-fill",
+   "category": "00_edit",
+   "set": "eraser",
+   "name": "eraser-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/eraser-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "eraser",
+    "fill",
+    "편집",
+    "수정",
+    "지우개",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-eraser-magic",
+   "category": "00_edit",
+   "set": "eraser-magic",
+   "name": "eraser-magic",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/eraser-magic.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "eraser",
+    "magic",
+    "편집",
+    "수정",
+    "지우개",
+    "매직"
+   ]
+  },
+  {
+   "id": "i-00_edit-eraser-magic-fill",
+   "category": "00_edit",
+   "set": "eraser-magic",
+   "name": "eraser-magic-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/eraser-magic-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "eraser",
+    "magic",
+    "fill",
+    "편집",
+    "수정",
+    "지우개",
+    "매직",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-select-all",
+   "category": "00_edit",
+   "set": "select-all",
+   "name": "select-all",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/select-all.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "select",
+    "all",
+    "편집",
+    "수정",
+    "선택",
+    "전체"
+   ]
+  },
+  {
+   "id": "i-00_edit-select-all-fill",
+   "category": "00_edit",
+   "set": "select-all",
+   "name": "select-all-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/select-all-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "edit",
+    "select",
+    "all",
+    "fill",
+    "편집",
+    "수정",
+    "선택",
+    "전체",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-2",
+   "category": "00_edit",
+   "set": "pencil",
+   "name": "pencil-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/pencil-2.svg",
+   "ink": [
+    11.3,
+    17.5
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "pencil",
+    "편집",
+    "수정",
+    "연필"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-fill-2",
+   "category": "00_edit",
+   "set": "pencil",
+   "name": "pencil-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/pencil-fill-2.svg",
+   "ink": [
+    11.3,
+    17.5
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "pencil",
+    "fill",
+    "편집",
+    "수정",
+    "연필",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-thin-2",
+   "category": "00_edit",
+   "set": "pencil-thin",
+   "name": "pencil-thin-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/pencil-thin-2.svg",
+   "ink": [
+    11.3,
+    17.5
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "pencil",
+    "thin",
+    "편집",
+    "수정",
+    "연필",
+    "얇게"
+   ]
+  },
+  {
+   "id": "i-00_edit-pencil-thin-fill-2",
+   "category": "00_edit",
+   "set": "pencil-thin",
+   "name": "pencil-thin-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/pencil-thin-fill-2.svg",
+   "ink": [
+    11.3,
+    17.5
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "pencil",
+    "thin",
+    "fill",
+    "편집",
+    "수정",
+    "연필",
+    "얇게",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-pen-2",
+   "category": "00_edit",
+   "set": "pen",
+   "name": "pen-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/pen-2.svg",
+   "ink": [
+    11.3,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "pen",
+    "편집",
+    "수정",
+    "펜"
+   ]
+  },
+  {
+   "id": "i-00_edit-pen-fill-2",
+   "category": "00_edit",
+   "set": "pen",
+   "name": "pen-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/pen-fill-2.svg",
+   "ink": [
+    11.3,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "edit",
+    "pen",
+    "fill",
+    "편집",
+    "수정",
+    "펜",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-search",
+   "category": "00_general",
+   "set": "search",
+   "name": "search",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/search.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "search",
+    "일반",
+    "검색",
+    "돋보기"
+   ]
+  },
+  {
+   "id": "i-00_general-search-fill",
+   "category": "00_general",
+   "set": "search",
+   "name": "search-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/search-fill.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "search",
+    "fill",
+    "일반",
+    "검색",
+    "돋보기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-mail",
+   "category": "00_general",
+   "set": "mail",
+   "name": "mail",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/mail.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "mail",
+    "일반",
+    "메일",
+    "편지"
+   ]
+  },
+  {
+   "id": "i-00_general-mail-fill",
+   "category": "00_general",
+   "set": "mail",
+   "name": "mail-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/mail-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "mail",
+    "fill",
+    "일반",
+    "메일",
+    "편지",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-recipient",
+   "category": "00_general",
+   "set": "recipient",
+   "name": "recipient",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/recipient.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "recipient",
+    "일반",
+    "수신자",
+    "받는사람"
+   ]
+  },
+  {
+   "id": "i-00_general-recipient-fill",
+   "category": "00_general",
+   "set": "recipient",
+   "name": "recipient-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/recipient-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "recipient",
+    "fill",
+    "일반",
+    "수신자",
+    "받는사람",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-folder",
+   "category": "00_general",
+   "set": "folder",
+   "name": "folder",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/folder.svg",
+   "ink": [
+    14,
+    13
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "folder",
+    "일반",
+    "폴더"
+   ]
+  },
+  {
+   "id": "i-00_general-folder-fill",
+   "category": "00_general",
+   "set": "folder",
+   "name": "folder-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/folder-fill.svg",
+   "ink": [
+    14,
+    13
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "folder",
+    "fill",
+    "일반",
+    "폴더",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-calendar",
+   "category": "00_general",
+   "set": "calendar",
+   "name": "calendar",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/calendar.svg",
+   "ink": [
+    14,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "calendar",
+    "일반",
+    "달력",
+    "캘린더",
+    "일정"
+   ]
+  },
+  {
+   "id": "i-00_general-calendar-fill",
+   "category": "00_general",
+   "set": "calendar",
+   "name": "calendar-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/calendar-fill.svg",
+   "ink": [
+    14,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "calendar",
+    "fill",
+    "일반",
+    "달력",
+    "캘린더",
+    "일정",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-next_reservation",
+   "category": "00_general",
+   "set": "next_reservation",
+   "name": "next_reservation",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/next_reservation.svg",
+   "ink": [
+    15,
+    14
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "next",
+    "reservation",
+    "일반",
+    "다음",
+    "예약"
+   ]
+  },
+  {
+   "id": "i-00_general-next_reservation-fill",
+   "category": "00_general",
+   "set": "next_reservation",
+   "name": "next_reservation-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/next_reservation-fill.svg",
+   "ink": [
+    15,
+    14
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "next",
+    "reservation",
+    "fill",
+    "일반",
+    "다음",
+    "예약",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-edit",
+   "category": "00_general",
+   "set": "edit",
+   "name": "edit",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/edit.svg",
+   "ink": [
+    14.3,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "edit",
+    "일반",
+    "편집",
+    "수정"
+   ]
+  },
+  {
+   "id": "i-00_general-edit-fill",
+   "category": "00_general",
+   "set": "edit",
+   "name": "edit-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/edit-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "edit",
+    "fill",
+    "일반",
+    "편집",
+    "수정",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-address",
+   "category": "00_general",
+   "set": "address",
+   "name": "address",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/address.svg",
+   "ink": [
+    14.5,
+    14.8
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "address",
+    "일반",
+    "주소"
+   ]
+  },
+  {
+   "id": "i-00_general-address-fill",
+   "category": "00_general",
+   "set": "address",
+   "name": "address-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/address-fill.svg",
+   "ink": [
+    14.5,
+    14.8
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "address",
+    "fill",
+    "일반",
+    "주소",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-home",
+   "category": "00_general",
+   "set": "home",
+   "name": "home",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/home.svg",
+   "ink": [
+    14,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "home",
+    "일반",
+    "홈",
+    "집"
+   ]
+  },
+  {
+   "id": "i-00_general-home-fill",
+   "category": "00_general",
+   "set": "home",
+   "name": "home-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/home-fill.svg",
+   "ink": [
+    14,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "home",
+    "fill",
+    "일반",
+    "홈",
+    "집",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-setting",
+   "category": "00_general",
+   "set": "setting",
+   "name": "setting",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/setting.svg",
+   "ink": [
+    15.5,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "setting",
+    "일반",
+    "설정",
+    "톱니"
+   ]
+  },
+  {
+   "id": "i-00_general-setting-fill",
+   "category": "00_general",
+   "set": "setting",
+   "name": "setting-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/setting-fill.svg",
+   "ink": [
+    15.5,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "setting",
+    "fill",
+    "일반",
+    "설정",
+    "톱니",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-favorite",
+   "category": "00_general",
+   "set": "favorite",
+   "name": "favorite",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/favorite.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "favorite",
+    "일반",
+    "즐겨찾기",
+    "별"
+   ]
+  },
+  {
+   "id": "i-00_general-favorite-fill",
+   "category": "00_general",
+   "set": "favorite",
+   "name": "favorite-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/favorite-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "favorite",
+    "fill",
+    "일반",
+    "즐겨찾기",
+    "별",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-heart",
+   "category": "00_general",
+   "set": "heart",
+   "name": "heart",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/heart.svg",
+   "ink": [
+    14,
+    12.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "heart",
+    "일반",
+    "하트",
+    "좋아요"
+   ]
+  },
+  {
+   "id": "i-00_general-heart-fill",
+   "category": "00_general",
+   "set": "heart",
+   "name": "heart-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/heart-fill.svg",
+   "ink": [
+    14,
+    12.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "heart",
+    "fill",
+    "일반",
+    "하트",
+    "좋아요",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-empty_state",
+   "category": "00_general",
+   "set": "empty_state",
+   "name": "empty_state",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/empty_state.svg",
+   "ink": [
+    0,
+    0
+   ],
+   "size": 0,
+   "keywords": [
+    "general",
+    "empty",
+    "state",
+    "일반",
+    "빈",
+    "비어있음",
+    "상태"
+   ]
+  },
+  {
+   "id": "i-00_general-empty_state-fill",
+   "category": "00_general",
+   "set": "empty_state",
+   "name": "empty_state-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/empty_state-fill.svg",
+   "ink": [
+    0,
+    0
+   ],
+   "size": 0,
+   "keywords": [
+    "general",
+    "empty",
+    "state",
+    "fill",
+    "일반",
+    "빈",
+    "비어있음",
+    "상태",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-emo",
+   "category": "00_general",
+   "set": "emo",
+   "name": "emo",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/emo.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "emo",
+    "일반",
+    "이모지",
+    "표정"
+   ]
+  },
+  {
+   "id": "i-00_general-emo-fill",
+   "category": "00_general",
+   "set": "emo",
+   "name": "emo-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/emo-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "emo",
+    "fill",
+    "일반",
+    "이모지",
+    "표정",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-search_insurance",
+   "category": "00_general",
+   "set": "search_insurance",
+   "name": "search_insurance",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/search_insurance.svg",
+   "ink": [
+    14.8,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "search",
+    "insurance",
+    "일반",
+    "검색",
+    "돋보기",
+    "보험"
+   ]
+  },
+  {
+   "id": "i-00_general-search_insurance-fill",
+   "category": "00_general",
+   "set": "search_insurance",
+   "name": "search_insurance-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/search_insurance-fill.svg",
+   "ink": [
+    14.8,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "search",
+    "insurance",
+    "fill",
+    "일반",
+    "검색",
+    "돋보기",
+    "보험",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-check_tooth",
+   "category": "00_general",
+   "set": "check_tooth",
+   "name": "check_tooth",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/check_tooth.svg",
+   "ink": [
+    14.5,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "check",
+    "tooth",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "치아"
+   ]
+  },
+  {
+   "id": "i-00_general-check_tooth-fill",
+   "category": "00_general",
+   "set": "check_tooth",
+   "name": "check_tooth-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/check_tooth-fill.svg",
+   "ink": [
+    14.5,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "check",
+    "tooth",
+    "fill",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "치아",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-bookmark",
+   "category": "00_general",
+   "set": "bookmark",
+   "name": "bookmark",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/bookmark.svg",
+   "ink": [
+    12,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "bookmark",
+    "일반",
+    "북마크",
+    "책갈피"
+   ]
+  },
+  {
+   "id": "i-00_general-bookmark-fill",
+   "category": "00_general",
+   "set": "bookmark",
+   "name": "bookmark-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/bookmark-fill.svg",
+   "ink": [
+    12,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "bookmark",
+    "fill",
+    "일반",
+    "북마크",
+    "책갈피",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-pin",
+   "category": "00_general",
+   "set": "pin",
+   "name": "pin",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/pin.svg",
+   "ink": [
+    8.8,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "pin",
+    "일반",
+    "고정",
+    "핀"
+   ]
+  },
+  {
+   "id": "i-00_general-pin-fill",
+   "category": "00_general",
+   "set": "pin",
+   "name": "pin-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/pin-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "pin",
+    "fill",
+    "일반",
+    "고정",
+    "핀",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-print",
+   "category": "00_general",
+   "set": "print",
+   "name": "print",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/print.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "print",
+    "일반",
+    "인쇄",
+    "프린트"
+   ]
+  },
+  {
+   "id": "i-00_general-print-fill",
+   "category": "00_general",
+   "set": "print",
+   "name": "print-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/print-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "print",
+    "fill",
+    "일반",
+    "인쇄",
+    "프린트",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-stamp",
+   "category": "00_general",
+   "set": "stamp",
+   "name": "stamp",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/stamp.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "stamp",
+    "일반",
+    "도장",
+    "스탬프"
+   ]
+  },
+  {
+   "id": "i-00_general-stamp-fill",
+   "category": "00_general",
+   "set": "stamp",
+   "name": "stamp-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/stamp-fill.svg",
+   "ink": [
+    13.8,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "stamp",
+    "fill",
+    "일반",
+    "도장",
+    "스탬프",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-stamp_done",
+   "category": "00_general",
+   "set": "stamp_done",
+   "name": "stamp_done",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/stamp_done.svg",
+   "ink": [
+    11,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "stamp",
+    "done",
+    "일반",
+    "도장",
+    "스탬프",
+    "완료"
+   ]
+  },
+  {
+   "id": "i-00_general-stamp_done-fill",
+   "category": "00_general",
+   "set": "stamp_done",
+   "name": "stamp_done-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/stamp_done-fill.svg",
+   "ink": [
+    11,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "stamp",
+    "done",
+    "fill",
+    "일반",
+    "도장",
+    "스탬프",
+    "완료",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-voice",
+   "category": "00_general",
+   "set": "voice",
+   "name": "voice",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/voice.svg",
+   "ink": [
+    11,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "voice",
+    "일반",
+    "음성"
+   ]
+  },
+  {
+   "id": "i-00_general-voice-fill",
+   "category": "00_general",
+   "set": "voice",
+   "name": "voice-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/voice-fill.svg",
+   "ink": [
+    11,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "voice",
+    "fill",
+    "일반",
+    "음성",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-mic_etc",
+   "category": "00_general",
+   "set": "mic_etc",
+   "name": "mic_etc",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/mic_etc.svg",
+   "ink": [
+    13.5,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "mic",
+    "etc",
+    "일반",
+    "마이크",
+    "기타",
+    "더보기"
+   ]
+  },
+  {
+   "id": "i-00_general-mic_etc-fill",
+   "category": "00_general",
+   "set": "mic_etc",
+   "name": "mic_etc-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/mic_etc-fill.svg",
+   "ink": [
+    13.5,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "mic",
+    "etc",
+    "fill",
+    "일반",
+    "마이크",
+    "기타",
+    "더보기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-visibility",
+   "category": "00_general",
+   "set": "visibility",
+   "name": "visibility",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/visibility.svg",
+   "ink": [
+    16,
+    10
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "visibility",
+    "일반",
+    "보이기",
+    "숨기기",
+    "눈"
+   ]
+  },
+  {
+   "id": "i-00_general-visibility-fill",
+   "category": "00_general",
+   "set": "visibility",
+   "name": "visibility-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/visibility-fill.svg",
+   "ink": [
+    16,
+    10
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "visibility",
+    "fill",
+    "일반",
+    "보이기",
+    "숨기기",
+    "눈",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-visibility_off",
+   "category": "00_general",
+   "set": "visibility_off",
+   "name": "visibility_off",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/visibility_off.svg",
+   "ink": [
+    16,
+    15
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "visibility",
+    "off",
+    "일반",
+    "보이기",
+    "숨기기",
+    "눈",
+    "끔"
+   ]
+  },
+  {
+   "id": "i-00_general-visibility_off-fill",
+   "category": "00_general",
+   "set": "visibility_off",
+   "name": "visibility_off-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/visibility_off-fill.svg",
+   "ink": [
+    16,
+    15
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "visibility",
+    "off",
+    "fill",
+    "일반",
+    "보이기",
+    "숨기기",
+    "눈",
+    "끔",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-turnright",
+   "category": "00_general",
+   "set": "turnright",
+   "name": "turnright",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/turnright.svg",
+   "ink": [
+    13.3,
+    12.5
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "turnright",
+    "일반",
+    "우회전"
+   ]
+  },
+  {
+   "id": "i-00_general-turnright-fill",
+   "category": "00_general",
+   "set": "turnright",
+   "name": "turnright-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/turnright-fill.svg",
+   "ink": [
+    13.8,
+    13
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "turnright",
+    "fill",
+    "일반",
+    "우회전",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-turnleft",
+   "category": "00_general",
+   "set": "turnleft",
+   "name": "turnleft",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/turnleft.svg",
+   "ink": [
+    13.3,
+    12.5
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "turnleft",
+    "일반",
+    "좌회전"
+   ]
+  },
+  {
+   "id": "i-00_general-turnleft-fill",
+   "category": "00_general",
+   "set": "turnleft",
+   "name": "turnleft-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/turnleft-fill.svg",
+   "ink": [
+    13.8,
+    13
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "turnleft",
+    "fill",
+    "일반",
+    "좌회전",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-refresh",
+   "category": "00_general",
+   "set": "refresh",
+   "name": "refresh",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/refresh.svg",
+   "ink": [
+    13.3,
+    12.5
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "refresh",
+    "일반",
+    "새로고침"
+   ]
+  },
+  {
+   "id": "i-00_general-refresh-fill",
+   "category": "00_general",
+   "set": "refresh",
+   "name": "refresh-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/refresh-fill.svg",
+   "ink": [
+    13.8,
+    13
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "refresh",
+    "fill",
+    "일반",
+    "새로고침",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-history",
+   "category": "00_general",
+   "set": "history",
+   "name": "history",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/history.svg",
+   "ink": [
+    12.5,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "history",
+    "일반",
+    "이력",
+    "기록"
+   ]
+  },
+  {
+   "id": "i-00_general-history-fill",
+   "category": "00_general",
+   "set": "history",
+   "name": "history-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/history-fill.svg",
+   "ink": [
+    13,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "history",
+    "fill",
+    "일반",
+    "이력",
+    "기록",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-change",
+   "category": "00_general",
+   "set": "change",
+   "name": "change",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/change.svg",
+   "ink": [
+    13.5,
+    12.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "change",
+    "일반",
+    "변경"
+   ]
+  },
+  {
+   "id": "i-00_general-change-fill",
+   "category": "00_general",
+   "set": "change",
+   "name": "change-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/change-fill.svg",
+   "ink": [
+    14,
+    13
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "change",
+    "fill",
+    "일반",
+    "변경",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-download",
+   "category": "00_general",
+   "set": "download",
+   "name": "download",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/download.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "download",
+    "일반",
+    "다운로드",
+    "내려받기"
+   ]
+  },
+  {
+   "id": "i-00_general-download-fill",
+   "category": "00_general",
+   "set": "download",
+   "name": "download-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/download-fill.svg",
+   "ink": [
+    14.5,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "download",
+    "fill",
+    "일반",
+    "다운로드",
+    "내려받기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-upload",
+   "category": "00_general",
+   "set": "upload",
+   "name": "upload",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/upload.svg",
+   "ink": [
+    14,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "upload",
+    "일반",
+    "업로드",
+    "올리기"
+   ]
+  },
+  {
+   "id": "i-00_general-upload-fill",
+   "category": "00_general",
+   "set": "upload",
+   "name": "upload-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/upload-fill.svg",
+   "ink": [
+    14.5,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "upload",
+    "fill",
+    "일반",
+    "업로드",
+    "올리기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-zoom_in",
+   "category": "00_general",
+   "set": "zoom_in",
+   "name": "zoom_in",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/zoom_in.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "zoom",
+    "in",
+    "일반",
+    "확대",
+    "축소",
+    "안",
+    "들어오기"
+   ]
+  },
+  {
+   "id": "i-00_general-zoom_in-fill",
+   "category": "00_general",
+   "set": "zoom_in",
+   "name": "zoom_in-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/zoom_in-fill.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "zoom",
+    "in",
+    "fill",
+    "일반",
+    "확대",
+    "축소",
+    "안",
+    "들어오기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-zoom_out",
+   "category": "00_general",
+   "set": "zoom_out",
+   "name": "zoom_out",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/zoom_out.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "zoom",
+    "out",
+    "일반",
+    "확대",
+    "축소",
+    "밖",
+    "나가기"
+   ]
+  },
+  {
+   "id": "i-00_general-zoom_out-fill",
+   "category": "00_general",
+   "set": "zoom_out",
+   "name": "zoom_out-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/zoom_out-fill.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "zoom",
+    "out",
+    "fill",
+    "일반",
+    "확대",
+    "축소",
+    "밖",
+    "나가기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-more_horiz",
+   "category": "00_general",
+   "set": "more_horiz",
+   "name": "more_horiz",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/more_horiz.svg",
+   "ink": [
+    14,
+    3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "more",
+    "horiz",
+    "일반",
+    "더보기",
+    "점",
+    "가로"
+   ]
+  },
+  {
+   "id": "i-00_general-more_horiz-fill",
+   "category": "00_general",
+   "set": "more_horiz",
+   "name": "more_horiz-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/more_horiz-fill.svg",
+   "ink": [
+    14,
+    3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "more",
+    "horiz",
+    "fill",
+    "일반",
+    "더보기",
+    "점",
+    "가로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-more_vert",
+   "category": "00_general",
+   "set": "more_vert",
+   "name": "more_vert",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/more_vert.svg",
+   "ink": [
+    3,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "more",
+    "vert",
+    "일반",
+    "더보기",
+    "점",
+    "세로"
+   ]
+  },
+  {
+   "id": "i-00_general-more_vert-fill",
+   "category": "00_general",
+   "set": "more_vert",
+   "name": "more_vert-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/more_vert-fill.svg",
+   "ink": [
+    3,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "more",
+    "vert",
+    "fill",
+    "일반",
+    "더보기",
+    "점",
+    "세로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-more_vert-2",
+   "category": "00_general",
+   "set": "more_vert",
+   "name": "more_vert-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/more_vert-2.svg",
+   "ink": [
+    5,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "more",
+    "vert",
+    "일반",
+    "더보기",
+    "점",
+    "세로"
+   ]
+  },
+  {
+   "id": "i-00_general-more_vert-fill-2",
+   "category": "00_general",
+   "set": "more_vert",
+   "name": "more_vert-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/more_vert-fill-2.svg",
+   "ink": [
+    5.5,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "more",
+    "vert",
+    "fill",
+    "일반",
+    "더보기",
+    "점",
+    "세로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-handle",
+   "category": "00_general",
+   "set": "handle",
+   "name": "handle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/handle.svg",
+   "ink": [
+    6,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "general",
+    "handle",
+    "일반",
+    "핸들",
+    "손잡이"
+   ]
+  },
+  {
+   "id": "i-00_general-handle-fill",
+   "category": "00_general",
+   "set": "handle",
+   "name": "handle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/handle-fill.svg",
+   "ink": [
+    6,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "general",
+    "handle",
+    "fill",
+    "일반",
+    "핸들",
+    "손잡이",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-camera",
+   "category": "00_general",
+   "set": "camera",
+   "name": "camera",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/camera.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "camera",
+    "일반",
+    "카메라",
+    "사진"
+   ]
+  },
+  {
+   "id": "i-00_general-camera-fill",
+   "category": "00_general",
+   "set": "camera",
+   "name": "camera-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/camera-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "camera",
+    "fill",
+    "일반",
+    "카메라",
+    "사진",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-textarea",
+   "category": "00_general",
+   "set": "textarea",
+   "name": "textarea",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/textarea.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "textarea",
+    "일반",
+    "텍스트영역"
+   ]
+  },
+  {
+   "id": "i-00_general-textarea-fill",
+   "category": "00_general",
+   "set": "textarea",
+   "name": "textarea-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/textarea-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "textarea",
+    "fill",
+    "일반",
+    "텍스트영역",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-excel",
+   "category": "00_general",
+   "set": "excel",
+   "name": "excel",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/excel.svg",
+   "ink": [
+    7,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "excel",
+    "일반",
+    "엑셀"
+   ]
+  },
+  {
+   "id": "i-00_general-excel-fill",
+   "category": "00_general",
+   "set": "excel",
+   "name": "excel-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/excel-fill.svg",
+   "ink": [
+    7,
+    14.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "excel",
+    "fill",
+    "일반",
+    "엑셀",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-two_view-open",
+   "category": "00_general",
+   "set": "two_view-open",
+   "name": "two_view-open",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/two_view-open.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "two",
+    "view",
+    "open",
+    "일반",
+    "둘",
+    "보기",
+    "뷰",
+    "열기"
+   ]
+  },
+  {
+   "id": "i-00_general-two_view-open-fill",
+   "category": "00_general",
+   "set": "two_view-open",
+   "name": "two_view-open-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/two_view-open-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "two",
+    "view",
+    "open",
+    "fill",
+    "일반",
+    "둘",
+    "보기",
+    "뷰",
+    "열기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-two_view-close",
+   "category": "00_general",
+   "set": "two_view-close",
+   "name": "two_view-close",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/two_view-close.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "two",
+    "view",
+    "close",
+    "일반",
+    "둘",
+    "보기",
+    "뷰",
+    "닫기",
+    "엑스"
+   ]
+  },
+  {
+   "id": "i-00_general-two_view-close-fill",
+   "category": "00_general",
+   "set": "two_view-close",
+   "name": "two_view-close-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/two_view-close-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "two",
+    "view",
+    "close",
+    "fill",
+    "일반",
+    "둘",
+    "보기",
+    "뷰",
+    "닫기",
+    "엑스",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-e_chart",
+   "category": "00_general",
+   "set": "e_chart",
+   "name": "e_chart",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/e_chart.svg",
+   "ink": [
+    16.5,
+    14.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "e",
+    "chart",
+    "일반",
+    "차트",
+    "그래프"
+   ]
+  },
+  {
+   "id": "i-00_general-e_chart-fill",
+   "category": "00_general",
+   "set": "e_chart",
+   "name": "e_chart-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/e_chart-fill.svg",
+   "ink": [
+    16.5,
+    14.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "e",
+    "chart",
+    "fill",
+    "일반",
+    "차트",
+    "그래프",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-thickness",
+   "category": "00_general",
+   "set": "thickness",
+   "name": "thickness",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/thickness.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "thickness",
+    "일반",
+    "두께"
+   ]
+  },
+  {
+   "id": "i-00_general-thickness-fill",
+   "category": "00_general",
+   "set": "thickness",
+   "name": "thickness-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/thickness-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "thickness",
+    "fill",
+    "일반",
+    "두께",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-supervisor_message",
+   "category": "00_general",
+   "set": "supervisor_message",
+   "name": "supervisor_message",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/supervisor_message.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "supervisor",
+    "message",
+    "일반",
+    "관리자",
+    "메시지",
+    "대화"
+   ]
+  },
+  {
+   "id": "i-00_general-supervisor_message-fill",
+   "category": "00_general",
+   "set": "supervisor_message",
+   "name": "supervisor_message-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/supervisor_message-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "supervisor",
+    "message",
+    "fill",
+    "일반",
+    "관리자",
+    "메시지",
+    "대화",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-dual_view",
+   "category": "00_general",
+   "set": "dual_view",
+   "name": "dual_view",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/dual_view.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "dual",
+    "view",
+    "일반",
+    "듀얼",
+    "둘",
+    "보기",
+    "뷰"
+   ]
+  },
+  {
+   "id": "i-00_general-dual_view-fill",
+   "category": "00_general",
+   "set": "dual_view",
+   "name": "dual_view-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/dual_view-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "dual",
+    "view",
+    "fill",
+    "일반",
+    "듀얼",
+    "둘",
+    "보기",
+    "뷰",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-keypad",
+   "category": "00_general",
+   "set": "keypad",
+   "name": "keypad",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/keypad.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "keypad",
+    "일반",
+    "키패드",
+    "숫자판"
+   ]
+  },
+  {
+   "id": "i-00_general-keypad-fill",
+   "category": "00_general",
+   "set": "keypad",
+   "name": "keypad-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/keypad-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "keypad",
+    "fill",
+    "일반",
+    "키패드",
+    "숫자판",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-panorama",
+   "category": "00_general",
+   "set": "panorama",
+   "name": "panorama",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/panorama.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "panorama",
+    "일반",
+    "파노라마"
+   ]
+  },
+  {
+   "id": "i-00_general-panorama-fill",
+   "category": "00_general",
+   "set": "panorama",
+   "name": "panorama-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/panorama-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "panorama",
+    "fill",
+    "일반",
+    "파노라마",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-tooth_system",
+   "category": "00_general",
+   "set": "tooth_system",
+   "name": "tooth_system",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/tooth_system.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "tooth",
+    "system",
+    "일반",
+    "치아",
+    "시스템"
+   ]
+  },
+  {
+   "id": "i-00_general-tooth_system-fill",
+   "category": "00_general",
+   "set": "tooth_system",
+   "name": "tooth_system-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/tooth_system-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "tooth",
+    "system",
+    "fill",
+    "일반",
+    "치아",
+    "시스템",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-save",
+   "category": "00_general",
+   "set": "save",
+   "name": "save",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/save.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "save",
+    "일반",
+    "저장"
+   ]
+  },
+  {
+   "id": "i-00_general-save-fill",
+   "category": "00_general",
+   "set": "save",
+   "name": "save-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/save-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "save",
+    "fill",
+    "일반",
+    "저장",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-save_as",
+   "category": "00_general",
+   "set": "save_as",
+   "name": "save_as",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/save_as.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "save",
+    "as",
+    "일반",
+    "저장"
+   ]
+  },
+  {
+   "id": "i-00_general-save_as-fill",
+   "category": "00_general",
+   "set": "save_as",
+   "name": "save_as-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/save_as-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "save",
+    "as",
+    "fill",
+    "일반",
+    "저장",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-tag",
+   "category": "00_general",
+   "set": "tag",
+   "name": "tag",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/tag.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "tag",
+    "일반",
+    "태그",
+    "꼬리표"
+   ]
+  },
+  {
+   "id": "i-00_general-tag-fill",
+   "category": "00_general",
+   "set": "tag",
+   "name": "tag-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/tag-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "tag",
+    "fill",
+    "일반",
+    "태그",
+    "꼬리표",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-tag_add",
+   "category": "00_general",
+   "set": "tag_add",
+   "name": "tag_add",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/tag_add.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "tag",
+    "add",
+    "일반",
+    "태그",
+    "꼬리표",
+    "추가",
+    "플러스"
+   ]
+  },
+  {
+   "id": "i-00_general-tag_add-fill",
+   "category": "00_general",
+   "set": "tag_add",
+   "name": "tag_add-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/tag_add-fill.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "tag",
+    "add",
+    "fill",
+    "일반",
+    "태그",
+    "꼬리표",
+    "추가",
+    "플러스",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-lock",
+   "category": "00_general",
+   "set": "lock",
+   "name": "lock",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/lock.svg",
+   "ink": [
+    14,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "lock",
+    "일반",
+    "잠금",
+    "자물쇠"
+   ]
+  },
+  {
+   "id": "i-00_general-lock-fill",
+   "category": "00_general",
+   "set": "lock",
+   "name": "lock-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/lock-fill.svg",
+   "ink": [
+    14,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "lock",
+    "fill",
+    "일반",
+    "잠금",
+    "자물쇠",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-unlock",
+   "category": "00_general",
+   "set": "unlock",
+   "name": "unlock",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/unlock.svg",
+   "ink": [
+    14,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "unlock",
+    "일반",
+    "잠금해제"
+   ]
+  },
+  {
+   "id": "i-00_general-unlock-fill",
+   "category": "00_general",
+   "set": "unlock",
+   "name": "unlock-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/unlock-fill.svg",
+   "ink": [
+    14,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "unlock",
+    "fill",
+    "일반",
+    "잠금해제",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_setting",
+   "category": "00_general",
+   "set": "layout_setting",
+   "name": "layout_setting",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/layout_setting.svg",
+   "ink": [
+    15.5,
+    15.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "layout",
+    "setting",
+    "일반",
+    "레이아웃",
+    "배치",
+    "설정",
+    "톱니"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_setting-fill",
+   "category": "00_general",
+   "set": "layout_setting",
+   "name": "layout_setting-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/layout_setting-fill.svg",
+   "ink": [
+    15.5,
+    15.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "layout",
+    "setting",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "설정",
+    "톱니",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-shapes",
+   "category": "00_general",
+   "set": "shapes",
+   "name": "shapes",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/shapes.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "shapes",
+    "일반",
+    "도형"
+   ]
+  },
+  {
+   "id": "i-00_general-shapes-fill",
+   "category": "00_general",
+   "set": "shapes",
+   "name": "shapes-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/shapes-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "shapes",
+    "fill",
+    "일반",
+    "도형",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-drag_pan",
+   "category": "00_general",
+   "set": "drag_pan",
+   "name": "drag_pan",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/drag_pan.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "drag",
+    "pan",
+    "일반",
+    "드래그",
+    "끌기",
+    "이동",
+    "패닝"
+   ]
+  },
+  {
+   "id": "i-00_general-drag_pan-fill",
+   "category": "00_general",
+   "set": "drag_pan",
+   "name": "drag_pan-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/drag_pan-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "drag",
+    "pan",
+    "fill",
+    "일반",
+    "드래그",
+    "끌기",
+    "이동",
+    "패닝",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs",
+   "category": "00_general",
+   "set": "docs",
+   "name": "docs",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs.svg",
+   "ink": [
+    12,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "일반",
+    "문서"
+   ]
+  },
+  {
+   "id": "i-00_general-docs-fill",
+   "category": "00_general",
+   "set": "docs",
+   "name": "docs-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs-fill.svg",
+   "ink": [
+    12,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "fill",
+    "일반",
+    "문서",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_add",
+   "category": "00_general",
+   "set": "docs_add",
+   "name": "docs_add",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_add.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "add",
+    "일반",
+    "문서",
+    "추가",
+    "플러스"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_add-fill",
+   "category": "00_general",
+   "set": "docs_add",
+   "name": "docs_add-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_add-fill.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "add",
+    "fill",
+    "일반",
+    "문서",
+    "추가",
+    "플러스",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_search",
+   "category": "00_general",
+   "set": "docs_search",
+   "name": "docs_search",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_search.svg",
+   "ink": [
+    14.3,
+    16.3
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "search",
+    "일반",
+    "문서",
+    "검색",
+    "돋보기"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_search-fill",
+   "category": "00_general",
+   "set": "docs_search",
+   "name": "docs_search-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_search-fill.svg",
+   "ink": [
+    14.3,
+    16.3
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "search",
+    "fill",
+    "일반",
+    "문서",
+    "검색",
+    "돋보기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_setting",
+   "category": "00_general",
+   "set": "docs_setting",
+   "name": "docs_setting",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_setting.svg",
+   "ink": [
+    14.3,
+    16.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "setting",
+    "일반",
+    "문서",
+    "설정",
+    "톱니"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_setting-fill",
+   "category": "00_general",
+   "set": "docs_setting",
+   "name": "docs_setting-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_setting-fill.svg",
+   "ink": [
+    14.3,
+    16.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "setting",
+    "fill",
+    "일반",
+    "문서",
+    "설정",
+    "톱니",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_off",
+   "category": "00_general",
+   "set": "docs_off",
+   "name": "docs_off",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_off.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "off",
+    "일반",
+    "문서",
+    "끔"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_off-fill",
+   "category": "00_general",
+   "set": "docs_off",
+   "name": "docs_off-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_off-fill.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "off",
+    "fill",
+    "일반",
+    "문서",
+    "끔",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_check",
+   "category": "00_general",
+   "set": "docs_check",
+   "name": "docs_check",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_check.svg",
+   "ink": [
+    14.3,
+    15.8
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "check",
+    "일반",
+    "문서",
+    "체크",
+    "확인",
+    "완료"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_check-fill",
+   "category": "00_general",
+   "set": "docs_check",
+   "name": "docs_check-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_check-fill.svg",
+   "ink": [
+    14.3,
+    15.8
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "check",
+    "fill",
+    "일반",
+    "문서",
+    "체크",
+    "확인",
+    "완료",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_landscape",
+   "category": "00_general",
+   "set": "docs_landscape",
+   "name": "docs_landscape",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_landscape.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "landscape",
+    "일반",
+    "문서",
+    "가로",
+    "풍경"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_landscape-fill",
+   "category": "00_general",
+   "set": "docs_landscape",
+   "name": "docs_landscape-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_landscape-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "landscape",
+    "fill",
+    "일반",
+    "문서",
+    "가로",
+    "풍경",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_Portrait",
+   "category": "00_general",
+   "set": "docs_Portrait",
+   "name": "docs_Portrait",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/docs_Portrait.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "portrait",
+    "일반",
+    "문서",
+    "세로",
+    "인물"
+   ]
+  },
+  {
+   "id": "i-00_general-docs_Portrait-fill",
+   "category": "00_general",
+   "set": "docs_Portrait",
+   "name": "docs_Portrait-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/docs_Portrait-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "docs",
+    "portrait",
+    "fill",
+    "일반",
+    "문서",
+    "세로",
+    "인물",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-add_circle",
+   "category": "00_general",
+   "set": "add_circle",
+   "name": "add_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/add_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "add",
+    "circle",
+    "일반",
+    "추가",
+    "플러스",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-add_circle-fill",
+   "category": "00_general",
+   "set": "add_circle",
+   "name": "add_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/add_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "add",
+    "circle",
+    "fill",
+    "일반",
+    "추가",
+    "플러스",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-substract_circle",
+   "category": "00_general",
+   "set": "substract_circle",
+   "name": "substract_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/substract_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "substract",
+    "circle",
+    "일반",
+    "빼기",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-substract_circle-fill",
+   "category": "00_general",
+   "set": "substract_circle",
+   "name": "substract_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/substract_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "substract",
+    "circle",
+    "fill",
+    "일반",
+    "빼기",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-help_circle",
+   "category": "00_general",
+   "set": "help_circle",
+   "name": "help_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/help_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "help",
+    "circle",
+    "일반",
+    "도움말",
+    "물음표",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-help_circle-fill",
+   "category": "00_general",
+   "set": "help_circle",
+   "name": "help_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/help_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "help",
+    "circle",
+    "fill",
+    "일반",
+    "도움말",
+    "물음표",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-info_circle",
+   "category": "00_general",
+   "set": "info_circle",
+   "name": "info_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/info_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "info",
+    "circle",
+    "일반",
+    "정보",
+    "안내",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-info_circle-fill",
+   "category": "00_general",
+   "set": "info_circle",
+   "name": "info_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/info_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "info",
+    "circle",
+    "fill",
+    "일반",
+    "정보",
+    "안내",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-check_circle",
+   "category": "00_general",
+   "set": "check_circle",
+   "name": "check_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/check_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "check",
+    "circle",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-check_circle-fill",
+   "category": "00_general",
+   "set": "check_circle",
+   "name": "check_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/check_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "check",
+    "circle",
+    "fill",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-play_circle",
+   "category": "00_general",
+   "set": "play_circle",
+   "name": "play_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/play_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "play",
+    "circle",
+    "일반",
+    "재생",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-play_circle-fill",
+   "category": "00_general",
+   "set": "play_circle",
+   "name": "play_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/play_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "play",
+    "circle",
+    "fill",
+    "일반",
+    "재생",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-stop_circle",
+   "category": "00_general",
+   "set": "stop_circle",
+   "name": "stop_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/stop_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "stop",
+    "circle",
+    "일반",
+    "정지",
+    "중지",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-stop_circle-fill",
+   "category": "00_general",
+   "set": "stop_circle",
+   "name": "stop_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/stop_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "stop",
+    "circle",
+    "fill",
+    "일반",
+    "정지",
+    "중지",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-pause_circle",
+   "category": "00_general",
+   "set": "pause_circle",
+   "name": "pause_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/pause_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "pause",
+    "circle",
+    "일반",
+    "일시정지",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-pause_circle-fill",
+   "category": "00_general",
+   "set": "pause_circle",
+   "name": "pause_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/pause_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "pause",
+    "circle",
+    "fill",
+    "일반",
+    "일시정지",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-delete_circle",
+   "category": "00_general",
+   "set": "delete_circle",
+   "name": "delete_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/delete_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "delete",
+    "circle",
+    "일반",
+    "삭제",
+    "휴지통",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-delete_circle-fill",
+   "category": "00_general",
+   "set": "delete_circle",
+   "name": "delete_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/delete_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "delete",
+    "circle",
+    "fill",
+    "일반",
+    "삭제",
+    "휴지통",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-alert_circle",
+   "category": "00_general",
+   "set": "alert_circle",
+   "name": "alert_circle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/alert_circle.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "alert",
+    "circle",
+    "일반",
+    "경고",
+    "알림",
+    "원",
+    "동그라미"
+   ]
+  },
+  {
+   "id": "i-00_general-alert_circle-fill",
+   "category": "00_general",
+   "set": "alert_circle",
+   "name": "alert_circle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/alert_circle-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "alert",
+    "circle",
+    "fill",
+    "일반",
+    "경고",
+    "알림",
+    "원",
+    "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-play",
+   "category": "00_general",
+   "set": "play",
+   "name": "play",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/play.svg",
+   "ink": [
+    12,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "play",
+    "일반",
+    "재생"
+   ]
+  },
+  {
+   "id": "i-00_general-play-fill",
+   "category": "00_general",
+   "set": "play",
+   "name": "play-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/play-fill.svg",
+   "ink": [
+    12,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "play",
+    "fill",
+    "일반",
+    "재생",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-pause",
+   "category": "00_general",
+   "set": "pause",
+   "name": "pause",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/pause.svg",
+   "ink": [
+    8,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "pause",
+    "일반",
+    "일시정지"
+   ]
+  },
+  {
+   "id": "i-00_general-pause-fill",
+   "category": "00_general",
+   "set": "pause",
+   "name": "pause-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/pause-fill.svg",
+   "ink": [
+    8,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "pause",
+    "fill",
+    "일반",
+    "일시정지",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-gotoend",
+   "category": "00_general",
+   "set": "gotoend",
+   "name": "gotoend",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/gotoend.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "gotoend",
+    "일반",
+    "끝으로"
+   ]
+  },
+  {
+   "id": "i-00_general-gotoend-fill",
+   "category": "00_general",
+   "set": "gotoend",
+   "name": "gotoend-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/gotoend-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "gotoend",
+    "fill",
+    "일반",
+    "끝으로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-next",
+   "category": "00_general",
+   "set": "next",
+   "name": "next",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/next.svg",
+   "ink": [
+    16,
+    10
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "next",
+    "일반",
+    "다음"
+   ]
+  },
+  {
+   "id": "i-00_general-next-fill",
+   "category": "00_general",
+   "set": "next",
+   "name": "next-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/next-fill.svg",
+   "ink": [
+    16,
+    10
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "next",
+    "fill",
+    "일반",
+    "다음",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-gotostart",
+   "category": "00_general",
+   "set": "gotostart",
+   "name": "gotostart",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/gotostart.svg",
+   "ink": [
+    14.5,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "gotostart",
+    "일반",
+    "처음으로"
+   ]
+  },
+  {
+   "id": "i-00_general-gotostart-fill",
+   "category": "00_general",
+   "set": "gotostart",
+   "name": "gotostart-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/gotostart-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "gotostart",
+    "fill",
+    "일반",
+    "처음으로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-prev",
+   "category": "00_general",
+   "set": "prev",
+   "name": "prev",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/prev.svg",
+   "ink": [
+    16,
+    10
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "prev",
+    "일반",
+    "이전"
+   ]
+  },
+  {
+   "id": "i-00_general-prev-fill",
+   "category": "00_general",
+   "set": "prev",
+   "name": "prev-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/prev-fill.svg",
+   "ink": [
+    16,
+    10
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "prev",
+    "fill",
+    "일반",
+    "이전",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-link",
+   "category": "00_general",
+   "set": "link",
+   "name": "link",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/link.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "link",
+    "일반",
+    "링크",
+    "연결"
+   ]
+  },
+  {
+   "id": "i-00_general-link-fill",
+   "category": "00_general",
+   "set": "link",
+   "name": "link-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/link-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "link",
+    "fill",
+    "일반",
+    "링크",
+    "연결",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-reference",
+   "category": "00_general",
+   "set": "reference",
+   "name": "reference",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/reference.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "reference",
+    "일반",
+    "참조"
+   ]
+  },
+  {
+   "id": "i-00_general-reference-fill",
+   "category": "00_general",
+   "set": "reference",
+   "name": "reference-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/reference-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "reference",
+    "fill",
+    "일반",
+    "참조",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-check",
+   "category": "00_general",
+   "set": "check",
+   "name": "check",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/check.svg",
+   "ink": [
+    13,
+    9
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "check",
+    "일반",
+    "체크",
+    "확인",
+    "완료"
+   ]
+  },
+  {
+   "id": "i-00_general-check-fill",
+   "category": "00_general",
+   "set": "check",
+   "name": "check-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/check-fill.svg",
+   "ink": [
+    13.5,
+    9.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "check",
+    "fill",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-agree",
+   "category": "00_general",
+   "set": "agree",
+   "name": "agree",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/agree.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "agree",
+    "일반",
+    "동의",
+    "찬성"
+   ]
+  },
+  {
+   "id": "i-00_general-agree-fill",
+   "category": "00_general",
+   "set": "agree",
+   "name": "agree-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/agree-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "agree",
+    "fill",
+    "일반",
+    "동의",
+    "찬성",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-disagree",
+   "category": "00_general",
+   "set": "disagree",
+   "name": "disagree",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/disagree.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "disagree",
+    "일반",
+    "비동의",
+    "반대"
+   ]
+  },
+  {
+   "id": "i-00_general-disagree-fill",
+   "category": "00_general",
+   "set": "disagree",
+   "name": "disagree-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/disagree-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "disagree",
+    "fill",
+    "일반",
+    "비동의",
+    "반대",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-list_delete",
+   "category": "00_general",
+   "set": "list_delete",
+   "name": "list_delete",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/list_delete.svg",
+   "ink": [
+    9,
+    9
+   ],
+   "size": 9,
+   "keywords": [
+    "general",
+    "list",
+    "delete",
+    "일반",
+    "목록",
+    "리스트",
+    "삭제",
+    "휴지통"
+   ]
+  },
+  {
+   "id": "i-00_general-list_delete-fill",
+   "category": "00_general",
+   "set": "list_delete",
+   "name": "list_delete-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/list_delete-fill.svg",
+   "ink": [
+    9.5,
+    9.5
+   ],
+   "size": 10,
+   "keywords": [
+    "general",
+    "list",
+    "delete",
+    "fill",
+    "일반",
+    "목록",
+    "리스트",
+    "삭제",
+    "휴지통",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-add",
+   "category": "00_general",
+   "set": "add",
+   "name": "add",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/add.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "add",
+    "일반",
+    "추가",
+    "플러스"
+   ]
+  },
+  {
+   "id": "i-00_general-add-fill",
+   "category": "00_general",
+   "set": "add",
+   "name": "add-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/add-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "add",
+    "fill",
+    "일반",
+    "추가",
+    "플러스",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-subtract",
+   "category": "00_general",
+   "set": "subtract",
+   "name": "subtract",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/subtract.svg",
+   "ink": [
+    13,
+    1
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "subtract",
+    "일반",
+    "빼기",
+    "마이너스"
+   ]
+  },
+  {
+   "id": "i-00_general-subtract-fill",
+   "category": "00_general",
+   "set": "subtract",
+   "name": "subtract-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/subtract-fill.svg",
+   "ink": [
+    13.5,
+    1.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "subtract",
+    "fill",
+    "일반",
+    "빼기",
+    "마이너스",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-block",
+   "category": "00_general",
+   "set": "block",
+   "name": "block",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/block.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "block",
+    "일반",
+    "차단",
+    "금지"
+   ]
+  },
+  {
+   "id": "i-00_general-block-fill",
+   "category": "00_general",
+   "set": "block",
+   "name": "block-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/block-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "block",
+    "fill",
+    "일반",
+    "차단",
+    "금지",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-tooth_mapping",
+   "category": "00_general",
+   "set": "tooth_mapping",
+   "name": "tooth_mapping",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/tooth_mapping.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "tooth",
+    "mapping",
+    "일반",
+    "치아",
+    "매핑",
+    "연결"
+   ]
+  },
+  {
+   "id": "i-00_general-tooth_mapping-fill",
+   "category": "00_general",
+   "set": "tooth_mapping",
+   "name": "tooth_mapping-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/tooth_mapping-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "tooth",
+    "mapping",
+    "fill",
+    "일반",
+    "치아",
+    "매핑",
+    "연결",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-monitor_setting",
+   "category": "00_general",
+   "set": "monitor_setting",
+   "name": "monitor_setting",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/monitor_setting.svg",
+   "ink": [
+    18,
+    15
+   ],
+   "size": 18,
+   "keywords": [
+    "general",
+    "monitor",
+    "setting",
+    "일반",
+    "모니터",
+    "화면",
+    "설정",
+    "톱니"
+   ]
+  },
+  {
+   "id": "i-00_general-monitor_setting-fill",
+   "category": "00_general",
+   "set": "monitor_setting",
+   "name": "monitor_setting-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/monitor_setting-fill.svg",
+   "ink": [
+    18,
+    15
+   ],
+   "size": 18,
+   "keywords": [
+    "general",
+    "monitor",
+    "setting",
+    "fill",
+    "일반",
+    "모니터",
+    "화면",
+    "설정",
+    "톱니",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-image",
+   "category": "00_general",
+   "set": "image",
+   "name": "image",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/image.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "image",
+    "일반",
+    "이미지",
+    "그림",
+    "사진"
+   ]
+  },
+  {
+   "id": "i-00_general-image-fill",
+   "category": "00_general",
+   "set": "image",
+   "name": "image-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/image-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "image",
+    "fill",
+    "일반",
+    "이미지",
+    "그림",
+    "사진",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-copy-fill",
+   "category": "00_general",
+   "set": "copy",
+   "name": "copy-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/copy-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "copy",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-copy-state-selected",
+   "category": "00_general",
+   "set": "copy",
+   "name": "copy-state-selected",
+   "variant": "State=Selected",
+   "fill": "",
+   "file": "svg/00_general/copy-state-selected.svg",
+   "ink": [
+    14.3,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "copy",
+    "state",
+    "selected",
+    "일반",
+    "상태"
+   ]
+  },
+  {
+   "id": "i-00_general-cut",
+   "category": "00_general",
+   "set": "cut",
+   "name": "cut",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/cut.svg",
+   "ink": [
+    14,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "cut",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-cut-fill",
+   "category": "00_general",
+   "set": "cut",
+   "name": "cut-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/cut-fill.svg",
+   "ink": [
+    14,
+    13.3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "cut",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-text_list",
+   "category": "00_general",
+   "set": "text_list",
+   "name": "text_list",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/text_list.svg",
+   "ink": [
+    13.8,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "text",
+    "list",
+    "일반",
+    "목록",
+    "리스트"
+   ]
+  },
+  {
+   "id": "i-00_general-text_list-fill",
+   "category": "00_general",
+   "set": "text_list",
+   "name": "text_list-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/text_list-fill.svg",
+   "ink": [
+    13.8,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "text",
+    "list",
+    "fill",
+    "일반",
+    "목록",
+    "리스트",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-table",
+   "category": "00_general",
+   "set": "table",
+   "name": "table",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/table.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "table",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-table-fill",
+   "category": "00_general",
+   "set": "table",
+   "name": "table-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/table-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "table",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-delete",
+   "category": "00_general",
+   "set": "delete",
+   "name": "delete",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/delete.svg",
+   "ink": [
+    13.5,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "delete",
+    "일반",
+    "삭제",
+    "휴지통"
+   ]
+  },
+  {
+   "id": "i-00_general-delete-fill",
+   "category": "00_general",
+   "set": "delete",
+   "name": "delete-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/delete-fill.svg",
+   "ink": [
+    13.5,
+    16.3
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "delete",
+    "fill",
+    "일반",
+    "삭제",
+    "휴지통",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-flip_vert",
+   "category": "00_general",
+   "set": "flip_vert",
+   "name": "flip_vert",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/flip_vert.svg",
+   "ink": [
+    12,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "flip",
+    "vert",
+    "일반",
+    "뒤집기",
+    "반전",
+    "세로"
+   ]
+  },
+  {
+   "id": "i-00_general-flip_vert-fill",
+   "category": "00_general",
+   "set": "flip_vert",
+   "name": "flip_vert-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/flip_vert-fill.svg",
+   "ink": [
+    12,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "flip",
+    "vert",
+    "fill",
+    "일반",
+    "뒤집기",
+    "반전",
+    "세로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-flip_horiz",
+   "category": "00_general",
+   "set": "flip_horiz",
+   "name": "flip_horiz",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/flip_horiz.svg",
+   "ink": [
+    14,
+    12
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "flip",
+    "horiz",
+    "일반",
+    "뒤집기",
+    "반전",
+    "가로"
+   ]
+  },
+  {
+   "id": "i-00_general-flip_horiz-fill",
+   "category": "00_general",
+   "set": "flip_horiz",
+   "name": "flip_horiz-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/flip_horiz-fill.svg",
+   "ink": [
+    14,
+    12
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "flip",
+    "horiz",
+    "fill",
+    "일반",
+    "뒤집기",
+    "반전",
+    "가로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-horiz_left",
+   "category": "00_general",
+   "set": "horiz_left",
+   "name": "horiz_left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/horiz_left.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "horiz",
+    "left",
+    "일반",
+    "가로",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_general-horiz_left-fill",
+   "category": "00_general",
+   "set": "horiz_left",
+   "name": "horiz_left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/horiz_left-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "horiz",
+    "left",
+    "fill",
+    "일반",
+    "가로",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-horiz_center",
+   "category": "00_general",
+   "set": "horiz_center",
+   "name": "horiz_center",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/horiz_center.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "horiz",
+    "center",
+    "일반",
+    "가로",
+    "가운데"
+   ]
+  },
+  {
+   "id": "i-00_general-horiz_center-fill",
+   "category": "00_general",
+   "set": "horiz_center",
+   "name": "horiz_center-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/horiz_center-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "horiz",
+    "center",
+    "fill",
+    "일반",
+    "가로",
+    "가운데",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-horiz_right",
+   "category": "00_general",
+   "set": "horiz_right",
+   "name": "horiz_right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/horiz_right.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "horiz",
+    "right",
+    "일반",
+    "가로",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_general-horiz_right-fill",
+   "category": "00_general",
+   "set": "horiz_right",
+   "name": "horiz_right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/horiz_right-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "horiz",
+    "right",
+    "fill",
+    "일반",
+    "가로",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-vert_top",
+   "category": "00_general",
+   "set": "vert_top",
+   "name": "vert_top",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/vert_top.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "vert",
+    "top",
+    "일반",
+    "세로"
+   ]
+  },
+  {
+   "id": "i-00_general-vert_top-fill",
+   "category": "00_general",
+   "set": "vert_top",
+   "name": "vert_top-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/vert_top-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "vert",
+    "top",
+    "fill",
+    "일반",
+    "세로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-vert_center",
+   "category": "00_general",
+   "set": "vert_center",
+   "name": "vert_center",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/vert_center.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "vert",
+    "center",
+    "일반",
+    "세로",
+    "가운데"
+   ]
+  },
+  {
+   "id": "i-00_general-vert_center-fill",
+   "category": "00_general",
+   "set": "vert_center",
+   "name": "vert_center-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/vert_center-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "vert",
+    "center",
+    "fill",
+    "일반",
+    "세로",
+    "가운데",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-vert_bottom",
+   "category": "00_general",
+   "set": "vert_bottom",
+   "name": "vert_bottom",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/vert_bottom.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "vert",
+    "bottom",
+    "일반",
+    "세로"
+   ]
+  },
+  {
+   "id": "i-00_general-vert_bottom-fill",
+   "category": "00_general",
+   "set": "vert_bottom",
+   "name": "vert_bottom-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/vert_bottom-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "vert",
+    "bottom",
+    "fill",
+    "일반",
+    "세로",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-talk",
+   "category": "00_general",
+   "set": "talk",
+   "name": "talk",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/talk.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "talk",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-talk-fill",
+   "category": "00_general",
+   "set": "talk",
+   "name": "talk-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/talk-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "talk",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-call",
+   "category": "00_general",
+   "set": "call",
+   "name": "call",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/call.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "일반",
+    "전화",
+    "통화"
+   ]
+  },
+  {
+   "id": "i-00_general-call-fill",
+   "category": "00_general",
+   "set": "call",
+   "name": "call-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/call-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "fill",
+    "일반",
+    "전화",
+    "통화",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-call_outgoing",
+   "category": "00_general",
+   "set": "call_outgoing",
+   "name": "call_outgoing",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/call_outgoing.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "outgoing",
+    "일반",
+    "전화",
+    "통화"
+   ]
+  },
+  {
+   "id": "i-00_general-call_outgoing-fill",
+   "category": "00_general",
+   "set": "call_outgoing",
+   "name": "call_outgoing-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/call_outgoing-fill.svg",
+   "ink": [
+    13.8,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "outgoing",
+    "fill",
+    "일반",
+    "전화",
+    "통화",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-call_incoming",
+   "category": "00_general",
+   "set": "call_incoming",
+   "name": "call_incoming",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/call_incoming.svg",
+   "ink": [
+    13.3,
+    13.3
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "call",
+    "incoming",
+    "일반",
+    "전화",
+    "통화"
+   ]
+  },
+  {
+   "id": "i-00_general-call_incoming-fill",
+   "category": "00_general",
+   "set": "call_incoming",
+   "name": "call_incoming-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/call_incoming-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "incoming",
+    "fill",
+    "일반",
+    "전화",
+    "통화",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-call_missed",
+   "category": "00_general",
+   "set": "call_missed",
+   "name": "call_missed",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/call_missed.svg",
+   "ink": [
+    13.3,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "missed",
+    "일반",
+    "전화",
+    "통화"
+   ]
+  },
+  {
+   "id": "i-00_general-call_missed-fill",
+   "category": "00_general",
+   "set": "call_missed",
+   "name": "call_missed-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/call_missed-fill.svg",
+   "ink": [
+    13.3,
+    13.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "call",
+    "missed",
+    "fill",
+    "일반",
+    "전화",
+    "통화",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-wifi",
+   "category": "00_general",
+   "set": "wifi",
+   "name": "wifi",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/wifi.svg",
+   "ink": [
+    16,
+    12.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "wifi",
+    "일반",
+    "와이파이"
+   ]
+  },
+  {
+   "id": "i-00_general-wifi-fill",
+   "category": "00_general",
+   "set": "wifi",
+   "name": "wifi-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/wifi-fill.svg",
+   "ink": [
+    16,
+    12.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "wifi",
+    "fill",
+    "일반",
+    "와이파이",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-wifi_off",
+   "category": "00_general",
+   "set": "wifi_off",
+   "name": "wifi_off",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/wifi_off.svg",
+   "ink": [
+    16,
+    15.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "wifi",
+    "off",
+    "일반",
+    "와이파이",
+    "끔"
+   ]
+  },
+  {
+   "id": "i-00_general-wifi_off-fill",
+   "category": "00_general",
+   "set": "wifi_off",
+   "name": "wifi_off-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/wifi_off-fill.svg",
+   "ink": [
+    16,
+    15.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "wifi",
+    "off",
+    "fill",
+    "일반",
+    "와이파이",
+    "끔",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-statics",
+   "category": "00_general",
+   "set": "statics",
+   "name": "statics",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/statics.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "statics",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-statics-fill",
+   "category": "00_general",
+   "set": "statics",
+   "name": "statics-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/statics-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "statics",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-profile",
+   "category": "00_general",
+   "set": "profile",
+   "name": "profile",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/profile.svg",
+   "ink": [
+    14,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "profile",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-profile-fill",
+   "category": "00_general",
+   "set": "profile",
+   "name": "profile-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/profile-fill.svg",
+   "ink": [
+    13,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "profile",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-filter",
+   "category": "00_general",
+   "set": "filter",
+   "name": "filter",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/filter.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "filter",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-filter-fill",
+   "category": "00_general",
+   "set": "filter",
+   "name": "filter-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/filter-fill.svg",
+   "ink": [
+    13.8,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "filter",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-grid_view",
+   "category": "00_general",
+   "set": "grid_view",
+   "name": "grid_view",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/grid_view.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "grid",
+    "view",
+    "일반",
+    "보기",
+    "뷰"
+   ]
+  },
+  {
+   "id": "i-00_general-grid_view-fill",
+   "category": "00_general",
+   "set": "grid_view",
+   "name": "grid_view-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/grid_view-fill.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "grid",
+    "view",
+    "fill",
+    "일반",
+    "보기",
+    "뷰",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-list_view",
+   "category": "00_general",
+   "set": "list_view",
+   "name": "list_view",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/list_view.svg",
+   "ink": [
+    13,
+    9
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "list",
+    "view",
+    "일반",
+    "목록",
+    "리스트",
+    "보기",
+    "뷰"
+   ]
+  },
+  {
+   "id": "i-00_general-list_view-fill",
+   "category": "00_general",
+   "set": "list_view",
+   "name": "list_view-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/list_view-fill.svg",
+   "ink": [
+    13.5,
+    9.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "list",
+    "view",
+    "fill",
+    "일반",
+    "목록",
+    "리스트",
+    "보기",
+    "뷰",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-mixed_view",
+   "category": "00_general",
+   "set": "mixed_view",
+   "name": "mixed_view",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/mixed_view.svg",
+   "ink": [
+    13,
+    11.5
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "mixed",
+    "view",
+    "일반",
+    "보기",
+    "뷰"
+   ]
+  },
+  {
+   "id": "i-00_general-mixed_view-fill",
+   "category": "00_general",
+   "set": "mixed_view",
+   "name": "mixed_view-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/mixed_view-fill.svg",
+   "ink": [
+    13.8,
+    11.8
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "mixed",
+    "view",
+    "fill",
+    "일반",
+    "보기",
+    "뷰",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-card_view",
+   "category": "00_general",
+   "set": "card_view",
+   "name": "card_view",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/card_view.svg",
+   "ink": [
+    12,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "general",
+    "card",
+    "view",
+    "일반",
+    "보기",
+    "뷰"
+   ]
+  },
+  {
+   "id": "i-00_general-card_view-fill",
+   "category": "00_general",
+   "set": "card_view",
+   "name": "card_view-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/card_view-fill.svg",
+   "ink": [
+    12,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "general",
+    "card",
+    "view",
+    "fill",
+    "일반",
+    "보기",
+    "뷰",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-send",
+   "category": "00_general",
+   "set": "send",
+   "name": "send",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/send.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "send",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-send-fill",
+   "category": "00_general",
+   "set": "send",
+   "name": "send-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/send-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "send",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-family",
+   "category": "00_general",
+   "set": "family",
+   "name": "family",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/family.svg",
+   "ink": [
+    16,
+    12.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "family",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-family-fill",
+   "category": "00_general",
+   "set": "family",
+   "name": "family-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/family-fill.svg",
+   "ink": [
+    16,
+    12
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "family",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-capture",
+   "category": "00_general",
+   "set": "capture",
+   "name": "capture",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/capture.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "capture",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-capture-fill",
+   "category": "00_general",
+   "set": "capture",
+   "name": "capture-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/capture-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "capture",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-landmark",
+   "category": "00_general",
+   "set": "landmark",
+   "name": "landmark",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/landmark.svg",
+   "ink": [
+    12.3,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "landmark",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-landmark-fill",
+   "category": "00_general",
+   "set": "landmark",
+   "name": "landmark-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/landmark-fill.svg",
+   "ink": [
+    12.8,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "landmark",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-square",
+   "category": "00_general",
+   "set": "square",
+   "name": "square",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/square.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "square",
+    "일반",
+    "사각"
+   ]
+  },
+  {
+   "id": "i-00_general-square-fill",
+   "category": "00_general",
+   "set": "square",
+   "name": "square-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/square-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "square",
+    "fill",
+    "일반",
+    "사각",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-triangle",
+   "category": "00_general",
+   "set": "triangle",
+   "name": "triangle",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/triangle.svg",
+   "ink": [
+    15.5,
+    14.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "triangle",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-triangle-fill",
+   "category": "00_general",
+   "set": "triangle",
+   "name": "triangle-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/triangle-fill.svg",
+   "ink": [
+    15.5,
+    14.5
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "triangle",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-squarebracket_left",
+   "category": "00_general",
+   "set": "squarebracket_left",
+   "name": "squarebracket_left",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/squarebracket_left.svg",
+   "ink": [
+    6,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "squarebracket",
+    "left",
+    "일반",
+    "대괄호",
+    "왼쪽",
+    "좌"
+   ]
+  },
+  {
+   "id": "i-00_general-squarebracket_left-fill",
+   "category": "00_general",
+   "set": "squarebracket_left",
+   "name": "squarebracket_left-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/squarebracket_left-fill.svg",
+   "ink": [
+    6,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "squarebracket",
+    "left",
+    "fill",
+    "일반",
+    "대괄호",
+    "왼쪽",
+    "좌",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-squarebracket_right",
+   "category": "00_general",
+   "set": "squarebracket_right",
+   "name": "squarebracket_right",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/squarebracket_right.svg",
+   "ink": [
+    6,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "squarebracket",
+    "right",
+    "일반",
+    "대괄호",
+    "오른쪽",
+    "우"
+   ]
+  },
+  {
+   "id": "i-00_general-squarebracket_right-fill",
+   "category": "00_general",
+   "set": "squarebracket_right",
+   "name": "squarebracket_right-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/squarebracket_right-fill.svg",
+   "ink": [
+    6,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "squarebracket",
+    "right",
+    "fill",
+    "일반",
+    "대괄호",
+    "오른쪽",
+    "우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-alphabet_S",
+   "category": "00_general",
+   "set": "alphabet_S",
+   "name": "alphabet_S",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/alphabet_S.svg",
+   "ink": [
+    10.5,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "alphabet",
+    "s",
+    "일반",
+    "알파벳",
+    "문자"
+   ]
+  },
+  {
+   "id": "i-00_general-alphabet_S-fill",
+   "category": "00_general",
+   "set": "alphabet_S",
+   "name": "alphabet_S-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/alphabet_S-fill.svg",
+   "ink": [
+    10.5,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "alphabet",
+    "s",
+    "fill",
+    "일반",
+    "알파벳",
+    "문자",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-alphabet_S-2",
+   "category": "00_general",
+   "set": "alphabet_S",
+   "name": "alphabet_S-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/alphabet_S-2.svg",
+   "ink": [
+    10.5,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "alphabet",
+    "s",
+    "일반",
+    "알파벳",
+    "문자"
+   ]
+  },
+  {
+   "id": "i-00_general-alphabet_S-fill-2",
+   "category": "00_general",
+   "set": "alphabet_S",
+   "name": "alphabet_S-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/alphabet_S-fill-2.svg",
+   "ink": [
+    10.5,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "alphabet",
+    "s",
+    "fill",
+    "일반",
+    "알파벳",
+    "문자",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-logout",
+   "category": "00_general",
+   "set": "logout",
+   "name": "logout",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/logout.svg",
+   "ink": [
+    13,
+    13
+   ],
+   "size": 13,
+   "keywords": [
+    "general",
+    "logout",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-logout-fill",
+   "category": "00_general",
+   "set": "logout",
+   "name": "logout-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/logout-fill.svg",
+   "ink": [
+    13.5,
+    13.5
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "logout",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-brightness",
+   "category": "00_general",
+   "set": "brightness",
+   "name": "brightness",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/brightness.svg",
+   "ink": [
+    20,
+    20
+   ],
+   "size": 20,
+   "keywords": [
+    "general",
+    "brightness",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-brightness-fill",
+   "category": "00_general",
+   "set": "brightness",
+   "name": "brightness-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/brightness-fill.svg",
+   "ink": [
+    20,
+    20
+   ],
+   "size": 20,
+   "keywords": [
+    "general",
+    "brightness",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-window_level",
+   "category": "00_general",
+   "set": "window_level",
+   "name": "window_level",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/window_level.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "window",
+    "level",
+    "일반",
+    "창",
+    "윈도우"
+   ]
+  },
+  {
+   "id": "i-00_general-window_level-fill",
+   "category": "00_general",
+   "set": "window_level",
+   "name": "window_level-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/window_level-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "window",
+    "level",
+    "fill",
+    "일반",
+    "창",
+    "윈도우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-invert",
+   "category": "00_general",
+   "set": "invert",
+   "name": "invert",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/invert.svg",
+   "ink": [
+    10.5,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "invert",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-invert-fill",
+   "category": "00_general",
+   "set": "invert",
+   "name": "invert-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/invert-fill.svg",
+   "ink": [
+    10.5,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "invert",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-slice_interval",
+   "category": "00_general",
+   "set": "slice_interval",
+   "name": "slice_interval",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/slice_interval.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "slice",
+    "interval",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-slice_interval-fill",
+   "category": "00_general",
+   "set": "slice_interval",
+   "name": "slice_interval-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/slice_interval-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "slice",
+    "interval",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-thickness-2",
+   "category": "00_general",
+   "set": "thickness",
+   "name": "thickness-2",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/thickness-2.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "thickness",
+    "일반",
+    "두께"
+   ]
+  },
+  {
+   "id": "i-00_general-thickness-fill-2",
+   "category": "00_general",
+   "set": "thickness",
+   "name": "thickness-fill-2",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/thickness-fill-2.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "thickness",
+    "fill",
+    "일반",
+    "두께",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-plane",
+   "category": "00_general",
+   "set": "plane",
+   "name": "plane",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/plane.svg",
+   "ink": [
+    20,
+    17
+   ],
+   "size": 20,
+   "keywords": [
+    "general",
+    "plane",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-plane-fill",
+   "category": "00_general",
+   "set": "plane",
+   "name": "plane-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/plane-fill.svg",
+   "ink": [
+    20,
+    17
+   ],
+   "size": 20,
+   "keywords": [
+    "general",
+    "plane",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-opaque",
+   "category": "00_general",
+   "set": "opaque",
+   "name": "opaque",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/opaque.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "opaque",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-opaque-fill",
+   "category": "00_general",
+   "set": "opaque",
+   "name": "opaque-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/opaque-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "opaque",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-translucent",
+   "category": "00_general",
+   "set": "translucent",
+   "name": "translucent",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/translucent.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "translucent",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-translucent-fill",
+   "category": "00_general",
+   "set": "translucent",
+   "name": "translucent-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/translucent-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "translucent",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-sagittal_clipping",
+   "category": "00_general",
+   "set": "sagittal_clipping",
+   "name": "sagittal_clipping",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/sagittal_clipping.svg",
+   "ink": [
+    10,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "sagittal",
+    "clipping",
+    "일반",
+    "클리핑",
+    "자르기"
+   ]
+  },
+  {
+   "id": "i-00_general-sagittal_clipping-fill",
+   "category": "00_general",
+   "set": "sagittal_clipping",
+   "name": "sagittal_clipping-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/sagittal_clipping-fill.svg",
+   "ink": [
+    10,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "sagittal",
+    "clipping",
+    "fill",
+    "일반",
+    "클리핑",
+    "자르기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-coronal_clipping",
+   "category": "00_general",
+   "set": "coronal_clipping",
+   "name": "coronal_clipping",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/coronal_clipping.svg",
+   "ink": [
+    10,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "coronal",
+    "clipping",
+    "일반",
+    "클리핑",
+    "자르기"
+   ]
+  },
+  {
+   "id": "i-00_general-coronal_clipping-fill",
+   "category": "00_general",
+   "set": "coronal_clipping",
+   "name": "coronal_clipping-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/coronal_clipping-fill.svg",
+   "ink": [
+    10,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "coronal",
+    "clipping",
+    "fill",
+    "일반",
+    "클리핑",
+    "자르기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-axial_clipping",
+   "category": "00_general",
+   "set": "axial_clipping",
+   "name": "axial_clipping",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/axial_clipping.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "axial",
+    "clipping",
+    "일반",
+    "클리핑",
+    "자르기"
+   ]
+  },
+  {
+   "id": "i-00_general-axial_clipping-fill",
+   "category": "00_general",
+   "set": "axial_clipping",
+   "name": "axial_clipping-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/axial_clipping-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "axial",
+    "clipping",
+    "fill",
+    "일반",
+    "클리핑",
+    "자르기",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-new_patient",
+   "category": "00_general",
+   "set": "new_patient",
+   "name": "new_patient",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/new_patient.svg",
+   "ink": [
+    19,
+    13.5
+   ],
+   "size": 19,
+   "keywords": [
+    "general",
+    "new",
+    "patient",
+    "일반"
+   ]
+  },
+  {
+   "id": "i-00_general-new_patient-fill",
+   "category": "00_general",
+   "set": "new_patient",
+   "name": "new_patient-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/new_patient-fill.svg",
+   "ink": [
+    19,
+    13.5
+   ],
+   "size": 19,
+   "keywords": [
+    "general",
+    "new",
+    "patient",
+    "fill",
+    "일반",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-textarea_resize",
+   "category": "00_general",
+   "set": "textarea_resize",
+   "name": "textarea_resize",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/textarea_resize.svg",
+   "ink": [
+    10,
+    10
+   ],
+   "size": 10,
+   "keywords": [
+    "general",
+    "textarea",
+    "resize",
+    "일반",
+    "텍스트영역"
+   ]
+  },
+  {
+   "id": "i-00_general-textarea_resize-fill",
+   "category": "00_general",
+   "set": "textarea_resize",
+   "name": "textarea_resize-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/textarea_resize-fill.svg",
+   "ink": [
+    10.5,
+    10.5
+   ],
+   "size": 10,
+   "keywords": [
+    "general",
+    "textarea",
+    "resize",
+    "fill",
+    "일반",
+    "텍스트영역",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout-property1-fill",
+   "category": "00_general",
+   "set": "layout",
+   "name": "layout-property1-fill",
+   "variant": "Property 1=fill",
+   "fill": "",
+   "file": "svg/00_general/layout-property1-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "property1",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout-property1-stroke",
+   "category": "00_general",
+   "set": "layout",
+   "name": "layout-property1-stroke",
+   "variant": "Property 1=stroke",
+   "fill": "",
+   "file": "svg/00_general/layout-property1-stroke.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "property1",
+    "stroke",
+    "일반",
+    "레이아웃",
+    "배치",
+    "선",
+    "획"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_auto-property1-fill",
+   "category": "00_general",
+   "set": "layout_auto",
+   "name": "layout_auto-property1-fill",
+   "variant": "Property 1=fill",
+   "fill": "",
+   "file": "svg/00_general/layout_auto-property1-fill.svg",
+   "ink": [
+    15,
+    15.3
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "layout",
+    "auto",
+    "property1",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_auto-property1-stroke",
+   "category": "00_general",
+   "set": "layout_auto",
+   "name": "layout_auto-property1-stroke",
+   "variant": "Property 1=stroke",
+   "fill": "",
+   "file": "svg/00_general/layout_auto-property1-stroke.svg",
+   "ink": [
+    15,
+    15.3
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "layout",
+    "auto",
+    "property1",
+    "stroke",
+    "일반",
+    "레이아웃",
+    "배치",
+    "선",
+    "획"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_1+1_h",
+   "category": "00_general",
+   "set": "layout_1+1_h",
+   "name": "layout_1+1_h",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/layout_1+1_h.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "1+1",
+    "h",
+    "일반",
+    "레이아웃",
+    "배치"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_1+1_h-fill",
+   "category": "00_general",
+   "set": "layout_1+1_h",
+   "name": "layout_1+1_h-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/layout_1+1_h-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "1+1",
+    "h",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_1+2_h",
+   "category": "00_general",
+   "set": "layout_1+2_h",
+   "name": "layout_1+2_h",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/layout_1+2_h.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "1+2",
+    "h",
+    "일반",
+    "레이아웃",
+    "배치"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_1+2_h-fill",
+   "category": "00_general",
+   "set": "layout_1+2_h",
+   "name": "layout_1+2_h-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/layout_1+2_h-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "1+2",
+    "h",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_2+1_h",
+   "category": "00_general",
+   "set": "layout_2+1_h",
+   "name": "layout_2+1_h",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/layout_2+1_h.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "2+1",
+    "h",
+    "일반",
+    "레이아웃",
+    "배치"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_2+1_h-fill",
+   "category": "00_general",
+   "set": "layout_2+1_h",
+   "name": "layout_2+1_h-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/layout_2+1_h-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "2+1",
+    "h",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_1+2_v",
+   "category": "00_general",
+   "set": "layout_1+2_v",
+   "name": "layout_1+2_v",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/layout_1+2_v.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "1+2",
+    "v",
+    "일반",
+    "레이아웃",
+    "배치"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_1+2_v-fill",
+   "category": "00_general",
+   "set": "layout_1+2_v",
+   "name": "layout_1+2_v-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/layout_1+2_v-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "1+2",
+    "v",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_2+1_v",
+   "category": "00_general",
+   "set": "layout_2+1_v",
+   "name": "layout_2+1_v",
+   "variant": "fill=off",
+   "fill": "off",
+   "file": "svg/00_general/layout_2+1_v.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "2+1",
+    "v",
+    "일반",
+    "레이아웃",
+    "배치"
+   ]
+  },
+  {
+   "id": "i-00_general-layout_2+1_v-fill",
+   "category": "00_general",
+   "set": "layout_2+1_v",
+   "name": "layout_2+1_v-fill",
+   "variant": "fill=on",
+   "fill": "on",
+   "file": "svg/00_general/layout_2+1_v-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "layout",
+    "2+1",
+    "v",
+    "fill",
+    "일반",
+    "레이아웃",
+    "배치",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-tooth",
+   "category": "00_general",
+   "set": "tooth",
+   "name": "tooth",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/tooth.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "tooth",
+    "일반",
+    "치아"
+   ]
+  },
+  {
+   "id": "i-00_general-tooth-fill",
+   "category": "00_general",
+   "set": "tooth",
+   "name": "tooth-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/tooth-fill.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "tooth",
+    "fill",
+    "일반",
+    "치아",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_modal-check",
+   "category": "00_modal",
+   "set": "check",
+   "name": "check",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_modal/check.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "check",
+    "모달",
+    "팝업",
+    "체크",
+    "확인",
+    "완료"
+   ]
+  },
+  {
+   "id": "i-00_modal-check-fill",
+   "category": "00_modal",
+   "set": "check",
+   "name": "check-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_modal/check-fill.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "check",
+    "fill",
+    "모달",
+    "팝업",
+    "체크",
+    "확인",
+    "완료",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_modal-alert",
+   "category": "00_modal",
+   "set": "alert",
+   "name": "alert",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_modal/alert.svg",
+   "ink": [
+    19,
+    17
+   ],
+   "size": 19,
+   "keywords": [
+    "modal",
+    "alert",
+    "모달",
+    "팝업",
+    "경고",
+    "알림"
+   ]
+  },
+  {
+   "id": "i-00_modal-alert-fill",
+   "category": "00_modal",
+   "set": "alert",
+   "name": "alert-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_modal/alert-fill.svg",
+   "ink": [
+    18,
+    16
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "alert",
+    "fill",
+    "모달",
+    "팝업",
+    "경고",
+    "알림",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_modal-info",
+   "category": "00_modal",
+   "set": "info",
+   "name": "info",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_modal/info.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "info",
+    "모달",
+    "팝업",
+    "정보",
+    "안내"
+   ]
+  },
+  {
+   "id": "i-00_modal-info-fill",
+   "category": "00_modal",
+   "set": "info",
+   "name": "info-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_modal/info-fill.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "info",
+    "fill",
+    "모달",
+    "팝업",
+    "정보",
+    "안내",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_modal-question",
+   "category": "00_modal",
+   "set": "question",
+   "name": "question",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_modal/question.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "question",
+    "모달",
+    "팝업",
+    "질문",
+    "물음표"
+   ]
+  },
+  {
+   "id": "i-00_modal-question-fill",
+   "category": "00_modal",
+   "set": "question",
+   "name": "question-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_modal/question-fill.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "question",
+    "fill",
+    "모달",
+    "팝업",
+    "질문",
+    "물음표",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_modal-warning",
+   "category": "00_modal",
+   "set": "warning",
+   "name": "warning",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_modal/warning.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "warning",
+    "모달",
+    "팝업",
+    "주의",
+    "경고"
+   ]
+  },
+  {
+   "id": "i-00_modal-warning-fill",
+   "category": "00_modal",
+   "set": "warning",
+   "name": "warning-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_modal/warning-fill.svg",
+   "ink": [
+    18,
+    18
+   ],
+   "size": 18,
+   "keywords": [
+    "modal",
+    "warning",
+    "fill",
+    "모달",
+    "팝업",
+    "주의",
+    "경고",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_window-Window-minimize",
+   "category": "00_window",
+   "set": "Window/minimize",
+   "name": "Window-minimize",
+   "variant": "",
+   "fill": "",
+   "file": "svg/00_window/Window-minimize.svg",
+   "ink": [
+    13.5,
+    1.5
+   ],
+   "size": 14,
+   "keywords": [
+    "window",
+    "minimize",
+    "창",
+    "윈도우",
+    "최소화"
+   ]
+  },
+  {
+   "id": "i-00_window-Window-restore",
+   "category": "00_window",
+   "set": "Window/restore",
+   "name": "Window-restore",
+   "variant": "",
+   "fill": "",
+   "file": "svg/00_window/Window-restore.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "window",
+    "restore",
+    "창",
+    "윈도우",
+    "복원"
+   ]
+  },
+  {
+   "id": "i-00_window-Window-maximize",
+   "category": "00_window",
+   "set": "Window/maximize",
+   "name": "Window-maximize",
+   "variant": "",
+   "fill": "",
+   "file": "svg/00_window/Window-maximize.svg",
+   "ink": [
+    12,
+    12
+   ],
+   "size": 12,
+   "keywords": [
+    "window",
+    "maximize",
+    "창",
+    "윈도우",
+    "최대화"
+   ]
+  },
+  {
+   "id": "i-00_window-Window-close",
+   "category": "00_window",
+   "set": "Window/close",
+   "name": "Window-close",
+   "variant": "",
+   "fill": "",
+   "file": "svg/00_window/Window-close.svg",
+   "ink": [
+    11.5,
+    11.5
+   ],
+   "size": 12,
+   "keywords": [
+    "window",
+    "close",
+    "창",
+    "윈도우",
+    "닫기",
+    "엑스"
+   ]
+  },
+  {
+   "id": "i-01_pms-pms-coin",
+   "category": "01_pms",
+   "set": "pms/coin",
+   "name": "pms-coin",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/pms-coin.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "coin",
+    "피엠에스",
+    "진료",
+    "코인",
+    "동전",
+    "수납"
+   ]
+  },
+  {
+   "id": "i-01_pms-lab-case",
+   "category": "01_pms",
+   "set": "lab-case",
+   "name": "lab-case",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/lab-case.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "pms",
+    "lab",
+    "case",
+    "피엠에스",
+    "진료",
+    "기공",
+    "랩",
+    "케이스"
+   ]
+  },
+  {
+   "id": "i-01_pms-infection",
+   "category": "01_pms",
+   "set": "infection",
+   "name": "infection",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/infection.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "pms",
+    "infection",
+    "피엠에스",
+    "진료",
+    "감염"
+   ]
+  },
+  {
+   "id": "i-01_pms-medication",
+   "category": "01_pms",
+   "set": "medication",
+   "name": "medication",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/medication.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "pms",
+    "medication",
+    "피엠에스",
+    "진료",
+    "투약",
+    "약"
+   ]
+  },
+  {
+   "id": "i-01_pms-reservation-cell-질환",
+   "category": "01_pms",
+   "set": "reservation cell/질환",
+   "name": "reservation-cell-질환",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/reservation-cell-질환.svg",
+   "ink": [
+    14,
+    12.5
+   ],
+   "size": 14,
+   "keywords": [
+    "pms",
+    "reservation",
+    "cell",
+    "질환",
+    "피엠에스",
+    "진료",
+    "예약",
+    "셀",
+    "칸"
+   ]
+  },
+  {
+   "id": "i-01_pms-note",
+   "category": "01_pms",
+   "set": "note",
+   "name": "note",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/note.svg",
+   "ink": [
+    14,
+    14
+   ],
+   "size": 14,
+   "keywords": [
+    "pms",
+    "note",
+    "피엠에스",
+    "진료",
+    "메모",
+    "노트"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-memo-data-false",
+   "category": "01_pms-lnb",
+   "set": "memo",
+   "name": "memo-data-false",
+   "variant": "data=false",
+   "fill": "",
+   "file": "svg/01_pms-lnb/memo-data-false.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "memo",
+    "data",
+    "false",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "메모",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-memo-data-true",
+   "category": "01_pms-lnb",
+   "set": "memo",
+   "name": "memo-data-true",
+   "variant": "data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/memo-data-true.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "memo",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "메모",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-scaler-data-false",
+   "category": "01_pms-lnb",
+   "set": "scaler",
+   "name": "scaler-data-false",
+   "variant": "data=false",
+   "fill": "",
+   "file": "svg/01_pms-lnb/scaler-data-false.svg",
+   "ink": [
+    20,
+    20
+   ],
+   "size": 20,
+   "keywords": [
+    "pms",
+    "lnb",
+    "scaler",
+    "data",
+    "false",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "스케일러",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-scaler-data-true",
+   "category": "01_pms-lnb",
+   "set": "scaler",
+   "name": "scaler-data-true",
+   "variant": "data=true",
+   "fill": "",
+   "file": "svg/01_pms-lnb/scaler-data-true.svg",
+   "ink": [
+    20,
+    20
+   ],
+   "size": 20,
+   "keywords": [
+    "pms",
+    "lnb",
+    "scaler",
+    "data",
+    "true",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비",
+    "스케일러",
+    "데이터"
+   ]
+  },
+  {
+   "id": "i-01_pms-lnb-Group-5138598",
+   "category": "01_pms-lnb",
+   "set": "Group 5138598",
+   "name": "Group-5138598",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms-lnb/Group-5138598.svg",
+   "ink": [
+    17,
+    17
+   ],
+   "size": 17,
+   "keywords": [
+    "pms",
+    "lnb",
+    "group",
+    "피엠에스",
+    "진료",
+    "메뉴",
+    "엘엔비"
+   ]
+  }
+ ]
+}

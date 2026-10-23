@@ -1,0 +1,23 @@
+{
+ "repo": "https://github.com/h1osstem/cloudXDS.git",
+ "commit": "f862889",
+ "commit_date": "2026-10-02",
+ "dirty": false,
+ "synced": "2026-10-23",
+ "figma": {
+  "library": "poc-Icon",
+  "file": "iQOmpWb3Ze2M1pzfa8bvkG",
+  "page": "icon",
+  "node": "2806:36607"
+ },
+ "count": 449,
+ "categories": {
+  "00_arrow": 62,
+  "00_edit": 54,
+  "00_general": 308,
+  "00_modal": 10,
+  "00_window": 4,
+  "01_pms": 6,
+  "01_pms-lnb": 5
+ }
+}

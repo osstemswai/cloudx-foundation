@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="docs_Portrait" clip-path="url(#clip0_6446_9962)">
+<g id="_area">
+</g>
+<g id="Vector">
+<path d="M5 4H4V16H5L3.5 18L2 16H3V4H2L3.5 2L5 4Z" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 2C17.3284 2 18 2.67157 18 3.5V12.6631L12.9346 18H7.5C6.67174 17.9998 6 17.3283 6 16.5V3.5C6 2.67169 6.67174 2.0002 7.5 2H16.5ZM7.5 3C7.22371 3.0002 7 3.2243 7 3.5V16.5C7 16.7757 7.22371 16.9998 7.5 17H11.75V12.25C11.75 11.9739 11.9739 11.75 12.25 11.75H17V3.5C17 3.22386 16.7761 3 16.5 3H7.5ZM12.75 16.7412L16.5381 12.75H12.75V16.7412Z" fill="currentColor"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_6446_9962">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs></svg>

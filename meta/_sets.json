@@ -1,0 +1,2967 @@
+{
+ "00_edit": [
+  {
+   "set": "Edit/colorpalette",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Edit-colorpalette"
+    }
+   ]
+  },
+  {
+   "set": "Edit/color-black",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Edit-color-black"
+    }
+   ]
+  },
+  {
+   "set": "paragraph-right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "paragraph-right-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "paragraph-right"
+    }
+   ]
+  },
+  {
+   "set": "paragraph-center",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "paragraph-center-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "paragraph-center"
+    }
+   ]
+  },
+  {
+   "set": "paragraph-left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "paragraph-left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "paragraph-left"
+    }
+   ]
+  },
+  {
+   "set": "paragraph-justify",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "paragraph-justify-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "paragraph-justify"
+    }
+   ]
+  },
+  {
+   "set": "bold",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "bold-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "bold"
+    }
+   ]
+  },
+  {
+   "set": "italic",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "italic-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "italic"
+    }
+   ]
+  },
+  {
+   "set": "lasso",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "lasso-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "lasso"
+    }
+   ]
+  },
+  {
+   "set": "underline",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "underline-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "underline"
+    }
+   ]
+  },
+  {
+   "set": "fontsize-up",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "fontsize-up-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "fontsize-up"
+    }
+   ]
+  },
+  {
+   "set": "fontsize-down",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "fontsize-down-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "fontsize-down"
+    }
+   ]
+  },
+  {
+   "set": "fontfamily",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "fontfamily-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "fontfamily"
+    }
+   ]
+  },
+  {
+   "set": "strikethrough",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "strikethrough-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "strikethrough"
+    }
+   ]
+  },
+  {
+   "set": "fontcolor",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "fontcolor-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "fontcolor"
+    }
+   ]
+  },
+  {
+   "set": "color-fill",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "color-fill-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "color-fill"
+    }
+   ]
+  },
+  {
+   "set": "hand-draw",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "hand-draw-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "hand-draw"
+    }
+   ]
+  },
+  {
+   "set": "hand",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "hand-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "hand"
+    }
+   ]
+  },
+  {
+   "set": "highlighter",
+   "variants": [
+    {
+     "variant": "Fill=off",
+     "file": "highlighter"
+    },
+    {
+     "variant": "Fill=on",
+     "file": "highlighter-fill"
+    }
+   ]
+  },
+  {
+   "set": "pencil",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pencil-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pencil"
+    }
+   ]
+  },
+  {
+   "set": "pencil-thin",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pencil-thin-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pencil-thin"
+    }
+   ]
+  },
+  {
+   "set": "pen",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pen-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pen"
+    }
+   ]
+  },
+  {
+   "set": "eraser",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "eraser-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "eraser"
+    }
+   ]
+  },
+  {
+   "set": "eraser-magic",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "eraser-magic-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "eraser-magic"
+    }
+   ]
+  },
+  {
+   "set": "select-all",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "select-all-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "select-all"
+    }
+   ]
+  },
+  {
+   "set": "pencil",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pencil-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pencil-2"
+    }
+   ]
+  },
+  {
+   "set": "pencil-thin",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pencil-thin-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pencil-thin-2"
+    }
+   ]
+  },
+  {
+   "set": "pen",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pen-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pen-2"
+    }
+   ]
+  }
+ ],
+ "00_window": [
+  {
+   "set": "Window/minimize",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Window-minimize"
+    }
+   ]
+  },
+  {
+   "set": "Window/restore",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Window-restore"
+    }
+   ]
+  },
+  {
+   "set": "Window/maximize",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Window-maximize"
+    }
+   ]
+  },
+  {
+   "set": "Window/close",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Window-close"
+    }
+   ]
+  }
+ ],
+ "01_pms": [
+  {
+   "set": "pms/coin",
+   "variants": [
+    {
+     "variant": "",
+     "file": "pms-coin"
+    }
+   ]
+  },
+  {
+   "set": "lab-case",
+   "variants": [
+    {
+     "variant": "",
+     "file": "lab-case"
+    }
+   ]
+  },
+  {
+   "set": "infection",
+   "variants": [
+    {
+     "variant": "",
+     "file": "infection"
+    }
+   ]
+  },
+  {
+   "set": "medication",
+   "variants": [
+    {
+     "variant": "",
+     "file": "medication"
+    }
+   ]
+  },
+  {
+   "set": "reservation cell/질환",
+   "variants": [
+    {
+     "variant": "",
+     "file": "reservation-cell-질환"
+    }
+   ]
+  },
+  {
+   "set": "note",
+   "variants": [
+    {
+     "variant": "",
+     "file": "note"
+    }
+   ]
+  }
+ ],
+ "00_modal": [
+  {
+   "set": "check",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "check-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "check"
+    }
+   ]
+  },
+  {
+   "set": "alert",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "alert-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "alert"
+    }
+   ]
+  },
+  {
+   "set": "info",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "info-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "info"
+    }
+   ]
+  },
+  {
+   "set": "question",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "question-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "question"
+    }
+   ]
+  },
+  {
+   "set": "warning",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "warning-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "warning"
+    }
+   ]
+  }
+ ],
+ "00_general": [
+  {
+   "set": "search",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "search-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "search"
+    }
+   ]
+  },
+  {
+   "set": "mail",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "mail-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "mail"
+    }
+   ]
+  },
+  {
+   "set": "recipient",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "recipient-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "recipient"
+    }
+   ]
+  },
+  {
+   "set": "folder",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "folder-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "folder"
+    }
+   ]
+  },
+  {
+   "set": "calendar",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "calendar-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "calendar"
+    }
+   ]
+  },
+  {
+   "set": "next_reservation",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "next_reservation-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "next_reservation"
+    }
+   ]
+  },
+  {
+   "set": "edit",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "edit-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "edit"
+    }
+   ]
+  },
+  {
+   "set": "address",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "address-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "address"
+    }
+   ]
+  },
+  {
+   "set": "home",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "home-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "home"
+    }
+   ]
+  },
+  {
+   "set": "setting",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "setting-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "setting"
+    }
+   ]
+  },
+  {
+   "set": "favorite",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "favorite-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "favorite"
+    }
+   ]
+  },
+  {
+   "set": "heart",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "heart-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "heart"
+    }
+   ]
+  },
+  {
+   "set": "empty_state",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "empty_state-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "empty_state"
+    }
+   ]
+  },
+  {
+   "set": "emo",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "emo-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "emo"
+    }
+   ]
+  },
+  {
+   "set": "search_insurance",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "search_insurance-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "search_insurance"
+    }
+   ]
+  },
+  {
+   "set": "check_tooth",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "check_tooth-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "check_tooth"
+    }
+   ]
+  },
+  {
+   "set": "bookmark",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "bookmark-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "bookmark"
+    }
+   ]
+  },
+  {
+   "set": "pin",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pin-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pin"
+    }
+   ]
+  },
+  {
+   "set": "print",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "print-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "print"
+    }
+   ]
+  },
+  {
+   "set": "stamp",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "stamp-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "stamp"
+    }
+   ]
+  },
+  {
+   "set": "stamp_done",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "stamp_done-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "stamp_done"
+    }
+   ]
+  },
+  {
+   "set": "voice",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "voice-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "voice"
+    }
+   ]
+  },
+  {
+   "set": "mic_etc",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "mic_etc-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "mic_etc"
+    }
+   ]
+  },
+  {
+   "set": "visibility",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "visibility-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "visibility"
+    }
+   ]
+  },
+  {
+   "set": "visibility_off",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "visibility_off-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "visibility_off"
+    }
+   ]
+  },
+  {
+   "set": "turnright",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "turnright-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "turnright"
+    }
+   ]
+  },
+  {
+   "set": "turnleft",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "turnleft-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "turnleft"
+    }
+   ]
+  },
+  {
+   "set": "refresh",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "refresh-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "refresh"
+    }
+   ]
+  },
+  {
+   "set": "history",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "history-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "history"
+    }
+   ]
+  },
+  {
+   "set": "change",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "change-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "change"
+    }
+   ]
+  },
+  {
+   "set": "download",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "download-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "download"
+    }
+   ]
+  },
+  {
+   "set": "upload",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "upload-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "upload"
+    }
+   ]
+  },
+  {
+   "set": "zoom_in",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "zoom_in-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "zoom_in"
+    }
+   ]
+  },
+  {
+   "set": "zoom_out",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "zoom_out-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "zoom_out"
+    }
+   ]
+  },
+  {
+   "set": "more_horiz",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "more_horiz-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "more_horiz"
+    }
+   ]
+  },
+  {
+   "set": "more_vert",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "more_vert-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "more_vert"
+    }
+   ]
+  },
+  {
+   "set": "more_vert",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "more_vert-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "more_vert-2"
+    }
+   ]
+  },
+  {
+   "set": "handle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "handle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "handle"
+    }
+   ]
+  },
+  {
+   "set": "camera",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "camera-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "camera"
+    }
+   ]
+  },
+  {
+   "set": "textarea",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "textarea-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "textarea"
+    }
+   ]
+  },
+  {
+   "set": "excel",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "excel-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "excel"
+    }
+   ]
+  },
+  {
+   "set": "two_view-open",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "two_view-open-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "two_view-open"
+    }
+   ]
+  },
+  {
+   "set": "two_view-close",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "two_view-close-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "two_view-close"
+    }
+   ]
+  },
+  {
+   "set": "e_chart",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "e_chart-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "e_chart"
+    }
+   ]
+  },
+  {
+   "set": "thickness",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "thickness-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "thickness"
+    }
+   ]
+  },
+  {
+   "set": "supervisor_message",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "supervisor_message-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "supervisor_message"
+    }
+   ]
+  },
+  {
+   "set": "dual_view",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "dual_view-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "dual_view"
+    }
+   ]
+  },
+  {
+   "set": "keypad",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "keypad-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "keypad"
+    }
+   ]
+  },
+  {
+   "set": "panorama",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "panorama-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "panorama"
+    }
+   ]
+  },
+  {
+   "set": "tooth_system",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "tooth_system-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "tooth_system"
+    }
+   ]
+  },
+  {
+   "set": "save",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "save-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "save"
+    }
+   ]
+  },
+  {
+   "set": "save_as",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "save_as-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "save_as"
+    }
+   ]
+  },
+  {
+   "set": "tag",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "tag-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "tag"
+    }
+   ]
+  },
+  {
+   "set": "tag_add",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "tag_add-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "tag_add"
+    }
+   ]
+  },
+  {
+   "set": "lock",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "lock-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "lock"
+    }
+   ]
+  },
+  {
+   "set": "unlock",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "unlock-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "unlock"
+    }
+   ]
+  },
+  {
+   "set": "layout_setting",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "layout_setting-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "layout_setting"
+    }
+   ]
+  },
+  {
+   "set": "shapes",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "shapes-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "shapes"
+    }
+   ]
+  },
+  {
+   "set": "drag_pan",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "drag_pan-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "drag_pan"
+    }
+   ]
+  },
+  {
+   "set": "docs",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs"
+    }
+   ]
+  },
+  {
+   "set": "docs_add",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_add-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_add"
+    }
+   ]
+  },
+  {
+   "set": "docs_search",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_search-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_search"
+    }
+   ]
+  },
+  {
+   "set": "docs_setting",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_setting-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_setting"
+    }
+   ]
+  },
+  {
+   "set": "docs_off",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_off-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_off"
+    }
+   ]
+  },
+  {
+   "set": "docs_check",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_check-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_check"
+    }
+   ]
+  },
+  {
+   "set": "docs_landscape",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_landscape-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_landscape"
+    }
+   ]
+  },
+  {
+   "set": "docs_Portrait",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "docs_Portrait-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "docs_Portrait"
+    }
+   ]
+  },
+  {
+   "set": "add_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "add_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "add_circle"
+    }
+   ]
+  },
+  {
+   "set": "substract_circle",
+   "variants": [
+    {
+     "variant": "Fill=off",
+     "file": "substract_circle"
+    },
+    {
+     "variant": "Fill=on",
+     "file": "substract_circle-fill"
+    }
+   ]
+  },
+  {
+   "set": "help_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "help_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "help_circle"
+    }
+   ]
+  },
+  {
+   "set": "info_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "info_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "info_circle"
+    }
+   ]
+  },
+  {
+   "set": "check_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "check_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "check_circle"
+    }
+   ]
+  },
+  {
+   "set": "play_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "play_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "play_circle"
+    }
+   ]
+  },
+  {
+   "set": "stop_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "stop_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "stop_circle"
+    }
+   ]
+  },
+  {
+   "set": "pause_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pause_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pause_circle"
+    }
+   ]
+  },
+  {
+   "set": "delete_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "delete_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "delete_circle"
+    }
+   ]
+  },
+  {
+   "set": "alert_circle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "alert_circle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "alert_circle"
+    }
+   ]
+  },
+  {
+   "set": "play",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "play-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "play"
+    }
+   ]
+  },
+  {
+   "set": "pause",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "pause-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "pause"
+    }
+   ]
+  },
+  {
+   "set": "gotoend",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "gotoend-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "gotoend"
+    }
+   ]
+  },
+  {
+   "set": "next",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "next-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "next"
+    }
+   ]
+  },
+  {
+   "set": "gotostart",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "gotostart-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "gotostart"
+    }
+   ]
+  },
+  {
+   "set": "prev",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "prev-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "prev"
+    }
+   ]
+  },
+  {
+   "set": "link",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "link-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "link"
+    }
+   ]
+  },
+  {
+   "set": "reference",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "reference-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "reference"
+    }
+   ]
+  },
+  {
+   "set": "check",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "check-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "check"
+    }
+   ]
+  },
+  {
+   "set": "agree",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "agree-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "agree"
+    }
+   ]
+  },
+  {
+   "set": "disagree",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "disagree-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "disagree"
+    }
+   ]
+  },
+  {
+   "set": "list_delete",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "list_delete-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "list_delete"
+    }
+   ]
+  },
+  {
+   "set": "add",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "add-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "add"
+    }
+   ]
+  },
+  {
+   "set": "subtract",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "subtract-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "subtract"
+    }
+   ]
+  },
+  {
+   "set": "block",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "block-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "block"
+    }
+   ]
+  },
+  {
+   "set": "tooth_mapping",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "tooth_mapping-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "tooth_mapping"
+    }
+   ]
+  },
+  {
+   "set": "monitor_setting",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "monitor_setting-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "monitor_setting"
+    }
+   ]
+  },
+  {
+   "set": "image",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "image-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "image"
+    }
+   ]
+  },
+  {
+   "set": "copy",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "copy-fill"
+    },
+    {
+     "variant": "State=Selected",
+     "file": "copy-state-selected"
+    }
+   ]
+  },
+  {
+   "set": "cut",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "cut-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "cut"
+    }
+   ]
+  },
+  {
+   "set": "text_list",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "text_list-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "text_list"
+    }
+   ]
+  },
+  {
+   "set": "table",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "table-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "table"
+    }
+   ]
+  },
+  {
+   "set": "delete",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "delete-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "delete"
+    }
+   ]
+  },
+  {
+   "set": "flip_vert",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "flip_vert-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "flip_vert"
+    }
+   ]
+  },
+  {
+   "set": "flip_horiz",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "flip_horiz-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "flip_horiz"
+    }
+   ]
+  },
+  {
+   "set": "horiz_left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "horiz_left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "horiz_left"
+    }
+   ]
+  },
+  {
+   "set": "horiz_center",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "horiz_center-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "horiz_center"
+    }
+   ]
+  },
+  {
+   "set": "horiz_right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "horiz_right-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "horiz_right"
+    }
+   ]
+  },
+  {
+   "set": "vert_top",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "vert_top-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "vert_top"
+    }
+   ]
+  },
+  {
+   "set": "vert_center",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "vert_center-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "vert_center"
+    }
+   ]
+  },
+  {
+   "set": "vert_bottom",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "vert_bottom-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "vert_bottom"
+    }
+   ]
+  },
+  {
+   "set": "talk",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "talk-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "talk"
+    }
+   ]
+  },
+  {
+   "set": "call",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "call-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "call"
+    }
+   ]
+  },
+  {
+   "set": "call_outgoing",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "call_outgoing-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "call_outgoing"
+    }
+   ]
+  },
+  {
+   "set": "call_incoming",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "call_incoming-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "call_incoming"
+    }
+   ]
+  },
+  {
+   "set": "call_missed",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "call_missed-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "call_missed"
+    }
+   ]
+  },
+  {
+   "set": "wifi",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "wifi-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "wifi"
+    }
+   ]
+  },
+  {
+   "set": "wifi_off",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "wifi_off-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "wifi_off"
+    }
+   ]
+  },
+  {
+   "set": "statics",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "statics-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "statics"
+    }
+   ]
+  },
+  {
+   "set": "profile",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "profile-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "profile"
+    }
+   ]
+  },
+  {
+   "set": "filter",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "filter-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "filter"
+    }
+   ]
+  },
+  {
+   "set": "grid_view",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "grid_view-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "grid_view"
+    }
+   ]
+  },
+  {
+   "set": "list_view",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "list_view-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "list_view"
+    }
+   ]
+  },
+  {
+   "set": "mixed_view",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "mixed_view-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "mixed_view"
+    }
+   ]
+  },
+  {
+   "set": "card_view",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "card_view-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "card_view"
+    }
+   ]
+  },
+  {
+   "set": "send",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "send-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "send"
+    }
+   ]
+  },
+  {
+   "set": "family",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "family-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "family"
+    }
+   ]
+  },
+  {
+   "set": "capture",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "capture-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "capture"
+    }
+   ]
+  },
+  {
+   "set": "landmark",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "landmark-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "landmark"
+    }
+   ]
+  },
+  {
+   "set": "square",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "square-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "square"
+    }
+   ]
+  },
+  {
+   "set": "triangle",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "triangle-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "triangle"
+    }
+   ]
+  },
+  {
+   "set": "squarebracket_left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "squarebracket_left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "squarebracket_left"
+    }
+   ]
+  },
+  {
+   "set": "squarebracket_right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "squarebracket_right-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "squarebracket_right"
+    }
+   ]
+  },
+  {
+   "set": "alphabet_S",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "alphabet_S-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "alphabet_S"
+    }
+   ]
+  },
+  {
+   "set": "alphabet_S",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "alphabet_S-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "alphabet_S-2"
+    }
+   ]
+  },
+  {
+   "set": "logout",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "logout-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "logout"
+    }
+   ]
+  },
+  {
+   "set": "brightness",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "brightness-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "brightness"
+    }
+   ]
+  },
+  {
+   "set": "window_level",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "window_level-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "window_level"
+    }
+   ]
+  },
+  {
+   "set": "invert",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "invert-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "invert"
+    }
+   ]
+  },
+  {
+   "set": "slice_interval",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "slice_interval-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "slice_interval"
+    }
+   ]
+  },
+  {
+   "set": "thickness",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "thickness-fill-2"
+    },
+    {
+     "variant": "fill=off",
+     "file": "thickness-2"
+    }
+   ]
+  },
+  {
+   "set": "plane",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "plane-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "plane"
+    }
+   ]
+  },
+  {
+   "set": "opaque",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "opaque-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "opaque"
+    }
+   ]
+  },
+  {
+   "set": "translucent",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "translucent-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "translucent"
+    }
+   ]
+  },
+  {
+   "set": "sagittal_clipping",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "sagittal_clipping-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "sagittal_clipping"
+    }
+   ]
+  },
+  {
+   "set": "coronal_clipping",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "coronal_clipping-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "coronal_clipping"
+    }
+   ]
+  },
+  {
+   "set": "axial_clipping",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "axial_clipping-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "axial_clipping"
+    }
+   ]
+  },
+  {
+   "set": "new_patient",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "new_patient-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "new_patient"
+    }
+   ]
+  },
+  {
+   "set": "textarea_resize",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "textarea_resize-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "textarea_resize"
+    }
+   ]
+  },
+  {
+   "set": "layout",
+   "variants": [
+    {
+     "variant": "Property 1=fill",
+     "file": "layout-property1-fill"
+    },
+    {
+     "variant": "Property 1=stroke",
+     "file": "layout-property1-stroke"
+    }
+   ]
+  },
+  {
+   "set": "layout_auto",
+   "variants": [
+    {
+     "variant": "Property 1=fill",
+     "file": "layout_auto-property1-fill"
+    },
+    {
+     "variant": "Property 1=stroke",
+     "file": "layout_auto-property1-stroke"
+    }
+   ]
+  },
+  {
+   "set": "layout_1+1_h",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "layout_1+1_h-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "layout_1+1_h"
+    }
+   ]
+  },
+  {
+   "set": "layout_1+2_h",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "layout_1+2_h-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "layout_1+2_h"
+    }
+   ]
+  },
+  {
+   "set": "layout_2+1_h",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "layout_2+1_h-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "layout_2+1_h"
+    }
+   ]
+  },
+  {
+   "set": "layout_1+2_v",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "layout_1+2_v-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "layout_1+2_v"
+    }
+   ]
+  },
+  {
+   "set": "layout_2+1_v",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "layout_2+1_v-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "layout_2+1_v"
+    }
+   ]
+  },
+  {
+   "set": "tooth",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "tooth-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "tooth"
+    }
+   ]
+  }
+ ],
+ "00_arrow": [
+  {
+   "set": "up",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "up-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "up"
+    }
+   ]
+  },
+  {
+   "set": "down",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "down-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "down"
+    }
+   ]
+  },
+  {
+   "set": "right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "right-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "right"
+    }
+   ]
+  },
+  {
+   "set": "left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "left"
+    }
+   ]
+  },
+  {
+   "set": "double-up",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "double-up-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "double-up"
+    }
+   ]
+  },
+  {
+   "set": "double-down",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "double-down-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "double-down"
+    }
+   ]
+  },
+  {
+   "set": "double-right",
+   "variants": [
+    {
+     "variant": "Fill=off",
+     "file": "double-right"
+    },
+    {
+     "variant": "Fill=on",
+     "file": "double-right-fill"
+    }
+   ]
+  },
+  {
+   "set": "double-left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "double-left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "double-left"
+    }
+   ]
+  },
+  {
+   "set": "up",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "up-fill-2"
+    },
+    {
+     "variant": "fill=off",
+     "file": "up-2"
+    }
+   ]
+  },
+  {
+   "set": "down",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "down-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "down-2"
+    }
+   ]
+  },
+  {
+   "set": "right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "right-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "right-2"
+    }
+   ]
+  },
+  {
+   "set": "left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "left-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "left-2"
+    }
+   ]
+  },
+  {
+   "set": "caret-up",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "caret-up-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "caret-up"
+    }
+   ]
+  },
+  {
+   "set": "caret-down",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "caret-down-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "caret-down"
+    }
+   ]
+  },
+  {
+   "set": "caret-right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "caret-right-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "caret-right"
+    }
+   ]
+  },
+  {
+   "set": "caret-left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "caret-left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "caret-left"
+    }
+   ]
+  },
+  {
+   "set": "overflow_indicator",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "overflow_indicator-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "overflow_indicator"
+    }
+   ]
+  },
+  {
+   "set": "swap-vert",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "swap-vert-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "swap-vert"
+    }
+   ]
+  },
+  {
+   "set": "swap-horiz",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "swap-horiz-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "swap-horiz"
+    }
+   ]
+  },
+  {
+   "set": "expand",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "expand-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "expand"
+    }
+   ]
+  },
+  {
+   "set": "collapse",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "collapse-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "collapse"
+    }
+   ]
+  },
+  {
+   "set": "upward",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "upward-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "upward"
+    }
+   ]
+  },
+  {
+   "set": "downward",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "downward-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "downward"
+    }
+   ]
+  },
+  {
+   "set": "south-west",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "south-west-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "south-west"
+    }
+   ]
+  },
+  {
+   "set": "south-east",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "south-east-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "south-east"
+    }
+   ]
+  },
+  {
+   "set": "arrow-left",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "arrow-left-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "arrow-left"
+    }
+   ]
+  },
+  {
+   "set": "arrow-right",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "arrow-right-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "arrow-right"
+    }
+   ]
+  },
+  {
+   "set": "undo",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "undo-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "undo"
+    }
+   ]
+  },
+  {
+   "set": "redo",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "redo-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "redo"
+    }
+   ]
+  },
+  {
+   "set": "rotate_right_90",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "rotate_right_90-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "rotate_right_90"
+    }
+   ]
+  },
+  {
+   "set": "rotate_left_90",
+   "variants": [
+    {
+     "variant": "fill=on",
+     "file": "rotate_left_90-fill"
+    },
+    {
+     "variant": "fill=off",
+     "file": "rotate_left_90"
+    }
+   ]
+  }
+ ],
+ "01_pms-lnb": [
+  {
+   "set": "memo",
+   "variants": [
+    {
+     "variant": "data=true",
+     "file": "memo-data-true"
+    },
+    {
+     "variant": "data=false",
+     "file": "memo-data-false"
+    }
+   ]
+  },
+  {
+   "set": "scaler",
+   "variants": [
+    {
+     "variant": "data=true",
+     "file": "scaler-data-true"
+    },
+    {
+     "variant": "data=false",
+     "file": "scaler-data-false"
+    }
+   ]
+  },
+  {
+   "set": "Group 5138598",
+   "variants": [
+    {
+     "variant": "",
+     "file": "Group-5138598"
+    }
+   ]
+  }
+ ]
+}

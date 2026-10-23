@@ -1,0 +1,11 @@
+# 생성물 — 손으로 고치지 않고 tools/sync.py 로 다시 만듭니다.
+#   -diff        : PR·로그에서 diff를 펼치지 않습니다 (한 줄이 수만 자입니다)
+#   merge=binary : 충돌이 나면 한쪽을 고르고 다시 빌드합니다
+sprite.svg   -diff merge=binary
+index.html   -diff merge=binary
+icons.json   -diff merge=binary
+svg/**       -diff merge=binary
+
+*.md   text eol=lf
+*.json text eol=lf
+*.py   text eol=lf

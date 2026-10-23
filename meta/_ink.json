@@ -1,0 +1,1798 @@
+{
+"00_arrow/arrow-left-fill": [
+13.5,
+11.5
+],
+"00_arrow/arrow-left": [
+13,
+11
+],
+"00_arrow/arrow-right-fill": [
+13.5,
+11.5
+],
+"00_arrow/arrow-right": [
+13,
+11
+],
+"00_arrow/caret-down-fill": [
+6.8,
+4
+],
+"00_arrow/caret-down": [
+6.8,
+4
+],
+"00_arrow/caret-left-fill": [
+4,
+7
+],
+"00_arrow/caret-left": [
+4,
+7
+],
+"00_arrow/caret-right-fill": [
+3.8,
+7
+],
+"00_arrow/caret-right": [
+3.8,
+7
+],
+"00_arrow/caret-up-fill": [
+7,
+4
+],
+"00_arrow/caret-up": [
+7,
+4
+],
+"00_arrow/collapse-fill": [
+14,
+14
+],
+"00_arrow/collapse": [
+13.5,
+13.5
+],
+"00_arrow/double-down-fill": [
+11.5,
+12.5
+],
+"00_arrow/double-down": [
+11,
+12
+],
+"00_arrow/double-left-fill": [
+12.5,
+11.5
+],
+"00_arrow/double-left": [
+12,
+11
+],
+"00_arrow/double-right-fill": [
+12.5,
+11.5
+],
+"00_arrow/double-right": [
+12,
+11
+],
+"00_arrow/double-up-fill": [
+11.5,
+12.5
+],
+"00_arrow/double-up": [
+11,
+12
+],
+"00_arrow/down-2": [
+16,
+16
+],
+"00_arrow/down-fill-2": [
+16,
+16
+],
+"00_arrow/down-fill": [
+11.5,
+6.5
+],
+"00_arrow/down": [
+11,
+6
+],
+"00_arrow/downward-fill": [
+11.5,
+13.5
+],
+"00_arrow/downward": [
+11,
+13
+],
+"00_arrow/expand-fill": [
+14,
+14
+],
+"00_arrow/expand": [
+13.5,
+13.5
+],
+"00_arrow/left-2": [
+16,
+16
+],
+"00_arrow/left-fill-2": [
+16,
+16
+],
+"00_arrow/left-fill": [
+6.5,
+11.5
+],
+"00_arrow/left": [
+6,
+11
+],
+"00_arrow/overflow_indicator-fill": [
+5.5,
+5.5
+],
+"00_arrow/overflow_indicator": [
+5.5,
+5.5
+],
+"00_arrow/redo-fill": [
+13.5,
+13.5
+],
+"00_arrow/redo": [
+13.5,
+13.5
+],
+"00_arrow/right-2": [
+16,
+16
+],
+"00_arrow/right-fill-2": [
+16,
+16
+],
+"00_arrow/right-fill": [
+6.5,
+11.5
+],
+"00_arrow/right": [
+6,
+11
+],
+"00_arrow/rotate_left_90-fill": [
+15.5,
+12.5
+],
+"00_arrow/rotate_left_90": [
+15,
+12
+],
+"00_arrow/rotate_right_90-fill": [
+15.5,
+12.5
+],
+"00_arrow/rotate_right_90": [
+15,
+12
+],
+"00_arrow/south-east-fill": [
+11.5,
+11.5
+],
+"00_arrow/south-east": [
+11.5,
+11.5
+],
+"00_arrow/south-west-fill": [
+11.5,
+11.5
+],
+"00_arrow/south-west": [
+11.5,
+11.5
+],
+"00_arrow/swap-horiz-fill": [
+13.5,
+13.5
+],
+"00_arrow/swap-horiz": [
+13,
+13
+],
+"00_arrow/swap-vert-fill": [
+13.5,
+13.5
+],
+"00_arrow/swap-vert": [
+13,
+13
+],
+"00_arrow/undo-fill": [
+13.5,
+13.5
+],
+"00_arrow/undo": [
+13.5,
+13.5
+],
+"00_arrow/up-2": [
+16,
+16
+],
+"00_arrow/up-fill-2": [
+16,
+16
+],
+"00_arrow/up-fill": [
+11.5,
+6.5
+],
+"00_arrow/up": [
+11,
+6
+],
+"00_arrow/upward-fill": [
+11.5,
+13.5
+],
+"00_arrow/upward": [
+11.5,
+13.5
+],
+"00_edit/Edit-color-black": [
+15,
+15
+],
+"00_edit/Edit-colorpalette": [
+15,
+15
+],
+"00_edit/bold-fill": [
+10.3,
+14
+],
+"00_edit/bold": [
+10.3,
+14
+],
+"00_edit/color-fill-fill": [
+14,
+14
+],
+"00_edit/color-fill": [
+14,
+14
+],
+"00_edit/eraser-fill": [
+14,
+14
+],
+"00_edit/eraser-magic-fill": [
+14,
+14
+],
+"00_edit/eraser-magic": [
+14,
+14
+],
+"00_edit/eraser": [
+14,
+14
+],
+"00_edit/fontcolor-fill": [
+14,
+14
+],
+"00_edit/fontcolor": [
+14,
+14
+],
+"00_edit/fontfamily-fill": [
+14,
+8.8
+],
+"00_edit/fontfamily": [
+14,
+8.8
+],
+"00_edit/fontsize-down-fill": [
+14.3,
+12
+],
+"00_edit/fontsize-down": [
+14.3,
+12
+],
+"00_edit/fontsize-up-fill": [
+14.3,
+12.8
+],
+"00_edit/fontsize-up": [
+14.3,
+12.8
+],
+"00_edit/hand-draw-fill": [
+10.3,
+15.5
+],
+"00_edit/hand-draw": [
+10.3,
+15.5
+],
+"00_edit/hand-fill": [
+14.3,
+17.5
+],
+"00_edit/hand": [
+15,
+17.5
+],
+"00_edit/highlighter-fill": [
+10,
+16.3
+],
+"00_edit/highlighter": [
+10,
+16
+],
+"00_edit/italic-fill": [
+7.3,
+14
+],
+"00_edit/italic": [
+7.3,
+14
+],
+"00_edit/lasso-fill": [
+15,
+14
+],
+"00_edit/lasso": [
+14.8,
+13.8
+],
+"00_edit/paragraph-center-fill": [
+12.5,
+12.5
+],
+"00_edit/paragraph-center": [
+12.5,
+12.5
+],
+"00_edit/paragraph-justify-fill": [
+14,
+12.5
+],
+"00_edit/paragraph-justify": [
+14,
+12.5
+],
+"00_edit/paragraph-left-fill": [
+12.5,
+12.5
+],
+"00_edit/paragraph-left": [
+12.5,
+12.5
+],
+"00_edit/paragraph-right-fill": [
+12.5,
+12.5
+],
+"00_edit/paragraph-right": [
+12.5,
+12.5
+],
+"00_edit/pen-2": [
+11.3,
+18
+],
+"00_edit/pen-fill-2": [
+11.3,
+18
+],
+"00_edit/pen-fill": [
+14,
+14
+],
+"00_edit/pen": [
+14,
+14
+],
+"00_edit/pencil-2": [
+11.3,
+17.5
+],
+"00_edit/pencil-fill-2": [
+11.3,
+17.5
+],
+"00_edit/pencil-fill": [
+14,
+14
+],
+"00_edit/pencil-thin-2": [
+11.3,
+17.5
+],
+"00_edit/pencil-thin-fill-2": [
+11.3,
+17.5
+],
+"00_edit/pencil-thin-fill": [
+14,
+14
+],
+"00_edit/pencil-thin": [
+14,
+14.3
+],
+"00_edit/pencil": [
+14,
+14.3
+],
+"00_edit/select-all-fill": [
+14,
+14
+],
+"00_edit/select-all": [
+14,
+14
+],
+"00_edit/strikethrough-fill": [
+14,
+13.5
+],
+"00_edit/strikethrough": [
+14,
+13.5
+],
+"00_edit/underline-fill": [
+14,
+14
+],
+"00_edit/underline": [
+14,
+14
+],
+"00_general/add-fill": [
+13.5,
+13.5
+],
+"00_general/add": [
+13,
+13
+],
+"00_general/add_circle-fill": [
+16,
+16
+],
+"00_general/add_circle": [
+16,
+16
+],
+"00_general/address-fill": [
+14.5,
+14.8
+],
+"00_general/address": [
+14.5,
+14.8
+],
+"00_general/agree-fill": [
+16,
+16
+],
+"00_general/agree": [
+16,
+16
+],
+"00_general/alert_circle-fill": [
+16,
+16
+],
+"00_general/alert_circle": [
+16,
+16
+],
+"00_general/alphabet_S-2": [
+10.5,
+14
+],
+"00_general/alphabet_S-fill-2": [
+10.5,
+14
+],
+"00_general/alphabet_S-fill": [
+10.5,
+14
+],
+"00_general/alphabet_S": [
+10.5,
+14
+],
+"00_general/axial_clipping-fill": [
+16,
+16
+],
+"00_general/axial_clipping": [
+16,
+16
+],
+"00_general/block-fill": [
+16,
+16
+],
+"00_general/block": [
+16,
+16
+],
+"00_general/bookmark-fill": [
+12,
+14.3
+],
+"00_general/bookmark": [
+12,
+14
+],
+"00_general/brightness-fill": [
+20,
+20
+],
+"00_general/brightness": [
+20,
+20
+],
+"00_general/calendar-fill": [
+14,
+13.5
+],
+"00_general/calendar": [
+14,
+13.5
+],
+"00_general/call-fill": [
+14,
+14
+],
+"00_general/call": [
+13.5,
+13.5
+],
+"00_general/call_incoming-fill": [
+13.5,
+13.5
+],
+"00_general/call_incoming": [
+13.3,
+13.3
+],
+"00_general/call_missed-fill": [
+13.3,
+13.8
+],
+"00_general/call_missed": [
+13.3,
+13.5
+],
+"00_general/call_outgoing-fill": [
+13.8,
+13.8
+],
+"00_general/call_outgoing": [
+13.5,
+13.5
+],
+"00_general/camera-fill": [
+16,
+12
+],
+"00_general/camera": [
+16,
+12
+],
+"00_general/capture-fill": [
+14,
+14
+],
+"00_general/capture": [
+14,
+14
+],
+"00_general/card_view-fill": [
+12,
+12
+],
+"00_general/card_view": [
+12,
+12
+],
+"00_general/change-fill": [
+14,
+13
+],
+"00_general/change": [
+13.5,
+12.5
+],
+"00_general/check-fill": [
+13.5,
+9.5
+],
+"00_general/check": [
+13,
+9
+],
+"00_general/check_circle-fill": [
+16,
+16
+],
+"00_general/check_circle": [
+16,
+16
+],
+"00_general/check_tooth-fill": [
+14.5,
+14.5
+],
+"00_general/check_tooth": [
+14.5,
+14.5
+],
+"00_general/copy-fill": [
+14,
+14
+],
+"00_general/copy-state-selected": [
+14.3,
+14.3
+],
+"00_general/coronal_clipping-fill": [
+10,
+16
+],
+"00_general/coronal_clipping": [
+10,
+16
+],
+"00_general/cut-fill": [
+14,
+13.3
+],
+"00_general/cut": [
+14,
+13.8
+],
+"00_general/delete-fill": [
+13.5,
+16.3
+],
+"00_general/delete": [
+13.5,
+16
+],
+"00_general/delete_circle-fill": [
+16,
+16
+],
+"00_general/delete_circle": [
+16,
+16
+],
+"00_general/disagree-fill": [
+13.5,
+13.5
+],
+"00_general/disagree": [
+13,
+13
+],
+"00_general/docs-fill": [
+12,
+16
+],
+"00_general/docs": [
+12,
+16
+],
+"00_general/docs_Portrait-fill": [
+16,
+16
+],
+"00_general/docs_Portrait": [
+16,
+16
+],
+"00_general/docs_add-fill": [
+14,
+16
+],
+"00_general/docs_add": [
+14,
+16
+],
+"00_general/docs_check-fill": [
+14.3,
+15.8
+],
+"00_general/docs_check": [
+14.3,
+15.8
+],
+"00_general/docs_landscape-fill": [
+16,
+16
+],
+"00_general/docs_landscape": [
+16,
+16
+],
+"00_general/docs_off-fill": [
+14,
+16
+],
+"00_general/docs_off": [
+14,
+16
+],
+"00_general/docs_search-fill": [
+14.3,
+16.3
+],
+"00_general/docs_search": [
+14.3,
+16.3
+],
+"00_general/docs_setting-fill": [
+14.3,
+16.5
+],
+"00_general/docs_setting": [
+14.3,
+16.5
+],
+"00_general/download-fill": [
+14.5,
+14.5
+],
+"00_general/download": [
+14,
+14
+],
+"00_general/drag_pan-fill": [
+14,
+14
+],
+"00_general/drag_pan": [
+14,
+14
+],
+"00_general/dual_view-fill": [
+16,
+12
+],
+"00_general/dual_view": [
+16,
+12
+],
+"00_general/e_chart-fill": [
+16.5,
+14.5
+],
+"00_general/e_chart": [
+16.5,
+14.5
+],
+"00_general/edit-fill": [
+14,
+14
+],
+"00_general/edit": [
+14.3,
+14.3
+],
+"00_general/emo-fill": [
+16,
+16
+],
+"00_general/emo": [
+16,
+16
+],
+"00_general/empty_state-fill": [
+0,
+0
+],
+"00_general/empty_state": [
+0,
+0
+],
+"00_general/excel-fill": [
+7,
+14.5
+],
+"00_general/excel": [
+7,
+14.5
+],
+"00_general/family-fill": [
+16,
+12
+],
+"00_general/family": [
+16,
+12.5
+],
+"00_general/favorite-fill": [
+14,
+14
+],
+"00_general/favorite": [
+14,
+14
+],
+"00_general/filter-fill": [
+13.8,
+13.5
+],
+"00_general/filter": [
+13,
+13
+],
+"00_general/flip_horiz-fill": [
+14,
+12
+],
+"00_general/flip_horiz": [
+14,
+12
+],
+"00_general/flip_vert-fill": [
+12,
+14
+],
+"00_general/flip_vert": [
+12,
+14
+],
+"00_general/folder-fill": [
+14,
+13
+],
+"00_general/folder": [
+14,
+13
+],
+"00_general/gotoend-fill": [
+14,
+14
+],
+"00_general/gotoend": [
+14,
+14
+],
+"00_general/gotostart-fill": [
+14,
+14
+],
+"00_general/gotostart": [
+14.5,
+15
+],
+"00_general/grid_view-fill": [
+13,
+13
+],
+"00_general/grid_view": [
+13,
+13
+],
+"00_general/handle-fill": [
+6,
+12
+],
+"00_general/handle": [
+6,
+12
+],
+"00_general/heart-fill": [
+14,
+12.8
+],
+"00_general/heart": [
+14,
+12.8
+],
+"00_general/help_circle-fill": [
+16,
+16
+],
+"00_general/help_circle": [
+16,
+16
+],
+"00_general/history-fill": [
+13,
+13.5
+],
+"00_general/history": [
+12.5,
+13
+],
+"00_general/home-fill": [
+14,
+13.5
+],
+"00_general/home": [
+14,
+13.5
+],
+"00_general/horiz_center-fill": [
+14,
+14
+],
+"00_general/horiz_center": [
+14,
+14
+],
+"00_general/horiz_left-fill": [
+14,
+14
+],
+"00_general/horiz_left": [
+14,
+14
+],
+"00_general/horiz_right-fill": [
+14,
+14
+],
+"00_general/horiz_right": [
+14,
+14
+],
+"00_general/image-fill": [
+14,
+14
+],
+"00_general/image": [
+14,
+14
+],
+"00_general/info_circle-fill": [
+16,
+16
+],
+"00_general/info_circle": [
+16,
+16
+],
+"00_general/invert-fill": [
+10.5,
+14
+],
+"00_general/invert": [
+10.5,
+14
+],
+"00_general/keypad-fill": [
+16,
+12
+],
+"00_general/keypad": [
+16,
+12
+],
+"00_general/landmark-fill": [
+12.8,
+13.5
+],
+"00_general/landmark": [
+12.3,
+13
+],
+"00_general/layout-property1-fill": [
+14,
+14
+],
+"00_general/layout-property1-stroke": [
+14,
+14
+],
+"00_general/layout_1+1_h-fill": [
+14,
+14
+],
+"00_general/layout_1+1_h": [
+14,
+14
+],
+"00_general/layout_1+2_h-fill": [
+14,
+14
+],
+"00_general/layout_1+2_h": [
+14,
+14
+],
+"00_general/layout_1+2_v-fill": [
+14,
+14
+],
+"00_general/layout_1+2_v": [
+14,
+14
+],
+"00_general/layout_2+1_h-fill": [
+14,
+14
+],
+"00_general/layout_2+1_h": [
+14,
+14
+],
+"00_general/layout_2+1_v-fill": [
+14,
+14
+],
+"00_general/layout_2+1_v": [
+14,
+14
+],
+"00_general/layout_auto-property1-fill": [
+15,
+15.3
+],
+"00_general/layout_auto-property1-stroke": [
+15,
+15.3
+],
+"00_general/layout_setting-fill": [
+15.5,
+15.5
+],
+"00_general/layout_setting": [
+15.5,
+15.5
+],
+"00_general/link-fill": [
+14,
+14
+],
+"00_general/link": [
+13.5,
+13.5
+],
+"00_general/list_delete-fill": [
+9.5,
+9.5
+],
+"00_general/list_delete": [
+9,
+9
+],
+"00_general/list_view-fill": [
+13.5,
+9.5
+],
+"00_general/list_view": [
+13,
+9
+],
+"00_general/lock-fill": [
+14,
+13.8
+],
+"00_general/lock": [
+14,
+13.8
+],
+"00_general/logout-fill": [
+13.5,
+13.5
+],
+"00_general/logout": [
+13,
+13
+],
+"00_general/mail-fill": [
+16,
+12
+],
+"00_general/mail": [
+16,
+12
+],
+"00_general/mic_etc-fill": [
+13.5,
+13.8
+],
+"00_general/mic_etc": [
+13.5,
+13.8
+],
+"00_general/mixed_view-fill": [
+13.8,
+11.8
+],
+"00_general/mixed_view": [
+13,
+11.5
+],
+"00_general/monitor_setting-fill": [
+18,
+15
+],
+"00_general/monitor_setting": [
+18,
+15
+],
+"00_general/more_horiz-fill": [
+14,
+3
+],
+"00_general/more_horiz": [
+14,
+3
+],
+"00_general/more_vert-2": [
+5,
+14.5
+],
+"00_general/more_vert-fill-2": [
+5.5,
+14.5
+],
+"00_general/more_vert-fill": [
+3,
+14
+],
+"00_general/more_vert": [
+3,
+14
+],
+"00_general/new_patient-fill": [
+19,
+13.5
+],
+"00_general/new_patient": [
+19,
+13.5
+],
+"00_general/next-fill": [
+16,
+10
+],
+"00_general/next": [
+16,
+10
+],
+"00_general/next_reservation-fill": [
+15,
+14
+],
+"00_general/next_reservation": [
+15,
+14
+],
+"00_general/opaque-fill": [
+14,
+14
+],
+"00_general/opaque": [
+14,
+14
+],
+"00_general/panorama-fill": [
+16,
+12
+],
+"00_general/panorama": [
+16,
+12
+],
+"00_general/pause-fill": [
+8,
+14
+],
+"00_general/pause": [
+8,
+14
+],
+"00_general/pause_circle-fill": [
+16,
+16
+],
+"00_general/pause_circle": [
+16,
+16
+],
+"00_general/pin-fill": [
+14,
+14
+],
+"00_general/pin": [
+8.8,
+13
+],
+"00_general/plane-fill": [
+20,
+17
+],
+"00_general/plane": [
+20,
+17
+],
+"00_general/play-fill": [
+12,
+14
+],
+"00_general/play": [
+12,
+14
+],
+"00_general/play_circle-fill": [
+16,
+16
+],
+"00_general/play_circle": [
+16,
+16
+],
+"00_general/prev-fill": [
+16,
+10
+],
+"00_general/prev": [
+16,
+10
+],
+"00_general/print-fill": [
+14,
+14
+],
+"00_general/print": [
+14,
+14
+],
+"00_general/profile-fill": [
+13,
+14
+],
+"00_general/profile": [
+14,
+15
+],
+"00_general/recipient-fill": [
+14,
+14
+],
+"00_general/recipient": [
+14,
+14
+],
+"00_general/reference-fill": [
+13.5,
+13.5
+],
+"00_general/reference": [
+13.5,
+13.5
+],
+"00_general/refresh-fill": [
+13.8,
+13
+],
+"00_general/refresh": [
+13.3,
+12.5
+],
+"00_general/sagittal_clipping-fill": [
+10,
+16
+],
+"00_general/sagittal_clipping": [
+10,
+16
+],
+"00_general/save-fill": [
+14,
+14
+],
+"00_general/save": [
+14,
+14
+],
+"00_general/save_as-fill": [
+14,
+14
+],
+"00_general/save_as": [
+14,
+14
+],
+"00_general/search-fill": [
+13.8,
+13.8
+],
+"00_general/search": [
+13.5,
+13.5
+],
+"00_general/search_insurance-fill": [
+14.8,
+15
+],
+"00_general/search_insurance": [
+14.8,
+15
+],
+"00_general/send-fill": [
+14,
+14
+],
+"00_general/send": [
+14,
+14
+],
+"00_general/setting-fill": [
+15.5,
+16
+],
+"00_general/setting": [
+15.5,
+16
+],
+"00_general/shapes-fill": [
+14,
+14
+],
+"00_general/shapes": [
+14,
+14
+],
+"00_general/slice_interval-fill": [
+14,
+14
+],
+"00_general/slice_interval": [
+14,
+14
+],
+"00_general/square-fill": [
+14,
+14
+],
+"00_general/square": [
+14,
+14
+],
+"00_general/squarebracket_left-fill": [
+6,
+14
+],
+"00_general/squarebracket_left": [
+6,
+14
+],
+"00_general/squarebracket_right-fill": [
+6,
+14
+],
+"00_general/squarebracket_right": [
+6,
+14
+],
+"00_general/stamp-fill": [
+13.8,
+14
+],
+"00_general/stamp": [
+13.8,
+13.8
+],
+"00_general/stamp_done-fill": [
+11,
+16
+],
+"00_general/stamp_done": [
+11,
+16
+],
+"00_general/statics-fill": [
+14,
+14
+],
+"00_general/statics": [
+14,
+14
+],
+"00_general/stop_circle-fill": [
+16,
+16
+],
+"00_general/stop_circle": [
+16,
+16
+],
+"00_general/substract_circle-fill": [
+16,
+16
+],
+"00_general/substract_circle": [
+16,
+16
+],
+"00_general/subtract-fill": [
+13.5,
+1.5
+],
+"00_general/subtract": [
+13,
+1
+],
+"00_general/supervisor_message-fill": [
+14,
+14
+],
+"00_general/supervisor_message": [
+14,
+14
+],
+"00_general/table-fill": [
+14,
+14
+],
+"00_general/table": [
+14,
+14
+],
+"00_general/tag-fill": [
+14,
+14
+],
+"00_general/tag": [
+14,
+14
+],
+"00_general/tag_add-fill": [
+15,
+15
+],
+"00_general/tag_add": [
+15,
+15
+],
+"00_general/talk-fill": [
+14,
+14
+],
+"00_general/talk": [
+14,
+14
+],
+"00_general/text_list-fill": [
+13.8,
+14
+],
+"00_general/text_list": [
+13.8,
+14
+],
+"00_general/textarea-fill": [
+14,
+14
+],
+"00_general/textarea": [
+14,
+14
+],
+"00_general/textarea_resize-fill": [
+10.5,
+10.5
+],
+"00_general/textarea_resize": [
+10,
+10
+],
+"00_general/thickness-2": [
+14,
+14
+],
+"00_general/thickness-fill-2": [
+14,
+14
+],
+"00_general/thickness-fill": [
+14,
+14
+],
+"00_general/thickness": [
+14,
+14
+],
+"00_general/tooth-fill": [
+14,
+14
+],
+"00_general/tooth": [
+14,
+14
+],
+"00_general/tooth_mapping-fill": [
+14,
+14
+],
+"00_general/tooth_mapping": [
+14,
+14
+],
+"00_general/tooth_system-fill": [
+16,
+12
+],
+"00_general/tooth_system": [
+16,
+12
+],
+"00_general/translucent-fill": [
+14,
+14
+],
+"00_general/translucent": [
+14,
+14
+],
+"00_general/triangle-fill": [
+15.5,
+14.5
+],
+"00_general/triangle": [
+15.5,
+14.5
+],
+"00_general/turnleft-fill": [
+13.8,
+13
+],
+"00_general/turnleft": [
+13.3,
+12.5
+],
+"00_general/turnright-fill": [
+13.8,
+13
+],
+"00_general/turnright": [
+13.3,
+12.5
+],
+"00_general/two_view-close-fill": [
+16,
+12
+],
+"00_general/two_view-close": [
+16,
+12
+],
+"00_general/two_view-open-fill": [
+16,
+12
+],
+"00_general/two_view-open": [
+16,
+12
+],
+"00_general/unlock-fill": [
+14,
+13.8
+],
+"00_general/unlock": [
+14,
+13.8
+],
+"00_general/upload-fill": [
+14.5,
+14.5
+],
+"00_general/upload": [
+14,
+13.8
+],
+"00_general/vert_bottom-fill": [
+14,
+14
+],
+"00_general/vert_bottom": [
+14,
+14
+],
+"00_general/vert_center-fill": [
+14,
+14
+],
+"00_general/vert_center": [
+14,
+14
+],
+"00_general/vert_top-fill": [
+14,
+14
+],
+"00_general/vert_top": [
+14,
+14
+],
+"00_general/visibility-fill": [
+16,
+10
+],
+"00_general/visibility": [
+16,
+10
+],
+"00_general/visibility_off-fill": [
+16,
+15
+],
+"00_general/visibility_off": [
+16,
+15
+],
+"00_general/voice-fill": [
+11,
+16
+],
+"00_general/voice": [
+11,
+16
+],
+"00_general/wifi-fill": [
+16,
+12.5
+],
+"00_general/wifi": [
+16,
+12.5
+],
+"00_general/wifi_off-fill": [
+16,
+15.5
+],
+"00_general/wifi_off": [
+16,
+15.5
+],
+"00_general/window_level-fill": [
+14,
+14
+],
+"00_general/window_level": [
+14,
+14
+],
+"00_general/zoom_in-fill": [
+13.8,
+13.8
+],
+"00_general/zoom_in": [
+13.8,
+13.8
+],
+"00_general/zoom_out-fill": [
+13.8,
+13.8
+],
+"00_general/zoom_out": [
+13.8,
+13.8
+],
+"00_modal/alert-fill": [
+18,
+16
+],
+"00_modal/alert": [
+19,
+17
+],
+"00_modal/check-fill": [
+18,
+18
+],
+"00_modal/check": [
+18,
+18
+],
+"00_modal/info-fill": [
+18,
+18
+],
+"00_modal/info": [
+18,
+18
+],
+"00_modal/question-fill": [
+18,
+18
+],
+"00_modal/question": [
+18,
+18
+],
+"00_modal/warning-fill": [
+18,
+18
+],
+"00_modal/warning": [
+18,
+18
+],
+"00_window/Window-close": [
+11.5,
+11.5
+],
+"00_window/Window-maximize": [
+12,
+12
+],
+"00_window/Window-minimize": [
+13.5,
+1.5
+],
+"00_window/Window-restore": [
+15,
+15
+],
+"01_pms/infection": [
+14,
+16
+],
+"01_pms/lab-case": [
+14,
+14
+],
+"01_pms/medication": [
+16,
+16
+],
+"01_pms/note": [
+14,
+14
+],
+"01_pms/pms-coin": [
+17,
+17
+],
+"01_pms/reservation-cell-질환": [
+14,
+12.5
+],
+"01_pms-lnb/Group-5138598": [
+17,
+17
+],
+"01_pms-lnb/memo-data-false": [
+17,
+17
+],
+"01_pms-lnb/memo-data-true": [
+17,
+17
+],
+"01_pms-lnb/scaler-data-false": [
+20,
+20
+],
+"01_pms-lnb/scaler-data-true": [
+20,
+20
+]
+}

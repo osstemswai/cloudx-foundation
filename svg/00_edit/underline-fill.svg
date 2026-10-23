@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="underline" clip-path="url(#clip0_6446_7084)">
+<g id="_area">
+</g>
+<g id="Vector">
+<path d="M17 15.4443V17H3V15.4443H17Z" fill="currentColor"/>
+<path d="M7.99512 3V9.28711C7.99512 11.1528 8.67112 12.0859 10.0234 12.0859C11.3492 12.0859 12.0116 11.1849 12.0117 9.38281V3H13.8887V9.15723C13.8886 12.3116 12.5674 13.8886 9.9248 13.8887C7.38251 13.8887 6.11133 12.3547 6.11133 9.28711V3H7.99512Z" fill="currentColor"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_6446_7084">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs></svg>
