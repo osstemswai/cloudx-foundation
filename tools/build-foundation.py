@@ -144,10 +144,10 @@ def number_page(d, stamp):
         for r in sorted(groups[g], key=lambda x: (float(num(x["value"])) if isinstance(num(x["value"]), (int, float)) else 0, x["name"])):
             short = r["name"][len("number/"):]
             k = " ".join([r["name"], str(r["value"]), r.get("alias") or "", r.get("description") or ""]).lower()
-            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code>%spx</code></td><td class="mut">%s</td><td class="mut">%s</td></tr>'
+            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code>%spx</code></td><td class="mut">%s</td></tr>'
                        % (esc(k), cp("var(%s)" % r["cssVar"], short), num_preview(g, num(r["value"])), esc(num(r["value"])),
-                          esc((r.get("alias") or "").replace("number/", "")), esc(r.get("description") or "")))
-        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t tn"><colgroup><col style="width:240px"><col style="width:120px"><col style="width:80px"><col style="width:110px"><col></colgroup><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody>%s</tbody></table></div></div>'
+                          esc((r.get("alias") or "").replace("number/", ""))))
+        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t tn"><colgroup><col style="width:260px"><col style="width:140px"><col style="width:90px"><col></colgroup><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th></tr></thead><tbody>%s</tbody></table></div></div>'
                       % (esc(labels.get(g, g)), len(trs), "".join(trs)))
     body = """
 <h2>Number</h2>
@@ -173,7 +173,7 @@ def number_page(d, stamp):
 .nm--border{width:48px;border-top:0 solid var(--ink)}
 .nm--icon{background:var(--ink3);border-radius:3px;opacity:.6}
 .nm--focus{width:24px;height:24px;border-radius:6px;background:var(--card);border:1px solid var(--line)}
-table.tn{table-layout:fixed;min-width:720px}
+table.tn{table-layout:fixed;min-width:560px}
 table.tn td{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 table.tn td:last-child{white-space:normal}
 """
