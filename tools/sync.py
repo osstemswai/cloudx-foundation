@@ -6,7 +6,7 @@
 복사  Icon/svg/<카테고리>/*.svg            → svg/<카테고리>/
       Icon/_sets.json · _ink.json · _keywords.json → meta/
 기록  meta/source.json (원본 저장소 · 커밋 · 날짜 · 개수)
-빌드  tools/build-tokens.py → tools/build-sprite.py → tools/build-gallery.py → tools/build-foundation.py
+빌드  tools/build-tokens.py → tools/build-sprite.py → tools/build-gallery.py → tools/build-site.py
 
 토큰(tokens/*.json)은 여기서 복사하지 않습니다 — Figma에서 Plugin API로 읽어 넣는 별도 절차입니다(README 「갱신」).
 
@@ -82,7 +82,7 @@ def main():
     subprocess.check_call([sys.executable, os.path.join(here, "build-tokens.py")])
     subprocess.check_call([sys.executable, os.path.join(here, "build-sprite.py")])
     subprocess.check_call([sys.executable, os.path.join(here, "build-gallery.py")])
-    subprocess.check_call([sys.executable, os.path.join(here, "build-foundation.py")])
+    subprocess.check_call([sys.executable, os.path.join(here, "build-site.py")])
 
 
 if __name__ == "__main__":

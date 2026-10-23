@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""tokens.json → index.html(홈) · color.html · number.html · typography.html
+"""tokens.json → 절(section) 4개: 시작하기 · Color · Number · Typography (build-site.py 가 index.html 로 묶는다)
 
     python3 tools/build-foundation.py      # 먼저 python3 tools/build-tokens.py
 
@@ -46,7 +46,6 @@ def cp(text, label=None):
 # ── 컬러 ──────────────────────────────────────────────────────────────
 def color_page(d, stamp):
     prim = [r for r in d["layers"]["primitive"] if r["name"].startswith("color/")]
-    sem = [r for r in d["layers"]["semantic"] if r["name"].startswith("color/")]
     hues = {}
     for r in prim:
         hues.setdefault(r["name"].split("/")[1], []).append(r)
@@ -59,32 +58,12 @@ def color_page(d, stamp):
             cells.append('<button type="button" class="pal__c" data-cp="var(%s)" title="%s · %s"><span class="pal__sw" style="background:%s"></span><span class="pal__s">%s</span><span class="pal__v">%s</span></button>'
                          % (esc(r["cssVar"]), esc(r["name"]), esc(r["value"]), esc(r["value"]), esc(step), esc(r["value"] if str(r["value"]).startswith("#") else "α")))
         rows.append('<div class="pal"><div class="pal__h">%s<small>%d</small></div><div class="pal__r">%s</div></div>' % (esc(h), len(cells), "".join(cells)))
-    groups = {}
-    for r in sem:
-        groups.setdefault(r["name"].split("/")[1], []).append(r)
-    gorder = [g for g, _ in SEM_COLOR_GROUPS if g in groups] + sorted(g for g in groups if g not in dict(SEM_COLOR_GROUPS))
-    labels = dict(SEM_COLOR_GROUPS)
-    tables = []
-    for g in gorder:
-        trs = []
-        for r in sorted(groups[g], key=lambda x: x["name"]):
-            short = r["name"][len("color/"):]
-            k = " ".join([r["name"], str(r["value"]), r.get("alias") or "", r.get("description") or ""]).lower()
-            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code class="cp" data-cp="%s">%s</code></td><td class="mut">%s</td><td class="mut">%s</td></tr>'
-                       % (esc(k), cp("var(%s)" % r["cssVar"], short), swatch(r["value"]), esc(r["value"]), esc(r["value"]),
-                          esc((r.get("alias") or "").replace("color/", "")), esc(r.get("description") or "")))
-        tables.append('<div class="sec" data-group><h2>%s<small class="n">%d</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th></th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody>%s</tbody></table></div></div>'
-                      % (esc(labels.get(g, g)), len(trs), "".join(trs)))
     body = """
-<h1 class="pg-h">컬러</h1>
-<p class="pg-sub">primitive 팔레트 %d색 → semantic 역할 토큰 %d개. 화면에는 <b>semantic 토큰</b>을 씁니다. 팔레트 값을 직접 쓰지 않습니다. 이름을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
-<div class="sec"><h2>Primitive — 팔레트<small class="n">%d</small></h2><p class="lead">색상 계열별 단계입니다. 숫자가 클수록 진합니다. black·white는 투명도 단계(α)입니다. 칸을 누르면 변수 이름이 복사됩니다.</p>%s</div>
-<div class="sec"><h2>Semantic — 역할 토큰<small class="n">%d</small></h2><p class="lead">바탕(bg) · 글자(fg) · 선(border) · 아이콘(icon) 등 역할로 고릅니다. 값이 바뀌어도 이름은 그대로라 화면이 따라옵니다.</p>
-<label class="search"><input placeholder="brand, neutral, hover, #EB6100…" data-filter="table.t tr[data-k]" data-count="#cnt" autocomplete="off" aria-label="토큰 검색"><span class="count" id="cnt"></span><kbd>/</kbd></label>%s</div>
-""" % (len(prim), len(sem), len(prim), "".join(rows), len(sem), "".join(tables))
+<h2>Color</h2>
+<p class="sb-sub">primitive 팔레트 %d색입니다. 색상 계열별 단계이고 숫자가 클수록 진합니다. 칸을 누르면 <code>var(--…)</code>가 복사됩니다. 역할(semantic) 토큰은 이후에 공유합니다.</p>
+<div class="sec"><h3 class="sb-h3">Primitive — 팔레트<small>%d</small></h3><p class="lead">black·white는 투명도 단계(α)입니다.</p>%s</div>
+""" % (len(prim), len(prim), "".join(rows))
     css = r"""
-.n{margin-left:8px;color:var(--ink3);font-weight:400;font-size:12px}
-.tw{overflow-x:auto}
 .pal{margin:0 0 10px}.pal__h{font-size:12px;font-weight:700;color:var(--ink2);margin:0 0 4px;text-transform:uppercase;letter-spacing:.04em}.pal__h small{margin-left:6px;color:var(--ink3);font-weight:400;text-transform:none}
 .pal__r{display:flex;flex-wrap:wrap;gap:4px}
 .pal__c{display:flex;flex-direction:column;align-items:center;gap:3px;width:64px;padding:0;border:0;background:none;cursor:pointer}
@@ -93,7 +72,7 @@ def color_page(d, stamp):
 .pal__s{font-size:11px;font-weight:600;color:var(--ink2)}.pal__v{font-size:10px;color:var(--ink3);font-family:ui-monospace,Menlo,monospace}
 .mut{color:var(--ink3);font-size:12px}
 """
-    return page.render("Cloud X Foundation · 컬러", "color.html", body, css=css, desc="Cloud X 컬러 토큰 — 팔레트와 역할 토큰", stamp=stamp)
+    return {"id": "c-Color", "group": "파운데이션", "nav": "Color <small>%d</small>" % len(prim), "body": body, "css": css}
 
 
 # ── 넘버 ──────────────────────────────────────────────────────────────
@@ -116,40 +95,19 @@ def num_preview(group, v):
 
 def number_page(d, stamp):
     prim = [r for r in d["layers"]["primitive"] if r["name"].startswith("number/")]
-    sem = [r for r in d["layers"]["semantic"] if r["name"].startswith("number/")]
     bars = []
     for r in sorted(prim, key=lambda x: float(num(x["value"]) if isinstance(num(x["value"]), (int, float)) else 0)):
         f = num(r["value"]); full = isinstance(f, (int, float)) and f >= 999
         cls = "ns__bar--full" if full else ("ns__bar--base" if isinstance(f, (int, float)) and f and f % 4 == 0 else "")
         bars.append('<button type="button" class="ns__col" data-cp="var(%s)" title="%s · %spx"><i class="%s" style="height:%dpx"></i><span>%s</span></button>'
                     % (esc(r["cssVar"]), esc(r["name"]), esc(f), cls, 96 if full else max(1, round(float(f) * 0.5)) if isinstance(f, (int, float)) else 1, "full" if full else esc(f)))
-    groups = {}
-    for r in sem:
-        groups.setdefault(r["name"].split("/")[1], []).append(r)
-    labels = dict(SEM_NUMBER_GROUPS)
-    gorder = [g for g, _ in SEM_NUMBER_GROUPS if g in groups] + sorted(g for g in groups if g not in labels)
-    tables = []
-    for g in gorder:
-        trs = []
-        for r in sorted(groups[g], key=lambda x: (float(num(x["value"])) if isinstance(num(x["value"]), (int, float)) else 0, x["name"])):
-            short = r["name"][len("number/"):]
-            k = " ".join([r["name"], str(r["value"]), r.get("alias") or "", r.get("description") or ""]).lower()
-            trs.append('<tr data-k="%s"><td>%s</td><td>%s</td><td><code>%spx</code></td><td class="mut">%s</td><td class="mut">%s</td></tr>'
-                       % (esc(k), cp("var(%s)" % r["cssVar"], short), num_preview(g, num(r["value"])), esc(num(r["value"])),
-                          esc((r.get("alias") or "").replace("number/", "")), esc(r.get("description") or "")))
-        tables.append('<div class="sec" data-group><h2>%s<small class="n">%d</small></h2><div class="tw"><table class="t"><thead><tr><th>이름 (클릭 = CSS 변수 복사)</th><th>미리보기</th><th>값</th><th>참조(primitive)</th><th>설명</th></tr></thead><tbody>%s</tbody></table></div></div>'
-                      % (esc(labels.get(g, g)), len(trs), "".join(trs)))
     body = """
-<h1 class="pg-h">넘버</h1>
-<p class="pg-sub">primitive 스케일 %d단계 → semantic 역할 토큰 %d개. 높이·간격·모서리·선 두께는 <b>semantic 토큰</b>으로 씁니다. 이름을 누르면 <code>var(--…)</code>가 복사됩니다.</p>
-<div class="sec"><h2>Primitive — 스케일<small class="n">%d</small></h2><p class="lead">막대 높이가 값입니다. 4의 배수가 스케일의 근간이고(진한 막대), 그 사이 값은 타이포·대형 레이아웃용입니다. full(999)은 원형에 씁니다.</p>
+<h2>Number</h2>
+<p class="sb-sub">primitive 수치 스케일 %d단계입니다. 막대를 누르면 <code>var(--…)</code>가 복사됩니다. 역할(semantic) 토큰(높이·간격·모서리·선)은 이후에 공유합니다.</p>
+<div class="sec"><h3 class="sb-h3">Primitive — 스케일<small>%d</small></h3><p class="lead">막대 높이가 값입니다. 4의 배수가 스케일의 근간이고(진한 막대), 그 사이 값은 타이포·대형 레이아웃용입니다. full(999)은 원형에 씁니다.</p>
 <div class="ns">%s</div></div>
-<div class="sec"><h2>Semantic — 역할 토큰<small class="n">%d</small></h2><p class="lead">컨트롤 높이(size) · 여백(spacing, 2px 배수) · 모서리(radius) · 선 두께(border) 등 역할로 고릅니다.</p>
-<label class="search"><input placeholder="spacing, radius, 12, md…" data-filter="table.t tr[data-k]" data-count="#cnt" autocomplete="off" aria-label="토큰 검색"><span class="count" id="cnt"></span><kbd>/</kbd></label>%s</div>
-""" % (len(prim), len(sem), len(prim), "".join(bars), len(sem), "".join(tables))
+""" % (len(prim), len(prim), "".join(bars))
     css = r"""
-.n{margin-left:8px;color:var(--ink3);font-weight:400;font-size:12px}
-.tw{overflow-x:auto}
 .ns{display:flex;align-items:flex-end;gap:6px;flex-wrap:wrap;padding:12px 0 4px}
 .ns__col{display:flex;flex-direction:column;align-items:center;gap:4px;width:34px;border:0;background:none;padding:0;cursor:pointer}
 .ns__col i{display:block;width:22px;border-radius:3px 3px 0 0;background:var(--ink3);opacity:.55}
@@ -166,7 +124,7 @@ def number_page(d, stamp):
 .nm--focus{width:24px;height:24px;border-radius:6px;background:var(--card);border:1px solid var(--line)}
 .mut{color:var(--ink3);font-size:12px}
 """
-    return page.render("Cloud X Foundation · 넘버", "number.html", body, css=css, desc="Cloud X 수치 토큰 — 스케일과 역할 토큰", stamp=stamp)
+    return {"id": "c-Number", "group": "파운데이션", "nav": "Number <small>%d</small>" % len(prim), "body": body, "css": css}
 
 
 # ── 타이포그래피 ────────────────────────────────────────────────────────
@@ -196,18 +154,17 @@ def typography_page(d, stamp):
             k = " ".join([s["name"], str(s["size"]), str(s["weight"]), s.get("description") or ""]).lower()
             trs.append('<tr data-k="%s"><td>%s</td><td><span class="smp" style="%s">환자 등록 · Patient 01</span></td><td><code>%s / %s</code></td><td><code>%s</code></td><td>%s</td></tr>'
                        % (esc(k), cp(s["name"]), style, esc(s["size"]), esc(s["lineHeight"]), esc(s["weight"]), cp(s["css"], "CSS 복사")))
-        tables.append('<div class="sec" data-group><h2>%s<small class="n">%d</small></h2><div class="tw"><table class="t"><thead><tr><th>스타일 (클릭 = 이름 복사)</th><th>표본</th><th>크기 / 행간</th><th>웨이트</th><th></th></tr></thead><tbody>%s</tbody></table></div></div>'
+        tables.append('<div class="sec" data-group><h4 class="sb-h4">%s<small>%d</small></h4><div class="tw"><table class="t"><thead><tr><th>스타일 (클릭 = 이름 복사)</th><th>표본</th><th>크기 / 행간</th><th>웨이트</th><th></th></tr></thead><tbody>%s</tbody></table></div></div>'
                       % (esc({"title": "title — 제목", "body": "body — 본문"}.get(role, role)), len(trs), "".join(trs)))
     body = """
-<h1 class="pg-h">타이포그래피</h1>
-<p class="pg-sub">글꼴 1종 · 웨이트 %d · 크기 %d단계 · 행간 %d단계 · 텍스트 스타일 %d개. 글은 <b>텍스트 스타일</b>로 고릅니다(<code>역할/크기/웨이트</code>). 같은 16px이라도 title/xs와 body/lg는 행간이 다릅니다.</p>
-<div class="sec"><h2>글꼴<small class="n">%s</small></h2><p class="lead">기본 글꼴은 <code class="cp" data-cp="var(--font-family-base)">%s</code>입니다. 설치돼 있지 않으면 시스템 산세리프로 대체됩니다.</p><div class="wrow">%s</div></div>
-<div class="sec"><h2>크기 스케일<small class="n">%d</small></h2><p class="lead">font-size 토큰입니다. 행간 토큰: %s</p><div class="srow">%s</div></div>
-<div class="sec"><h2>텍스트 스타일<small class="n">%d</small></h2><p class="lead">title은 제목 자리, body는 그 밖의 모든 글입니다. CSS 복사를 누르면 <code>font:</code> 한 줄이 복사됩니다.</p>
+<h2>Typography</h2>
+<p class="sb-sub">글꼴 1종 · 웨이트 %d · 크기 %d단계 · 행간 %d단계 · 텍스트 스타일 %d개. 글은 <b>텍스트 스타일</b>로 고릅니다(<code>역할/크기/웨이트</code>). 같은 16px이라도 title/xs와 body/lg는 행간이 다릅니다.</p>
+<div class="sec"><h3 class="sb-h3">글꼴<small>%s</small></h3><p class="lead">기본 글꼴은 <code class="cp" data-cp="var(--font-family-base)">%s</code>입니다. 설치돼 있지 않으면 시스템 산세리프로 대체됩니다.</p><div class="wrow">%s</div></div>
+<div class="sec"><h3 class="sb-h3">크기 스케일<small>%d</small></h3><p class="lead">font-size 토큰입니다. 행간 토큰: %s</p><div class="srow">%s</div></div>
+<div class="sec"><h3 class="sb-h3">텍스트 스타일<small>%d</small></h3><p class="lead">title은 제목 자리, body는 그 밖의 모든 글입니다. CSS 복사를 누르면 <code>font:</code> 한 줄이 복사됩니다.</p>
 <label class="search"><input placeholder="title, body/md, 14, semibold…" data-filter="table.t tr[data-k]" data-count="#cnt" autocomplete="off" aria-label="스타일 검색"><span class="count" id="cnt"></span><kbd>/</kbd></label>%s</div>
 """ % (len(weights), len(sizes), len(lhs), len(styles), esc(fam), esc(fam), wrow, len(sizes), lrow, srow, len(styles), "".join(tables))
     css = r"""
-.n{margin-left:8px;color:var(--ink3);font-weight:400;font-size:12px}
 .tw{overflow-x:auto}
 .wrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .w{border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--card)}.w span{display:block;font-size:22px;margin:0 0 6px}
@@ -215,37 +172,37 @@ def typography_page(d, stamp):
 .sz{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--line);padding:6px 0}.sz span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .smp{display:inline-block;white-space:nowrap}
 """
-    return page.render("Cloud X Foundation · 타이포그래피", "typography.html", body, css=css, desc="Cloud X 타이포그래피 — 글꼴·크기·텍스트 스타일", stamp=stamp)
+    return {"id": "c-Typography", "group": "파운데이션", "nav": "Typography <small>%d</small>" % len(styles), "body": body, "css": css}
 
 
 # ── 홈 ────────────────────────────────────────────────────────────────
 def index_page(d, stamp, nicons):
-    pc = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("color/")); sc = sum(1 for r in d["layers"]["semantic"] if r["name"].startswith("color/"))
-    pn = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("number/")); sn = sum(1 for r in d["layers"]["semantic"] if r["name"].startswith("number/"))
-    cards = [("icons.html", "아이콘", "%d개 · 세트별 선/면 · 검색 · SVG 내려받기" % nicons),
-             ("color.html", "컬러", "팔레트 %d · 역할 토큰 %d" % (pc, sc)),
-             ("number.html", "넘버", "스케일 %d · 역할 토큰 %d (높이·간격·모서리·선)" % (pn, sn)),
-             ("typography.html", "타이포그래피", "텍스트 스타일 %d · 크기 %d단계" % (len(d["textStyles"]), sum(1 for r in d["layers"]["typography"] if r["name"].startswith("font-size/"))))]
+    pc = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("color/"))
+    pn = sum(1 for r in d["layers"]["primitive"] if r["name"].startswith("number/"))
+    cards = [("#c-Icon", "아이콘", "%d개 · 세트별 선/면 · 검색 · SVG 내려받기" % nicons),
+             ("#c-Color", "컬러", "팔레트 %d색 (역할 토큰은 이후 공유)" % pc),
+             ("#c-Number", "넘버", "스케일 %d단계 (역할 토큰은 이후 공유)" % pn),
+             ("#c-Typography", "타이포그래피", "텍스트 스타일 %d · 크기 %d단계" % (len(d["textStyles"]), sum(1 for r in d["layers"]["typography"] if r["name"].startswith("font-size/"))))]
     body = """
-<h1 class="pg-h">Cloud X Foundation</h1>
-<p class="pg-sub">Cloud X 디자인시스템의 기초 자산 — 아이콘 · 컬러 · 넘버 · 타이포그래피. 다른 부서가 그대로 가져다 쓰는 공유본입니다. 기준: Figma %s.</p>
+<h2>시작하기</h2>
+<p class="sb-sub">Cloud X 디자인시스템의 기초 자산 — 아이콘 · 컬러 · 넘버 · 타이포그래피. 다른 부서가 그대로 가져다 쓰는 공유본입니다. 기준: Figma %s.</p>
 <div class="cards">%s</div>
-<div class="sec"><h2>시작하기</h2><p class="lead">tokens.css 한 장을 넣고 변수로 씁니다. 아이콘은 sprite.svg를 두고 <code>&lt;use&gt;</code>로 참조합니다.</p>
+<div class="sec"><h3 class="sb-h3">시작하기</h3><p class="lead">tokens.css 한 장을 넣고 변수로 씁니다. 아이콘은 sprite.svg를 두고 <code>&lt;use&gt;</code>로 참조합니다.</p>
 <pre class="code"><code>&lt;link rel="stylesheet" href="tokens.css"&gt;
 
 .card {
-  background: var(--color-bg-surface-surface01);
-  color: var(--color-fg-neutral-strong);
-  padding: var(--number-spacing-x6);
-  border-radius: var(--number-radius-lg);
+  background: var(--color-neutralgray-0);
+  color: var(--color-neutralgray-900);
+  padding: var(--number-12);
+  border-radius: var(--number-8);
   font: var(--font-weight-regular) var(--font-size-14) / var(--line-height-20) var(--font-family-base);
 }
 
 &lt;svg class="icon"&gt;&lt;use href="sprite.svg#i-00_general-search"/&gt;&lt;/svg&gt;
-.icon { width: 20px; height: 20px; color: var(--color-icon-neutral-strong); }</code></pre></div>
-<div class="sec"><h2>내려받기</h2><div class="dl">
+.icon { width: 20px; height: 20px; color: var(--color-neutralgray-900); }</code></pre></div>
+<div class="sec"><h3 class="sb-h3">내려받기</h3><div class="dl">
 <a class="btn btn--dark" href="tokens.css" download>tokens.css</a><a class="btn" href="tokens.json" download>tokens.json</a><a class="btn" href="cloudx-icons.zip" download>아이콘 ZIP</a><a class="btn" href="sprite.svg" download>sprite.svg</a></div>
-<p class="lead" style="margin-top:10px">tokens.css는 primitive · semantic · typography 변수, tokens.json은 같은 토큰에 참조 체인·설명·텍스트 스타일을 더한 기계용 목록입니다.</p></div>
+<p class="lead" style="margin-top:10px">tokens.css는 primitive(팔레트·스케일) · typography 변수, tokens.json은 같은 토큰에 설명·scopes·텍스트 스타일을 더한 기계용 목록입니다. 역할(semantic) 토큰은 이후에 공유합니다.</p></div>
 """ % (esc(stamp), "".join('<a class="card" href="%s"><b>%s</b><span>%s</span></a>' % (h, t, s) for h, t, s in cards))
     css = r"""
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:0 0 32px}
@@ -255,19 +212,17 @@ def index_page(d, stamp, nicons):
 pre.code{margin:0;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--code-bg);font-size:12.5px;line-height:1.6;color:var(--ink2);overflow:auto}
 .dl{display:flex;gap:8px;flex-wrap:wrap}
 """
-    js = "if (/^#icon=/.test(location.hash)) location.replace('icons.html' + location.hash);"
-    return page.render("Cloud X Foundation", "index.html", body, css=css, js=js, desc="Cloud X 디자인시스템 기초 자산 — 아이콘·컬러·넘버·타이포그래피", stamp=stamp)
+    return {"id": "g-Intro", "group": "안내", "nav": "시작하기", "body": body, "css": css}
+
+
+def sections(d, stamp, nicons):
+    """절 목록 — 안내(시작하기) · Color · Number · Typography. Icon 절은 build-gallery.py 가 만든다."""
+    return [index_page(d, stamp, nicons), color_page(d, stamp), number_page(d, stamp), typography_page(d, stamp)]
 
 
 def main():
     d = json.load(open(os.path.join(ROOT, "tokens.json"), encoding="utf-8"))
-    stamp = d["source"].get("exportedAt") or ""
-    ip = os.path.join(ROOT, "icons.json")
-    nicons = json.load(open(ip, encoding="utf-8"))["count"] if os.path.exists(ip) else 0
-    for fn, fnc in (("color.html", color_page), ("number.html", number_page), ("typography.html", typography_page)):
-        open(os.path.join(ROOT, fn), "w", encoding="utf-8").write(fnc(d, stamp))
-    open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(index_page(d, stamp, nicons))
-    print("index.html · color.html · number.html · typography.html — Figma %s 기준" % stamp, file=sys.stderr)
+    print("절 %d개 — build-site.py 가 index.html 로 묶는다" % len(sections(d, d["source"].get("exportedAt") or "", 0)), file=sys.stderr)
 
 
 if __name__ == "__main__":

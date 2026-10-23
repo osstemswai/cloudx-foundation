@@ -3,10 +3,6 @@
 #   merge=binary : 충돌이 나면 한쪽을 고르고 다시 빌드합니다
 sprite.svg   -diff merge=binary
 index.html   -diff merge=binary
-icons.html   -diff merge=binary
-color.html   -diff merge=binary
-number.html  -diff merge=binary
-typography.html -diff merge=binary
 icons.json   -diff merge=binary
 tokens.css   -diff merge=binary
 tokens.json  -diff merge=binary

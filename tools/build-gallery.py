@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""meta/ + sprite.svg → icons.html (검색 갤러리) · icons.json (기계용 목록) · cloudx-icons.zip
+"""meta/ + sprite.svg → Icon 절(section, build-site.py 가 index.html 에 넣음) · icons.json (기계용 목록) · cloudx-icons.zip
 
     python3 tools/build-gallery.py
 
-icons.html은 스프라이트를 인라인으로 품고 있어 파일 하나로 동작합니다(GitHub Pages). 헤더·기본 CSS는 tools/page.py 공통 셸입니다.
+스프라이트는 절 꼬리(tail)로 인라인됩니다. 뼈대(LNB·절 전환)는 tools/page.py 입니다.
 세트 순서는 Figma 캔버스 배치 순서(`meta/_sets.json`), 그림 크기는 `meta/_ink.json`,
 한국어 검색어는 `meta/_keywords.json`에서 옵니다. 셋 다 cloudXDS에서 복사해 온 것이고
 `tools/sync.py`가 갱신합니다.
@@ -105,7 +105,7 @@ CSS = r"""
 .c[hidden]{display:none}
 .empty{display:none;padding:48px 0;text-align:center;color:var(--ink3)}
 .empty.show{display:block}
-.d{position:sticky;top:72px;border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px;max-height:calc(100vh - 92px);overflow:auto}
+.d{position:sticky;top:24px;border:1px solid var(--line);border-radius:14px;background:var(--card);padding:20px;max-height:calc(100vh - 48px);overflow:auto}
 .d__empty{font-size:13px;color:var(--ink3);line-height:1.7}
 .d__empty b{color:var(--ink2)}
 .d__body[hidden]{display:none}
@@ -180,12 +180,12 @@ JS = r"""
     d.dataset.sprite = sprite; d.dataset.inline = inline; d.dataset.img = img;
     var dl = $('.dl', d); dl.href = 'svg/' + a.cat + '/' + a.file + '.svg'; dl.download = a.file + '.svg';
     d.classList.add('open');
-    if (remember) history.replaceState(null, '', '#icon=' + a.cat + '/' + encodeURIComponent(a.file));
+    if (remember) history.replaceState(null, '', '#c-Icon?icon=' + a.cat + '/' + encodeURIComponent(a.file));
   }
   function close() {
     d.classList.remove('open');
     if (cur) { cur.classList.remove('on'); cur = null; }
-    history.replaceState(null, '', location.pathname + location.search);
+    history.replaceState(null, '', '#c-Icon');
   }
   function toast(msg) { if (window.cxToast) cxToast(msg); }
   document.addEventListener('click', function (e) {
@@ -221,19 +221,19 @@ JS = r"""
   });
   filter();
 
-  /* 딥링크 — #icon=<카테고리>/<파일> */
-  var m = /[#&]icon=([^&/]+)\/([^&]+)/.exec(location.hash);
-  if (m) {
+  /* 딥링크 — #c-Icon?icon=<카테고리>/<파일> (셸이 절을 보인 뒤 부른다) */
+  window.icSelectFromHash = function () {
+    var m = /[?&#]icon=([^&/]+)\/([^&]+)/.exec(location.hash); if (!m) return;
     var file = decodeURIComponent(m[2]);
     var hit = cells.filter(function (x) { return x.dataset.cat === m[1] && x.dataset.file === file; })[0];
     if (hit) { select(hit, false); hit.scrollIntoView({ block: 'center' }); }
-  }
+  };
 })();
 """
 
 BODY = r"""
-<h1 class="pg-h">아이콘</h1>
-<p class="pg-sub">아이콘 {{N}} · 세트 {{NSET}} · 카테고리 {{NCAT}} — viewBox 0 0 20 20, 선(Fill=off)이 기본이고 면은 <code>-fill</code>. 색은 <code>color</code>로 줍니다.</p>
+<h2>Icon</h2>
+<p class="sb-sub">아이콘 {{N}} · 세트 {{NSET}} · 카테고리 {{NCAT}} — viewBox 0 0 20 20, 선(Fill=off)이 기본이고 면은 <code>-fill</code>. 색은 <code>color</code>로 줍니다.</p>
 <div class="icl-wrap">
   <section>
     <label class="search"><svg viewBox="0 0 20 20" aria-hidden="true" style="width:18px;height:18px;color:var(--ink3);flex:none"><use href="#i-00_general-search"/></svg>
@@ -302,7 +302,7 @@ BODY = r"""
 """
 
 
-def render(cats, source, sprite):
+def section(cats, source, sprite):
     n = sum(len(c["icons"]) for c in cats)
     nset = sum(c["sets"] for c in cats)
     catbtns, blocks = [], []
@@ -329,12 +329,7 @@ def render(cats, source, sprite):
         src = "출처 스탬프 없음"
     body = (BODY.replace("{{N}}", str(n)).replace("{{NSET}}", str(nset)).replace("{{NCAT}}", str(len(cats)))
             .replace("{{CATBTNS}}", "\n      ".join(catbtns)).replace("{{CATS}}", "\n    ".join(blocks)))
-    stamp = ""
-    tp = os.path.join(ROOT, "tokens.json")
-    if os.path.exists(tp):
-        stamp = json.loads(read(tp))["source"].get("exportedAt") or ""
-    out = page.render("Cloud X Foundation · 아이콘", "icons.html", body, css=CSS.strip(), js=JS.strip(), tail=sprite,
-                      desc="Cloud X 아이콘 %d개 — 검색하고 코드를 복사하거나 SVG를 내려받습니다." % n, stamp=stamp)
+    out = {"id": "c-Icon", "group": "파운데이션", "nav": "Icon <small>%d</small>" % n, "body": body, "css": CSS.strip(), "js": JS.strip(), "tail": sprite}
     return out, n, nset
 
 
@@ -372,9 +367,7 @@ def main():
         sys.exit("스프라이트와 _sets.json이 어긋납니다 — 메타에만 %d · 스프라이트에만 %d\n%s" % (
             len(missing), len(extra), "\n".join(["  - " + m for m in missing[:10]] + ["  + " + e for e in extra[:10]])))
 
-    page_html, n, nset = render(cats, source, sprite)
-    with open(os.path.join(ROOT, "icons.html"), "w", encoding="utf-8") as fp:
-        fp.write(page_html)
+    sec, n, nset = section(cats, source, sprite)
     data = {
         "source": source,
         "count": n,
@@ -386,7 +379,7 @@ def main():
         json.dump(data, fp, ensure_ascii=False, indent=1)
         fp.write("\n")
     zkb = build_zip(cats) / 1024
-    print("icons.html — 아이콘 %d개 · 세트 %d · %.0fKB / icons.json / cloudx-icons.zip %.0fKB" % (n, nset, len(page_html) / 1024, zkb), file=sys.stderr)
+    print("icons.json · cloudx-icons.zip %.0fKB — 아이콘 %d개 · 세트 %d (절은 build-site.py 가 index.html 에 넣는다)" % (zkb, n, nset), file=sys.stderr)
 
 
 if __name__ == "__main__":
