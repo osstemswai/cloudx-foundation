@@ -1,0 +1,37 @@
+# GitHub Pages 배포 — 레거시(Jekyll) 빌더 대신 Actions 로 올린다.
+#   2026-10-23: 레거시 빌더가 "Page build failed." 만 남기고 원인을 안 알려 줘서 바꿨다. 로그가 남고, 저장소 루트를 그대로 올린다.
+#   저장소 설정에서 Pages 소스를 "GitHub Actions" 로 두어야 한다 (gh api -X PUT repos/<o>/<r>/pages -f build_type=workflow).
+name: pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: 올릴 것만 모은다 (tools · tokens 원본 · meta · .github 제외)
+        run: |
+          mkdir -p _site
+          cp index.html tokens.css tokens.json icons.json sprite.svg cloudx-icons.zip .nojekyll _site/
+          cp -R svg _site/svg
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
