@@ -84,8 +84,6 @@ table.t code{font-size:12px}
 .mut{color:var(--ink3);font-size:12px}
 .toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:200;background:#1f1f1f;color:#fff;font-size:13px;padding:10px 16px;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:opacity .15s}
 .toast.show{opacity:1}
-.sb-foot{grid-column:1/-1;margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--ink3);line-height:1.8}
-.sb-foot a{color:var(--ink2)}
 @media (max-width:1180px){.sb-main{grid-template-columns:minmax(0,1fr)}.sb-toc{display:none}}
 @media (max-width:980px){
   .sb-wrap{grid-template-columns:1fr}
@@ -169,7 +167,6 @@ PAGE = """<!doctype html>
 {{SECTIONS}}
 </div>
 <aside class="sb-toc" id="sb-toc"></aside>
-<footer class="sb-foot">원본은 Figma입니다 — 토큰·텍스트 스타일은 Cloud-X DS 파일(<code>{{FIGMA}}</code>, {{STAMP}} 기준), 아이콘은 OnePlatform-Icon(구 poc-Icon). 이 사이트는 거기서 읽어 만든 생성물이고 여기서 직접 고치지 않습니다. 수정 요청은 SW디자인팀으로.<br>오스템임플란트 SW디자인 · 사내 공유용 · <a href="{{REPO}}" target="_blank" rel="noopener">GitHub</a></footer>
 </main>
 </div>
 <div class="sb-theme" role="group" aria-label="테마"><button type="button" data-t="light" title="라이트">☀</button><button type="button" data-t="dark" title="다크">☾</button></div>
