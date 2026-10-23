@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="substract_circle" clip-path="url(#clip0_6446_8949)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-substract_circle-0-substract_circle" clip-path="url(#00_general-substract_circle-0-clip0_0_699)">
+<g id="00_general-substract_circle-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-substract_circle-0-Vector">
 <path d="M14 9.49988C14.2761 9.49988 14.5 9.72374 14.5 9.99988C14.4999 10.276 14.2761 10.4999 14 10.4999H6C5.7239 10.4999 5.50007 10.276 5.5 9.99988C5.5 9.72374 5.72386 9.49988 6 9.49988H14Z" fill="currentColor"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10 1.99988C14.4183 1.99988 18 5.5816 18 9.99988C17.9999 14.4181 14.4182 17.9999 10 17.9999C5.58176 17.9999 2.00007 14.4181 2 9.99988C2 5.5816 5.58172 1.99988 10 1.99988ZM10 2.99988C6.13401 2.99988 3 6.13388 3 9.99988C3.00007 13.8658 6.13405 16.9999 10 16.9999C13.866 16.9999 16.9999 13.8658 17 9.99988C17 6.13388 13.866 2.99988 10 2.99988Z" fill="currentColor"/>
+<path d="M10 1.99988C14.4183 1.99988 18 5.5816 18 9.99988C17.9999 14.4181 14.4182 17.9999 10 17.9999C5.58176 17.9999 2.00007 14.4181 2 9.99988C2 5.5816 5.58172 1.99988 10 1.99988ZM10 2.99988C6.13401 2.99988 3 6.13388 3 9.99988C3.00007 13.8658 6.13405 16.9999 10 16.9999C13.866 16.9999 16.9999 13.8658 17 9.99988C17 6.13388 13.866 2.99988 10 2.99988Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_8949">
+<clipPath id="00_general-substract_circle-0-clip0_0_699">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

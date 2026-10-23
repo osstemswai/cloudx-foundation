@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="mail" clip-path="url(#clip0_6446_11972)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-mail-fill-0-mail" clip-path="url(#00_general-mail-fill-0-clip0_0_2246)">
+<g id="00_general-mail-fill-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-mail-fill-0-Vector">
 <path d="M17.999 14C17.999 15.1046 17.1036 16 15.999 16H4C2.89543 16 2 15.1046 2 14V7.8291L9.12305 10.2539C9.64491 10.4315 10.2115 10.4322 10.7334 10.2549L17.999 7.78516V14Z" fill="currentColor"/>
 <path d="M15.999 4C17.1036 4 17.999 4.89543 17.999 6V6.72852L10.4111 9.30762C10.098 9.41393 9.75833 9.41414 9.44531 9.30762L2.04199 6.78809C2.02825 6.78341 2.01383 6.78174 2 6.77832V6C2 4.89543 2.89543 4 4 4H15.999Z" fill="currentColor"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_11972">
+<clipPath id="00_general-mail-fill-0-clip0_0_2246">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

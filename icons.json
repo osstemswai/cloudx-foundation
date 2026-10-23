@@ -1,36 +1,36 @@
 {
  "source": {
   "repo": "https://github.com/h1osstem/cloudXDS.git",
-  "commit": "f862889",
-  "commit_date": "2026-10-02",
+  "commit": "081ceed",
+  "commit_date": "2026-10-23",
   "dirty": false,
   "synced": "2026-10-23",
   "figma": {
-   "library": "poc-Icon",
+   "library": "OnePlatform-Icon (구 poc-Icon)",
    "file": "iQOmpWb3Ze2M1pzfa8bvkG",
    "page": "icon",
    "node": "2806:36607"
   },
-  "count": 449,
+  "count": 467,
   "categories": {
-   "00_arrow": 62,
-   "00_edit": 54,
-   "00_general": 308,
+   "00_arrow": 66,
+   "00_edit": 60,
+   "00_general": 314,
    "00_modal": 10,
    "00_window": 4,
-   "01_pms": 6,
+   "01_pms": 8,
    "01_pms-lnb": 5
   }
  },
- "count": 449,
- "sets": 231,
+ "count": 467,
+ "sets": 241,
  "categories": {
-  "00_arrow": 62,
-  "00_edit": 54,
-  "00_general": 308,
+  "00_arrow": 66,
+  "00_edit": 60,
+  "00_general": 314,
   "00_modal": 10,
   "00_window": 4,
-  "01_pms": 6,
+  "01_pms": 8,
   "01_pms-lnb": 5
  },
  "icons": [
@@ -276,6 +276,59 @@
    ]
   },
   {
+   "id": "i-00_arrow-double-up-2",
+   "category": "00_arrow",
+   "set": "double-up",
+   "name": "double-up-2",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/double-up-2.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "arrow",
+    "double",
+    "up",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "위",
+    "상"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-up-fill-2",
+   "category": "00_arrow",
+   "set": "double-up",
+   "name": "double-up-fill-2",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/double-up-fill-2.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "arrow",
+    "double",
+    "up",
+    "fill",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "위",
+    "상",
+    "채움",
+    "면"
+   ]
+  },
+  {
    "id": "i-00_arrow-double-down",
    "category": "00_arrow",
    "set": "double-down",
@@ -324,6 +377,63 @@
     "이중",
     "아래",
     "하",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-down-off",
+   "category": "00_arrow",
+   "set": "double-down-off",
+   "name": "double-down-off",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_arrow/double-down-off.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "arrow",
+    "double",
+    "down",
+    "off",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "아래",
+    "하",
+    "끔"
+   ]
+  },
+  {
+   "id": "i-00_arrow-double-down-off-fill",
+   "category": "00_arrow",
+   "set": "double-down-off",
+   "name": "double-down-off-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_arrow/double-down-off-fill.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "arrow",
+    "double",
+    "down",
+    "off",
+    "fill",
+    "화살표",
+    "애로우",
+    "더블",
+    "이중",
+    "아래",
+    "하",
+    "끔",
     "채움",
     "면"
    ]
@@ -1953,6 +2063,161 @@
    ]
   },
   {
+   "id": "i-00_edit-textarea",
+   "category": "00_edit",
+   "set": "textarea",
+   "name": "textarea",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/textarea.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "textarea",
+    "편집",
+    "수정",
+    "텍스트영역"
+   ]
+  },
+  {
+   "id": "i-00_edit-textarea-fill",
+   "category": "00_edit",
+   "set": "textarea",
+   "name": "textarea-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/textarea-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "textarea",
+    "fill",
+    "편집",
+    "수정",
+    "텍스트영역",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-flip_horizontal",
+   "category": "00_edit",
+   "set": "flip_horizontal",
+   "name": "flip_horizontal",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/flip_horizontal.svg",
+   "ink": [
+    16,
+    14
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "flip",
+    "horizontal",
+    "편집",
+    "수정",
+    "뒤집기",
+    "반전",
+    "가로",
+    "수평",
+    "좌우"
+   ]
+  },
+  {
+   "id": "i-00_edit-flip_horizontal-fill",
+   "category": "00_edit",
+   "set": "flip_horizontal",
+   "name": "flip_horizontal-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/flip_horizontal-fill.svg",
+   "ink": [
+    16,
+    14
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "flip",
+    "horizontal",
+    "fill",
+    "편집",
+    "수정",
+    "뒤집기",
+    "반전",
+    "가로",
+    "수평",
+    "좌우",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-flip_vertical",
+   "category": "00_edit",
+   "set": "flip_vertical",
+   "name": "flip_vertical",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/flip_vertical.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "flip",
+    "vertical",
+    "편집",
+    "수정",
+    "뒤집기",
+    "반전",
+    "세로",
+    "수직",
+    "상하"
+   ]
+  },
+  {
+   "id": "i-00_edit-flip_vertical-fill",
+   "category": "00_edit",
+   "set": "flip_vertical",
+   "name": "flip_vertical-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/flip_vertical-fill.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "flip",
+    "vertical",
+    "fill",
+    "편집",
+    "수정",
+    "뒤집기",
+    "반전",
+    "세로",
+    "수직",
+    "상하",
+    "채움",
+    "면"
+   ]
+  },
+  {
    "id": "i-00_edit-underline",
    "category": "00_edit",
    "set": "underline",
@@ -2385,51 +2650,6 @@
    ]
   },
   {
-   "id": "i-00_edit-highlighter",
-   "category": "00_edit",
-   "set": "highlighter",
-   "name": "highlighter",
-   "variant": "Fill=off",
-   "fill": "off",
-   "file": "svg/00_edit/highlighter.svg",
-   "ink": [
-    10,
-    16
-   ],
-   "size": 16,
-   "keywords": [
-    "edit",
-    "highlighter",
-    "편집",
-    "수정",
-    "형광펜"
-   ]
-  },
-  {
-   "id": "i-00_edit-highlighter-fill",
-   "category": "00_edit",
-   "set": "highlighter",
-   "name": "highlighter-fill",
-   "variant": "Fill=on",
-   "fill": "on",
-   "file": "svg/00_edit/highlighter-fill.svg",
-   "ink": [
-    10,
-    16.3
-   ],
-   "size": 16,
-   "keywords": [
-    "edit",
-    "highlighter",
-    "fill",
-    "편집",
-    "수정",
-    "형광펜",
-    "채움",
-    "면"
-   ]
-  },
-  {
    "id": "i-00_edit-pencil",
    "category": "00_edit",
    "set": "pencil",
@@ -2707,6 +2927,51 @@
     "수정",
     "선택",
     "전체",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_edit-highlighter",
+   "category": "00_edit",
+   "set": "highlighter",
+   "name": "highlighter",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_edit/highlighter.svg",
+   "ink": [
+    10,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "highlighter",
+    "편집",
+    "수정",
+    "형광펜"
+   ]
+  },
+  {
+   "id": "i-00_edit-highlighter-fill",
+   "category": "00_edit",
+   "set": "highlighter",
+   "name": "highlighter-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_edit/highlighter-fill.svg",
+   "ink": [
+    10.5,
+    16.3
+   ],
+   "size": 16,
+   "keywords": [
+    "edit",
+    "highlighter",
+    "fill",
+    "편집",
+    "수정",
+    "형광펜",
     "채움",
     "면"
    ]
@@ -3638,10 +3903,10 @@
    "fill": "off",
    "file": "svg/00_general/pin.svg",
    "ink": [
-    8.8,
-    13
+    14,
+    14
    ],
-   "size": 13,
+   "size": 14,
    "keywords": [
     "general",
     "pin",
@@ -3670,6 +3935,55 @@
     "일반",
     "고정",
     "핀",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-pin-off",
+   "category": "00_general",
+   "set": "pin-off",
+   "name": "pin-off",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/pin-off.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "pin",
+    "off",
+    "일반",
+    "고정",
+    "핀",
+    "끔"
+   ]
+  },
+  {
+   "id": "i-00_general-pin-off-fill",
+   "category": "00_general",
+   "set": "pin-off",
+   "name": "pin-off-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/pin-off-fill.svg",
+   "ink": [
+    15,
+    15
+   ],
+   "size": 15,
+   "keywords": [
+    "general",
+    "pin",
+    "off",
+    "fill",
+    "일반",
+    "고정",
+    "핀",
+    "끔",
     "채움",
     "면"
    ]
@@ -4701,8 +5015,8 @@
    "fill": "off",
    "file": "svg/00_general/excel.svg",
    "ink": [
-    7,
-    14.5
+    14,
+    14
    ],
    "size": 14,
    "keywords": [
@@ -4721,8 +5035,8 @@
    "fill": "on",
    "file": "svg/00_general/excel-fill.svg",
    "ink": [
-    7,
-    14.5
+    14,
+    14
    ],
    "size": 14,
    "keywords": [
@@ -6174,13 +6488,13 @@
    ]
   },
   {
-   "id": "i-00_general-check_circle",
+   "id": "i-00_general-check-circle",
    "category": "00_general",
-   "set": "check_circle",
-   "name": "check_circle",
+   "set": "check-circle",
+   "name": "check-circle",
    "variant": "Fill=off",
    "fill": "off",
-   "file": "svg/00_general/check_circle.svg",
+   "file": "svg/00_general/check-circle.svg",
    "ink": [
     16,
     16
@@ -6199,13 +6513,13 @@
    ]
   },
   {
-   "id": "i-00_general-check_circle-fill",
+   "id": "i-00_general-check-circle-fill",
    "category": "00_general",
-   "set": "check_circle",
-   "name": "check_circle-fill",
+   "set": "check-circle",
+   "name": "check-circle-fill",
    "variant": "Fill=on",
    "fill": "on",
-   "file": "svg/00_general/check_circle-fill.svg",
+   "file": "svg/00_general/check-circle-fill.svg",
    "ink": [
     16,
     16
@@ -6222,6 +6536,63 @@
     "완료",
     "원",
     "동그라미",
+    "채움",
+    "면"
+   ]
+  },
+  {
+   "id": "i-00_general-check-circle-off",
+   "category": "00_general",
+   "set": "check-circle-off",
+   "name": "check-circle-off",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/check-circle-off.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "check",
+    "circle",
+    "off",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "원",
+    "동그라미",
+    "끔"
+   ]
+  },
+  {
+   "id": "i-00_general-check-circle-off-fill",
+   "category": "00_general",
+   "set": "check-circle-off",
+   "name": "check-circle-off-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/check-circle-off-fill.svg",
+   "ink": [
+    16,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "check",
+    "circle",
+    "off",
+    "fill",
+    "일반",
+    "체크",
+    "확인",
+    "완료",
+    "원",
+    "동그라미",
+    "끔",
     "채움",
     "면"
    ]
@@ -7294,6 +7665,26 @@
    ]
   },
   {
+   "id": "i-00_general-copy",
+   "category": "00_general",
+   "set": "copy",
+   "name": "copy",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/copy.svg",
+   "ink": [
+    14.3,
+    14.3
+   ],
+   "size": 14,
+   "keywords": [
+    "general",
+    "copy",
+    "일반",
+    "복사"
+   ]
+  },
+  {
    "id": "i-00_general-copy-fill",
    "category": "00_general",
    "set": "copy",
@@ -7311,30 +7702,54 @@
     "copy",
     "fill",
     "일반",
+    "복사",
     "채움",
     "면"
    ]
   },
   {
-   "id": "i-00_general-copy-state-selected",
+   "id": "i-00_general-paste",
    "category": "00_general",
-   "set": "copy",
-   "name": "copy-state-selected",
-   "variant": "State=Selected",
-   "fill": "",
-   "file": "svg/00_general/copy-state-selected.svg",
+   "set": "paste",
+   "name": "paste",
+   "variant": "Fill=off",
+   "fill": "off",
+   "file": "svg/00_general/paste.svg",
    "ink": [
-    14.3,
-    14.3
+    14,
+    16
    ],
-   "size": 14,
+   "size": 16,
    "keywords": [
     "general",
-    "copy",
-    "state",
-    "selected",
+    "paste",
     "일반",
-    "상태"
+    "붙여넣기",
+    "붙이기"
+   ]
+  },
+  {
+   "id": "i-00_general-paste-fill",
+   "category": "00_general",
+   "set": "paste",
+   "name": "paste-fill",
+   "variant": "Fill=on",
+   "fill": "on",
+   "file": "svg/00_general/paste-fill.svg",
+   "ink": [
+    14,
+    16
+   ],
+   "size": 16,
+   "keywords": [
+    "general",
+    "paste",
+    "fill",
+    "일반",
+    "붙여넣기",
+    "붙이기",
+    "채움",
+    "면"
    ]
   },
   {
@@ -10307,6 +10722,55 @@
    ]
   },
   {
+   "id": "i-01_pms-tooth-arrow",
+   "category": "01_pms",
+   "set": "tooth-arrow",
+   "name": "tooth-arrow",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/tooth-arrow.svg",
+   "ink": [
+    15.8,
+    14.8
+   ],
+   "size": 16,
+   "keywords": [
+    "pms",
+    "tooth",
+    "arrow",
+    "피엠에스",
+    "진료",
+    "치아",
+    "화살표",
+    "애로우"
+   ]
+  },
+  {
+   "id": "i-01_pms-tooth-check",
+   "category": "01_pms",
+   "set": "tooth-check",
+   "name": "tooth-check",
+   "variant": "",
+   "fill": "",
+   "file": "svg/01_pms/tooth-check.svg",
+   "ink": [
+    15.8,
+    14.8
+   ],
+   "size": 16,
+   "keywords": [
+    "pms",
+    "tooth",
+    "check",
+    "피엠에스",
+    "진료",
+    "치아",
+    "체크",
+    "확인",
+    "완료"
+   ]
+  },
+  {
    "id": "i-01_pms-lab-case",
    "category": "01_pms",
    "set": "lab-case",
@@ -10529,13 +10993,13 @@
    ]
   },
   {
-   "id": "i-01_pms-lnb-Group-5138598",
+   "id": "i-01_pms-lnb-onechart",
    "category": "01_pms-lnb",
-   "set": "Group 5138598",
-   "name": "Group-5138598",
+   "set": "onechart",
+   "name": "onechart",
    "variant": "",
    "fill": "",
-   "file": "svg/01_pms-lnb/Group-5138598.svg",
+   "file": "svg/01_pms-lnb/onechart.svg",
    "ink": [
     17,
     17
@@ -10544,11 +11008,13 @@
    "keywords": [
     "pms",
     "lnb",
-    "group",
+    "onechart",
     "피엠에스",
     "진료",
     "메뉴",
-    "엘엔비"
+    "엘엔비",
+    "원차트",
+    "연동"
    ]
   }
  ]

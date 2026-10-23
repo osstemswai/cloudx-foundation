@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="family" clip-path="url(#clip0_6446_11093)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-family-fill-0-family" clip-path="url(#00_general-family-fill-0-clip0_0_2755)">
+<g id="00_general-family-fill-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-family-fill-0-Vector">
 <path d="M9.99955 9.14346C12.603 9.14346 14.7132 11.254 14.7134 13.8573V14.286C14.7134 15.2328 13.9463 15.9999 12.9995 15.9999H6.99955C6.05303 15.9997 5.28568 15.2326 5.28568 14.286V13.8573C5.28586 11.2541 7.39629 9.14365 9.99955 9.14346Z" fill="currentColor"/>
 <path d="M6.22514 9.19913C4.86909 10.299 4.00062 11.9764 4.00053 13.8583V14.287C4.00068 14.8046 4.13188 15.2918 4.36283 15.7167H3.63236C2.73107 15.7167 2.00027 14.985 1.99955 14.0839V13.7567C1.99974 11.3485 3.86212 9.37606 6.22514 9.19913Z" fill="currentColor"/>
 <path d="M13.774 9.19913C16.1372 9.37588 18.0003 11.3484 18.0005 13.7567V14.0839C17.9998 14.985 17.2689 15.7166 16.3677 15.7167H15.6382C15.8691 15.2919 16.0004 14.8044 16.0005 14.287V13.8583C16.0004 11.9762 15.1303 10.2991 13.774 9.19913Z" fill="currentColor"/>
@@ -11,7 +11,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_11093">
+<clipPath id="00_general-family-fill-0-clip0_0_2755">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

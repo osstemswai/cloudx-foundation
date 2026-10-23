@@ -366,13 +366,13 @@ PAGE = r"""<!doctype html>
         <p class="hint"><code>svg/</code> 폴더를 통째로 두고 이미지처럼 씁니다. 가장 간단하지만 <b>색을 바꿀 수 없습니다</b>(검정 고정).</p>
       </div>
       <p class="fig">Figma <b></b></p>
-      <p class="hint">Figma 에셋 패널에서 위 세트 이름으로 검색하고 변형(Fill)을 고릅니다. 라이브러리는 <code>poc-Icon</code>입니다.</p>
+      <p class="hint">Figma 에셋 패널에서 위 세트 이름으로 검색하고 변형(Fill)을 고릅니다. 라이브러리는 <code>OnePlatform-Icon</code>(구 poc-Icon)입니다.</p>
     </div>
   </aside>
 </main>
 
 <footer class="ft">
-  원본은 Figma 라이브러리 <b>poc-Icon</b>이고, <a href="https://github.com/h1osstem/cloudXDS" target="_blank" rel="noopener">h1osstem/cloudXDS</a>의 <code>Icon/</code>에서 정규화한 것을 이 저장소가 그대로 가져옵니다
+  원본은 Figma 라이브러리 <b>OnePlatform-Icon</b>(구 poc-Icon)이고, <a href="https://github.com/h1osstem/cloudXDS" target="_blank" rel="noopener">h1osstem/cloudXDS</a>의 <code>Icon/</code>에서 정규화한 것을 이 저장소가 그대로 가져옵니다
   ({{SOURCE}}). 아이콘을 고칠 일이 있으면 디자인시스템 담당자에게 요청해 주세요. 이 저장소에서 직접 고치지 않습니다.<br>
   오스템임플란트 SW디자인 · 사내 공유용
 </footer>

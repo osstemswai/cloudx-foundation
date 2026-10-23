@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="down" clip-path="url(#clip0_6446_8238)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_arrow-down-fill-0-down" clip-path="url(#00_arrow-down-fill-0-clip0_0_186)">
+<g id="00_arrow-down-fill-0-_area">
 </g>
-<path id="Vector" d="M14.4697 6.96973C14.7626 6.67683 15.2374 6.67683 15.5303 6.96973C15.8232 7.26262 15.8232 7.73738 15.5303 8.03027L10.5303 13.0303C10.2374 13.3232 9.76262 13.3232 9.46973 13.0303L4.46973 8.03027C4.17683 7.73738 4.17683 7.26262 4.46973 6.96973C4.76262 6.67683 5.23738 6.67683 5.53027 6.96973L10 11.4395L14.4697 6.96973Z" fill="currentColor"/>
+<path id="00_arrow-down-fill-0-Vector" d="M14.4697 6.96973C14.7626 6.67683 15.2374 6.67683 15.5303 6.96973C15.8232 7.26262 15.8232 7.73738 15.5303 8.03027L10.5303 13.0303C10.2374 13.3232 9.76262 13.3232 9.46973 13.0303L4.46973 8.03027C4.17683 7.73738 4.17683 7.26262 4.46973 6.96973C4.76262 6.67683 5.23738 6.67683 5.53027 6.96973L10 11.4395L14.4697 6.96973Z" fill="currentColor"/>
 </g>
 <defs>
-<clipPath id="clip0_6446_8238">
+<clipPath id="00_arrow-down-fill-0-clip0_0_186">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

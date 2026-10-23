@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="brightness" clip-path="url(#clip0_6446_10933)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-brightness-fill-0-brightness" clip-path="url(#00_general-brightness-fill-0-clip0_0_2363)">
+<g id="00_general-brightness-fill-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-brightness-fill-0-Vector">
 <path d="M10.4975 0.000244141V3.00024H9.49756V0.000244141H10.4975Z" fill="currentColor"/>
 <path d="M5.35449 4.64697L4.64746 5.354L2.64746 3.354L3.35449 2.64697L5.35449 4.64697Z" fill="currentColor"/>
 <path d="M3.00021 9.50293V10.5029H0.000244141V9.50293H3.00021Z" fill="currentColor"/>
@@ -10,11 +10,11 @@
 <path d="M17.354 16.6465L16.647 17.3535L14.647 15.3535L15.354 14.6465L17.354 16.6465Z" fill="currentColor"/>
 <path d="M20 9.50049V10.5005H17V9.50049H20Z" fill="currentColor"/>
 <path d="M17.354 3.354L15.354 5.354L14.647 4.64697L16.647 2.64697L17.354 3.354Z" fill="currentColor"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.28334 9.99981C4.28334 6.84362 6.84239 4.28553 9.99763 4.28553V15.7141C6.84239 15.7141 4.28334 13.1551 4.28334 9.99981Z" fill="currentColor"/>
+<path d="M4.28334 9.99981C4.28334 6.84362 6.84239 4.28553 9.99763 4.28553V15.7141C6.84239 15.7141 4.28334 13.1551 4.28334 9.99981Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_10933">
+<clipPath id="00_general-brightness-fill-0-clip0_0_2363">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

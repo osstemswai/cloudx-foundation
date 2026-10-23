@@ -1,5 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="bookmark">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-bookmark-0-bookmark">
+<g id="00_general-bookmark-0-_area">
 </g>
-<path id="Vector" d="M5.5 3.5H14.5C15.0523 3.5 15.5 3.94772 15.5 4.5V15.8633C15.5 16.2372 15.1042 16.4792 14.7715 16.3086L11.1406 14.4473C10.4246 14.0802 9.57538 14.0802 8.85938 14.4473L5.22852 16.3086C4.8958 16.4792 4.5 16.2372 4.5 15.8633V4.5C4.5 3.94772 4.94772 3.5 5.5 3.5Z" stroke="currentColor"/>
+<mask id="00_general-bookmark-0-stroke0_0_1252" fill="white">
+<path d="M4 4.5C4 3.67157 4.67157 3 5.5 3H14.5C15.3284 3 16 3.67157 16 4.5V15.8636C16 16.6114 15.2093 17.0946 14.5438 16.7535L10.9124 14.8919C10.3396 14.5983 9.66044 14.5983 9.08764 14.8919L5.45618 16.7535C4.79074 17.0946 4 16.6114 4 15.8636V4.5Z"/>
+</mask>
+<path id="00_general-bookmark-0-Vector" d="M4 4.5C4 3.67157 4.67157 3 5.5 3H14.5C15.3284 3 16 3.67157 16 4.5V15.8636C16 16.6114 15.2093 17.0946 14.5438 16.7535L10.9124 14.8919C10.3396 14.5983 9.66044 14.5983 9.08764 14.8919L5.45618 16.7535C4.79074 17.0946 4 16.6114 4 15.8636V4.5Z" stroke-width="2" stroke="currentColor" mask="url(#00_general-bookmark-0-stroke0_0_1252)"/>
 </g></svg>

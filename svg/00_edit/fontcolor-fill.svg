@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="fontcolor" clip-path="url(#clip0_6446_7189)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_edit-fontcolor-fill-0-fontcolor" clip-path="url(#00_edit-fontcolor-fill-0-clip0_0_54)">
+<g id="00_edit-fontcolor-fill-0-_area">
 </g>
-<g id="Vector">
+<g id="00_edit-fontcolor-fill-0-Vector">
 <path d="M17 17H3V14.667H17V17Z" fill="currentColor"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M11.1064 3L14.667 13.1113H12.7334L11.8916 10.6113H8.10156L7.2666 13.1113H5.33301L8.87988 3H11.1064ZM9.95117 5.06641L8.58789 9.14453L11.4043 9.14551L10.0352 5.06641H9.95117Z" fill="currentColor"/>
+<path d="M11.1064 3L14.667 13.1113H12.7334L11.8916 10.6113H8.10156L7.2666 13.1113H5.33301L8.87988 3H11.1064ZM9.95117 5.06641L8.58789 9.14453L11.4043 9.14551L10.0352 5.06641H9.95117Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_7189">
+<clipPath id="00_edit-fontcolor-fill-0-clip0_0_54">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

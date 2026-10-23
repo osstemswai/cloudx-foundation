@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="textarea" clip-path="url(#clip0_6446_12251)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-textarea-fill-0-textarea" clip-path="url(#00_general-textarea-fill-0-clip0_0_3336)">
+<g id="00_general-textarea-fill-0-_area">
 </g>
-<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M16 3C16.5523 3 17 3.44772 17 4V16C17 16.5523 16.5523 17 16 17H4C3.44772 17 3 16.5523 3 16V4C3 3.44772 3.44772 3 4 3H16ZM6.5 5C5.94772 5 5.5 5.44772 5.5 6V7.24512C5.50002 7.79739 5.94773 8.24512 6.5 8.24512C7.05227 8.24512 7.49998 7.79739 7.5 7.24512V7H9V13H8.5C7.94772 13 7.5 13.4477 7.5 14C7.5 14.5523 7.94772 15 8.5 15H11.5C12.0523 15 12.5 14.5523 12.5 14C12.5 13.4477 12.0523 13 11.5 13H11V7H12.5V7.24512C12.5 7.79739 12.9477 8.24512 13.5 8.24512C14.0523 8.24512 14.5 7.79739 14.5 7.24512V6C14.5 5.44772 14.0523 5 13.5 5H6.5Z" fill="currentColor"/>
+<path id="00_general-textarea-fill-0-Vector" d="M16 3C16.5523 3 17 3.44772 17 4V16C17 16.5523 16.5523 17 16 17H4C3.44772 17 3 16.5523 3 16V4C3 3.44772 3.44772 3 4 3H16ZM6.5 5C5.94772 5 5.5 5.44772 5.5 6V7.24512C5.50002 7.79739 5.94773 8.24512 6.5 8.24512C7.05227 8.24512 7.49998 7.79739 7.5 7.24512V7H9V13H8.5C7.94772 13 7.5 13.4477 7.5 14C7.5 14.5523 7.94772 15 8.5 15H11.5C12.0523 15 12.5 14.5523 12.5 14C12.5 13.4477 12.0523 13 11.5 13H11V7H12.5V7.24512C12.5 7.79739 12.9477 8.24512 13.5 8.24512C14.0523 8.24512 14.5 7.79739 14.5 7.24512V6C14.5 5.44772 14.0523 5 13.5 5H6.5Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"/>
 </g>
 <defs>
-<clipPath id="clip0_6446_12251">
+<clipPath id="00_general-textarea-fill-0-clip0_0_3336">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

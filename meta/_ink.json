@@ -59,6 +59,14 @@
 11.5,
 12.5
 ],
+"00_arrow/double-down-off-fill": [
+15,
+15
+],
+"00_arrow/double-down-off": [
+15,
+15
+],
 "00_arrow/double-down": [
 11,
 12
@@ -78,6 +86,14 @@
 "00_arrow/double-right": [
 12,
 11
+],
+"00_arrow/double-up-2": [
+15,
+15
+],
+"00_arrow/double-up-fill-2": [
+15,
+15
 ],
 "00_arrow/double-up-fill": [
 11.5,
@@ -287,6 +303,22 @@
 14,
 14
 ],
+"00_edit/flip_horizontal-fill": [
+16,
+14
+],
+"00_edit/flip_horizontal": [
+16,
+14
+],
+"00_edit/flip_vertical-fill": [
+14,
+16
+],
+"00_edit/flip_vertical": [
+14,
+16
+],
 "00_edit/fontcolor-fill": [
 14,
 14
@@ -336,7 +368,7 @@
 17.5
 ],
 "00_edit/highlighter-fill": [
-10,
+10.5,
 16.3
 ],
 "00_edit/highlighter": [
@@ -454,6 +486,14 @@
 "00_edit/strikethrough": [
 14,
 13.5
+],
+"00_edit/textarea-fill": [
+16,
+16
+],
+"00_edit/textarea": [
+16,
+16
 ],
 "00_edit/underline-fill": [
 14,
@@ -623,6 +663,22 @@
 13.5,
 12.5
 ],
+"00_general/check-circle-fill": [
+16,
+16
+],
+"00_general/check-circle-off-fill": [
+16,
+16
+],
+"00_general/check-circle-off": [
+16,
+16
+],
+"00_general/check-circle": [
+16,
+16
+],
 "00_general/check-fill": [
 13.5,
 9.5
@@ -630,14 +686,6 @@
 "00_general/check": [
 13,
 9
-],
-"00_general/check_circle-fill": [
-16,
-16
-],
-"00_general/check_circle": [
-16,
-16
 ],
 "00_general/check_tooth-fill": [
 14.5,
@@ -651,7 +699,7 @@
 14,
 14
 ],
-"00_general/copy-state-selected": [
+"00_general/copy": [
 14.3,
 14.3
 ],
@@ -816,12 +864,12 @@
 0
 ],
 "00_general/excel-fill": [
-7,
-14.5
+14,
+14
 ],
 "00_general/excel": [
-7,
-14.5
+14,
+14
 ],
 "00_general/family-fill": [
 16,
@@ -1199,6 +1247,14 @@
 16,
 12
 ],
+"00_general/paste-fill": [
+14,
+16
+],
+"00_general/paste": [
+14,
+16
+],
 "00_general/pause-fill": [
 8,
 14
@@ -1219,9 +1275,17 @@
 14,
 14
 ],
+"00_general/pin-off-fill": [
+15,
+15
+],
+"00_general/pin-off": [
+15,
+15
+],
 "00_general/pin": [
-8.8,
-13
+14,
+14
 ],
 "00_general/plane-fill": [
 20,
@@ -1775,15 +1839,23 @@
 14,
 12.5
 ],
-"01_pms-lnb/Group-5138598": [
-17,
-17
+"01_pms/tooth-arrow": [
+15.8,
+14.8
+],
+"01_pms/tooth-check": [
+15.8,
+14.8
 ],
 "01_pms-lnb/memo-data-false": [
 17,
 17
 ],
 "01_pms-lnb/memo-data-true": [
+17,
+17
+],
+"01_pms-lnb/onechart": [
 17,
 17
 ],

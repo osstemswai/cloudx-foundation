@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="layout_2+1_h" clip-path="url(#clip0_6446_8386)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-layout_2_1_h-0-layout_2+1_h" clip-path="url(#00_general-layout_2_1_h-0-clip0_0_70)">
+<g id="00_general-layout_2_1_h-0-_area">
 </g>
-<path id="Vector" d="M16.1025 16.9951C16.6067 16.9438 17 16.5177 17 16V4L16.9951 3.89746C16.9472 3.42703 16.573 3.05278 16.1025 3.00488L16 3H4C3.48232 3 3.05621 3.39333 3.00488 3.89746L3 4V16C3 16.5523 3.44772 17 4 17H16L16.1025 16.9951ZM4 9.5V4H9.5V9.5H4ZM10.5 9.5V4H16V9.5H10.5ZM4 10.5H16V16H4V10.5Z" fill="currentColor"/>
+<path id="00_general-layout_2_1_h-0-Vector" d="M16.1025 16.9951C16.6067 16.9438 17 16.5177 17 16V4L16.9951 3.89746C16.9472 3.42703 16.573 3.05278 16.1025 3.00488L16 3H4C3.48232 3 3.05621 3.39333 3.00488 3.89746L3 4V16C3 16.5523 3.44772 17 4 17H16L16.1025 16.9951ZM4 9.5V4H9.5V9.5H4ZM10.5 9.5V4H16V9.5H10.5ZM4 10.5H16V16H4V10.5Z" fill="currentColor"/>
 </g>
 <defs>
-<clipPath id="clip0_6446_8386">
+<clipPath id="00_general-layout_2_1_h-0-clip0_0_70">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

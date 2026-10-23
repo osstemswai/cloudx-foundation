@@ -1,11 +1,11 @@
 # Cloud X Icons
 
-Cloud X 디자인시스템 아이콘 **449개**(세트 231 · 카테고리 7)를 다른 부서와 공유하기 위한 저장소입니다.
+Cloud X 디자인시스템 아이콘 **467개**(세트 241 · 카테고리 7)를 다른 부서와 공유하기 위한 저장소입니다.
 
 - **보기 · 검색 · 코드 복사**: https://osstemswai.github.io/cloudx-icons/
 - **한 파일로 받기**: [`sprite.svg`](sprite.svg) — 낱개는 [`svg/`](svg/), 목록 데이터는 [`icons.json`](icons.json)
 
-원본은 Figma 라이브러리 **poc-Icon**이고, 디자인시스템 저장소 [h1osstem/cloudXDS](https://github.com/h1osstem/cloudXDS)의 `Icon/`에서 정규화한 것을 여기로 그대로 복사합니다. 출처 커밋은 [`meta/source.json`](meta/source.json)에 있습니다. **이 저장소에서 아이콘을 직접 고치지 않습니다.** 추가·수정 요청은 SW디자인팀으로 보내 주세요.
+원본은 Figma 라이브러리 **OnePlatform-Icon**(구 poc-Icon)이고, 디자인시스템 저장소 [h1osstem/cloudXDS](https://github.com/h1osstem/cloudXDS)의 `Icon/`에서 정규화한 것을 여기로 그대로 복사합니다. 출처 커밋은 [`meta/source.json`](meta/source.json)에 있습니다. **이 저장소에서 아이콘을 직접 고치지 않습니다.** 추가·수정 요청은 SW디자인팀으로 보내 주세요.
 
 ## 쓰는 법
 
@@ -52,20 +52,20 @@ Cloud X 디자인시스템 아이콘 **449개**(세트 231 · 카테고리 7)를
 
 | 카테고리 | 개수 | 내용 |
 |---|---|---|
-| `00_arrow` | 62 | 화살표 · 캐럿 · 회전 · 펼침 |
-| `00_edit` | 54 | 텍스트 · 그리기 편집 도구 |
-| `00_general` | 308 | 일반 |
+| `00_arrow` | 66 | 화살표 · 캐럿 · 회전 · 펼침 |
+| `00_edit` | 60 | 텍스트 · 그리기 편집 도구 |
+| `00_general` | 314 | 일반 |
 | `00_modal` | 10 | 모달 피드백 5종(알림 · 확인 · 정보 · 질문 · 경고). 의미색이 고정돼 있습니다 |
 | `00_window` | 4 | 창 조작 |
-| `01_pms` | 6 | PMS 전용 |
+| `01_pms` | 8 | PMS 전용 |
 | `01_pms-lnb` | 5 | PMS LNB 전용. 상태 변형이라 일반 아이콘과 성격이 다릅니다 |
 
 ## 알아 둘 것 — 원본에서 정리 중인 항목
 
-- 이름 뒤에 **`-2`** 가 붙은 20쌍은 이름만 같고 그림이 다른 아이콘입니다. 화살표의 `up-2` 등은 원형 테두리 안에 든 버전입니다. 이름이 바뀔 수 있으니 id를 하드코딩한 곳을 기억해 두세요.
+- 이름 뒤에 **`-2`** 가 붙은 22쌍은 이름만 같고 그림이 다른 아이콘입니다. 화살표의 `up-2` 등은 원형 테두리 안에 든 버전입니다. 이름이 바뀔 수 있으니 id를 하드코딩한 곳을 기억해 두세요.
 - `00_modal` 10개와 `empty_state` · `Edit-colorpalette` · `01_pms-lnb` 등 **18개는 색이 고정**되어 `color`를 따르지 않습니다.
 - `axial_clipping` · `plane` · `two_view-*` 등 **13개는 원본에 투명도(0.2)** 가 들어 있어 흐리게 보입니다.
-- `highlighter` · `empty_state` · `pin`(선) · `excel`은 Figma 익스포트가 깨져 그림이 비거나 조각납니다. `highlighter-2`는 정상입니다.
+- `empty_state` 2개는 Figma 익스포트가 깨져 그림이 비어 있습니다.
 
 자세한 내용은 cloudXDS의 `Icon/README.md`에 있습니다.
 
@@ -73,7 +73,7 @@ Cloud X 디자인시스템 아이콘 **449개**(세트 231 · 카테고리 7)를
 
 | | |
 |---|---|
-| `svg/<카테고리>/<이름>.svg` | 낱개 449개. cloudXDS `Icon/svg/` 복제본 |
+| `svg/<카테고리>/<이름>.svg` | 낱개 467개. cloudXDS `Icon/svg/` 복제본 |
 | `sprite.svg` | 생성물. `<symbol id="i-<카테고리>-<이름>">` 묶음 |
 | `index.html` | 생성물. 검색 갤러리(GitHub Pages). 스프라이트를 인라인으로 품고 있어 파일 하나로 동작합니다 |
 | `icons.json` | 생성물. 기계용 목록 |

@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="down" clip-path="url(#clip0_6446_8215)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_arrow-down-fill-2-0-down" clip-path="url(#00_arrow-down-fill-2-0-clip0_0_489)">
+<g id="00_arrow-down-fill-2-0-_area">
 </g>
-<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M10 2C14.4183 2 18 5.58172 18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2ZM13.5303 7.96973C13.2374 7.67683 12.7626 7.67683 12.4697 7.96973L10 10.4395L7.53027 7.96973C7.23738 7.67683 6.76262 7.67683 6.46973 7.96973C6.17683 8.26262 6.17683 8.73738 6.46973 9.03027L9.46973 12.0303C9.76262 12.3231 10.2374 12.3231 10.5303 12.0303L13.5303 9.03027C13.8231 8.7374 13.8231 8.26262 13.5303 7.96973Z" fill="currentColor"/>
+<path id="00_arrow-down-fill-2-0-Vector" d="M10 2C14.4183 2 18 5.58172 18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2ZM13.5303 7.96973C13.2374 7.67683 12.7626 7.67683 12.4697 7.96973L10 10.4395L7.53027 7.96973C7.23738 7.67683 6.76262 7.67683 6.46973 7.96973C6.17683 8.26262 6.17683 8.73738 6.46973 9.03027L9.46973 12.0303C9.76262 12.3231 10.2374 12.3231 10.5303 12.0303L13.5303 9.03027C13.8231 8.7374 13.8231 8.26262 13.5303 7.96973Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"/>
 </g>
 <defs>
-<clipPath id="clip0_6446_8215">
+<clipPath id="00_arrow-down-fill-2-0-clip0_0_489">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

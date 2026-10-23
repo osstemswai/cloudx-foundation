@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="save_as" clip-path="url(#clip0_6446_9488)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-save_as-0-save_as" clip-path="url(#00_general-save_as-0-clip0_0_1225)">
+<g id="00_general-save_as-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-save_as-0-Vector">
 <path d="M9.38867 4.50024V5.78637L8.61133 5.78637V4.50024H9.38867Z" fill="currentColor"/>
 <path d="M14 14V15H4.00004L4.00004 14H14ZM3.00004 14V4C3.00004 3.44772 3.44775 3 4.00004 3H11.5858C11.851 3 12.1054 3.10536 12.2929 3.29289L14.7071 5.70711C14.8947 5.89464 15 6.149 15 6.41421V14C15 14.5523 14.5523 15 14 15V6.41406L11.586 4H4.00004L4.00004 15L3.8975 14.9951C3.39337 14.9438 3.00004 14.5177 3.00004 14Z" fill="currentColor"/>
 <path d="M10.5713 6.28638L10.5716 7.28603H4L4 6.28638H10.5713ZM10.5713 4.00024L4.00004 4L4 7.28603L3.89746 7.28052C3.42686 7.23257 3.05251 6.85864 3.00488 6.38794L3 6.28603L3.00004 4C3.00004 3.44772 3.44775 3 4.00004 3L10.5716 3.00024C11.1239 3.00024 11.5716 3.44796 11.5716 4.00024V6.28603L11.5664 6.38794C11.5188 6.85872 11.1446 7.23269 10.6738 7.28052L10.5716 7.28603L10.5713 4.00024Z" fill="currentColor"/>
@@ -10,7 +10,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_9488">
+<clipPath id="00_general-save_as-0-clip0_0_1225">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

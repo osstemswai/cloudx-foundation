@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="flip_vert" clip-path="url(#clip0_6446_8651)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-flip_vert-fill-0-flip_vert" clip-path="url(#00_general-flip_vert-fill-0-clip0_0_790)">
+<g id="00_general-flip_vert-fill-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-flip_vert-fill-0-Vector">
 <path d="M10 3C10.4142 3 10.75 3.33579 10.75 3.75V16.25C10.75 16.6642 10.4142 17 10 17C9.58579 17 9.25 16.6642 9.25 16.25V3.75C9.25 3.33579 9.58579 3 10 3Z" fill="currentColor"/>
 <path d="M8 5.5H6C5.72386 5.5 5.5 5.72386 5.5 6V14L5.50977 14.1006C5.55632 14.3285 5.75831 14.5 6 14.5H8V16H6C4.89546 16 4.00004 15.1045 4 14V6C4 4.89543 4.89543 4 6 4H8V5.5Z" fill="currentColor"/>
 <path d="M13.5 16H12V14.5H13.5V16Z" fill="currentColor"/>
@@ -14,7 +14,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_8651">
+<clipPath id="00_general-flip_vert-fill-0-clip0_0_790">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="mail" clip-path="url(#clip0_6446_10637)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-mail-0-mail" clip-path="url(#00_general-mail-0-clip0_0_2227)">
+<g id="00_general-mail-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-mail-0-Vector">
 <path d="M16 15V16H4V15H16ZM17 14V6C17 5.44772 16.5523 5 16 5H4C3.44772 5 3 5.44772 3 6V14C3 14.5523 3.44772 15 4 15V16C2.96435 16 2.113 15.2128 2.01074 14.2041L2 14V6C2 4.89543 2.89543 4 4 4H16C17.1046 4 18 4.89543 18 6V14L17.9893 14.2041C17.887 15.2128 17.0357 16 16 16V15C16.5523 15 17 14.5523 17 14Z" fill="currentColor"/>
 <path d="M17.6455 7.9021L10.7344 10.2537C10.2121 10.4314 9.64532 10.4314 9.12305 10.2537L2.21191 7.9021L2.53418 6.95483L9.44531 9.30737C9.75867 9.41401 10.0988 9.41402 10.4121 9.30737L17.3232 6.95483L17.6455 7.9021Z" fill="currentColor"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_10637">
+<clipPath id="00_general-mail-0-clip0_0_2227">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="invert" clip-path="url(#clip0_6446_8541)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-invert-0-invert" clip-path="url(#00_general-invert-0-clip0_0_274)">
+<g id="00_general-invert-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-invert-0-Vector">
 <path d="M9.64258 3.00269C9.83982 3.00269 10 3.16286 10 3.36011V6.50269C8.06708 6.50269 6.50013 8.0698 6.5 10.0027C6.5 11.9357 8.067 13.5027 10 13.5027V16.2888C9.99991 16.6831 9.68037 17.0025 9.28613 17.0027H3.35742C3.16033 17.0027 3.00025 16.8433 3 16.6462V3.71753C3 3.32318 3.31957 3.00291 3.71387 3.00269H9.64258Z" fill="currentColor"/>
 <path d="M13.5 10.0029C13.5 8.06993 11.933 6.50269 10 6.50269V13.5027C11.933 13.5027 13.5 11.9359 13.5 10.0029Z" fill="currentColor"/>
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_8541">
+<clipPath id="00_general-invert-0-clip0_0_274">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

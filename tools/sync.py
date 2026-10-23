@@ -66,7 +66,7 @@ def main():
         "commit_date": git(src, "log", "-1", "--format=%cs", "--", "Icon"),
         "dirty": dirty,
         "synced": datetime.date.today().isoformat(),
-        "figma": {"library": "poc-Icon", "file": "iQOmpWb3Ze2M1pzfa8bvkG", "page": "icon", "node": "2806:36607"},
+        "figma": {"library": "OnePlatform-Icon (구 poc-Icon)", "file": "iQOmpWb3Ze2M1pzfa8bvkG", "page": "icon", "node": "2806:36607"},
         "count": n,
         "categories": cats,
     }

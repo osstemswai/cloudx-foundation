@@ -110,6 +110,45 @@
    ]
   },
   {
+   "set": "textarea",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "textarea-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "textarea"
+    }
+   ]
+  },
+  {
+   "set": "flip_horizontal",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "flip_horizontal-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "flip_horizontal"
+    }
+   ]
+  },
+  {
+   "set": "flip_vertical",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "flip_vertical-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "flip_vertical"
+    }
+   ]
+  },
+  {
    "set": "underline",
    "variants": [
     {
@@ -227,19 +266,6 @@
    ]
   },
   {
-   "set": "highlighter",
-   "variants": [
-    {
-     "variant": "Fill=off",
-     "file": "highlighter"
-    },
-    {
-     "variant": "Fill=on",
-     "file": "highlighter-fill"
-    }
-   ]
-  },
-  {
    "set": "pencil",
    "variants": [
     {
@@ -314,6 +340,19 @@
     {
      "variant": "Fill=off",
      "file": "select-all"
+    }
+   ]
+  },
+  {
+   "set": "highlighter",
+   "variants": [
+    {
+     "variant": "Fill=off",
+     "file": "highlighter"
+    },
+    {
+     "variant": "Fill=on",
+     "file": "highlighter-fill"
     }
    ]
   },
@@ -402,6 +441,24 @@
     {
      "variant": "",
      "file": "pms-coin"
+    }
+   ]
+  },
+  {
+   "set": "tooth-arrow",
+   "variants": [
+    {
+     "variant": "",
+     "file": "tooth-arrow"
+    }
+   ]
+  },
+  {
+   "set": "tooth-check",
+   "variants": [
+    {
+     "variant": "",
+     "file": "tooth-check"
     }
    ]
   },
@@ -750,6 +807,19 @@
     {
      "variant": "Fill=off",
      "file": "pin"
+    }
+   ]
+  },
+  {
+   "set": "pin-off",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "pin-off-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "pin-off"
     }
    ]
   },
@@ -1443,15 +1513,28 @@
    ]
   },
   {
-   "set": "check_circle",
+   "set": "check-circle",
    "variants": [
     {
      "variant": "Fill=on",
-     "file": "check_circle-fill"
+     "file": "check-circle-fill"
     },
     {
      "variant": "Fill=off",
-     "file": "check_circle"
+     "file": "check-circle"
+    }
+   ]
+  },
+  {
+   "set": "check-circle-off",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "check-circle-off-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "check-circle-off"
     }
    ]
   },
@@ -1762,8 +1845,21 @@
      "file": "copy-fill"
     },
     {
-     "variant": "State=Selected",
-     "file": "copy-state-selected"
+     "variant": "Fill=off",
+     "file": "copy"
+    }
+   ]
+  },
+  {
+   "set": "paste",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "paste-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "paste"
     }
    ]
   },
@@ -2589,6 +2685,19 @@
    ]
   },
   {
+   "set": "double-up",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "double-up-fill-2"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "double-up-2"
+    }
+   ]
+  },
+  {
    "set": "double-down",
    "variants": [
     {
@@ -2598,6 +2707,19 @@
     {
      "variant": "Fill=off",
      "file": "double-down"
+    }
+   ]
+  },
+  {
+   "set": "double-down-off",
+   "variants": [
+    {
+     "variant": "Fill=on",
+     "file": "double-down-off-fill"
+    },
+    {
+     "variant": "Fill=off",
+     "file": "double-down-off"
     }
    ]
   },
@@ -2955,11 +3077,11 @@
    ]
   },
   {
-   "set": "Group 5138598",
+   "set": "onechart",
    "variants": [
     {
      "variant": "",
-     "file": "Group-5138598"
+     "file": "onechart"
     }
    ]
   }

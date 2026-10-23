@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="search" clip-path="url(#clip0_6446_10589)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-search-0-search" clip-path="url(#00_general-search-0-clip0_0_2215)">
+<g id="00_general-search-0-_area">
 </g>
-<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M8 3C10.7614 3 13 5.23858 13 8C13 9.20064 12.5764 10.3021 11.8711 11.1641L16.3535 15.6465C16.5485 15.8417 16.5485 16.1583 16.3535 16.3535C16.1583 16.5487 15.8418 16.5485 15.6465 16.3535L11.1641 11.8711C10.3021 12.5764 9.20064 13 8 13C5.23858 13 3 10.7614 3 8C3 5.23858 5.23858 3 8 3ZM8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4Z" fill="currentColor"/>
+<path id="00_general-search-0-Vector" d="M8 3C10.7614 3 13 5.23858 13 8C13 9.20064 12.5764 10.3021 11.8711 11.1641L16.3535 15.6465C16.5485 15.8417 16.5485 16.1583 16.3535 16.3535C16.1583 16.5487 15.8418 16.5485 15.6465 16.3535L11.1641 11.8711C10.3021 12.5764 9.20064 13 8 13C5.23858 13 3 10.7614 3 8C3 5.23858 5.23858 3 8 3ZM8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4Z" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"/>
 </g>
 <defs>
-<clipPath id="clip0_6446_10589">
+<clipPath id="00_general-search-0-clip0_0_2215">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

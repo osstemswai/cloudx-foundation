@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="mic_etc" clip-path="url(#clip0_6446_10498)">
-<g id="_area">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-mic_etc-fill-0-mic_etc" clip-path="url(#00_general-mic_etc-fill-0-clip0_0_1553)">
+<g id="00_general-mic_etc-fill-0-_area">
 </g>
-<g id="Vector">
+<g id="00_general-mic_etc-fill-0-Vector">
 <path d="M7.75 3.00012C8.02614 3.00012 8.25 3.22398 8.25 3.50012C8.25 3.77626 8.02614 4.00012 7.75 4.00012H3.75C3.47386 4.00012 3.25 3.77626 3.25 3.50012C3.25 3.22398 3.47386 3.00012 3.75 3.00012H7.75Z" fill="currentColor"/>
 <path d="M4.75 9.00012C5.02614 9.00012 5.25 9.22398 5.25 9.50012C5.25 9.77626 5.02614 10.0001 4.75 10.0001H3.75C3.47386 10.0001 3.25 9.77626 3.25 9.50012C3.25 9.22398 3.47386 9.00012 3.75 9.00012H4.75Z" fill="currentColor"/>
 <path d="M11.5 16.1712V14.4347C11.5 14.115 11.7239 13.8558 12 13.8558C12.2761 13.8558 12.5 14.115 12.5 14.4347V16.1712C12.5 16.4908 12.2761 16.75 12 16.75C11.7239 16.75 11.5 16.4908 11.5 16.1712Z" fill="currentColor"/>
@@ -11,7 +11,7 @@
 </g>
 </g>
 <defs>
-<clipPath id="clip0_6446_10498">
+<clipPath id="00_general-mic_etc-fill-0-clip0_0_1553">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>
