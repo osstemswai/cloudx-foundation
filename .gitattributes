@@ -4,6 +4,7 @@
 sprite.svg   -diff merge=binary
 index.html   -diff merge=binary
 icons.json   -diff merge=binary
+cloudx-icons.zip -diff merge=binary
 svg/**       -diff merge=binary
 
 *.md   text eol=lf

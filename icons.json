@@ -1,7 +1,7 @@
 {
  "source": {
   "repo": "https://github.com/h1osstem/cloudXDS.git",
-  "commit": "5348d34",
+  "commit": "f429e4d",
   "commit_date": "2026-10-23",
   "dirty": false,
   "synced": "2026-10-23",
@@ -3034,10 +3034,10 @@
    "fill": "off",
    "file": "svg/00_edit/pencil-2.svg",
    "ink": [
-    11.3,
-    17.5
+    10,
+    16
    ],
-   "size": 18,
+   "size": 16,
    "keywords": [
     "edit",
     "pencil",
@@ -3055,10 +3055,10 @@
    "fill": "on",
    "file": "svg/00_edit/pencil-fill-2.svg",
    "ink": [
-    11.3,
-    17.5
+    10,
+    16
    ],
-   "size": 18,
+   "size": 16,
    "keywords": [
     "edit",
     "pencil",
@@ -3079,10 +3079,10 @@
    "fill": "off",
    "file": "svg/00_edit/pencil-thin-2.svg",
    "ink": [
-    11.3,
-    17.5
+    10,
+    16
    ],
-   "size": 18,
+   "size": 16,
    "keywords": [
     "edit",
     "pencil",
@@ -3102,10 +3102,10 @@
    "fill": "on",
    "file": "svg/00_edit/pencil-thin-fill-2.svg",
    "ink": [
-    11.3,
-    17.5
+    10,
+    16
    ],
-   "size": 18,
+   "size": 16,
    "keywords": [
     "edit",
     "pencil",
@@ -3128,10 +3128,10 @@
    "fill": "off",
    "file": "svg/00_edit/pen-2.svg",
    "ink": [
-    11.3,
-    18
+    10,
+    16.5
    ],
-   "size": 18,
+   "size": 16,
    "keywords": [
     "edit",
     "pen",
@@ -3149,10 +3149,10 @@
    "fill": "on",
    "file": "svg/00_edit/pen-fill-2.svg",
    "ink": [
-    11.3,
-    18
+    10,
+    16.5
    ],
-   "size": 18,
+   "size": 16,
    "keywords": [
     "edit",
     "pen",
@@ -9693,7 +9693,7 @@
    "file": "svg/00_general/plane.svg",
    "ink": [
     20,
-    17
+    17.5
    ],
    "size": 20,
    "keywords": [
@@ -9712,7 +9712,7 @@
    "file": "svg/00_general/plane-fill.svg",
    "ink": [
     20,
-    17
+    17.5
    ],
    "size": 20,
    "keywords": [

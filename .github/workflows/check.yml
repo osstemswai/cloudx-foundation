@@ -18,8 +18,8 @@ jobs:
           python3 tools/build-gallery.py
       - name: 생성물이 커밋과 같은지
         run: |
-          if ! git diff --quiet -- sprite.svg index.html icons.json; then
+          if ! git diff --quiet -- sprite.svg index.html icons.json cloudx-icons.zip; then
             echo "::error::생성물이 원본과 다릅니다. 로컬에서 python3 tools/build-sprite.py && python3 tools/build-gallery.py 를 돌리고 다시 커밋해 주세요."
-            git --no-pager diff --stat -- sprite.svg index.html icons.json
+            git --no-pager diff --stat -- sprite.svg index.html icons.json cloudx-icons.zip
             exit 1
           fi

@@ -299,8 +299,8 @@ PAGE = r"""<!doctype html>
   <h1><svg viewBox="0 0 20 20" aria-hidden="true"><use href="#i-00_general-shapes-fill"/></svg>Cloud X Icons</h1>
   <span class="hd__n">아이콘 {{N}} · 세트 {{NSET}} · 카테고리 {{NCAT}}</span>
   <div class="hd__acts">
-    <a class="btn btn--dark" href="sprite.svg" download>sprite.svg 내려받기</a>
-    <a class="btn" href="{{REPO}}/archive/refs/heads/main.zip">전체 ZIP</a>
+    <a class="btn btn--dark" href="cloudx-icons.zip" download>전체 다운로드 (ZIP)</a>
+    <a class="btn" href="sprite.svg" download>sprite.svg</a>
     <a class="btn" href="{{REPO}}" target="_blank" rel="noopener">GitHub</a>
     <button type="button" class="btn" id="theme" aria-label="테마 전환">테마</button>
   </div>
@@ -328,6 +328,7 @@ PAGE = r"""<!doctype html>
 
   <aside class="d" id="d" aria-live="polite">
     <div class="d__empty">아이콘을 누르면 여기에 이름 · 검색어 · 미리보기 · 코드가 나옵니다.<br><br>
+      전부 필요하면 위의 <b>전체 다운로드 (ZIP)</b>으로 낱개 SVG · sprite.svg · icons.json을 한 번에 받습니다.<br><br>
       <b>크기</b>는 16 · 20 · 24 중 하나로 주고, <b>색</b>은 <code>color</code>로 줍니다.<br>
       선(<code>Fill=off</code>)이 기본이고 면은 이름 뒤에 <code>-fill</code>이 붙습니다.</div>
     <div class="d__body" hidden>
@@ -416,6 +417,25 @@ def render(cats, source, sprite):
     return page, n, nset
 
 
+def build_zip(cats):
+    """svg/ 낱개 + sprite.svg + icons.json 을 cloudx-icons.zip 으로 묶는다.
+    타임스탬프를 고정하고 이름순으로 넣어 내용이 같으면 바이트도 같다(CI 재빌드 비교용)."""
+    import zipfile
+    out = os.path.join(ROOT, "cloudx-icons.zip")
+    names = ["sprite.svg", "icons.json", "README.md"] + sorted(ic["file"] for c in cats for ic in c["icons"])
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        for n in names:
+            p = os.path.join(ROOT, n)
+            if not os.path.exists(p):
+                continue
+            zi = zipfile.ZipInfo("cloudx-icons/" + n, date_time=(1980, 1, 1, 0, 0, 0))
+            zi.compress_type = zipfile.ZIP_DEFLATED
+            zi.external_attr = 0o644 << 16
+            with open(p, "rb") as fp:
+                z.writestr(zi, fp.read())
+    return os.path.getsize(out)
+
+
 def main():
     sprite_p = os.path.join(ROOT, "sprite.svg")
     if not os.path.exists(sprite_p):
@@ -444,7 +464,8 @@ def main():
     with open(os.path.join(ROOT, "icons.json"), "w", encoding="utf-8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=1)
         fp.write("\n")
-    print("index.html — 아이콘 %d개 · 세트 %d · %.0fKB / icons.json" % (n, nset, len(page) / 1024), file=sys.stderr)
+    zkb = build_zip(cats) / 1024
+    print("index.html — 아이콘 %d개 · 세트 %d · %.0fKB / icons.json / cloudx-icons.zip %.0fKB" % (n, nset, len(page) / 1024, zkb), file=sys.stderr)
 
 
 if __name__ == "__main__":

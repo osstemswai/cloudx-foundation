@@ -3,7 +3,7 @@
 Cloud X 디자인시스템 아이콘 **487개**(세트 246 · 카테고리 7)를 다른 부서와 공유하기 위한 저장소입니다.
 
 - **보기 · 검색 · 코드 복사**: https://osstemswai.github.io/cloudx-icons/
-- **한 파일로 받기**: [`sprite.svg`](sprite.svg) — 낱개는 [`svg/`](svg/), 목록 데이터는 [`icons.json`](icons.json)
+- **전체 받기**: [`cloudx-icons.zip`](cloudx-icons.zip) — 낱개 SVG 전부 + `sprite.svg` + `icons.json`. 스프라이트만 필요하면 [`sprite.svg`](sprite.svg)
 
 원본은 Figma 라이브러리 **OnePlatform-Icon**(구 poc-Icon)이고, 디자인시스템 저장소 [h1osstem/cloudXDS](https://github.com/h1osstem/cloudXDS)의 `Icon/`에서 정규화한 것을 여기로 그대로 복사합니다. 출처 커밋은 [`meta/source.json`](meta/source.json)에 있습니다. **이 저장소에서 아이콘을 직접 고치지 않습니다.** 추가·수정 요청은 SW디자인팀으로 보내 주세요.
 
@@ -64,7 +64,7 @@ Cloud X 디자인시스템 아이콘 **487개**(세트 246 · 카테고리 7)를
 
 - 이름 뒤에 **`-2`** 가 붙은 20쌍은 이름만 같고 그림이 다른 아이콘입니다. 화살표의 `up-2` 등은 원형 테두리 안에 든 버전입니다. 이름이 바뀔 수 있으니 id를 하드코딩한 곳을 기억해 두세요.
 - `00_modal` 10개와 `empty_state` · `Edit-colorpalette` · `01_pms-lnb` 배지 등 **36개는 색이 고정**되어 `color`를 따르지 않습니다.
-- `axial_clipping` · `plane` · `two_view-*` 등 **13개는 원본에 투명도(0.2)** 가 들어 있어 흐리게 보입니다.
+- `axial_clipping` · `coronal_clipping` · `sagittal_clipping` · `slice_interval` · `two_view-*` · `thickness-2` 12개는 **반투명 부분**이 있습니다. Figma 렌더와 대조해 디자인 의도임을 확인했습니다(클리핑 평면 표현).
 - `empty_state` 2개는 Figma 익스포트가 깨져 그림이 비어 있습니다.
 
 자세한 내용은 cloudXDS의 `Icon/README.md`에 있습니다.
@@ -77,6 +77,7 @@ Cloud X 디자인시스템 아이콘 **487개**(세트 246 · 카테고리 7)를
 | `sprite.svg` | 생성물. `<symbol id="i-<카테고리>-<이름>">` 묶음 |
 | `index.html` | 생성물. 검색 갤러리(GitHub Pages). 스프라이트를 인라인으로 품고 있어 파일 하나로 동작합니다 |
 | `icons.json` | 생성물. 기계용 목록 |
+| `cloudx-icons.zip` | 생성물. 낱개 SVG 전부 + sprite.svg + icons.json + README. 갤러리의 「전체 다운로드」가 이 파일입니다 |
 | `meta/` | `_sets.json`(세트 · Figma 배치 순서) · `_ink.json`(그림 크기) · `_keywords.json`(한국어 검색어) · `source.json`(출처 스탬프) |
 | `tools/` | `sync.py`(cloudXDS에서 복사 + 빌드) · `build-sprite.py` · `build-gallery.py` |
 
@@ -89,7 +90,7 @@ python3 tools/sync.py ../cloudXDS      # svg/ · meta/ 복사 → sprite.svg →
 git add -A && git commit -m "동기화 — cloudXDS <커밋>"
 ```
 
-생성물(`sprite.svg` · `index.html` · `icons.json`)은 손으로 고치지 않습니다. 갤러리 모양을 바꾸려면 `tools/build-gallery.py`를 고치고 다시 빌드합니다. CI(`.github/workflows/check.yml`)가 다시 빌드해서 커밋과 다르면 막습니다.
+생성물(`sprite.svg` · `index.html` · `icons.json` · `cloudx-icons.zip`)은 손으로 고치지 않습니다. 갤러리 모양을 바꾸려면 `tools/build-gallery.py`를 고치고 다시 빌드합니다. CI(`.github/workflows/check.yml`)가 다시 빌드해서 커밋과 다르면 막습니다.
 
 ---
 

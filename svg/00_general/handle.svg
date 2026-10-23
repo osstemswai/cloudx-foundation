@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-handle-0-handle" clip-path="url(#00_general-handle-0-clip0_0_3553)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_general-handle-0-handle" clip-path="url(#00_general-handle-0-clip0_0_3552)">
 <g id="00_general-handle-0-_area">
 </g>
 <path id="00_general-handle-0-Union" d="M8 14C8.55228 14 9 14.4477 9 15C9 15.5523 8.55228 16 8 16C7.44772 16 7 15.5523 7 15C7 14.4477 7.44772 14 8 14ZM12 14C12.5523 14 13 14.4477 13 15C13 15.5523 12.5523 16 12 16C11.4477 16 11 15.5523 11 15C11 14.4477 11.4477 14 12 14ZM8 9C8.55228 9 9 9.44772 9 10C9 10.5523 8.55228 11 8 11C7.44772 11 7 10.5523 7 10C7 9.44772 7.44772 9 8 9ZM12 9C12.5523 9 13 9.44772 13 10C13 10.5523 12.5523 11 12 11C11.4477 11 11 10.5523 11 10C11 9.44772 11.4477 9 12 9ZM8 4C8.55228 4 9 4.44772 9 5C9 5.55228 8.55228 6 8 6C7.44772 6 7 5.55228 7 5C7 4.44772 7.44772 4 8 4ZM12 4C12.5523 4 13 4.44772 13 5C13 5.55228 12.5523 6 12 6C11.4477 6 11 5.55228 11 5C11 4.44772 11.4477 4 12 4Z" fill="currentColor"/>
 </g>
 <defs>
-<clipPath id="00_general-handle-0-clip0_0_3553">
+<clipPath id="00_general-handle-0-clip0_0_3552">
 <rect width="20" height="20" fill="white"/>
 </clipPath>
 </defs></svg>

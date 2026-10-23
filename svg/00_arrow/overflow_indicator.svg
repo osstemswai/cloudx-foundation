@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><g id="00_arrow-overflow_indicator-0-overflow_indicator">
-<g id="00_arrow-overflow_indicator-0-_area">
-</g>
-<path id="00_arrow-overflow_indicator-0-Vector" d="M18.0039 2.49607V6.78896C18.0039 7.23442 17.4653 7.4575 17.1504 7.14252L12.8575 2.84962C12.5425 2.53464 12.7656 1.99607 13.211 1.99607L17.5039 1.99607C17.7801 1.99607 18.0039 2.21993 18.0039 2.49607Z" fill="currentColor"/>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" fill="none"><path d="M18.0039 17.5039V13.211C18.0039 12.7656 17.4653 12.5425 17.1503 12.8575L12.8574 17.1504C12.5424 17.4653 12.7655 18.0039 13.211 18.0039H17.5039C17.78 18.0039 18.0039 17.7801 18.0039 17.5039Z" fill="currentColor"/></svg>

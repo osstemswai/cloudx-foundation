@@ -424,12 +424,12 @@
 12.5
 ],
 "00_edit/pen-2": [
-11.3,
-18
+10,
+16.5
 ],
 "00_edit/pen-fill-2": [
-11.3,
-18
+10,
+16.5
 ],
 "00_edit/pen-fill": [
 14,
@@ -440,24 +440,24 @@
 14
 ],
 "00_edit/pencil-2": [
-11.3,
-17.5
+10,
+16
 ],
 "00_edit/pencil-fill-2": [
-11.3,
-17.5
+10,
+16
 ],
 "00_edit/pencil-fill": [
 14,
 14
 ],
 "00_edit/pencil-thin-2": [
-11.3,
-17.5
+10,
+16
 ],
 "00_edit/pencil-thin-fill-2": [
-11.3,
-17.5
+10,
+16
 ],
 "00_edit/pencil-thin-fill": [
 14,
@@ -1297,11 +1297,11 @@
 ],
 "00_general/plane-fill": [
 20,
-17
+17.5
 ],
 "00_general/plane": [
 20,
-17
+17.5
 ],
 "00_general/play-fill": [
 12,
